@@ -4,25 +4,21 @@ $base__space-unit: 1.5rem;
 
 // Colors
 
-$color__background-body: #fff;
-$color__text-main: #404040;
-
-$color__background-screen: #f1f1f1;
-$color__text-screen: #21759b;
-
-$color__background-hr: #ccc;
-$color__background-pre: #eee;
-$color__background-ins: #fff9c0;
-$color__border-abbr: #666;
-
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__background-white: #fff;
+$color__background-teal: #00C4C5;
+$color__background-teal-shadow: #565656; //Opacity 24%
+$color__background-orange: #FE7F42;
+$color__background-orange-shadow: #DB713E;
+$color__background-blue: #0076B6;
+$color__background-blue-shadow: #014061; //Opacity 24%
+$color__text-grey: #4A4A4A;
+$color__text-white: #fff;
 
 // Typography
 
-$font__main: sans-serif;
-$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__main: 'Arsenal', sans-serif;
+$font__secondary: 'Arya', sans-serif;
+$font__header: 'Catamaran', sans-serif;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
