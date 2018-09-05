@@ -65,7 +65,7 @@ function inhabitent_register_birth_control_methods() {
       )
     ),
 	);
-	register_post_type( 'Birth Control Method', $args );
+	register_post_type( 'birth_control_method', $args );
 
 }
 add_action( 'init', 'inhabitent_register_birth_control_methods', 0 );

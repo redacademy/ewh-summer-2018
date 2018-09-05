@@ -13,6 +13,8 @@
 				<div class="site-info">
 					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
 				</div><!-- .site-info -->
+				<div class="phone-button">
+				</div>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 
