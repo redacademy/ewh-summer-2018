@@ -1,9 +1,9 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Everywoman's Health
 Theme URI: http://underscores.me/
-Author: RED Academy
+Author: Jjed
 Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for RED Academy students.
+Description: The revised Everywoman's Health website.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -234,7 +234,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Arsenal", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
