@@ -223,9 +223,6 @@ th {
   padding: 0; }
 
 /*--------------------------------------------------------------
-# Embedded Fonts
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
 body,
@@ -416,11 +413,11 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: white; }
   a:visited {
-    color: purple; }
+    color: yellow; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: green; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -665,4 +662,9 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.phone-button {
+  width: 40px;
+  height: 40px;
+  background-color: black; }
+
 /* Front page */
