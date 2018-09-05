@@ -1,5 +1,24 @@
-.home-logo{
-    height: 50px;
-    width: 50px;
-  
+.home-logo {
+    height: 100px;
+  width: 100px;
+   
+}
+
+.main-navigation {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-navigation-menu-container{
+    display: none;
+@include desktop{
+    display: block;
+}
+}
+
+.menu-toggle{
+    display: none;
 }
