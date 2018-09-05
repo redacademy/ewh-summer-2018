@@ -668,3 +668,6 @@ object {
   background-color: black; }
 
 /* Front page */
+.home-logo {
+  height: 50px;
+  width: 50px; }
