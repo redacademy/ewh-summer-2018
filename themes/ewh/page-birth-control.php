@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for Birth Control Methods and Testimonials
  *
  * @package RED_Starter_Theme
  */
@@ -16,8 +16,80 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
+			<div class="birth-control-methods-blue">
+		<h2> IUD </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-blue">
+		<h2> Birth Control </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-teal">
+		<h2> Birth Control Pills </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-teal">
+		<h2> Birth Control Patch </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-blue">
+		<h2> NuvaRing </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-blue">
+		<h2> Condoms </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+
+		<div class="birth-control-methods-teal">
+		<h2> Spermicides </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-teal">
+		<h2> Emergency Pills </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-blue">
+		<h2> Vasectomy </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-blue">
+		<h2> Tubal Ligation</h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-teal">
+		<h2> Withdrawal Method </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
+		<div class="birth-control-methods-teal">
+		<h2> Calendar Method </h2>
+		<p> 99.8% Effective
+$300-400 </p>
+		</div>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
-<?php get_footer(); ?>

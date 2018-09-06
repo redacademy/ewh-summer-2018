@@ -602,6 +602,18 @@ a {
 .bypostauthor {
   display: block; }
 
+.phone-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  right: 30px;
+  position: absolute; }
+
+.phone-icon {
+  min-width: 60px;
+  height: auto;
+  position: absolute; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -665,19 +677,23 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.phone-button {
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-  right: 30px;
-  position: absolute; }
-
-.phone-icon {
-  min-width: 60px;
-  height: auto;
-  position: absolute; }
+body {
+  margin: 1rem; }
 
 /* Front page */
+/* Birth Control */
+h1.entry-title {
+  text-align: center;
+  color: #5f697a; }
+
+div.birth-control-methods-blue {
+  color: #FFF;
+  background: #1E8FE1; }
+
+div.birth-control-methods-teal {
+  color: #FFF;
+  background: #B0B8C5; }
+
 .home-logo {
   height: 80px;
   width: 250px; }
