@@ -595,6 +595,7 @@ a {
 
 .bypostauthor {
   display: block; }
+<<<<<<< HEAD
 
 .phone-icon {
   border-radius: 8px;
@@ -604,6 +605,8 @@ a {
 
 .footer-title {
   font-size: 0; }
+=======
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
 
 /*--------------------------------------------------------------
 # Media
@@ -698,9 +701,12 @@ div.birth-control-methods-teal {
   margin: 1rem;
   text-align: center; }
 
+<<<<<<< HEAD
 #wpadminbar {
   position: fixed; }
 
+=======
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
 .hamburger {
   height: 100px;
   width: 35px;
@@ -783,7 +789,12 @@ div.birth-control-methods-teal {
   display: block; }
 
 .menu-navigation-menu-container {
+<<<<<<< HEAD
   display: none; }
+=======
+  width: 500px;
+  height: 500px; }
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
   @media screen and (min-width: 1080px) {
     .menu-navigation-menu-container {
       display: block; } }
@@ -819,13 +830,34 @@ div.birth-control-methods-teal {
   height: 100%;
   width: 100%; }
 
+<<<<<<< HEAD
 .site-footer {
+=======
+footer {
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+<<<<<<< HEAD
   height: 100px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+=======
+  height: 500px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.phone-icon {
+  border-radius: 8px;
+  right: 0;
+  bottom: 0;
+  position: fixed; }
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb

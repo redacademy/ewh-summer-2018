@@ -78,7 +78,8 @@
 // Navigation
 
 .menu-navigation-menu-container{
-    display: none;
+    width: 500px;
+    height: 500px;
 @include desktop{
     display: block;
 }
