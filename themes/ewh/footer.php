@@ -9,6 +9,9 @@
 
 			</div><!-- #content -->
 
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer") ) : ?>
+<?php endif;?>
+
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
 					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
