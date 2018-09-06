@@ -300,6 +300,9 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
+.container {
+  margin: 0 auto; }
+
 blockquote, q {
   quotes: "" ""; }
   blockquote:before, blockquote:after, q:before, q:after {
@@ -663,11 +666,106 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 .phone-button {
-  width: 40px;
-  height: 40px;
-  background-color: black; }
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  right: 30px;
+  position: absolute; }
+
+.phone-icon {
+  min-width: 60px;
+  height: auto;
+  position: absolute; }
 
 /* Front page */
 .home-logo {
+  height: 80px;
+  width: 250px; }
+
+.main-navigation {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.menu-toggle {
+  display: none; }
+
+.fa-bars {
+  color: #21759b;
+  font-size: 40px;
+  height: 50px; }
+
+.hamburger {
+  height: 100px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.chinese-nav {
+  font-size: 25px;
+  color: #21759b; }
+
+.nav-screen {
+  margin-top: 30px;
+  width: 0vw;
+  height: 0vh;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.nav-screen-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.menu-navigation-menu-container {
+  height: 100px;
+  position: absolute; }
+
+.nav-home-logo {
+  height: 100px;
+  width: 80%; }
+
+.exit-nav {
+  height: 100px;
+  width: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.fa-times {
+  color: #21759b;
+  font-size: 40px;
   height: 50px;
-  width: 50px; }
+  width: 20%;
+  margin-left: 10%; }
