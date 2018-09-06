@@ -30,11 +30,6 @@ access_log
 # ========================================================== #
 plugins/*
 !plugins/ewh-functionality/
-!plugins/contact-form-7/
-!plugins/custom-field-suite/
-!plugins/wp-migrate-db-pro/
-!plugins/wp-migrate-db-pro-media-files/
-!plugins/show-current-template/
 
 # Ignore everything in "themes" except the active theme. #
 # ====================================================== #
