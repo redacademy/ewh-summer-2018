@@ -47,7 +47,7 @@ function inhabitent_register_birth_control_methods() {
 		'show_ui'               => true,
 		'show_in_menu'          => true,
 		'menu_position'         => 5,
-		'menu_icon'             => 'dashicons-cart',
+		'menu_icon'             => 'dashicons-image-filter',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
@@ -56,7 +56,6 @@ function inhabitent_register_birth_control_methods() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
     'show_in_rest'          => true,
-    // 'template_lock'         => 'all',
     'template'              => array(
       array(
         'core/paragraph', array(

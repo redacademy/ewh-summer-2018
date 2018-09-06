@@ -1,8 +1,54 @@
-// Main Page
+// Header
 
-.home-logo {
-    height: 80px;
-  width: 250px;
+.hamburger {
+    height: 100px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    @include desktop{
+        display: none;
+    }
+    .fa-bars {
+        color: $color__text-screen;
+        font-size: 40px;
+    }
+}
+.span-home-logo{
+    display: flex;
+    align-items: center;
+    .home-logo {
+        height: 80px;
+        width: 250px;
+      }
+}
+.span-chinese-nav {
+    display: flex;
+    align-items: center; 
+    @include desktop{
+        display: none;
+    }
+    .chinese-nav {
+        font-size: 25px;
+        color: $color__text-screen;
+        margin: 0;
+    }
+}
+.donate-button {
+    display: none;
+    background-color: $color__background-teal;
+    width: 100px;
+    height: 50px;
+    box-shadow: none;
+    text-shadow: none;
+    color: white;
+    &:hover{
+        box-shadow: none;
+        text-shadow: none;
+        background-color: $color__background-blue;
+    }
+    @include desktop {
+        display: block;
+    }
 }
 
 .main-navigation {
@@ -11,77 +57,60 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+@include desktop {
+    #primary-menu{
+        display: block;
+    } 
+}
 }
 
-.menu-toggle{
+#secondary-menu {
+    display: block;
+    }
+
+// Navigation
+
+.menu-navigation-menu-container{
     display: none;
+@include desktop{
+    display: block;
 }
-.fa-bars {
-    color: $color__text-screen;
-    font-size: 40px;
-    height: 50px;
 }
 
-.hamburger {
+// Nav Screen
+
+.nav-screen-logo {
     height: 100px;
-    width: 50px;
+  width: 55%;
+}
+
+.exit-nav {
+    height: 100px;
+    width: 35px;
     display: flex;
     align-items: center;
+    .fa-times {
+        color: $color__text-screen;
+        font-size: 40px;
+    }
 }
-.chinese-nav {
-    font-size: 25px;
-    color: $color__text-screen;
-}
-
-// Hamburger
-
 .nav-screen {
-    // margin-top: 30px;
-    width: 0vw;
-    height: 0vh;
+    width: 100%;
+    height: 1000px;
     background-color: lightgray;
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: column;
+    z-index: 10;
 }
-.nav-screen-navigation{
-    display: flex;
-    flex-direction: column;
+
+// Page 
+
+#page{
+    position: relative;
     height: 100%;
     width: 100%;
 }
-
-.menu-navigation-menu-container{
-    height: 100px;
-    position: absolute;
-//     display: none;
-// @include desktop{
-//     display: block;
-// }
-}
-
-// Logo
-.nav-home-logo {
-    height: 100px;
-  width: 80%;
-}
-//
-
-// X
-.exit-nav {
-    height: 100px;
-    width: 20%;
-    align-items: center;
-}
-.fa-times {
-    color: $color__text-screen;
-    font-size: 40px;
-    height: 50px; 
-    width: 20%;
-    margin-left: 10%;
-}
-//

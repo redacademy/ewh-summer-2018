@@ -20,21 +20,23 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-<div class="nav-screen">
-<span class="exit-nav">
-	<i class="fas fa-times"></i>
-					</span>
-					<img class="nav-home-logo" src="<?php echo get_template_directory_uri() ?>/images/home-logo.svg">
-
-	<nav class="main-navigation">
-<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-</nav><!-- #site-navigation -->
-
-</div>
 
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
+
+<!-- <div class="nav-screen"> -->
+<nav class="nav-screen">
+
+<span class="exit-nav">
+	<i class="fas fa-times"></i>
+					</span>
+
+					<img class="nav-screen-logo" src="<?php echo get_template_directory_uri() ?>/images/home-logo.svg">
+
+<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'secondary-menu' ) ); ?>
+</nav><!-- #site-navigation -->
+
+<!-- </div> -->
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
@@ -52,11 +54,13 @@
 						<img class="home-logo" src="<?php echo get_template_directory_uri() ?>/images/home-logo.svg">
 					</span>
 
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-
+					<span class="span-chinese-nav">
 					<p class="chinese-nav">中国资源</p>
+					</span>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+
+					<button class="donate-button">Donate</button>
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
 

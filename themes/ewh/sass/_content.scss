@@ -57,9 +57,13 @@
 //     position: fixed;
 // }
 .phone-icon{
-    min-width:60px;
     border-radius: 8px;
-		right: 30px;
-		bottom: 0;
+		right: 0;
+		top: 171px;
 		position: fixed;
 	}
+
+.footer-title {
+	font-size: 0;
+	// display: none;
+}
