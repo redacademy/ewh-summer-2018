@@ -54,18 +54,6 @@ add_action( 'after_setup_theme', 'ewh_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function ewh_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html( 'Sidebar' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'ewh_widgets_init' );
 
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
@@ -84,13 +72,12 @@ add_filter( 'stylesheet_uri', 'ewh_minified_css', 10, 2 );
  */
 function ewh_scripts()
 {
-    wp_enqueue_style('red-starter-style', get_stylesheet_uri());
+		wp_enqueue_style('red-starter-style', get_stylesheet_uri());
+		wp_enqueue_style('google-font', 'https://fonts.googleapis.com/css?family=Arsenal|Arya|Catamaran', array(), true);
 
     wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
-    wp_enqueue_script('hamburger', get_template_directory_uri() . '/build/js/hamburger.min.js', array(), '20130115', true);
-
     wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/releases/v5.2.0/js/all.js', array(), true);
-    wp_enqueue_script('inhabitent-scripts', get_template_directory_uri() . '/js/hamburger.js', array('jquery'), '1.0.0', true);
+		wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/hamburger.min.js', array('jquery'), '1.0.0', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -109,18 +96,17 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/extras.php';
 
-function theme_footer_widget() {
-    register_sidebar( array(
-        'name' => __( 'Footer' ),
-        'id' => 'sidebar-1',
-        'description' => __( 'Footer' ),
-        'before_widget' => '<li>',
-	'after_widget'  => '</li>',
-	'before_title'  => '<h2 class="widgettitle">',
-	'after_title'   => '</h2>',
-    ) );
+function ewh_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html( 'Footer' ),
+		'id'            => 'footer',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="footer-title">',
+		'after_title'   => '</h2>',
+	) );
 }
-add_action( 'widgets_init', 'theme_footer_widget' );
-
+add_action( 'widgets_init', 'ewh_widgets_init' );
 
 
