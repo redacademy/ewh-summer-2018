@@ -49,15 +49,17 @@
 }
 
 //Interactive Phone Button
-.phone-button{
-    width: 50px;
-    height: 50px;
-    border-radius: 8px;
-    right: 30px;
-    position: absolute;
-}
+// .phone-button{
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 8px;
+//     right: 30px;
+//     position: fixed;
+// }
 .phone-icon{
     min-width:60px;
-    height:auto;
-    position: absolute;
-}
+    border-radius: 8px;
+		right: 30px;
+		bottom: 0;
+		position: fixed;
+	}

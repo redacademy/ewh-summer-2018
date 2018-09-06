@@ -468,12 +468,6 @@ a {
 .main-navigation.toggled ul {
   display: block; }
 
-@media screen and (min-width: 768px) {
-  .menu-toggle {
-    display: none; }
-  .main-navigation ul {
-    display: block; } }
-
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -602,6 +596,13 @@ a {
 .bypostauthor {
   display: block; }
 
+.phone-icon {
+  min-width: 60px;
+  border-radius: 8px;
+  right: 30px;
+  bottom: 0;
+  position: fixed; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -665,18 +666,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.phone-button {
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-  right: 30px;
-  position: absolute; }
-
-.phone-icon {
-  min-width: 60px;
-  height: auto;
-  position: absolute; }
-
 /* Front page */
 .home-logo {
   height: 80px;
