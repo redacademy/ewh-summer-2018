@@ -18,6 +18,9 @@
 <?php endif;?>
 
 			</footer><!-- #colophon -->
+
+		<?php	wp_footer(); ?>
+		
 		</div><!-- #page -->
 
 	</body>
