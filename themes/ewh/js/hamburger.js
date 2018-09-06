@@ -10,7 +10,7 @@
         $('#page').hide();
       }
     );
-  });
+  }); 
 
   $('.exit-nav').on('click', function() {
     $('#page').show();
