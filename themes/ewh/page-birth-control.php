@@ -10,86 +10,37 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main-birth-control" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-
-			<?php endwhile; // End of the loop. ?>
-
 			<section class="birth-control container">
 
+			<!-- TODO create a get_posts loop for bringing in the birth_control_method post type
+				
+				e.g. 
+				-->
+
+				<?php
+
+			$args = array( 'posts_per_page' => 12, 'post_type'=> 'birth_control_method' );
+
+			$birth_control_posts = get_posts( $args );
+			foreach ( $birth_control_posts as $post ) : setup_postdata( $post ); ?>
 			<div class="birth-control-methods-blue">
-		<h2> IUD </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-blue">
-		<h2> Birth Control </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-teal">
-		<h2> Birth Control Pills </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-teal">
-		<h2> Birth Control Patch </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-blue">
-		<h2> NuvaRing </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-blue">
-		<h2> Condoms </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+				<h2>
+					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				</h2>
 
 
-		<div class="birth-control-methods-teal">
-		<h2> Spermicides </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+				<?php echo CFS()->get( "effectiveness"); ?>
+				<br>
+				<?php echo CFS()->get( "price"); ?>
 
-		<div class="birth-control-methods-teal">
-		<h2> Emergency Pills </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+			</div>
 
-		<div class="birth-control-methods-blue">
-		<h2> Vasectomy </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+				<?php
 
-		<div class="birth-control-methods-blue">
-		<h2> Tubal Ligation</h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+// 			<?php 
 
-		<div class="birth-control-methods-teal">
-		<h2> Withdrawal Method </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
-
-		<div class="birth-control-methods-teal">
-		<h2> Calendar Method </h2>
-		<p> 99.8% Effective <br>
-$300-400 </p>
-		</div>
+			endforeach; 
+			wp_reset_postdata();?>
 
 		</section>
 

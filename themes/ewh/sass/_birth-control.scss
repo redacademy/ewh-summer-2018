@@ -1,10 +1,40 @@
 // Birth Control
+.birth-control {
+  width: 100%;
+}
 
+/* Birth Control */
 
+// font-family: "Open Sans",open-sans,sans-serif;
 
+h1.entry-title {
+  text-align: center;
+  color: #5f697a
+}
 
+section.birth-control.container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-// Emergency Contraception 
+.birth-control-methods-blue {
+  color: #FFF;
+  background:$color__background-blue;
+  width: 43%;
+  margin: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
 
+  a {
+      color: white;
+      text-decoration: none;
+  }
 
+  &:nth-child(4n+4),
+  &:nth-child(4n+3)  {
+    background: #B0B8C5;
+    }
 
+}
+
+// Emergency Contraception
