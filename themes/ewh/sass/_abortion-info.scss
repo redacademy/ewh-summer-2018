@@ -1,7 +1,52 @@
+
+
 // Abortion Methods
 
+.abortion-methods-page {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    // width: 100%;
+    // margin: 0 25pt;
+}
+
+.abortion-options-title {
+    color: $color__background-blue;
+    font-family: $font__header;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 55pt;
+    text-align: center;
+}
+
+.medical-method,
+.surgical-method {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: $color__background-blue;
+    color: $color__text-white;
+    padding: 20px;
+    text-align: center;
+    a {
+        color: $color__text-white;
+    }
+    h3,
+    h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+.surgical-method {
+    margin-top: 30px;
+}
 
 
+.abortion-contact-form,
+.abortion-before-during-after {
+    color: $color__background-teal;
+    font-weight: bold;
+}
 
 // Abortion Procedure
 
