@@ -433,6 +433,10 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
+<<<<<<< HEAD
+=======
+    display: none;
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -705,7 +709,7 @@ div.birth-control-methods-teal {
       display: none; } }
   .hamburger .fa-bars {
     color: #21759b;
-    font-size: 40px; }
+    font-size: 20px; }
 
 .span-home-logo {
   display: -webkit-box;
@@ -716,7 +720,7 @@ div.birth-control-methods-teal {
           align-items: center; }
   .span-home-logo .home-logo {
     height: 80px;
-    width: 250px; }
+    width: 180px; }
 
 .nav-span-home-logo {
   display: -webkit-box;
@@ -741,7 +745,7 @@ div.birth-control-methods-teal {
     .span-chinese-nav {
       display: none; } }
   .span-chinese-nav .chinese-nav {
-    font-size: 25px;
+    font-size: 15px;
     color: #21759b;
     margin: 0; }
 
@@ -774,12 +778,14 @@ div.birth-control-methods-teal {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      justify-content: space-around; }
   @media screen and (min-width: 1080px) {
     .main-navigation #primary-menu {
       display: block; } }
+
+.nav-main-navigation {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 #secondary-menu {
   display: block; }
@@ -861,6 +867,16 @@ div.birth-control-methods-teal {
   width: 55%; }
 
 .exit-nav {
+<<<<<<< HEAD
+  height: 20px;
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+=======
   height: 100px;
   width: 18%;
   display: -webkit-box;
@@ -869,9 +885,14 @@ div.birth-control-methods-teal {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+<<<<<<< HEAD
+=======
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
+>>>>>>> 7fd771e8324f4c73dfec529c7ee72a66c8f09d9a
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
   .exit-nav .fa-times {
     color: #21759b;
-    font-size: 40px; }
+    font-size: 20px; }
 
 .nav-site-header {
   position: absolute;
@@ -985,6 +1006,8 @@ footer {
   font-size: 14px;
   line-height: 20pt;
   text-align: center; }
+  .abortion-methods-page h1 {
+    display: none; }
 
 .abortion-options-title {
   color: #0076B6;
@@ -1019,3 +1042,18 @@ footer {
 .abortion-before-during-after {
   color: #00C4C5;
   font-weight: bold; }
+
+.compare-methods-button {
+  background-color: #00C4C5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  border-radius: 8px;
+  border-color: #00C4C5;
+  line-height: 12pt;
+  margin-top: 15px; }
+  .compare-methods-button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px; }
