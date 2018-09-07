@@ -303,6 +303,9 @@ body {
 .container {
   margin: 0 auto; }
 
+body {
+  margin: 0px !important; }
+
 blockquote, q {
   quotes: "" ""; }
   blockquote:before, blockquote:after, q:before, q:after {
@@ -433,13 +436,6 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    display: none;
->>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
->>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -669,6 +665,60 @@ body {
   margin: 1rem; }
 
 /* Front page */
+.home .wp-block-image {
+  margin: 0 !important;
+  text-align: center; }
+
+.home-abortion-container {
+  background-color: #00C4C5;
+  padding-left: 100px;
+  text-align: center;
+  padding-top: 7px;
+  height: 145px;
+  position: relative; }
+
+.home-abortion-title {
+  top: 60%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize; }
+
+.home-iud-container {
+  background-color: #0076B6;
+  padding-left: 95px;
+  text-align: center;
+  padding-top: 21px;
+  height: 145px;
+  position: relative;
+  margin-top: 10px; }
+
+.home-iud-title {
+  top: 65%;
+  position: absolute;
+  left: 51%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize; }
+
+.home-birthcontrol-container {
+  background-color: #FE7F42;
+  padding-left: 75px;
+  text-align: center;
+  padding-top: 38px;
+  height: 145px;
+  position: relative;
+  margin-top: 10px; }
+
+.home-birthcontrol-title {
+  top: 65%;
+  position: absolute;
+  left: 51.5%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize; }
+
 /* Birth Control */
 h1.entry-title {
   text-align: center;
@@ -878,23 +928,6 @@ div.birth-control-methods-teal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-<<<<<<< HEAD
-=======
-=======
-  height: 100px;
-  width: 18%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-<<<<<<< HEAD
-=======
->>>>>>> 4fdf98d993e3be15057d98040764267298c31236
->>>>>>> 7fd771e8324f4c73dfec529c7ee72a66c8f09d9a
->>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
->>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
   .exit-nav .fa-times {
     color: #21759b;
     font-size: 20px; }
@@ -1047,8 +1080,6 @@ footer {
 .abortion-before-during-after {
   color: #00C4C5;
   font-weight: bold; }
-<<<<<<< HEAD
-=======
 
 .compare-methods-button {
   background-color: #00C4C5;
@@ -1064,4 +1095,3 @@ footer {
     font-weight: bold;
     text-decoration: none;
     font-size: 14px; }
->>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
