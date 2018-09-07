@@ -28,7 +28,7 @@ footer {
 }
 
 #custom_html-5{
-  // display: block;
+  display: block;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -48,11 +48,14 @@ footer {
 div{
   width: 80px;
   margin: 0 auto;
-
 }
 .privacy{
   color: $color__text-screen;
   width: 80px;
+  @include desktop{
+    color: $color__text-white;
+
+  }
 }
 
 }
