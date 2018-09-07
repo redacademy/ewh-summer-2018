@@ -81,6 +81,7 @@
 .medical-abortion-page {
     font-size: 14px;
     text-align: center;
+    margin: 10px;
     h1{
     color: $color__background-blue;
     font-family: $font__header;
@@ -88,6 +89,7 @@
     font-size: 16px;
     line-height: 55pt;
     text-align: center;
+    margin-bottom: -10px;
     }
     h2 {
     color: $color__text-white;
@@ -160,6 +162,23 @@
 
 .refund-policy-link {
     display: none;
+}
+
+.med-contact-button {
+    background-color: $color__background-teal;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: $color__background-teal;
+    line-height: 12pt;
+    margin-top: 15px;
+    color: $color__background-white;
+    a {
+        color: $color__background-white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }
 
 
