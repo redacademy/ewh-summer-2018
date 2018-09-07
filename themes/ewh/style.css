@@ -433,6 +433,16 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    display: none;
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -863,7 +873,11 @@ div.birth-control-methods-teal {
   width: 55%; }
 
 .exit-nav {
+<<<<<<< HEAD
   height: 20px;
+=======
+  height: 80px;
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
   width: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -871,6 +885,26 @@ div.birth-control-methods-teal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  height: 100px;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+<<<<<<< HEAD
+=======
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
+>>>>>>> 7fd771e8324f4c73dfec529c7ee72a66c8f09d9a
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
   .exit-nav .fa-times {
     color: #21759b;
     font-size: 20px; }
@@ -1023,6 +1057,8 @@ footer {
 .abortion-before-during-after {
   color: #00C4C5;
   font-weight: bold; }
+<<<<<<< HEAD
+=======
 
 .compare-methods-button {
   background-color: #00C4C5;
@@ -1038,6 +1074,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
     font-size: 14px; }
+<<<<<<< HEAD
 
 .medical-abortion-page {
   font-size: 14px;
@@ -1104,3 +1141,6 @@ footer {
 
 .refund-policy-link {
   display: none; }
+=======
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
