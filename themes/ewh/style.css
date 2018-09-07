@@ -1098,14 +1098,16 @@ footer {
 
 .medical-abortion-page {
   font-size: 14px;
-  text-align: center; }
+  text-align: center;
+  margin: 10px; }
   .medical-abortion-page h1 {
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 55pt;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: -10px; }
   .medical-abortion-page h2 {
     color: #fff;
     font-size: 16px;
@@ -1162,6 +1164,23 @@ footer {
 .refund-policy-link {
   display: none; }
 
+<<<<<<< HEAD
+.med-contact-button {
+  background-color: #00C4C5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  border-radius: 8px;
+  border-color: #00C4C5;
+  line-height: 12pt;
+  margin-top: 15px;
+  color: #fff; }
+  .med-contact-button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px; }
+=======
 .birth-control {
   width: 100%; }
 
@@ -1199,3 +1218,4 @@ section.birth-control.container {
       background: #0076B6; }
     .birth-control-methods-blue:nth-child(n + 9) {
       background: #B0B8C5; } }
+>>>>>>> 01c9dde54676640d700b7467c375d39c65df99dd
