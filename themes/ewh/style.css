@@ -433,6 +433,13 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    display: none;
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -871,6 +878,23 @@ div.birth-control-methods-teal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+<<<<<<< HEAD
+=======
+=======
+  height: 100px;
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+<<<<<<< HEAD
+=======
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
+>>>>>>> 7fd771e8324f4c73dfec529c7ee72a66c8f09d9a
+>>>>>>> 856c80945c01845dc420d99291c76fd81f25ba2d
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
   .exit-nav .fa-times {
     color: #21759b;
     font-size: 20px; }
@@ -987,6 +1011,8 @@ footer {
   font-size: 14px;
   line-height: 20pt;
   text-align: center; }
+  .abortion-methods-page h1 {
+    display: none; }
 
 .abortion-options-title {
   color: #0076B6;
@@ -1021,3 +1047,21 @@ footer {
 .abortion-before-during-after {
   color: #00C4C5;
   font-weight: bold; }
+<<<<<<< HEAD
+=======
+
+.compare-methods-button {
+  background-color: #00C4C5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  border-radius: 8px;
+  border-color: #00C4C5;
+  line-height: 12pt;
+  margin-top: 15px; }
+  .compare-methods-button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px; }
+>>>>>>> 76efb0dff7f1ea50f53206e5e769b488c944a751
