@@ -13,6 +13,17 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 
+			<div class="footer-colors">
+	<div class="footer-teal">
+	</div>	
+	<div class="footer-orange">
+	</div>	
+	<div class="footer-blue">
+	</div>	
+	<div class="footer-yellow">
+	</div>
+	</div>
+	
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer") ) : ?>
 			<?php dynamic_sidebar('footer'); ?>
 <?php endif;?>
