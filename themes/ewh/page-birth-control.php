@@ -12,10 +12,14 @@ get_header(); ?>
 
 			<section class="birth-control container">
 
+<<<<<<< HEAD
 			<!-- TODO create a get_posts loop for bringing in the birth_control_method post type
 				
 				e.g. 
 				-->
+=======
+
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 				<?php
 
