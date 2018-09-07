@@ -7,6 +7,7 @@
     $('.site-header').toggleClass('nav-site-header');
     $('.menu-navigation-menu-container').toggleClass('.menu-navigation-menu-container1');
     $('.span-home-logo').toggleClass('nav-span-home-logo');
+    $('.main-navigation').toggleClass('nav-main-navigation');
     $('.span-chinese-nav').hide();
     $('.menu-navigation-menu-container').show();
 
@@ -17,6 +18,7 @@
     $('.site-header').toggleClass('nav-site-header');
     $('.menu-navigation-menu-container').toggleClass('.menu-navigation-menu-container1');
     $('.span-home-logo').toggleClass('nav-span-home-logo');
+    $('.main-navigation').toggleClass('nav-main-navigation');
     $('.exit-nav').hide();
     $('.hamburger').show();
     $('.span-chinese-nav').show();
