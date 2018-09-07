@@ -433,6 +433,7 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
+    display: none;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -594,6 +595,27 @@ a {
 
 .bypostauthor {
   display: block; }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+
+.phone-icon {
+  border-radius: 8px;
+  right: 0;
+  top: 171px;
+  position: fixed; }
+
+.footer-title {
+  font-size: 0; }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+=======
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 
 /*--------------------------------------------------------------
 # Media
@@ -688,9 +710,21 @@ div.birth-control-methods-teal {
   margin: 1rem;
   text-align: center; }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 #wpadminbar {
   position: fixed; }
 
+=======
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+=======
+#wpadminbar {
+  position: fixed; }
+
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 .hamburger {
   height: 100px;
   width: 35px;
@@ -718,6 +752,8 @@ div.birth-control-methods-teal {
     height: 80px;
     width: 180px; }
 
+<<<<<<< HEAD
+=======
 .nav-span-home-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,6 +766,7 @@ div.birth-control-methods-teal {
     height: 100px;
     width: 400px; }
 
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 .span-chinese-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,6 +824,22 @@ div.birth-control-methods-teal {
   display: block; }
 
 .menu-navigation-menu-container {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  display: none; }
+=======
+<<<<<<< HEAD
+  display: none; }
+=======
+  width: 500px;
+  height: 500px; }
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+  @media screen and (min-width: 1080px) {
+    .menu-navigation-menu-container {
+      display: block; } }
+
+=======
   display: none;
   width: 100%;
   text-align: center;
@@ -858,11 +911,13 @@ div.birth-control-methods-teal {
     margin: 0;
     padding: 0; }
 
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 .nav-screen-logo {
   height: 100px;
   width: 55%; }
 
 .exit-nav {
+<<<<<<< HEAD
   height: 20px;
   width: 20px;
   display: -webkit-box;
@@ -871,10 +926,40 @@ div.birth-control-methods-teal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+=======
+  height: 100px;
+<<<<<<< HEAD
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+=======
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
+>>>>>>> 7fd771e8324f4c73dfec529c7ee72a66c8f09d9a
   .exit-nav .fa-times {
     color: #21759b;
     font-size: 20px; }
 
+<<<<<<< HEAD
+.nav-screen {
+  width: 100%;
+  height: 1000px;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+=======
 .nav-site-header {
   position: absolute;
   top: 0;
@@ -882,12 +967,38 @@ div.birth-control-methods-teal {
   bottom: 0;
   right: 0;
   background-color: #fff; }
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 
 #page {
   position: relative;
   height: 100%;
   width: 100%; }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.site-footer {
+=======
+<<<<<<< HEAD
+.site-footer {
+=======
+footer {
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+  height: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+<<<<<<< HEAD
+=======
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -982,6 +1093,7 @@ footer {
     width: 25%;
     height: 20px;
     background-color: #FFBD26; }
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
 
 .abortion-methods-page {
   font-size: 14px;
@@ -1021,3 +1133,24 @@ footer {
 .abortion-before-during-after {
   color: #00C4C5;
   font-weight: bold; }
+<<<<<<< HEAD
+=======
+=======
+  height: 500px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.phone-icon {
+  border-radius: 8px;
+  right: 0;
+  bottom: 0;
+  position: fixed; }
+>>>>>>> fef90ddebb8375215358a225b270e4c2d1dd1fbb
+>>>>>>> 5644469e80c72d252769142a40451811289204f6
+=======
+>>>>>>> 4fdf98d993e3be15057d98040764267298c31236
