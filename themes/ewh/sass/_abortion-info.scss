@@ -6,8 +6,9 @@
     font-size: 14px;
     line-height: 20pt;
     text-align: center;
-    // width: 100%;
-    // margin: 0 25pt;
+    h1 {
+        display: none;
+    }
 }
 
 .abortion-options-title {
@@ -46,6 +47,22 @@
 .abortion-before-during-after {
     color: $color__background-teal;
     font-weight: bold;
+}
+
+.compare-methods-button {
+    background-color: $color__background-teal;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: $color__background-teal;
+    line-height: 12pt;
+    margin-top: 15px;
+    a {
+        color: $color__background-white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }
 
 // Abortion Procedure
