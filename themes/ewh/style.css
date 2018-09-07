@@ -301,7 +301,8 @@ body {
   /* Fallback for when there is no custom background color defined. */ }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 90%; }
 
 body {
   margin: 0px !important; }
@@ -669,6 +670,10 @@ body {
   margin: 0 !important;
   text-align: center; }
 
+.home-ourmission {
+  line-height: 20pt;
+  color: #404040; }
+
 .home-abortion-container {
   background-color: #00C4C5;
   padding-left: 100px;
@@ -683,7 +688,9 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  color: white;
+  font-family: "Arsenal", sans-serif; }
 
 .home-iud-container {
   background-color: #0076B6;
@@ -700,7 +707,8 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  color: white; }
 
 .home-birthcontrol-container {
   background-color: #FE7F42;
@@ -717,7 +725,24 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  color: white; }
+
+.home-quotes-container {
+  text-align: center;
+  margin-top: 50px; }
+
+.home-testimonial {
+  line-height: 20pt;
+  color: #404040; }
+
+.home-info {
+  line-height: 20pt;
+  color: #404040; }
+
+.home-pleasenote {
+  line-height: 20pt;
+  color: #404040; }
 
 /* Birth Control */
 #wpadminbar {
