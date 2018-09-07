@@ -16,7 +16,7 @@ footer {
   bottom: 0;
   position: fixed;
 }
-#text-3{
+.widget_text{
   display: none;
   color: $color__text-white;
   h2{
@@ -26,17 +26,9 @@ footer {
     display: block;
   }
 }
-#text-4{
-  display: none;
-  color: $color__text-white;
-  h2{
-    font-size: 20px;
-  }
-  @include desktop{
-    display: block;
-  }
-}
-#custom_html-4{
+
+#custom_html-5{
+  // display: block;
   display: flex;
   flex-direction: column;
   width: 100%;
