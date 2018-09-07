@@ -809,7 +809,7 @@ section.birth-control.container {
   color: #FFF;
   background: #0076B6;
   width: 43%;
-  margin: 1rem;
+  margin: .5rem;
   text-align: center;
   padding-bottom: 1rem; }
   .birth-control-methods-blue a {
@@ -817,3 +817,13 @@ section.birth-control.container {
     text-decoration: none; }
   .birth-control-methods-blue:nth-child(4n+4), .birth-control-methods-blue:nth-child(4n+3) {
     background: #B0B8C5; }
+
+@media (min-width: 600px) {
+  .birth-control-methods-blue {
+    width: 21%; }
+    .birth-control-methods-blue:nth-child(n+0) {
+      background: #B0B8C5; }
+    .birth-control-methods-blue:nth-child(n + 5) {
+      background: #0076B6; }
+    .birth-control-methods-blue:nth-child(n + 9) {
+      background: #B0B8C5; } }

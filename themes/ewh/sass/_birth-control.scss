@@ -21,7 +21,7 @@ section.birth-control.container {
   color: #FFF;
   background:$color__background-blue;
   width: 43%;
-  margin: 1rem;
+  margin: .5rem;
   text-align: center;
   padding-bottom: 1rem;
 
@@ -34,7 +34,25 @@ section.birth-control.container {
   &:nth-child(4n+3)  {
     background: #B0B8C5;
     }
+}    
 
+@media (min-width: 600px) {
+
+.birth-control-methods-blue {
+width: 21%;
+
+&:nth-child(n+0)  {
+  background: #B0B8C5;
+  }
+
+  &:nth-child( n + 5)  {
+    background: $color__background-blue;
+    }
+
+    &:nth-child(n + 9)  {
+      background: #B0B8C5;
+      }
+}
 }
 
 // Emergency Contraception
