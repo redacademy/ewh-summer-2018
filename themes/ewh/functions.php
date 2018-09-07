@@ -77,7 +77,8 @@ function ewh_scripts()
 
     wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
     wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/releases/v5.2.0/js/all.js', array(), true);
-		wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/hamburger.min.js', array('jquery'), '1.0.0', true);
+	wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/hamburger.min.js', array('jquery'), '1.0.0', true);
+	wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/abortion-page.min.js', array('jquery'), '1.0.0', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -109,4 +110,9 @@ function ewh_widgets_init() {
 }
 add_action( 'widgets_init', 'ewh_widgets_init' );
 
+function cc_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+  }
+  add_filter('upload_mimes', 'cc_mime_types');
 

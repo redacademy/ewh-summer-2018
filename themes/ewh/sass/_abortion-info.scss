@@ -78,8 +78,108 @@
 
 // Medical Abortion
 
+.medical-abortion-page {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    h1{
+    color: $color__background-blue;
+    font-family: $font__header;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 55pt;
+    text-align: center;
+    margin-bottom: -10px;
+    }
+    h2 {
+    color: $color__text-white;
+    font-size: 16px;
+    line-height: 20pt;
+    padding: 25px;
+    }
+    .med-abortion-blue {
+        background: $color__background-blue;
+    }
+    .med-abortion-green {
+        background: $color__background-teal;
+    }
+    ol {
+        margin-left: 0;
+        margin-right: 15px;
+        line-height: 20pt;
+    }
+    li {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+}
 
+.advantages-class,
+.fees-class,
+.appointment-class,
+.fertility-class {
+    background-color: $color__background-blue;
+    color: $color__text-white;
+    line-height: 20pt;
+}
 
+.fees-class,
+.appointment-class,
+.myth-fact-class,
+.fertility-class {
+    p {
+        text-align: justify;
+        margin: 20px;
+    }
+}
+
+.disadvantages-class,
+.process-class {
+    background: $color__background-teal;;
+    color: $color__text-white;
+}
+
+.myth-fact-class {
+    outline: 1pt solid $color__background-teal;
+    border-bottom: 35pt solid $color__background-teal;
+    h3 {
+        color: $color__background-blue;
+    }
+    .med-fact {
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
+    .med-myth {
+        margin: 25px;
+    }
+}
+
+.med-more-info-link {
+    color: $color__background-teal;
+    font-weight: bold;
+}
+
+.refund-policy-link {
+    display: none;
+}
+
+.med-contact-button {
+    background-color: $color__background-teal;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: $color__background-teal;
+    line-height: 12pt;
+    margin-top: 15px;
+    color: $color__background-white;
+    a {
+        color: $color__background-white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+    }
+}
 
 
 // Miscarriage Management

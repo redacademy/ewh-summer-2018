@@ -301,7 +301,11 @@ body {
   /* Fallback for when there is no custom background color defined. */ }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 90%; }
+
+body {
+  margin: 0px !important; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -658,32 +662,85 @@ body {
   margin: 1rem; }
 
 /* Front page */
-/* Birth Control */
-h1.entry-title {
+.home .wp-block-image {
+  margin: 0 !important;
+  text-align: center; }
+
+.home-ourmission {
+  line-height: 20pt;
+  color: #404040; }
+
+.home-abortion-container {
+  background-color: #00C4C5;
+  padding-left: 100px;
   text-align: center;
-  color: #5f697a; }
+  padding-top: 7px;
+  height: 145px;
+  position: relative; }
 
-section.birth-control.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+.home-abortion-title {
+  top: 60%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize;
+  color: white;
+  font-family: "Arsenal", sans-serif; }
 
-div.birth-control-methods-blue {
-  color: #FFF;
-  background: #1E8FE1;
-  width: 43%;
-  margin: 1rem;
-  text-align: center; }
+.home-iud-container {
+  background-color: #0076B6;
+  padding-left: 88px;
+  text-align: center;
+  padding-top: 21px;
+  height: 145px;
+  position: relative;
+  margin-top: 10px; }
 
-div.birth-control-methods-teal {
-  color: #FFF;
-  background: #B0B8C5;
-  width: 43%;
-  margin: 1rem;
-  text-align: center; }
+.home-iud-title {
+  top: 65%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize;
+  color: white; }
 
+.home-birthcontrol-container {
+  background-color: #FE7F42;
+  padding-left: 60px;
+  text-align: center;
+  padding-top: 38px;
+  height: 145px;
+  position: relative;
+  margin-top: 10px; }
+
+.home-birthcontrol-title {
+  top: 65%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: capitalize;
+  color: white; }
+
+.home-quotes-container {
+  text-align: center;
+  margin-top: 50px; }
+
+.home-testimonial {
+  line-height: 20pt;
+  color: #404040; }
+
+.home-info {
+  line-height: 20pt;
+  color: #404040; }
+
+.home-pleasenote {
+  line-height: 20pt;
+  color: #404040; }
+
+/* Birth Control */
 #wpadminbar {
   position: fixed; }
 
@@ -853,10 +910,68 @@ div.birth-control-methods-teal {
             flex-direction: column;
     width: 100%; }
 
+<<<<<<< HEAD
 .menu-item {
   height: 30px; }
   .menu-item.active-menu-item {
     height: 0; }
+=======
+#primary-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  background-color: #fff; }
+  #primary-menu a {
+    pointer-events: none; }
+  #primary-menu li {
+    text-align: center;
+    background: #fff; }
+    #primary-menu li a {
+      text-align: center;
+      margin: 0 auto; }
+  #primary-menu .sub-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px; }
+  #primary-menu li {
+    text-align: center;
+    height: 30px;
+    margin: 0;
+    padding: 0; }
+
+.nav-screen-logo {
+  height: 100px;
+  width: 55%; }
+
+.exit-nav {
+  height: 80px;
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .exit-nav .fa-times {
+    color: #21759b;
+    font-size: 20px; }
+
+.nav-site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff; }
+
+#page {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+>>>>>>> 7955852b5c2f5abd6b78f0d0da8e190c8f280c1a
 
 footer {
   display: -webkit-box;
@@ -1012,3 +1127,130 @@ footer {
     font-weight: bold;
     text-decoration: none;
     font-size: 14px; }
+<<<<<<< HEAD
+=======
+
+.medical-abortion-page {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px; }
+  .medical-abortion-page h1 {
+    color: #0076B6;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 55pt;
+    text-align: center;
+    margin-bottom: -10px; }
+  .medical-abortion-page h2 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20pt;
+    padding: 25px; }
+  .medical-abortion-page .med-abortion-blue {
+    background: #0076B6; }
+  .medical-abortion-page .med-abortion-green {
+    background: #00C4C5; }
+  .medical-abortion-page ol {
+    margin-left: 0;
+    margin-right: 15px;
+    line-height: 20pt; }
+  .medical-abortion-page li {
+    text-align: left;
+    margin-bottom: 15px; }
+
+.advantages-class,
+.fees-class,
+.appointment-class,
+.fertility-class {
+  background-color: #0076B6;
+  color: #fff;
+  line-height: 20pt; }
+
+.fees-class p,
+.appointment-class p,
+.myth-fact-class p,
+.fertility-class p {
+  text-align: justify;
+  margin: 20px; }
+
+.disadvantages-class,
+.process-class {
+  background: #00C4C5;
+  color: #fff; }
+
+.myth-fact-class {
+  outline: 1pt solid #00C4C5;
+  border-bottom: 35pt solid #00C4C5; }
+  .myth-fact-class h3 {
+    color: #0076B6; }
+  .myth-fact-class .med-fact {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: -20px; }
+  .myth-fact-class .med-myth {
+    margin: 25px; }
+
+.med-more-info-link {
+  color: #00C4C5;
+  font-weight: bold; }
+
+.refund-policy-link {
+  display: none; }
+
+<<<<<<< HEAD
+.med-contact-button {
+  background-color: #00C4C5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  border-radius: 8px;
+  border-color: #00C4C5;
+  line-height: 12pt;
+  margin-top: 15px;
+  color: #fff; }
+  .med-contact-button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px; }
+=======
+.birth-control {
+  width: 100%; }
+
+/* Birth Control */
+h1.entry-title {
+  text-align: center;
+  color: #5f697a; }
+
+section.birth-control.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.birth-control-methods-blue {
+  color: #FFF;
+  background: #0076B6;
+  width: 43%;
+  margin: .5rem;
+  text-align: center;
+  padding-bottom: 1rem; }
+  .birth-control-methods-blue a {
+    color: white;
+    text-decoration: none; }
+  .birth-control-methods-blue:nth-child(4n+4), .birth-control-methods-blue:nth-child(4n+3) {
+    background: #B0B8C5; }
+
+@media (min-width: 600px) {
+  .birth-control-methods-blue {
+    width: 21%; }
+    .birth-control-methods-blue:nth-child(n+0) {
+      background: #B0B8C5; }
+    .birth-control-methods-blue:nth-child(n + 5) {
+      background: #0076B6; }
+    .birth-control-methods-blue:nth-child(n + 9) {
+      background: #B0B8C5; } }
+>>>>>>> 01c9dde54676640d700b7467c375d39c65df99dd
+>>>>>>> 7955852b5c2f5abd6b78f0d0da8e190c8f280c1a
