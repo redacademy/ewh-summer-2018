@@ -434,6 +434,9 @@ a {
   width: 100%; }
   .main-navigation ul {
 <<<<<<< HEAD
+    display: none;
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -604,6 +607,18 @@ a {
 
 .bypostauthor {
   display: block; }
+<<<<<<< HEAD
+
+.phone-icon {
+  border-radius: 8px;
+  right: 0;
+  top: 171px;
+  position: fixed; }
+
+.footer-title {
+  font-size: 0; }
+=======
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 /*--------------------------------------------------------------
 # Media
@@ -715,7 +730,11 @@ div.birth-control-methods-teal {
       display: none; } }
   .hamburger .fa-bars {
     color: #21759b;
+<<<<<<< HEAD
+    font-size: 40px; }
+=======
     font-size: 20px; }
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 .span-home-logo {
   display: -webkit-box;
@@ -726,6 +745,9 @@ div.birth-control-methods-teal {
           align-items: center; }
   .span-home-logo .home-logo {
     height: 80px;
+<<<<<<< HEAD
+    width: 250px; }
+=======
     width: 180px; }
 
 .nav-span-home-logo {
@@ -739,6 +761,7 @@ div.birth-control-methods-teal {
   .nav-span-home-logo .home-logo {
     height: 100px;
     width: 400px; }
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 .span-chinese-nav {
   display: -webkit-box;
@@ -751,7 +774,11 @@ div.birth-control-methods-teal {
     .span-chinese-nav {
       display: none; } }
   .span-chinese-nav .chinese-nav {
+<<<<<<< HEAD
+    font-size: 25px;
+=======
     font-size: 15px;
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
     color: #21759b;
     margin: 0; }
 
@@ -784,6 +811,14 @@ div.birth-control-methods-teal {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
+<<<<<<< HEAD
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  @media screen and (min-width: 1080px) {
+    .main-navigation #primary-menu {
+      display: block; } }
+=======
       justify-content: space-around; }
   @media screen and (min-width: 1080px) {
     .main-navigation #primary-menu {
@@ -792,11 +827,18 @@ div.birth-control-methods-teal {
 .nav-main-navigation {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 #secondary-menu {
   display: block; }
 
 .menu-navigation-menu-container {
+<<<<<<< HEAD
+  display: none; }
+  @media screen and (min-width: 1080px) {
+    .menu-navigation-menu-container {
+      display: block; } }
+=======
   display: none;
   width: 100%;
   text-align: center;
@@ -867,6 +909,7 @@ div.birth-control-methods-teal {
     height: 30px;
     margin: 0;
     padding: 0; }
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 .nav-screen-logo {
   height: 100px;
@@ -885,6 +928,20 @@ div.birth-control-methods-teal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+<<<<<<< HEAD
+  .exit-nav .fa-times {
+    color: #21759b;
+    font-size: 40px; }
+
+.nav-screen {
+  width: 100%;
+  height: 1000px;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -916,12 +973,52 @@ div.birth-control-methods-teal {
   bottom: 0;
   right: 0;
   background-color: #fff; }
+>>>>>>> 02a7944bca6a204fed321f549a822c61f69b7455
 
 #page {
   position: relative;
   height: 100%;
   width: 100%; }
 
+<<<<<<< HEAD
+.birth-control {
+  width: 100%; }
+
+/* Birth Control */
+h1.entry-title {
+  text-align: center;
+  color: #5f697a; }
+
+section.birth-control.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.birth-control-methods-blue {
+  color: #FFF;
+  background: #0076B6;
+  width: 43%;
+  margin: .5rem;
+  text-align: center;
+  padding-bottom: 1rem; }
+  .birth-control-methods-blue a {
+    color: white;
+    text-decoration: none; }
+  .birth-control-methods-blue:nth-child(4n+4), .birth-control-methods-blue:nth-child(4n+3) {
+    background: #B0B8C5; }
+
+@media (min-width: 600px) {
+  .birth-control-methods-blue {
+    width: 21%; }
+    .birth-control-methods-blue:nth-child(n+0) {
+      background: #B0B8C5; }
+    .birth-control-methods-blue:nth-child(n + 5) {
+      background: #0076B6; }
+    .birth-control-methods-blue:nth-child(n + 9) {
+      background: #B0B8C5; } }
+=======
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
