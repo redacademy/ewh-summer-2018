@@ -4,6 +4,8 @@
   $('.hamburger').on('click', function() {
 
     $('.site-header').toggleClass('nav-site-header');
+    $('menu-navigation-menu-container').toggleClass('hamburger-menu');
+
   });
 
   // X Icon
@@ -13,12 +15,12 @@
 
   });
 
-    $('.menu-item a').on('click', function(){
+  $('.menu-item a').on('click', function(){
     var clicked = $(this);
     var href = clicked.attr('href');
 
 
-    if(href = '#'){
+    if(href === '#'){
       clicked.parent('.menu-item').toggleClass('active-menu-item');
       clicked.next('.sub-menu').toggleClass('active');
     } else {
@@ -26,5 +28,14 @@
     }
 
     });
+    $( '.menu-item a' ).mouseover(function() {
+      var clicked = $(this);
+        (clicked.parent('.menu-item').toggleClass('active-menu-item') && clicked.next('.sub-menu').toggleClass('active'));
+      });
+
+  $( '.menu-item ul').mouseout(function(){
+    var clicked = $(this);
+    (clicked.parent('.menu-item').toggleClass('active-menu-item') && clicked.next('.sub-menu').toggleClass('active'));
+  });
 
 })(jQuery);
