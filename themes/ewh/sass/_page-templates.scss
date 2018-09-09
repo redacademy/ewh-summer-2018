@@ -17,11 +17,13 @@ body {
 .home-ourmission{
     line-height: 20pt;
     color: $color__text-main;
+    @include desktop{
+        display: none;
+    }
 }
 
 .home-learnmore{
     background-color:$color__background-teal;
-<<<<<<< HEAD
     width: 180px;
     margin: 0 auto;
     border-radius: 10px;
@@ -29,10 +31,36 @@ body {
     padding-bottom:10px;
     margin-bottom: 40px;
     color:white;
-=======
->>>>>>> 86486090827af25b7bd3e0ba997605cfea468b36
+    @include desktop{
+        display: none;
+    }
 }
-
+.home-learnmore-desktop{
+    background-color:$color__background-teal;
+    width: 300px !important;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px !important;
+    margin-bottom: 40px;
+    color:white;
+}
+.home-quotes-pic{
+    @include desktop{
+        display: none;
+    }
+}
+.home-testimonial{
+    @include desktop{
+        display: none;
+    }
+}
+.home-client2018{
+    @include desktop{
+        display: none;
+    }
+}
+// Home page main category icons
 .home-abortion-container{
     background-color: $color__background-teal;
     padding-left:100px;
@@ -40,6 +68,9 @@ body {
     padding-top:7px;
     height:145px;
     position: relative;
+    @include desktop{
+        display: none;
+    }
 }
 .home-abortion-title {
     top:60%;
@@ -50,6 +81,13 @@ body {
     color: white;
     font-family: $font__main;
 }
+.home-abortion-desktop{
+    display: none;
+    @include desktop{
+        display: block;
+        padding: 10px;
+    }
+}
 
 .home-iud-container{
     background-color: $color__background-blue;
@@ -59,6 +97,9 @@ body {
     height:145px;
     position: relative;
     margin-top:10px;
+    @include desktop{
+        display: none;
+    }
 }
 .home-iud-title {
     top:65%;
@@ -67,6 +108,13 @@ body {
     transform: translateX(-50%);
     text-transform: capitalize;
     color: white;
+}
+.home-iud-desktop{
+    display: none;
+    @include desktop{
+        display: block;
+        padding: 10px;
+    }
 }
 
 .home-birthcontrol-container{
@@ -77,6 +125,9 @@ body {
     height:145px;
     position: relative;
     margin-top:10px;
+    @include desktop{
+        display: none;
+    }
 }
 .home-birthcontrol-title {
     top:65%;
@@ -85,6 +136,31 @@ body {
     transform: translateX(-50%);
     text-transform: capitalize;
     color: white;
+}
+.home-birthcontrol-desktop{
+    display: none;
+    @include desktop{
+        display: block;
+        padding:10px;
+    }
+}
+.desktop-home-icons{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+//border under hero banner home page desktop
+.wp-image-258{
+    display: none;
+    @include desktop{
+    display: block;
+    width:2000px;
+    position: relative;
+    bottom:10px;
+    }
 }
 //home-page quote icon
 .home-quotes-container{
@@ -105,6 +181,51 @@ margin-top:50px;
 .home-pleasenote{
     line-height: 20pt;
     color: $color__text-main;
+}
+.desktop-testimonial{
+    display: none;
+    padding-top:20px;
+    @include desktop{
+        display: block;
+    background-color: $color__background-orange;
+    width:50%;
+    p{
+        padding-top:20px;
+        font-size:20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    }
+}
+.desktop-ourmission{
+    h2{
+        padding-top:10px;
+        text-align: center;
+        font-size:40px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 20px;
+        width:80%;
+        margin:0 auto;
+        padding-bottom:35px;
+        line-height:35pt;
+    }
+    display: none;
+    @include desktop{
+    display:block;
+    background-color: $color__background-blue;
+    width:50%;
+    }
+}
+
+.desktop-home-info{
+    @include desktop{
+    color: white;
+    display:flex;
+    height:380px;
+    margin-top:-12px;
+    }
 }
 /* Birth Control */
 
