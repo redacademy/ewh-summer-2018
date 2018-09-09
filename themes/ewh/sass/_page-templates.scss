@@ -19,6 +19,17 @@ body {
     color: $color__text-main;
 }
 
+.home-learnmore{
+    background-color:$color__background-teal;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 40px;
+    color:white;
+}
+
 .home-abortion-container{
     background-color: $color__background-teal;
     padding-left:100px;

@@ -289,6 +289,9 @@ html {
   font-size: 16px;
   font-size: 1rem; }
 
+a {
+  text-decoration: none; }
+
 *,
 *:before,
 *:after {
@@ -673,6 +676,16 @@ body {
 .home-ourmission {
   line-height: 20pt;
   color: #404040; }
+
+.home-learnmore {
+  background-color: #00C4C5;
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  color: white; }
 
 .home-abortion-container {
   background-color: #00C4C5;
@@ -1164,7 +1177,6 @@ footer {
 .refund-policy-link {
   display: none; }
 
-<<<<<<< HEAD
 .med-contact-button {
   background-color: #00C4C5;
   -webkit-box-shadow: none;
@@ -1180,7 +1192,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
     font-size: 14px; }
-=======
+
 .birth-control {
   width: 100%; }
 
@@ -1218,4 +1230,3 @@ section.birth-control.container {
       background: #0076B6; }
     .birth-control-methods-blue:nth-child(n + 9) {
       background: #B0B8C5; } }
->>>>>>> 01c9dde54676640d700b7467c375d39c65df99dd
