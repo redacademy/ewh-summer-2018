@@ -110,25 +110,18 @@
             color: $color__background-lighter-blue;
           }
           .sub-menu {
-            width: 200px;
-            height: 0px;
             background-color: $color__background-white;
+            border-top: 5px solid $color__background-teal;
             display: none;
             li{
               border-bottom: 1px solid $color__text-grey;
             }
             &.active {
-              width: 200px;
-              height: auto;
               position: relative;
               display: flex;
               flex-direction: column;
-              box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
               background-color: $color__background-white;
-              border-top: 5px solid $color__background-teal;
-              li {
-                height: 30px;
-              }
+           
             }
             .top-side-drop-down {
               position: abosolute;
@@ -154,6 +147,11 @@
               width: 100%;
               color: $color__text-white;
               }
+            }
+            .drop-down {
+              // height: 185px;
+              // z-index: 10;
+              // transition: 1s;
             }
           }
         }
@@ -253,6 +251,7 @@
       width: 100%;
       // LI
       .menu-item {
+        height: 0;
         width: 100%;
         height: 30px;
         // transition: 1s;
@@ -260,15 +259,18 @@
         a {
           margin: 0 auto;
         }
+        &.active-menu-item{
+          transition: .5s;
+          height: auto;
+        }
         .sub-menu {
           width: 100%;
-          height: 0;
+          // height: 0;
           background-color: $color__background-white;
-          display: none;
+          // display: none;
           // transition: 1s;
           &.active {
             height: auto;
-            transition: 1s;
             display: flex;
             flex-direction: column;
             box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
@@ -276,19 +278,9 @@
             border-top: 5px solid $color__background-teal;
             border-bottom: 5px solid $color__background-teal;
             // border-radius: 20px;
-            .top-side-drop-down {
-            
-            }
-            .side-drop-down {
-         
-            }
+        
           }
         }
-      }
-      .drop-down {
-        height: 185px;
-        z-index: 10;
-        transition: 1s;
       }
     }
   }

@@ -63,31 +63,27 @@ div{
   display: none;
   @include tablet {
 width: 100%;
-height: 20px;
+height: 10px;
 display: flex;
 flex-direction: row;
 }
 .footer-teal{
 width: 25%;
-height: 20px;
 background-color: $color__background-teal;
 }
 
 .footer-orange{
   width: 25%;
-  height: 20px;
   background-color: $color__background-orange;
 }
 
 .footer-blue{
   width: 25%;
-  height: 20px;
   background-color: $color__background-lighter-blue;
 }
 
 .footer-yellow{
   width: 25%;
-  height: 20px;
   background-color: $color__background-yellow;
 }
 }
