@@ -12,8 +12,8 @@ $(document).ready(function(){
 //     }
 //   }); 
 
-$( "h2" ).click(function() {
-    $( "p" ).toggle( "slow" );
+$( 'h2' ).click(function() {
+    $( 'p' ).toggle( 'slow' );
   });
 
 
