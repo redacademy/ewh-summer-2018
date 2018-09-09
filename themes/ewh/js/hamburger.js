@@ -1,35 +1,47 @@
 (function($) {
-  $('.exit-nav').hide();
+  // var href = $('.meun-item a').attr('href');
+  // if(href === '#'){
+  //   $('.meun-item a').append('');
+  // }else{
+  //   $('.meun-item a').append('<i class="fas fa-angle-up"></i>');
+  // }
 
+  // Hamburger Icon
   $('.hamburger').on('click', function() {
-    $('.exit-nav').show();
-    $('.hamburger').hide();
     $('.site-header').toggleClass('nav-site-header');
-    $('.menu-navigation-menu-container').toggleClass('.menu-navigation-menu-container1');
-    $('.span-home-logo').toggleClass('nav-span-home-logo');
-    $('.main-navigation').toggleClass('nav-main-navigation');
-    $('.span-chinese-nav').hide();
-    $('.menu-navigation-menu-container').show();
+    $('.menu-item').toggleClass('active-menu-item');
+  });
 
-    
-  }); 
-
+  // X Icon
   $('.exit-nav').on('click', function() {
     $('.site-header').toggleClass('nav-site-header');
-    $('.menu-navigation-menu-container').toggleClass('.menu-navigation-menu-container1');
-    $('.span-home-logo').toggleClass('nav-span-home-logo');
-    $('.main-navigation').toggleClass('nav-main-navigation');
-    $('.exit-nav').hide();
-    $('.hamburger').show();
-    $('.span-chinese-nav').show();
-    $('.menu-navigation-menu-container').hide();
-
-
   });
 
-  $('.menu-item-61').on('click', function(){
-$('.menu-item-61').animate({height: '200px'});
+  $('.menu-item a').on('click', function() {
+    var clicked = $(this);
+    var href = clicked.attr('href');
+
+    if (href === '#') {
+
+      // $('.sub-menu').removeClass('active');
+      // $('.menu-item').removeClass('drop-down');
+      clicked.next('.sub-menu').addClass('active');
+      clicked.parent().addClass('drop-down');
+
+    }
+     if (clicked.html() === 'Abortion') {
+      clicked.next('.sub-menu').addClass('active');
+      clicked.parent().addClass('drop-down');
+      clicked.next('.sub-menu').addClass('top-side-drop-down');
+      clicked.parent().css('background-color', '#0076B6');
+      clicked.css('color', '#fff');
+    } 
+
+    if (clicked.html() === 'Dedications') {
+      clicked.parent().css('background-color', '#0076B6');
+      clicked.css('color', '#fff');
+      clicked.next('.sub-menu').addClass('side-drop-down');
+    }
+     
   });
-
-
 })(jQuery);
