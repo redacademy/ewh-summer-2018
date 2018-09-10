@@ -2,17 +2,16 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 200px;
   flex-direction: row;
   justify-content: space-around;
-  @include desktop{
+  @include tablet {
   background-color: $color__background-blue;
 }
 }
 
 .phone-icon{
   border-radius: 8px;
-  right: 0;
+  right: 30px;
   bottom: 0;
   position: fixed;
 }
@@ -22,70 +21,69 @@ footer {
   h2{
     font-size: 20px;
   }
-  @include desktop{
+  @include tablet{
     display: block;
   }
 }
 
 #custom_html-5{
-  // display: block;
+  display: block;
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 200px;
   align-items: center;
-  @include desktop{
-    width: 22.5%;
-      flex-direction: row;
 
-  }
+@include tablet{
+  width: 20%;
+}
   h2{
     color: $color__text-grey;
     font-size: 20px;
-    @include desktop{
+    @include tablet{
       display: none;
     }
   }
 div{
-  width: 80px;
+  width: 50px;
   margin: 0 auto;
-
 }
 .privacy{
   color: $color__text-screen;
-  width: 80px;
-}
+  @include tablet{
+    margin-top: 20px;
+    display: block;
+    color: $color__text-white;
 
+  }
+}
 }
 
 .footer-colors{
   display: none;
-  @include desktop {
+  @include tablet {
 width: 100%;
-height: 20px;
+height: 10px;
 display: flex;
 flex-direction: row;
 }
 .footer-teal{
 width: 25%;
-height: 20px;
 background-color: $color__background-teal;
 }
 
 .footer-orange{
   width: 25%;
-  height: 20px;
   background-color: $color__background-orange;
 }
 
 .footer-blue{
   width: 25%;
-  height: 20px;
   background-color: $color__background-lighter-blue;
 }
 
 .footer-yellow{
   width: 25%;
-  height: 20px;
   background-color: $color__background-yellow;
 }
 }

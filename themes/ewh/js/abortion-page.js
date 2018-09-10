@@ -12,6 +12,7 @@ $(document).ready(function(){
 //     }
 //   }); 
 
+<<<<<<< HEAD
 $("h3").on("click", function() {
     // $(this).css({ background: "#666", color: "white" });
   
@@ -36,6 +37,10 @@ $("h3").on("click", function() {
     //   .delay(1000)
     //   .slideUp(1000, "easeInOutBack");
     
+=======
+$( 'h2' ).click(function() {
+    $( 'p' ).toggle( 'slow' );
+>>>>>>> 867ca63b12f4265e8eb1490b618538781e130e4a
   });
   
 
