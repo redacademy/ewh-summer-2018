@@ -6,6 +6,8 @@
     font-size: 14px;
     line-height: 20pt;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
     h1 {
         display: none;
     }
@@ -184,22 +186,26 @@
 .medical-abortion-page {
     @include desktop {
         font-size: 18px;
-        margin-left: 120px;
-        margin-right: 120px;
+        width: 100%;
+        margin: 0 auto;
         h1 {
             font-size: 40px;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
             font-weight: 900;
+            text-align: left;
         }
         h2 {
-            font-size: 36px;
+            font-size: 30px;
             font-family: $font__header;
+            margin-bottom: 50px;
+            margin-top: 50px;
         }
         .med-abortion-blue,
         .med-abortion-green {
             background: $color__background-blue;
+            padding: 45px;
         }
         .advantages-class,
         .disadvantages-class,
@@ -250,7 +256,9 @@
         .med-more-info {
             background-color: $color__background-blue;
             margin-top: 50px;
+            margin-bottom: 50px;
             color: $color__text-white;
+            padding: 30px;
             button {
                 padding-top: 22px;
                 padding-bottom: 22px;
@@ -266,7 +274,6 @@
             }
         }
     }
-
 }
 
 

@@ -1314,7 +1314,9 @@ footer {
 .abortion-methods-page {
   font-size: 14px;
   line-height: 20pt;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
   .abortion-methods-page h1 {
     display: none; }
 
@@ -1454,20 +1456,24 @@ footer {
 @media screen and (min-width: 1080px) {
   .medical-abortion-page {
     font-size: 18px;
-    margin-left: 120px;
-    margin-right: 120px; }
+    width: 100%;
+    margin: 0 auto; }
     .medical-abortion-page h1 {
       font-size: 40px;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
-      font-weight: 900; }
+      font-weight: 900;
+      text-align: left; }
     .medical-abortion-page h2 {
-      font-size: 36px;
-      font-family: "Catamaran", sans-serif; }
+      font-size: 30px;
+      font-family: "Catamaran", sans-serif;
+      margin-bottom: 50px;
+      margin-top: 50px; }
     .medical-abortion-page .med-abortion-blue,
     .medical-abortion-page .med-abortion-green {
-      background: #0076B6; }
+      background: #0076B6;
+      padding: 45px; }
     .medical-abortion-page .advantages-class,
     .medical-abortion-page .disadvantages-class,
     .medical-abortion-page .fees-class,
@@ -1508,7 +1514,9 @@ footer {
     .medical-abortion-page .med-more-info {
       background-color: #0076B6;
       margin-top: 50px;
-      color: #fff; }
+      margin-bottom: 50px;
+      color: #fff;
+      padding: 30px; }
       .medical-abortion-page .med-more-info button {
         padding-top: 22px;
         padding-bottom: 22px;
