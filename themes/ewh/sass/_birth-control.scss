@@ -33,7 +33,7 @@ section.birth-control.container {
 
   &:nth-child(4n+4),
   &:nth-child(4n+3)  {
-    background: #B0B8C5;
+    background: $color__background-teal;
   }
 }    
 
@@ -43,7 +43,7 @@ section.birth-control.container {
 width: 22%;
 
 &:nth-child(n+0)  {
-  background: #B0B8C5;
+  background: $color__background-teal;
 }
 
 &:nth-child(n+5)  {
@@ -51,7 +51,7 @@ width: 22%;
 }
 
 &:nth-child(n+9)  {
-  background: #B0B8C5;
+  background: $color__background-teal;
 }
 }
 }

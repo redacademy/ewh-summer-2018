@@ -1036,14 +1036,14 @@ section.birth-control.container {
     color: white;
     text-decoration: none; }
   .birth-control-methods-blue:nth-child(4n+4), .birth-control-methods-blue:nth-child(4n+3) {
-    background: #B0B8C5; }
+    background: #00C4C5; }
 
 @media (min-width: 600px) {
   .birth-control-methods-blue {
     width: 22%; }
     .birth-control-methods-blue:nth-child(n+0) {
-      background: #B0B8C5; }
+      background: #00C4C5; }
     .birth-control-methods-blue:nth-child(n+5) {
       background: #0076B6; }
     .birth-control-methods-blue:nth-child(n+9) {
-      background: #B0B8C5; } }
+      background: #00C4C5; } }
