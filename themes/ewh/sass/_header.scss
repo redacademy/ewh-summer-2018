@@ -18,7 +18,7 @@
 .site-header {
   // Header
   .main-navigation {
-    height: 100px;
+    height: 99px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -108,44 +108,58 @@
           a {
             margin: 0 auto;
             color: $color__background-lighter-blue;
+            outline: none;
+            &:focus {
+              outline: none;
+            }
           }
           .sub-menu {
             background-color: $color__background-white;
             border-top: 5px solid $color__background-teal;
-            display: none;
-            li{
+            position: absolute;
+            top: 30px;
+            left: -20px;
+            width: 0;
+            // display: none;
+            li {
               border-bottom: 1px solid $color__text-grey;
             }
             &.active {
-              position: relative;
               display: flex;
               flex-direction: column;
               background-color: $color__background-white;
-           
+              z-index: 10;
             }
             .top-side-drop-down {
-              position: abosolute;
-              top: -29px;
+              top: -5px;
               left: 200px;
-              // transition: 1s;
               background-color: $color__background-blue;
               box-shadow: none;
-              a{
-              color: $color__text-white;
+              a {
+                color: $color__text-white;
+              }
+            }
+            .blue {
+              background-color: $color__background-blue;
+              a {
+                color: $color__text-white;
               }
             }
             .side-drop-down {
-              width: 220px;
-              position: abosolute;
-              top: -25px;
-              left: 200px;
-              // transition: 1s;
-              background-color: $color__background-blue;
               border-top: 1px solid $color__text-grey;
+              top: -1px;
+              left: 200px;
+              background-color: $color__background-blue;
               box-shadow: none;
-              a{
-              width: 100%;
-              color: $color__text-white;
+              a {
+                color: $color__text-white;
+                width: 100%;
+              }
+            }
+            .blue {
+              background-color: $color__background-blue;
+              a {
+                color: $color__text-white;
               }
             }
             .drop-down {
@@ -259,8 +273,8 @@
         a {
           margin: 0 auto;
         }
-        &.active-menu-item{
-          transition: .5s;
+        &.active-menu-item {
+          transition: 0.5s;
           height: auto;
         }
         .sub-menu {
@@ -271,6 +285,7 @@
           // transition: 1s;
           &.active {
             height: auto;
+            width: 100%;
             display: flex;
             flex-direction: column;
             box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
@@ -278,7 +293,6 @@
             border-top: 5px solid $color__background-teal;
             border-bottom: 5px solid $color__background-teal;
             // border-radius: 20px;
-        
           }
         }
       }
