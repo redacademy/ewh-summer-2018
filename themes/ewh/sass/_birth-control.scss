@@ -7,14 +7,19 @@
 
 // font-family: "Open Sans",open-sans,sans-serif;
 
-h1.entry-title {
-  text-align: center;
-  color: #5f697a
-}
+// h1.entry-title {
+//   text-align: center;
+//   color: #5f697a
+// }
 
 section.birth-control.container {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+div.hide-description {
+  display: none;
 }
 
 .birth-control-methods-blue {
@@ -32,26 +37,30 @@ section.birth-control.container {
 
   &:nth-child(4n+4),
   &:nth-child(4n+3)  {
-    background: #B0B8C5;
-    }
+    background: $color__background-teal;
+  }
 }    
 
 @media (min-width: 600px) {
 
 .birth-control-methods-blue {
-width: 21%;
+width: 22%;
 
 &:nth-child(n+0)  {
-  background: #B0B8C5;
-  }
+  background: $color__background-teal;
+}
 
-  &:nth-child( n + 5)  {
-    background: $color__background-blue;
-    }
+&:nth-child(n+5)  {
+  background: $color__background-blue;
+}
 
-    &:nth-child(n + 9)  {
-      background: #B0B8C5;
-      }
+&:nth-child(n+9)  {
+  background: $color__background-teal;
+}
+
+div.hide-description {
+  display: block;
+}
 }
 }
 

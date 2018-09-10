@@ -665,6 +665,8 @@ body {
   margin: 1rem; }
 
 /* Front page */
+<<<<<<< HEAD
+=======
 .home .wp-block-image {
   margin: 0 !important;
   text-align: center; }
@@ -937,6 +939,7 @@ body {
     padding-bottom: 18px; } }
 
 /* Birth Control */
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 #wpadminbar {
   position: fixed; }
 
@@ -975,6 +978,22 @@ body {
       display: none; } }
   .site-header .hamburger .fa-bars {
     color: #21759b;
+<<<<<<< HEAD
+    font-size: 20px; }
+
+.span-home-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .span-home-logo .home-logo {
+    height: 80px;
+    width: 180px; }
+
+.nav-span-home-logo {
+=======
     font-size: 25px; }
     @media screen and (min-width: 660px) {
       .site-header .hamburger .fa-bars {
@@ -984,12 +1003,19 @@ body {
   display: none; }
 
 .site-header .span-home-logo {
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
+  width: 82%; }
+  .nav-span-home-logo .home-logo {
+    height: 100px;
+    width: 400px; }
+=======
   width: 50%; }
   @media screen and (min-width: 660px) {
     .site-header .span-home-logo {
@@ -1001,6 +1027,7 @@ body {
     height: 200px;
     width: 100%;
     padding-bottom: 1rem; }
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 
 .site-header .span-chinese-nav {
   display: -webkit-box;
@@ -1012,8 +1039,13 @@ body {
   @media screen and (min-width: 1080px) {
     .site-header .span-chinese-nav {
       display: none; } }
+<<<<<<< HEAD
+  .span-chinese-nav .chinese-nav {
+    font-size: 15px;
+=======
   .site-header .span-chinese-nav .chinese-nav {
     font-size: 20px;
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
     color: #21759b;
     margin: 0; }
     @media screen and (min-width: 660px) {
@@ -1123,6 +1155,52 @@ body {
     .site-header .donate-button {
       display: block; } }
 
+<<<<<<< HEAD
+.main-navigation {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  @media screen and (min-width: 1080px) {
+    .main-navigation #primary-menu {
+      display: block; } }
+
+.nav-main-navigation {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+#secondary-menu {
+  display: block; }
+
+.menu-navigation-menu-container {
+  display: none;
+  width: 100%;
+  text-align: center;
+  background-color: #fff; }
+  .menu-navigation-menu-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .menu-navigation-menu-container li {
+    padding: .5rem;
+    height: 100px;
+    border-bottom: 1px solid #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .menu-navigation-menu-container {
+      display: block;
+      width: 30%; } }
+=======
 .site-header .span-donate-button {
   display: none; }
   @media screen and (min-width: 1080px) {
@@ -1136,6 +1214,7 @@ body {
           -ms-flex-align: center;
               align-items: center;
       padding-bottom: 1rem; } }
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 
 .nav-site-header {
   position: absolute;
@@ -1162,6 +1241,48 @@ body {
       color: #21759b;
       font-size: 25px;
       margin: 0 auto; }
+<<<<<<< HEAD
+  #primary-menu .sub-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px; }
+  #primary-menu li {
+    text-align: center;
+    height: 30px;
+    margin: 0;
+    padding: 0; }
+
+.nav-screen-logo {
+  height: 100px;
+  width: 55%; }
+
+.exit-nav {
+  height: 80px;
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .exit-nav .fa-times {
+    color: #21759b;
+    font-size: 20px; }
+
+.nav-site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff; }
+
+#page {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+=======
       @media screen and (min-width: 660px) {
         .nav-site-header .exit-nav .fa-times {
           font-size: 40px; } }
@@ -1219,6 +1340,7 @@ body {
             background-color: #fff;
             border-top: 5px solid #00C4C5;
             border-bottom: 5px solid #00C4C5; }
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 
 footer {
   display: -webkit-box;
@@ -1370,6 +1492,8 @@ footer {
     text-decoration: none;
     font-size: 14px; }
 
+<<<<<<< HEAD
+=======
 .medical-abortion-page {
   font-size: 14px;
   text-align: center;
@@ -1531,20 +1655,32 @@ footer {
                   box-shadow: none;
           text-shadow: none; } }
 
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 .birth-control {
   width: 100%; }
 
 /* Birth Control */
+<<<<<<< HEAD
+=======
 h1.entry-title {
   text-align: center;
   color: #5f697a; }
 
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 section.birth-control.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+<<<<<<< HEAD
+      flex-wrap: wrap;
+  padding-bottom: 2rem; }
+
+div.hide-description {
+  display: none; }
+=======
       flex-wrap: wrap; }
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
 
 .birth-control-methods-blue {
   color: #FFF;
@@ -1557,6 +1693,21 @@ section.birth-control.container {
     color: white;
     text-decoration: none; }
   .birth-control-methods-blue:nth-child(4n+4), .birth-control-methods-blue:nth-child(4n+3) {
+<<<<<<< HEAD
+    background: #00C4C5; }
+
+@media (min-width: 600px) {
+  .birth-control-methods-blue {
+    width: 22%; }
+    .birth-control-methods-blue:nth-child(n+0) {
+      background: #00C4C5; }
+    .birth-control-methods-blue:nth-child(n+5) {
+      background: #0076B6; }
+    .birth-control-methods-blue:nth-child(n+9) {
+      background: #00C4C5; }
+    .birth-control-methods-blue div.hide-description {
+      display: block; } }
+=======
     background: #B0B8C5; }
 
 @media (min-width: 600px) {
@@ -1568,3 +1719,4 @@ section.birth-control.container {
       background: #0076B6; }
     .birth-control-methods-blue:nth-child(n + 9) {
       background: #B0B8C5; } }
+>>>>>>> 3ef2426c20cd3a88fbfddf136a951986e96a4ded
