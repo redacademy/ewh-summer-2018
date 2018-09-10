@@ -1025,6 +1025,9 @@ section.birth-control.container {
       flex-wrap: wrap;
   padding-bottom: 2rem; }
 
+div.hide-description {
+  display: none; }
+
 .birth-control-methods-blue {
   color: #FFF;
   background: #0076B6;
@@ -1046,4 +1049,6 @@ section.birth-control.container {
     .birth-control-methods-blue:nth-child(n+5) {
       background: #0076B6; }
     .birth-control-methods-blue:nth-child(n+9) {
-      background: #00C4C5; } }
+      background: #00C4C5; }
+    .birth-control-methods-blue div.hide-description {
+      display: block; } }

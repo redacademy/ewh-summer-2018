@@ -18,6 +18,10 @@ section.birth-control.container {
   padding-bottom: 2rem;
 }
 
+div.hide-description {
+  display: none;
+}
+
 .birth-control-methods-blue {
   color: #FFF;
   background:$color__background-blue;
@@ -52,6 +56,10 @@ width: 22%;
 
 &:nth-child(n+9)  {
   background: $color__background-teal;
+}
+
+div.hide-description {
+  display: block;
 }
 }
 }
