@@ -424,10 +424,6 @@ textarea {
 /* Links */
 a {
   color: white; }
-  a:visited {
-    color: yellow; }
-  a:hover, a:focus, a:active {
-    color: yellow; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -1363,17 +1359,97 @@ footer {
   border-radius: 8px;
   border-color: #00C4C5;
   line-height: 12pt;
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-size: 14px; }
   .compare-methods-button a {
     color: #fff;
     font-weight: bold;
-    text-decoration: none;
-    font-size: 14px; }
+    text-decoration: none; }
+
+.your-decision-button,
+.read-more-button,
+.desktop-text {
+  display: none; }
+
+.learn-more-medical,
+.learn-more-surgical {
+  text-decoration: underline; }
+
+@media screen and (min-width: 660px) {
+  .abortion-methods-page h2 {
+    font-size: 30px;
+    color: #0076B6;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    margin-top: 50px; } }
+
+@media screen and (min-width: 1080px) {
+  .abortion-methods-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto; }
+    .abortion-methods-page h2 {
+      font-size: 36px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      text-align: left;
+      margin-top: 50px; }
+    .abortion-methods-page .your-decision-button,
+    .abortion-methods-page .compare-methods-button,
+    .abortion-methods-page .read-more-button {
+      display: inline-block;
+      background-color: #00C4C5;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      border-color: #00C4C5;
+      line-height: 12pt;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-top: 22px;
+      padding-bottom: 22px;
+      padding-right: 80px;
+      padding-left: 80px;
+      border-radius: 12px;
+      font-family: "Arya", sans-serif;
+      font-size: 18px; }
+    .abortion-methods-page h3,
+    .abortion-methods-page h4 {
+      font-size: 24px; }
+    .abortion-methods-page .desktop-text {
+      display: block; }
+    .abortion-methods-page .compare-methods-button {
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    .abortion-methods-page .read-more-button {
+      margin-bottom: -10px; }
+    .abortion-methods-page .abortion-methods-info {
+      background-color: #0076B6;
+      padding: 30px;
+      color: #fff;
+      margin-bottom: 50px; }
+    .abortion-methods-page .abortion-methods-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .abortion-methods-page .abortion-methods-container .medical-method {
+        width: 50%; }
+      .abortion-methods-page .abortion-methods-container .surgical-method {
+        width: 50%;
+        margin-top: 0; } }
 
 .medical-abortion-page {
+  width: 100%;
+  margin: 0 auto;
   font-size: 14px;
-  text-align: center;
-  margin: 10px; }
+  text-align: center; }
   .medical-abortion-page h1 {
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
@@ -1454,13 +1530,22 @@ footer {
     text-decoration: none;
     font-size: 14px; }
 
+@media screen and (min-width: 660px) {
+  .medical-abortion-page h1 {
+    font-size: 30px;
+    color: #0076B6;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    margin-top: 50px; } }
+
 @media screen and (min-width: 1080px) {
   .medical-abortion-page {
     font-size: 18px;
     width: 100%;
     margin: 0 auto; }
     .medical-abortion-page h1 {
-      font-size: 40px;
+      font-size: 36px;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -1484,7 +1569,8 @@ footer {
     .medical-abortion-page .fertility-class {
       background-color: white;
       color: #4A4A4A; }
-    .medical-abortion-page ol {
+    .medical-abortion-page .advantages-class ol,
+    .medical-abortion-page .disadvantages-class ol {
       margin-left: 160px;
       margin-right: 160px;
       line-height: 20pt; }
@@ -1529,7 +1615,23 @@ footer {
         .medical-abortion-page .med-more-info button :hover {
           -webkit-box-shadow: none;
                   box-shadow: none;
-          text-shadow: none; } }
+          text-shadow: none; }
+    .medical-abortion-page .process-table ol {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      height: 500px; }
+      .medical-abortion-page .process-table ol li {
+        width: 550px;
+        height: 200px; }
+    .medical-abortion-page .process-table .med-process-heading {
+      margin-left: 10px; } }
 
 .birth-control {
   width: 100%; }

@@ -44,7 +44,6 @@
     margin-top: 30px;
 }
 
-
 .abortion-contact-form,
 .abortion-before-during-after {
     color: $color__background-teal;
@@ -59,11 +58,103 @@
     border-color: $color__background-teal;
     line-height: 12pt;
     margin-top: 15px;
+    font-size: 14px;
     a {
         color: $color__background-white;
         font-weight: bold;
         text-decoration: none;
-        font-size: 14px;
+    }
+}
+
+.your-decision-button,
+.read-more-button,
+.desktop-text {
+    display: none;
+}
+
+.learn-more-medical,
+.learn-more-surgical {
+    text-decoration: underline;
+}
+
+
+.abortion-methods-page {
+    @include tablet {
+        h2 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+            }
+    }
+}
+
+.abortion-methods-page {
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        h2 {
+            font-size: 36px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            text-align: left;
+            margin-top: 50px;
+            }
+        .your-decision-button,
+        .compare-methods-button,
+        .read-more-button {
+            display: inline-block;
+            background-color: $color__background-teal;
+            box-shadow: none;
+            text-shadow: none;
+            border-color: $color__background-teal;
+            line-height: 12pt;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+        }    
+        h3,
+        h4 {
+            font-size: 24px;
+        }
+        .desktop-text {
+            display: block;
+        }
+        .compare-methods-button {
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .read-more-button {
+            margin-bottom: -10px;
+        }
+        .abortion-methods-info {
+            background-color: $color__background-blue;
+            padding: 30px;
+            color: $color__background-white;
+            margin-bottom: 50px;
+        }
+        .abortion-methods-container {
+            display: flex;
+            flex-direction: row;
+            .medical-method {
+                width: 50%;
+            }
+            .surgical-method {
+                width: 50%;
+                margin-top: 0;
+            }
+        }
     }
 }
 
@@ -81,10 +172,11 @@
 // Medical Abortion
 
 .medical-abortion-page {
+    width: 100%;
+    margin: 0 auto;
     font-size: 14px;
     text-align: center;
-    margin: 10px;
-    h1{
+    h1 {
     color: $color__background-blue;
     font-family: $font__header;
     font-weight: bold;
@@ -184,12 +276,25 @@
 }
 
 .medical-abortion-page {
+    @include tablet {
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+            }
+    }
+}
+
+.medical-abortion-page {
     @include desktop {
         font-size: 18px;
         width: 100%;
         margin: 0 auto;
         h1 {
-            font-size: 40px;
+            font-size: 36px;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -217,7 +322,8 @@
             background-color: white;
             color: $color__text-grey;
         }
-        ol {
+        .advantages-class ol,
+        .disadvantages-class ol {
             margin-left: 160px;
             margin-right: 160px;
             line-height: 20pt;
@@ -271,6 +377,21 @@
                     box-shadow: none;
                     text-shadow: none;
                 }
+            }
+        }
+        .process-table {
+            ol {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 500px;
+            li {
+                width: 550px;
+                height: 200px;
+            }
+            }
+            .med-process-heading {
+            margin-left: 10px;
             }
         }
     }
