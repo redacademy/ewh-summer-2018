@@ -12,9 +12,32 @@ $(document).ready(function(){
 //     }
 //   }); 
 
-$( "h2" ).click(function() {
-    $( "p" ).toggle( "slow" );
+$("h3").on("click", function() {
+    // $(this).css({ background: "#666", color: "white" });
+  
+    // $(this)
+    //   .children()
+    //   .css("display", "block");
+  
+    $(this)
+      .next("ol")
+      .slideDown(500, "easeOutBounce");
+
+    // $(this)
+    //   .children()
+    //   .slideDown(500, "easeOutBounce");
+  
+    // $(this)
+    //   .siblings()
+    //   .css({ background: "white", color: "#000" });
+    // $(this)
+    //   .siblings()
+    //   .find("p")
+    //   .delay(1000)
+    //   .slideUp(1000, "easeInOutBack");
+    
   });
+  
 
 
 });
