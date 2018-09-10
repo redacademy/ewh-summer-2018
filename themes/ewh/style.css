@@ -1017,16 +1017,13 @@ footer {
   width: 100%; }
 
 /* Birth Control */
-h1.entry-title {
-  text-align: center;
-  color: #5f697a; }
-
 section.birth-control.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  padding-bottom: 2rem; }
 
 .birth-control-methods-blue {
   color: #FFF;
