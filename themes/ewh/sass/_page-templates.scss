@@ -151,6 +151,16 @@ body {
     justify-content: space-around;
     margin: 0 auto;
 }
+.home-info{
+   @include desktop{
+       display: none;
+   }
+}
+.home-pleasenote{
+    @include desktop{
+        display: none;
+    }
+}
 
 //border under hero banner home page desktop
 .wp-image-258{
@@ -190,10 +200,11 @@ margin-top:50px;
     background-color: $color__background-orange;
     width:50%;
     p{
-        padding-top:20px;
+        padding-top:10px;
         font-size:20px;
         width: 70%;
         margin: 0 auto;
+        line-height:30pt;
     }
     }
 }
@@ -209,7 +220,7 @@ margin-top:50px;
         width:80%;
         margin:0 auto;
         padding-bottom:35px;
-        line-height:35pt;
+        line-height:30pt;
     }
     display: none;
     @include desktop{
@@ -225,6 +236,60 @@ margin-top:50px;
     display:flex;
     height:380px;
     margin-top:-12px;
+    }
+}
+.desktop-home-meta{
+    display: none;
+    @include desktop{
+    display: flex;
+    text-align: start;
+    font-size:19.5px;
+    margin-top:80px;
+    line-height: 30pt;
+    }
+}
+.desktop-meta-1{
+    width: 40%;
+}
+.desktop-meta-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left:20px;
+}
+.wp-image-207{
+    height: auto;
+    width:150px;
+    margin-right:60px;
+}
+.desktop-home-getintouch{
+    @include desktop{
+    margin-top:50px;
+    margin-bottom:100px;
+    padding-top:50px;
+    background-color: $color__background-lighter-blue;
+    color: white;
+    height:200px;
+    }
+}
+.pleasecallus-home{
+    @include desktop{
+    text-align: center;
+    font-size: 20px;
+    }
+}
+.getintouch-button{
+    @include desktop{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin-top:30px;
+    background-color: $color__background-teal;
+    width:450px;
+    border-radius: 10px;
+    padding-top:18px;
+    padding-bottom:18px;
     }
 }
 /* Birth Control */
