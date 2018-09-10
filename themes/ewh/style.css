@@ -1061,7 +1061,8 @@ body {
             position: absolute;
             top: 30px;
             left: -20px;
-            width: 0; }
+            width: 0;
+            display: none; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu li {
               border-bottom: 1px solid #4A4A4A; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active {
