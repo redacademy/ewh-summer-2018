@@ -47,8 +47,11 @@
 					</span>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-
+					
+					<div class="span-donate-button">
 					<button class="donate-button">Donate</button>
+					</div>
+
 				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
 
