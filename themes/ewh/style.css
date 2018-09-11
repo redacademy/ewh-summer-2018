@@ -1572,3 +1572,12 @@ div.hide-description {
       background: #00C4C5; }
     .birth-control-methods-box div.hide-description {
       display: block; } }
+
+/*--------------------------------------------------------------
+# single-birth_control_method
+--------------------------------------------------------------*/
+body {
+  margin: 1rem; }
+
+div.birth-control-header {
+  background: #0076B6; }
