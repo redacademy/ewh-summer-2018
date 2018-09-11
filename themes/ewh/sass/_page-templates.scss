@@ -62,6 +62,7 @@ body {
 }
 // Home page main category icons
 .home-abortion-container{
+    position: relative;
     background-color: $color__background-teal;
     padding-left:100px;
     text-align: center;
@@ -90,6 +91,7 @@ body {
 }
 
 .home-iud-container{
+    position: relative;
     background-color: $color__background-blue;
     padding-left:88px;
     text-align: center;
@@ -118,6 +120,7 @@ body {
 }
 
 .home-birthcontrol-container{
+    position: relative;
     background-color: $color__background-orange;
     padding-left:60px;
     text-align: center;

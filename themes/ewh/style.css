@@ -708,6 +708,7 @@ body {
     display: none; } }
 
 .home-abortion-container {
+  position: relative;
   background-color: #00C4C5;
   padding-left: 100px;
   text-align: center;
@@ -735,6 +736,7 @@ body {
       padding: 10px; } }
 
 .home-iud-container {
+  position: relative;
   background-color: #0076B6;
   padding-left: 88px;
   text-align: center;
@@ -762,6 +764,7 @@ body {
       padding: 10px; } }
 
 .home-birthcontrol-container {
+  position: relative;
   background-color: #FE7F42;
   padding-left: 60px;
   text-align: center;
