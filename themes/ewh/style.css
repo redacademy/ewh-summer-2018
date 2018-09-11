@@ -671,7 +671,8 @@ body {
   color: #404040; }
 
 .home-learnmore {
-  background-color: #00C4C5; }
+  background-color: #00C4C5;
+  width: 100px; }
 
 .home-abortion-container {
   background-color: #00C4C5;
