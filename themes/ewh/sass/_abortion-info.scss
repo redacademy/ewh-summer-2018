@@ -463,13 +463,52 @@
         a {
             color: $color__background-white;
             font-weight: bold;
-            text-decoration: none;
+            text-decoration: none;   
         }
     }
     .your-decision-banner {
+        z-index: -1;
+    }
+    h1 {
+        color: white;
+    }
+
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        p {
+            text-align: left;
+        }
+        .motherisk {
+            color: $color__text-grey;
+        }
+        .your-decision-container {
+            display: flex;
+            flex-direction: row;
+            .your-decision-text {
+                width: 75%;
+            }
+            button {
+                margin-left: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 80px;
+                padding-left: 80px;
+                border-radius: 12px;
+                font-family: $font__secondary;
+                font-size: 18px;
+                text-shadow: none;
+                box-shadow: none;
+                outline: $color__background-teal;
+                line-height: 1.5;
+            }
+        }
+    }
 
 }
-}
+
+
 
 
 
