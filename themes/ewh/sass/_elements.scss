@@ -6,6 +6,9 @@ html {
 	box-sizing: border-box;
 	@include font-size(1);
 }
+a{
+	text-decoration: none;
+}
 
 *,
 *:before,

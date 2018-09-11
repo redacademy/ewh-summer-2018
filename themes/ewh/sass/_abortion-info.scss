@@ -1,11 +1,11 @@
-
-
 // Abortion Methods
-
 .abortion-methods-page {
     font-size: 14px;
     line-height: 20pt;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
     h1 {
         display: none;
     }
@@ -28,9 +28,11 @@
     color: $color__text-white;
     padding: 20px;
     text-align: center;
+
     a {
         color: $color__text-white;
     }
+
     h3,
     h4 {
         font-size: 16px;
@@ -41,7 +43,6 @@
 .surgical-method {
     margin-top: 30px;
 }
-
 
 .abortion-contact-form,
 .abortion-before-during-after {
@@ -57,57 +58,156 @@
     border-color: $color__background-teal;
     line-height: 12pt;
     margin-top: 15px;
+    font-size: 14px;
+
     a {
         color: $color__background-white;
         font-weight: bold;
         text-decoration: none;
-        font-size: 14px;
+    }
+}
+
+.your-decision-button,
+.read-more-button,
+.desktop-text {
+    display: none;
+}
+
+.learn-more-medical,
+.learn-more-surgical {
+    text-decoration: underline;
+}
+
+.abortion-methods-page {
+    @include tablet {
+        h2 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+    }
+}
+
+.abortion-methods-page {
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 36px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        .your-decision-button,
+        .compare-methods-button,
+        .read-more-button {
+            display: inline-block;
+            background-color: $color__background-teal;
+            box-shadow: none;
+            text-shadow: none;
+            border-color: $color__background-teal;
+            line-height: 12pt;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+        }
+
+        h3,
+        h4 {
+            font-size: 24px;
+        }
+
+        .desktop-text {
+            display: block;
+        }
+
+        .compare-methods-button {
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+
+        .read-more-button {
+            margin-bottom: -10px;
+        }
+
+        .abortion-methods-info {
+            background-color: $color__background-blue;
+            padding: 30px;
+            color: $color__background-white;
+            margin-bottom: 50px;
+        }
+
+        .abortion-methods-container {
+            display: flex;
+            flex-direction: row;
+
+            .medical-method {
+                width: 50%;
+            }
+
+            .surgical-method {
+                width: 50%;
+                margin-top: 0;
+            }
+        }
     }
 }
 
 // Abortion Procedure
-
-
-
-
-// Surgical Abortion
-
-
-
-
-
-// Medical Abortion
-
-.medical-abortion-page {
+// Medical Abortion & Surgical Abortion
+.medical-abortion-page,
+.surgical-abortion-page {
+    width: 100%;
+    margin: 0 auto;
     font-size: 14px;
     text-align: center;
-    margin: 10px;
-    h1{
-    color: $color__background-blue;
-    font-family: $font__header;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 55pt;
-    text-align: center;
-    margin-bottom: -10px;
+
+    h1 {
+        color: $color__background-blue;
+        font-family: $font__header;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 55pt;
+        text-align: center;
+        margin-bottom: -10px;
     }
+
     h2 {
-    color: $color__text-white;
-    font-size: 16px;
-    line-height: 20pt;
-    padding: 25px;
+        color: $color__text-white;
+        font-size: 16px;
+        line-height: 20pt;
+        padding: 25px;
     }
+
     .med-abortion-blue {
         background: $color__background-blue;
     }
+
     .med-abortion-green {
         background: $color__background-teal;
     }
+
     ol {
         margin-left: 0;
         margin-right: 15px;
         line-height: 20pt;
     }
+
     li {
         text-align: left;
         margin-bottom: 15px;
@@ -117,7 +217,8 @@
 .advantages-class,
 .fees-class,
 .appointment-class,
-.fertility-class {
+.fertility-class,
+.faq-class {
     background-color: $color__background-blue;
     color: $color__text-white;
     line-height: 20pt;
@@ -126,7 +227,8 @@
 .fees-class,
 .appointment-class,
 .myth-fact-class,
-.fertility-class {
+.fertility-class,
+.faq-class {
     p {
         text-align: justify;
         margin: 20px;
@@ -135,21 +237,25 @@
 
 .disadvantages-class,
 .process-class {
-    background: $color__background-teal;;
+    background: $color__background-teal;
+    ;
     color: $color__text-white;
 }
 
 .myth-fact-class {
     outline: 1pt solid $color__background-teal;
     border-bottom: 35pt solid $color__background-teal;
+
     h3 {
         color: $color__background-blue;
     }
+
     .med-fact {
         text-align: left;
         margin-left: 20px;
         margin-bottom: -20px;
     }
+
     .med-myth {
         margin: 25px;
     }
@@ -181,11 +287,191 @@
     }
 }
 
+.medical-abortion-page,
+.surgical-abortion-page {
+    @include tablet {
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+    }
+}
 
-// Miscarriage Management
+.medical-abortion-page,
+.surgical-abortion-page {
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
 
+        h1 {
+            font-size: 36px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            text-align: left;
+        }
 
+        h2 {
+            font-size: 30px;
+            font-family: $font__header;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
 
+        .med-abortion-blue,
+        .med-abortion-green {
+            background: $color__background-blue;
+            padding: 45px;
+        }
+
+        .advantages-class,
+        .disadvantages-class,
+        .fees-class,
+        .process-class,
+        .appointment-class,
+        .myth-fact-class,
+        .fertility-class,
+        .faq-class {
+            background-color: white;
+            color: $color__text-grey;
+        }
+
+        .advantages-class ol,
+        .disadvantages-class ol {
+            margin-left: 160px;
+            margin-right: 160px;
+            line-height: 20pt;
+        }
+
+        .med-process-heading {
+            text-align: left;
+            color: $color__background-blue;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .fees-class,
+        .appointment-class,
+        .myth-fact-class,
+        .fertility-class {
+            p {
+                text-align: justify;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+        }
+
+        .med-myth,
+        .med-fact {
+            text-align: left;
+            font-family: $font__header;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        .myth-fact-class {
+            p {
+                margin-left: 120px;
+                margin-right: 120px;
+            }
+
+            outline: none;
+            border-bottom: none;
+        }
+
+        .med-more-info {
+            background-color: $color__background-blue;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: $color__text-white;
+            padding: 30px;
+
+            button {
+                padding-top: 22px;
+                padding-bottom: 22px;
+                padding-right: 80px;
+                padding-left: 80px;
+                border-radius: 12px;
+                font-family: $font__secondary;
+                font-size: 18px;
+                text-shadow: none;
+                box-shadow: none;
+                outline: $color__background-teal;
+            }
+        }
+
+        .process-table {
+            ol {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 500px;
+
+                li {
+                    width: 550px;
+                    height: 200px;
+                }
+            }
+
+            .med-process-heading {
+                margin-left: 10px;
+            }
+        }
+
+        .faq-class {
+            h3 {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-family: $font__header;
+                margin-left: 20px;
+            }
+            .faq-table {
+                column-count: 2;
+                column-gap: 0;
+            }
+        }
+        .fees-class a {
+            color: $color__background-blue;
+        }
+    }
+}
 
 
 // Your Decision
+.your-decision-page {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    button {
+        background-color: $color__background-teal;
+        box-shadow: none;
+        text-shadow: none;
+        border-radius: 8px;
+        border-color: $color__background-teal;
+        line-height: 12pt;
+        margin-top: 15px;
+        font-size: 14px;
+    
+        a {
+            color: $color__background-white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+    .your-decision-banner {
+
+}
+}
+
+
+
+
+// Miscarriage Management
