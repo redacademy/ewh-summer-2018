@@ -15,6 +15,9 @@ body {
     margin:0 !important;
     text-align: center;
 }
+.wp-image-210{
+    margin-bottom: -20px;
+}
 
 .home-ourmission{
     line-height: 20pt;
@@ -25,25 +28,25 @@ body {
 }
 
 .home-learnmore{
-    background-color:$color__background-teal;
+    background-color: $color__background-teal;
     width: 180px;
     margin: 0 auto;
     border-radius: 10px;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 40px;
     color:white;
     @include desktop{
-        display:none;
+        display: none;
     }
 }
 .home-learnmore-desktop{
-    background-color:$color__background-teal;
+    background-color: $color__background-teal;
     width: 300px !important;
     margin: 0 auto;
     border-radius: 10px;
-    padding-top:10px;
-    padding-bottom:10px !important;
+    padding-top: 10px;
+    padding-bottom: 10px !important;
     margin-bottom: 40px;
     color:white;
 }
@@ -66,17 +69,17 @@ body {
 .home-abortion-container{
     position: relative;
     background-color: $color__background-teal;
-    padding-left:100px;
+    padding-left: 100px;
     text-align: center;
-    padding-top:7px;
-    height:145px;
+    padding-top: 7px;
+    height: 145px;
     // position: relative;
     @include desktop{
         display: none;
     }
 }
 .home-abortion-title {
-    top:60%;
+    top: 60%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -95,18 +98,18 @@ body {
 .home-iud-container{
     position: relative;
     background-color: $color__background-blue;
-    padding-left:88px;
+    padding-left: 88px;
     text-align: center;
-    padding-top:21px;
-    height:145px;
+    padding-top: 21px;
+    height: 145px;
     // position: relative;
-    margin-top:10px;
+    margin-top: 10px;
     @include desktop{
         display: none;
     }
 }
 .home-iud-title {
-    top:65%;
+    top: 65%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -124,18 +127,18 @@ body {
 .home-birthcontrol-container{
     position: relative;
     background-color: $color__background-orange;
-    padding-left:60px;
+    padding-left: 60px;
     text-align: center;
-    padding-top:38px;
-    height:145px;
+    padding-top: 38px;
+    height: 145px;
     // position: relative;
-    margin-top:10px;
+    margin-top: 10px;
     @include desktop{
         display: none;
     }
 }
 .home-birthcontrol-title {
-    top:65%;
+    top: 65%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -146,7 +149,7 @@ body {
     display: none;
     @include desktop{
         display: block;
-        padding:10px;
+        padding: 10px;
     }
 }
 .desktop-home-icons{
@@ -172,15 +175,15 @@ body {
     display: none;
     @include desktop{
     display: block;
-    width:2000px;
+    width: 2000px;
     position: relative;
-    bottom:10px;
+    bottom: 10px;
     }
 }
 //home-page quote icon
 .home-quotes-container{
 text-align: center;
-margin-top:50px;
+margin-top: 50px;
 }
 
 .home-testimonial{
@@ -189,7 +192,7 @@ margin-top:50px;
 }
 
 .home-info{
-    line-height:20pt;
+    line-height: 20pt;
     color: $color__text-main;
 }
 
@@ -199,48 +202,48 @@ margin-top:50px;
 }
 .desktop-testimonial{
     display: none;
-    padding-top:20px;
+    padding-top: 20px;
     @include desktop{
         display: block;
     background-color: $color__background-orange;
-    width:50%;
+    width: 50%;
     p{
-        padding-top:10px;
-        font-size:20px;
+        padding-top: 10px;
+        font-size: 20px;
         width: 70%;
         margin: 0 auto;
-        line-height:30pt;
+        line-height: 30pt;
     }
     }
 }
 .desktop-ourmission{
     h2{
-        padding-top:10px;
+        padding-top: 10px;
         text-align: center;
-        font-size:40px;
+        font-size: 40px;
         font-weight: bold;
     }
     p{
         font-size: 20px;
-        width:80%;
-        margin:0 auto;
-        padding-bottom:35px;
-        line-height:30pt;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 35px;
+        line-height: 30pt;
     }
     display: none;
     @include desktop{
-    display:block;
+    display: block;
     background-color: $color__background-blue;
-    width:50%;
+    width: 50%;
     }
 }
 
 .desktop-home-info{
     @include desktop{
     color: white;
-    display:flex;
-    height:380px;
-    margin-top:-12px;
+    display: flex;
+    height: 380px;
+    margin-top: -12px;
     }
 }
 .desktop-home-meta{
@@ -248,38 +251,38 @@ margin-top:50px;
     @include desktop{
     display: flex;
     text-align: start;
-    font-size:19.5px;
-    margin-top:80px;
+    font-size: 19.5px;
+    margin-top: 80px;
     line-height: 30pt;
-    margin-bottom:100px;
+    margin-bottom: 100px;
     }
 }
 .desktop-meta-1{
     width: 40%;
-    margin:0;
+    margin: 0;
 }
 .desktop-meta-2{
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-left:20px;
+    margin-left: 20px;
 }
 .desktop-home-pleasenote{
-    margin-top:40px;
+    margin-top: 40px;
 }
 .wp-image-207{
     height: auto;
-    width:150px;
-    margin-right:60px;
+    width: 150px;
+    margin-right: 60px;
 }
 .desktop-home-getintouch{
     @include desktop{
-    margin-top:50px;
-    margin-bottom:100px;
-    padding-top:50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
     background-color: $color__background-lighter-blue;
     color: white;
-    height:200px;
+    height: 200px;
     }
 }
 .pleasecallus-home{
@@ -294,12 +297,12 @@ margin-top:50px;
     text-align: center;
     color: white;
     cursor: pointer;
-    margin-top:30px;
+    margin-top: 30px;
     background-color: $color__background-teal;
-    width:450px;
+    width: 450px;
     border-radius: 10px;
-    padding-top:18px;
-    padding-bottom:18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     }
 }
 /* Birth Control */

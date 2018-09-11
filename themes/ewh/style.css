@@ -668,6 +668,9 @@ body {
   margin: 0 !important;
   text-align: center; }
 
+.wp-image-210 {
+  margin-bottom: -20px; }
+
 .home-ourmission {
   line-height: 20pt;
   color: #404040; }
@@ -677,6 +680,9 @@ body {
 
 .home-learnmore {
   background-color: #00C4C5;
+<<<<<<< HEAD
+  width: 100px; }
+=======
   width: 180px;
   margin: 0 auto;
   border-radius: 10px;
@@ -709,6 +715,7 @@ body {
 @media screen and (min-width: 1080px) {
   .home-client2018 {
     display: none; } }
+>>>>>>> 1d637f852af2a496fd83295c31594cb56fb82cae
 
 .home-abortion-container {
   position: relative;
@@ -1844,4 +1851,5 @@ div.hide-description {
   background-color: #4A90E2;
   color: white; }
   .contactus-pleasecall p {
-    width: 75%; }
+    width: 75%;
+    margin: 0 auto; }
