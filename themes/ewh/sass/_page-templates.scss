@@ -7,7 +7,9 @@ body {
     margin: 1rem;
 }
 
-
+.entry-title{
+    display:none;
+}
 /* Front page */
 .home .wp-block-image{
     margin:0 !important;
@@ -249,16 +251,21 @@ margin-top:50px;
     font-size:19.5px;
     margin-top:80px;
     line-height: 30pt;
+    margin-bottom:100px;
     }
 }
 .desktop-meta-1{
     width: 40%;
+    margin:0;
 }
 .desktop-meta-2{
     display: flex;
     flex-direction: column;
     width: 40%;
     margin-left:20px;
+}
+.desktop-home-pleasenote{
+    margin-top:40px;
 }
 .wp-image-207{
     height: auto;
