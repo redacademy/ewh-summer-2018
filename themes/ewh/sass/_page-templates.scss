@@ -28,10 +28,6 @@ body {
 }
 
 .home-learnmore{
-<<<<<<< HEAD
-    background-color:$color__background-teal;
-    width: 100px;
-=======
     background-color: $color__background-teal;
     width: 180px;
     margin: 0 auto;
@@ -43,7 +39,6 @@ body {
     @include desktop{
         display: none;
     }
->>>>>>> 1d637f852af2a496fd83295c31594cb56fb82cae
 }
 .home-learnmore-desktop{
     background-color: $color__background-teal;
