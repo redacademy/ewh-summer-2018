@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# single-birth_control_method
+--------------------------------------------------------------*/
+//all pages
+
+body {
+    margin: 1rem;
+}
+
+div.birth-control-header {
+    color: white;
+    background:$color__background-blue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 433.7px;
+    position: relative;
+}
+
+h1.bcm-title {
+    order: 1;
+    color: white;
+    font-size: 3rem;
+    width: 60%;
+    height: 70px;
+    text-align: center;
+}
+
+img.bcm-img {
+    display: flex;
+    width: 40%;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.birth-control-header p {
+    order: 2;
+    width: 60%;
+    text-align: inherit;
+}
