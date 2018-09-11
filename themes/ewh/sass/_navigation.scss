@@ -8,10 +8,18 @@ a {
 	color: $color__link;
 
 	&:visited {
+<<<<<<< HEAD
+=======
+		// color: $color__link-visited;
+>>>>>>> 6524588a89f982d4371c22459010d1fe1f1b50ef
 	}
 	&:hover,
 	&:focus,
 	&:active {
+<<<<<<< HEAD
+=======
+		// color: $color__link-hover;
+>>>>>>> 6524588a89f982d4371c22459010d1fe1f1b50ef
 	}
 	&:focus {
 		outline: thin dotted;

@@ -27,7 +27,10 @@ get_header(); ?>
 
 				<?php echo CFS()->get( "effectiveness"); ?>
 				<br>
+				<div class ="hide-description"><?php echo CFS()->get( "description"); ?></div>
+				<br>
 				<?php echo CFS()->get( "price"); ?>
+				
 
 			</div>
 
