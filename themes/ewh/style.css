@@ -680,9 +680,6 @@ body {
 
 .home-learnmore {
   background-color: #00C4C5;
-<<<<<<< HEAD
-  width: 100px; }
-=======
   width: 180px;
   margin: 0 auto;
   border-radius: 10px;
@@ -715,7 +712,6 @@ body {
 @media screen and (min-width: 1080px) {
   .home-client2018 {
     display: none; } }
->>>>>>> 1d637f852af2a496fd83295c31594cb56fb82cae
 
 .home-abortion-container {
   position: relative;
@@ -1745,6 +1741,8 @@ footer {
   text-align: center;
   width: 100%;
   margin: 0 auto; }
+  .your-decision-page .motherisk {
+    color: #4A4A4A; }
   .your-decision-page button {
     background-color: #00C4C5;
     -webkit-box-shadow: none;
@@ -1770,8 +1768,6 @@ footer {
       margin: 0 auto; }
       .your-decision-page p {
         text-align: left; }
-      .your-decision-page .motherisk {
-        color: #4A4A4A; }
       .your-decision-page .your-decision-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1796,6 +1792,16 @@ footer {
                   box-shadow: none;
           outline: #00C4C5;
           line-height: 1.5; } }
+  @media screen and (min-width: 660px) {
+    .your-decision-page {
+      font-size: 16px; }
+      .your-decision-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; } }
 
 .birth-control {
   width: 100%; }
@@ -1837,19 +1843,45 @@ div.hide-description {
     .birth-control-methods-blue div.hide-description {
       display: block; } }
 
-.contactus-top-divider {
-  position: relative;
-  margin: 0px; }
-
-.contactus-main-header {
-  color: #0076B6;
-  font-family: "Catamaran", sans-serif;
-  font-size: 8px;
-  text-transform: capitalize; }
-
-.contactus-pleasecall {
-  background-color: #4A90E2;
-  color: white; }
-  .contactus-pleasecall p {
-    width: 75%;
-    margin: 0 auto; }
+.history-page {
+  font-size: 14px;
+  line-height: 20pt;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
+  .history-page .your-decision-banner {
+    z-index: -1; }
+  .history-page h2 {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    margin-top: 50px; }
+  @media screen and (min-width: 1080px) {
+    .history-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .history-page p {
+        text-align: left;
+        margin-right: 350px; }
+      .history-page .your-decision-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .history-page .your-decision-container .your-decision-text {
+          width: 75%; }
+      .history-page h2 {
+        display: block;
+        font-size: 55px;
+        text-align: left;
+        margin-top: -100px; } }
+  @media screen and (min-width: 660px) {
+    .history-page {
+      font-size: 16px; } }
