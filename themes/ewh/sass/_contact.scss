@@ -1,19 +1,19 @@
 // Everything that has to do with the Contact Us page should be located here.
 .contactus-top-divider{
     position: relative;
-    margin:0px;
+    margin: 0px;
 }
 
 .contactus-main-header{
-    color:$color__background-blue;
+    color: $color__background-blue;
     font-family: $font__header;
-    font-size:8px;
+    font-size: 8px;
     text-transform: capitalize;
 }
 .contactus-pleasecall{
     background-color: $color__background-lighter-blue;
-    color:white;
+    color: white;
     p{
-        width:75%;
+        width: 75%;
     }
 }
