@@ -139,12 +139,6 @@
                 color: $color__text-white;
               }
             }
-            .blue {
-              background-color: $color__background-blue;
-              a {
-                color: $color__text-white;
-              }
-            }
             .side-drop-down {
               border-top: 1px solid $color__text-grey;
               top: -1px;
@@ -271,31 +265,72 @@
         // transition: 1s;
         border-bottom: 1px solid $color__text-grey;
         a {
+          color: $color__background-blue;
           margin: 0 auto;
         }
-        &.active-menu-item {
-          transition: 0.5s;
-          height: auto;
-        }
+
         .sub-menu {
+          a {
+            color: $color__text-grey;
+          }
           width: 100%;
-          // height: 0;
+          border-top: 1px solid $color__text-grey;
           background-color: $color__background-white;
-          // display: none;
-          // transition: 1s;
+          li {
+            border-bottom: none;
+          }
+          .fa-angle-down {
+            position: absolute;
+            right: 5px;
+            top: 0;
+            font-size: 25px;
+            color: $color__background-blue;
+          }
           &.active {
             height: auto;
             width: 100%;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-            background-color: $color__background-white;
-            border-top: 5px solid $color__background-teal;
-            border-bottom: 5px solid $color__background-teal;
-            // border-radius: 20px;
+            // background-color: lightgrey;
+            box-shadow: none;
+            // border-bottom: 1px solid $color__text-grey;
+          }
+          &.active2 {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            // background-color: lightgrey;
+            box-shadow: none;
+            border-bottom: 1px solid $color__text-grey;
           }
         }
       }
     }
+  }
+}
+
+.menu-item-has-children {
+  position: relative;
+  &::after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 25px;
+    color: $color__background-blue;
+  }
+}
+
+.angle-icon {
+  &::after {
+    font-family: 'FontAwesome';
+    content: '\f106';
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 25px;
+    color: $color__background-blue;
   }
 }
