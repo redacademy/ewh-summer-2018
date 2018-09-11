@@ -39,7 +39,9 @@
 					</span>
 
 					<span class="span-home-logo">
+						<a href="<?php echo home_url() ?>">
 						<img class="home-logo" src="<?php echo get_template_directory_uri() ?>/images/home-logo.svg">
+						</a>
 					</span>
 
 					<span class="span-chinese-nav">
