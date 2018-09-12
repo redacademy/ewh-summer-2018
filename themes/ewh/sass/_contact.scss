@@ -1,14 +1,12 @@
-<<<<<<< HEAD
-=======
 // Everything that has to do with the Contact Us page should be located here.
 
 .contactus-top-divider{
     position: relative;
-    margin: 0px;
+    margin: 0;
 }
 
 .contactus-main-header{
-    color: $color__background-yellow;
+    color: $color__background-blue;
     font-family: $font__header;
     font-size: 8px;
     text-transform: capitalize;
@@ -16,15 +14,15 @@
 .contactus-pleasecall{
     background-color: $color__background-lighter-blue;
     color: white;
+    text-align: center;
+    padding-top:35px;
+    padding-bottom:35px;
     p{
-        width: 75%;
         margin: 0 auto;
+        width: 90%;
     }
 }
-.contactus-requestappointment-button {
-    a{
-    color: pink;
-    }
 
+.contactus-requestappointment{
+    background-color: $color__background-teal;
 }
->>>>>>> e5eac316dc405aa482d760caf08a770395b17256
