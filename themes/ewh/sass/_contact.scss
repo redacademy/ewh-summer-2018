@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 0fa4625ecd35a1ec13b632be59e9c29f93f200ab
 // Everything that has to do with the Contact Us page should be located here.
 
 .contactus-top-divider{
@@ -19,18 +16,69 @@
     background-color: $color__background-lighter-blue;
     color: white;
     text-align: center;
-    padding-top:35px;
-    padding-bottom:35px;
+    padding-bottom:20px;
     p{
+        padding-top:20px;
         margin: 0 auto;
         width: 90%;
+        font-size: 14px;
     }
 }
 
-.contactus-requestappointment{
+.contactus-requestappointment-button{
     background-color: $color__background-teal;
+    width:160px;
+    border-radius: 10px;
+    height:50px;
+    margin-top:20px;
+    a{
+        position: relative;
+        top:10px;
+    }
 }
-<<<<<<< HEAD
-=======
+.contactus-info{
+    color:$color__text-grey;
+}
 
->>>>>>> 0fa4625ecd35a1ec13b632be59e9c29f93f200ab
+.contactus-form{
+    text-align: center;
+    input[type="text"]{
+        background-color: #eeeeee;
+        outline: none;
+        width: 380px;
+        border-radius: 0;
+        padding-left:10px;
+    }
+    input[type="submit"]{
+        box-shadow: none;
+        text-shadow: none;
+        border-radius: 10px;
+        color: white;
+        background-color: $color__background-teal;
+        width:150px;
+        height:40px;
+    }
+}
+input[name="your-message"]{
+    padding-bottom: 200px;
+}
+.contactus-map{
+    figure{
+        margin:0;
+        text-align: center;
+        iframe{
+            height:400px;
+            width:380px;
+        }
+    }
+}
+.contactus-parking{
+    text-align: center;
+    width:80%;
+    color: $color__text-grey;
+}
+.contactus-transit{
+    text-align: center;
+    color: $color__text-grey;
+}
+
