@@ -16,7 +16,7 @@ get_header(); ?>
     			<div class="your-decision-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
 				<h1 class="your-decision-title"> <?php the_title(); ?> </h1>
 				</div>
-<?php endif; ?>
+			<?php endif; ?>
 
 			<div class="container">
 				
