@@ -15,9 +15,10 @@
 // Regular Header
 
 .site-header {
+  height: 99px;
+  background-color: $color__background-white;
   // Header
   .main-navigation {
-    height: 99px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -59,7 +60,7 @@
     // IMG
     .home-logo {
       margin: 0 auto;
-      height: 200px;
+      height: 100px;
       width: 100%;
       padding-bottom: 1rem;
     }
@@ -83,10 +84,9 @@
   // Navigation Menu
   .menu-navigation-menu-container {
     display: none;
+    height: 100%;
     width: 100%;
     text-align: center;
-    background-color: $color__background-white;
-
     @include desktop {
       display: block;
       width: 60%;
@@ -107,7 +107,7 @@
           height: 40px;
           a {
             width: 100%;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-family: $font__secondary;
             color: $color__background-lighter-blue;
             outline: none;
@@ -129,9 +129,6 @@
             left: 0%;
             display: none;
             width: 0;
-            a {
-              font-size: 20px;
-            }
             li {
               border-bottom: 1px solid $color__text-grey;
             }
@@ -170,7 +167,7 @@
             font-family: 'FontAwesome';
             content: '\f107';
             position: absolute;
-            top: -5px;
+            top: 0;
             right: 5px;
             font-size: 25px;
             color: $color__background-blue;
@@ -287,18 +284,6 @@
     width: 10%;
     visibility: hidden;
   }
-  .blue {
-    background-color: $color__background-blue;
-    color: $color__text-white;
-    a {
-      color: $color__text-white !important;
-    }
-    .sub-menu {
-      a {
-        color: black !important;
-      }
-    }
-  }
   // Navigation Menu
   .menu-navigation-menu-container {
     display: block;
@@ -321,18 +306,11 @@
           &:focus {
             outline: none;
           }
-          &:hover {
-            color: $color__background-teal;
-          }
         }
-
         .sub-menu {
-          box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
           a {
             color: $color__text-grey;
-            &:hover {
-              color: $color__background-teal;
-            }
           }
           width: 100%;
           border-top: 1px solid $color__text-grey;
@@ -362,10 +340,31 @@
           }
         }
       }
+      .blue {
+        background-color: $color__background-blue;
+        .sub-menu {
+          a {
+            color: black;
+          }
+        }
+        a {
+          color: $color__text-white;
+        }
+        .teal {
+          background-color: $color__background-teal;
+          .sub-menu {
+            a {
+              color: black;
+            }
+          }
+          a {
+            color: $color__text-white;
+          }
+        }
+      }
     }
   }
 }
-
 .menu-item-has-children {
   &::after {
     font-family: 'FontAwesome';
@@ -388,10 +387,14 @@
     color: $color__background-teal;
   }
 }
-.blue {
-  background-color: $color__background-blue;
-  color: $color__text-white;
-  a {
-    color: $color__text-white !important;
+.angle-icon2 {
+  &::after {
+    font-family: 'FontAwesome';
+    content: '\f106';
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 25px;
+    color: $color__background-blue;
   }
 }
