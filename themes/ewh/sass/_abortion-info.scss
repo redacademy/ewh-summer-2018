@@ -238,7 +238,6 @@
 .disadvantages-class,
 .process-class {
     background: $color__background-teal;
-    ;
     color: $color__text-white;
 }
 
@@ -462,6 +461,7 @@
         line-height: 12pt;
         margin-top: 15px;
         font-size: 14px;
+        font-family: $font__secondary;
     
         a {
             color: $color__background-white;
@@ -491,7 +491,7 @@
         }
         .your-decision-banner {
             width: 100%;
-            height: 500px;
+            height: 642px;
             background-size: cover;
         }
         .your-decision-title {
