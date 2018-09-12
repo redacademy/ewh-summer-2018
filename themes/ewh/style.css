@@ -929,7 +929,7 @@ body {
     padding-top: 50px;
     background-color: #4A90E2;
     color: white;
-    height: 200px; } }
+    padding-bottom: 15px; } }
 
 @media screen and (min-width: 1080px) {
   .pleasecallus-home {
@@ -1920,7 +1920,8 @@ div.hide-description {
 
 .contactus-top-divider {
   position: relative;
-  margin: 0; }
+  margin: 0;
+  margin-top: -20px; }
 
 .contactus-main-header {
   color: #0076B6;
@@ -1932,14 +1933,64 @@ div.hide-description {
   background-color: #4A90E2;
   color: white;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px; }
+  padding-bottom: 20px; }
   .contactus-pleasecall p {
+    padding-top: 20px;
     margin: 0 auto;
-    width: 90%; }
+    width: 90%;
+    font-size: 14px; }
 
-.contactus-requestappointment {
-  background-color: #00C4C5; }
+.contactus-requestappointment-button {
+  background-color: #00C4C5;
+  width: 160px;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: "Arya", sans-serif; }
+  .contactus-requestappointment-button a {
+    position: relative;
+    top: 10px; }
+
+.contactus-info {
+  color: #4A4A4A; }
+
+.contactus-form {
+  text-align: center; }
+  .contactus-form input[type="text"] {
+    background-color: #eeeeee;
+    outline: none;
+    width: 320px;
+    border-radius: 0;
+    padding-left: 10px; }
+  .contactus-form input[type="submit"] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #00C4C5;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    font-family: "Arya", sans-serif; }
+  .contactus-form input[name="your-message"] {
+    padding-bottom: 200px; }
+
+.contactus-map figure {
+  margin: 0;
+  text-align: center; }
+  .contactus-map figure iframe {
+    height: 400px;
+    width: 320px; }
+
+.contactus-parking {
+  text-align: center;
+  width: 80%;
+  color: #4A4A4A; }
+
+.contactus-transit {
+  text-align: center;
+  color: #4A4A4A; }
 
 .regular-banner-page .button-desktop {
   display: none; }
