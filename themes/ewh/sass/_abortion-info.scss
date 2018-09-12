@@ -279,7 +279,6 @@
     line-height: 12pt;
     margin-top: 15px;
     color: $color__background-white;
-
     a {
         color: $color__background-white;
         font-weight: bold;
@@ -431,9 +430,7 @@
                 margin-bottom: 0px;
                 font-family: $font__header;
                 margin-left: 20px;
-
             }
-
             .faq-table {
                 column-count: 2;
                 column-gap: 0;
@@ -445,12 +442,81 @@
     }
 }
 
-// .surgical-abortion-page {
-//     @include desktop {
-//         margin-left: 1000px;
-//         margin-right: 1000px;
-//     }
-// }
+
+// Your Decision
+.your-decision-page {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    .motherisk {
+        color: $color__text-grey;
+    }
+    button {
+        background-color: $color__background-teal;
+        box-shadow: none;
+        text-shadow: none;
+        border-radius: 8px;
+        border-color: $color__background-teal;
+        line-height: 12pt;
+        margin-top: 15px;
+        font-size: 14px;
+    
+        a {
+            color: $color__background-white;
+            font-weight: bold;
+            text-decoration: none;   
+        }
+    }
+    .your-decision-banner {
+        z-index: -1;
+    }
+    h1 {
+        color: white;
+    }
+
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        p {
+            text-align: left;
+        }
+        .your-decision-container {
+            display: flex;
+            flex-direction: row;
+            .your-decision-text {
+                width: 75%;
+            }
+            button {
+                margin-left: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 80px;
+                padding-left: 80px;
+                border-radius: 12px;
+                font-family: $font__secondary;
+                font-size: 18px;
+                text-shadow: none;
+                box-shadow: none;
+                outline: $color__background-teal;
+                line-height: 1.5;
+            }
+        }
+    }
+    @include tablet {
+        font-size: 16px;
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+    }
+}
+
 
 // Miscarriage Management
-// Your Decision
