@@ -15,21 +15,23 @@
   }
   // Side Drop Down Reset
   function sideReset() {
-    $('.top-side-drop-down').animate({ width: '0px' }, 350, function() {
+    $('.top-side-drop-down').animate({ width: '0px' }, 400, function() {
       $('.menu-item').removeClass('blue');
       $('.top-side-drop-down').slideUp(function() {
         $('.sub-menu').removeClass('top-side-drop-down');
       });
     });
-    $('.side-drop-down').animate({ width: '0px' }, 350, function() {
+    $('.side-drop-down').animate({ width: '0px' }, 400, function() {
       $('.menu-item').removeClass('blue');
       $('.side-drop-down').slideUp(function() {
         $('.sub-menu').removeClass('side-drop-down');
       });
     });
-    $('.active').slideUp(250, function() {
-      $('.sub-menu').removeClass('active');
-    });
+    setTimeout(function() {
+      $('.active').slideUp(300, function() {
+        $('.sub-menu').removeClass('active');
+      });
+    }, 300);
     $('.menu-item-has-children').removeClass('angle-icon');
   }
   function activeReset() {
