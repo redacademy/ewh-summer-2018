@@ -968,8 +968,9 @@ body {
       display: none; } }
   .site-header .hamburger .fa-bars {
     color: #21759b;
-    font-size: 25px; }
-    @media screen and (min-width: 660px) {
+    font-size: 25px;
+    margin: 0 auto; }
+    @media screen and (min-width: 600px) {
       .site-header .hamburger .fa-bars {
         font-size: 40px; } }
 
@@ -983,14 +984,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%; }
-  @media screen and (min-width: 660px) {
-    .site-header .span-home-logo {
-      width: 35%; } }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%; }
   @media screen and (min-width: 1080px) {
     .site-header .span-home-logo {
       width: 20%; } }
   .site-header .span-home-logo .home-logo {
+    margin: 0 auto;
     height: 200px;
     width: 100%;
     padding-bottom: 1rem; }
@@ -1006,12 +1008,12 @@ body {
     .site-header .span-chinese-nav {
       display: none; } }
   .site-header .span-chinese-nav .chinese-nav {
-    font-size: 20px;
+    font-size: 17px;
     color: #21759b;
     margin: 0; }
-    @media screen and (min-width: 660px) {
+    @media screen and (min-width: 600px) {
       .site-header .span-chinese-nav .chinese-nav {
-        font-size: 30px; } }
+        font-size: 25px; } }
 
 .site-header .menu-navigation-menu-container {
   display: none;
@@ -1048,14 +1050,18 @@ body {
             outline: none; }
             .site-header .menu-navigation-menu-container .menu .menu-item a:focus {
               outline: none; }
+            .site-header .menu-navigation-menu-container .menu .menu-item a:hover {
+              color: #00C4C5; }
+              .site-header .menu-navigation-menu-container .menu .menu-item a:hover.sub-menu {
+                display: block; }
           .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu {
             background-color: #fff;
             border-top: 5px solid #00C4C5;
             position: absolute;
             top: 30px;
             left: -20px;
-            width: 0;
-            display: none; }
+            display: none;
+            width: 0; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu li {
               border-bottom: 1px solid #4A4A4A; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active {
@@ -1132,6 +1138,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
+  height: 100%;
   background-color: #fff; }
   .nav-site-header .main-navigation {
     -ms-flex-wrap: wrap;
@@ -1139,8 +1146,8 @@ body {
   .nav-site-header .hamburger {
     display: none; }
   .nav-site-header .exit-nav {
-    height: 50px;
-    width: 20%;
+    height: 100px;
+    width: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1151,7 +1158,7 @@ body {
       color: #21759b;
       font-size: 25px;
       margin: 0 auto; }
-      @media screen and (min-width: 660px) {
+      @media screen and (min-width: 600px) {
         .nav-site-header .exit-nav .fa-times {
           font-size: 40px; } }
   .nav-site-header .span-home-logo {
@@ -1161,12 +1168,21 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 80%; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65%; }
     .nav-site-header .span-home-logo .home-logo {
+      margin: 0 auto;
       height: 100px;
-      width: 70%; }
+      width: 800px;
+      padding-bottom: 1rem; }
+      @media screen and (min-width: 600px) {
+        .nav-site-header .span-home-logo .home-logo {
+          height: 200px; } }
   .nav-site-header .span-chinese-nav {
-    display: none; }
+    width: 10%;
+    visibility: hidden; }
   .nav-site-header .menu-navigation-menu-container {
     display: block;
     background-color: #fff; }
@@ -1180,13 +1196,13 @@ body {
               flex-direction: column;
       width: 100%; }
       .nav-site-header .menu-navigation-menu-container .menu .menu-item {
-        height: 0;
         width: 100%;
-        height: 30px;
+        height: 25%;
         border-bottom: 1px solid #4A4A4A; }
         .nav-site-header .menu-navigation-menu-container .menu .menu-item a {
           color: #0076B6;
-          margin: 0 auto; }
+          font-size: 30px;
+          width: 100%; }
         .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu {
           width: 100%;
           border-top: 1px solid #4A4A4A;
@@ -1227,16 +1243,14 @@ body {
                     box-shadow: none;
             border-bottom: 1px solid #4A4A4A; }
 
-.menu-item-has-children {
-  position: relative; }
-  .menu-item-has-children::after {
-    font-family: 'FontAwesome';
-    content: '\f107';
-    position: absolute;
-    top: -5px;
-    right: 5px;
-    font-size: 25px;
-    color: #0076B6; }
+.menu-item-has-children::after {
+  font-family: 'FontAwesome';
+  content: '\f107';
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  font-size: 25px;
+  color: #0076B6; }
 
 .angle-icon::after {
   font-family: 'FontAwesome';
@@ -1245,7 +1259,7 @@ body {
   top: -5px;
   right: 5px;
   font-size: 25px;
-  color: #0076B6; }
+  color: #00C4C5; }
 
 footer {
   display: -webkit-box;
@@ -1260,7 +1274,7 @@ footer {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     footer {
       background-color: #0076B6; } }
 
@@ -1275,7 +1289,7 @@ footer {
   color: #fff; }
   .widget_text h2 {
     font-size: 20px; }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     .widget_text {
       display: block; } }
 
@@ -1292,13 +1306,13 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     #custom_html-5 {
       width: 20%; } }
   #custom_html-5 h2 {
     color: #4A4A4A;
     font-size: 20px; }
-    @media screen and (min-width: 660px) {
+    @media screen and (min-width: 600px) {
       #custom_html-5 h2 {
         display: none; } }
   #custom_html-5 div {
@@ -1306,7 +1320,7 @@ footer {
     margin: 0 auto; }
   #custom_html-5 .privacy {
     color: #21759b; }
-    @media screen and (min-width: 660px) {
+    @media screen and (min-width: 600px) {
       #custom_html-5 .privacy {
         margin-top: 20px;
         display: block;
@@ -1314,7 +1328,7 @@ footer {
 
 .footer-colors {
   display: none; }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     .footer-colors {
       width: 100%;
       height: 10px;
@@ -1405,7 +1419,7 @@ footer {
 .learn-more-surgical {
   text-decoration: underline; }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 600px) {
   .abortion-methods-page h2 {
     font-size: 30px;
     color: #0076B6;
@@ -1569,7 +1583,7 @@ footer {
     text-decoration: none;
     font-size: 14px; }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 600px) {
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
     font-size: 30px;
