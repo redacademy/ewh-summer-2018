@@ -42,7 +42,9 @@
       $('.sub-menu').removeClass('active2');
     });
     $('.menu-item-has-children').removeClass('angle-icon');
+    $('.menu-item-has-children').removeClass('angle-icon2');
     $('.menu-item').removeClass('blue');
+    $('.menu-item').removeClass('teal');
   }
   //  Click on Hamburger Icon
   $('.hamburger').on('click', function() {
@@ -68,10 +70,13 @@
       if ($('#masthead').hasClass('nav-site-header')) {
         //Inside Menus Slide Down
         if (clicked.parent().hasClass('side-slide')) {
+          setTimeout(function() {
+            clicked.parent().addClass('teal');
+            clicked.parent().addClass('angle-icon2');
+            }, 150);
           clicked.parent().animate({ height: '100%' }, 0, function() {
             clicked.next('.sub-menu').slideDown(500, function() {
               clicked.next('.sub-menu').addClass('active2');
-              clicked.parent().addClass('angle-icon');
             });
           });
         } else if ($('.menu > .menu-item')) {
@@ -80,7 +85,7 @@
           setTimeout(function() {
             clicked.parent().addClass('blue');
             clicked.parent().addClass('angle-icon');
-            }, 150);
+            }, 100);
           $('.menu-item').animate({ height: '25%' }, 0);
           // Outside Menus Slide Down
           clicked.parent().animate({ height: '100%' }, 0, function() {
@@ -112,8 +117,8 @@
         //  Down Slide
         if ($('.menu > .menu-item')) {
           sideReset();
-          clicked.parent().addClass('angle-icon');
-            clicked.next('.sub-menu').animate({ width: '250px' }, 0, function() {
+            clicked.next('.sub-menu').animate({ width: '250px' }, 100, function() {
+              clicked.parent().addClass('angle-icon');
             clicked.next('.sub-menu').slideDown(500, function() {
               $('.sub-menu > .menu-item-has-children').addClass('side-slide');
               clicked.next('.sub-menu').addClass('active');
