@@ -701,9 +701,12 @@ body {
   margin-bottom: 40px;
   color: white; }
 
-@media screen and (min-width: 1080px) {
-  .home-quotes-pic {
-    display: none; } }
+.home-quotes-pic {
+  position: relative;
+  top: -10px; }
+  @media screen and (min-width: 1080px) {
+    .home-quotes-pic {
+      display: none; } }
 
 @media screen and (min-width: 1080px) {
   .home-testimonial {
@@ -1904,6 +1907,8 @@ div.hide-description {
     .birth-control-methods-blue div.hide-description {
       display: block; } }
 
+<<<<<<< HEAD
+=======
 .contactus-top-divider {
   position: relative;
   margin: 0px; }
@@ -1924,6 +1929,7 @@ div.hide-description {
 .contactus-requestappointment-button a {
   color: pink; }
 
+>>>>>>> e5eac316dc405aa482d760caf08a770395b17256
 .history-page {
   font-size: 14px;
   line-height: 20pt;

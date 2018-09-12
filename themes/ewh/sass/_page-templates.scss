@@ -51,6 +51,8 @@ body {
     color:white;
 }
 .home-quotes-pic{
+    position: relative;
+    top:-10px;
     @include desktop{
         display: none;
     }
