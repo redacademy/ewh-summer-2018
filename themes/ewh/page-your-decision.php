@@ -10,13 +10,15 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+<div class="your-decision-page">
 
-			<?php if ( has_post_thumbnail() ) ?>
-    			<div class="your-decision-banner">
-				<?php the_post_thumbnail(); ?>
+			<?php if ( has_post_thumbnail() ): ?>
+    			<div class="your-decision-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+				<h1 class="your-decision-title"> <?php the_title(); ?> </h1>
 				</div>
+<?php endif; ?>
 
-			<div class="your-decision-page container">
+			<div class="container">
 				
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,6 +26,7 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
+			</div>
 			</div>
 
 		</main><!-- #main -->

@@ -10,7 +10,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-
 			<?php if ( has_post_thumbnail() ) ?>
     			<div class="your-decision-banner">
 				<?php the_post_thumbnail(); ?>
