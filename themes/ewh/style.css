@@ -1780,30 +1780,42 @@ div.birth-control-header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 433.7px;
-  position: relative; }
+  height: 440px;
+  position: absolute;
+  width: 100vw; }
 
 h1.bcm-title {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
   color: white;
-  font-size: 3rem;
   width: 60%;
   height: 70px;
-  text-align: center; }
+  margin-left: 1rem;
+  font-size: 3rem;
+  margin-top: 9rem;
+  position: absolute; }
 
 img.bcm-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 40%;
-  position: absolute;
-  margin-left: 700px; }
+  margin-left: 45%;
+  height: 440px; }
 
 .birth-control-header p {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   width: 60%;
-  text-align: inherit; }
+  text-align: inherit;
+  margin-left: 1rem;
+  display: none;
+  margin-top: 18rem; }
+
+@media (min-width: 700px) {
+  img.bcm-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50%; } }
