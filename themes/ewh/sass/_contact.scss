@@ -6,11 +6,11 @@
 
 .contactus-top-divider{
     position: relative;
-    margin: 0px;
+    margin: 0;
 }
 
 .contactus-main-header{
-    color: $color__background-yellow;
+    color: $color__background-blue;
     font-family: $font__header;
     font-size: 8px;
     text-transform: capitalize;
@@ -18,16 +18,17 @@
 .contactus-pleasecall{
     background-color: $color__background-lighter-blue;
     color: white;
+    text-align: center;
+    padding-top:35px;
+    padding-bottom:35px;
     p{
-        width: 75%;
         margin: 0 auto;
+        width: 90%;
     }
 }
-.contactus-requestappointment-button {
-    a{
-    color: pink;
-    }
 
+.contactus-requestappointment{
+    background-color: $color__background-teal;
 }
 <<<<<<< HEAD
 =======

@@ -1919,23 +1919,26 @@ div.hide-description {
 
 .contactus-top-divider {
   position: relative;
-  margin: 0px; }
+  margin: 0; }
 
 .contactus-main-header {
-  color: #FFBD26;
+  color: #0076B6;
   font-family: "Catamaran", sans-serif;
   font-size: 8px;
   text-transform: capitalize; }
 
 .contactus-pleasecall {
   background-color: #4A90E2;
-  color: white; }
+  color: white;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px; }
   .contactus-pleasecall p {
-    width: 75%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 90%; }
 
-.contactus-requestappointment-button a {
-  color: pink; }
+.contactus-requestappointment {
+  background-color: #00C4C5; }
 
 .history-page {
   font-size: 14px;
