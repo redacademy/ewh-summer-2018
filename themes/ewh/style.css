@@ -1815,13 +1815,14 @@ footer {
       text-decoration: none; }
   .your-decision-page .your-decision-banner {
     width: 100%;
-    height: 500px;
+    height: 200px;
     background-size: cover; }
   .your-decision-page .your-decision-title {
     color: #fff;
-    font-size: 60px;
-    text-align: left;
-    margin-left: 60px; }
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 90px; }
   @media screen and (min-width: 1080px) {
     .your-decision-page {
       font-size: 18px;
@@ -1829,6 +1830,16 @@ footer {
       margin: 0 auto; }
       .your-decision-page p {
         text-align: left; }
+      .your-decision-page .your-decision-banner {
+        width: 100%;
+        height: 500px;
+        background-size: cover; }
+      .your-decision-page .your-decision-title {
+        color: #fff;
+        font-size: 60px;
+        text-align: left;
+        margin-left: 60px;
+        padding-top: 100px; }
       .your-decision-page .your-decision-container {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1904,8 +1915,6 @@ div.hide-description {
     .birth-control-methods-blue div.hide-description {
       display: block; } }
 
-<<<<<<< HEAD
-=======
 .contactus-top-divider {
   position: relative;
   margin: 0px; }
@@ -1926,7 +1935,6 @@ div.hide-description {
 .contactus-requestappointment-button a {
   color: pink; }
 
->>>>>>> e5eac316dc405aa482d760caf08a770395b17256
 .history-page {
   font-size: 14px;
   line-height: 20pt;
