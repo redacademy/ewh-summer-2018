@@ -10,11 +10,11 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-<div class="your-decision-page">
+<div class="regular-banner-page">
 
 			<?php if ( has_post_thumbnail() ): ?>
-    			<div class="your-decision-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
-				<h1 class="your-decision-title"> <?php the_title(); ?> </h1>
+    			<div class="regular-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+				<h1 class="regular-title"> <?php the_title(); ?> </h1>
 				</div>
 			<?php endif; ?>
 

@@ -1064,7 +1064,13 @@ body {
           .site-header .menu-navigation-menu-container .menu .menu-item {
             font-size: 1rem;
             width: 100%;
-            height: 40px; }
+            height: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
             .site-header .menu-navigation-menu-container .menu .menu-item a {
               width: 100%;
               font-size: 1.25rem;
@@ -1075,8 +1081,14 @@ body {
                 outline: none; }
               .site-header .menu-navigation-menu-container .menu .menu-item a:hover {
                 color: #00C4C5; }
-                .site-header .menu-navigation-menu-container .menu .menu-item a:hover.sub-menu {
-                  display: block; }
+                .site-header .menu-navigation-menu-container .menu .menu-item a:hover::after {
+                  color: #00C4C5;
+                  -webkit-transition: 0s;
+                  transition: 0s; }
+            .site-header .menu-navigation-menu-container .menu .menu-item.blue a:hover::after {
+              color: #0076B6;
+              -webkit-transition: 0s;
+              transition: 0s; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu {
               background-color: #fff;
               border-top: 5px solid #00C4C5;
@@ -1085,6 +1097,8 @@ body {
               left: 0%;
               display: none;
               width: 0; }
+              .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu a {
+                font-size: 1rem; }
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu li {
                 border-bottom: 1px solid #4A4A4A; }
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active {
@@ -1095,8 +1109,7 @@ body {
                 -webkit-box-direction: normal;
                     -ms-flex-direction: column;
                         flex-direction: column;
-                background-color: #fff;
-                z-index: 10; }
+                background-color: #fff; }
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu .top-side-drop-down {
                 top: -5px;
                 left: 250px;
@@ -1114,29 +1127,7 @@ body {
                         box-shadow: none; }
                 .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu .side-drop-down a {
                   color: #fff;
-                  width: 100%; }
-          .site-header .menu-navigation-menu-container .menu .menu-item-has-children::after {
-            -webkit-transform: rotate(0deg);
-                    transform: rotate(0deg);
-            -webkit-transition: 1s;
-            transition: 1s;
-            font-family: 'FontAwesome';
-            content: '\f107';
-            position: absolute;
-            top: 0;
-            right: 5px;
-            font-size: 25px;
-            color: #0076B6; }
-          .site-header .menu-navigation-menu-container .menu .angle-icon .sub-menu a {
-            color: #0076B6; }
-            .site-header .menu-navigation-menu-container .menu .angle-icon .sub-menu a:hover {
-              color: #00C4C5; }
-          .site-header .menu-navigation-menu-container .menu .angle-icon::after {
-            -webkit-transform: rotate(180deg);
-                    transform: rotate(180deg);
-            -webkit-transition: 1s;
-            transition: 1s;
-            color: #00C4C5; } }
+                  width: 100%; } }
   .site-header .donate-button {
     display: none;
     background-color: #00C4C5;
@@ -1236,11 +1227,11 @@ body {
       width: 100%; }
       .nav-site-header .menu-navigation-menu-container .menu .menu-item {
         width: 100%;
-        height: 25%;
+        height: 50px;
         border-bottom: 1px solid #4A4A4A; }
         .nav-site-header .menu-navigation-menu-container .menu .menu-item a {
           color: #0076B6;
-          font-size: 30px;
+          font-size: 20px;
           width: 100%;
           outline: none; }
           .nav-site-header .menu-navigation-menu-container .menu .menu-item a:focus {
@@ -1254,7 +1245,17 @@ body {
           .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu a {
             color: #4A4A4A; }
           .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu li {
-            border-bottom: none; }
+            border-bottom: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column; }
           .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu .fa-angle-down {
             position: absolute;
             right: 5px;
@@ -1262,7 +1263,6 @@ body {
             font-size: 25px;
             color: #0076B6; }
           .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active {
-            height: auto;
             width: 100%;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1272,7 +1272,6 @@ body {
                 -ms-flex-direction: column;
                     flex-direction: column; }
           .nav-site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active2 {
-            height: auto;
             width: 100%;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1295,29 +1294,33 @@ body {
           .nav-site-header .menu-navigation-menu-container .menu .blue .teal a {
             color: #fff; }
 
-.menu-item-has-children::after {
+.menu-item-has-children > a::after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
   font-family: 'FontAwesome';
   content: '\f107';
   position: absolute;
-  top: -5px;
+  top: 5px;
   right: 5px;
   font-size: 25px;
   color: #0076B6; }
+  .menu-item-has-children > a::after:hover {
+    color: #00C4C5; }
 
-.angle-icon::after {
-  font-family: 'FontAwesome';
-  content: '\f106';
-  position: absolute;
-  top: -5px;
-  right: 5px;
-  font-size: 25px;
+.menu-item-has-children > a.angle-icon::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
   color: #00C4C5; }
 
-.angle-icon2::after {
+.menu-item-has-children > a.angle-icon2::after {
   font-family: 'FontAwesome';
   content: '\f106';
   position: absolute;
-  top: -5px;
+  top: 5px;
   right: 5px;
   font-size: 25px;
   color: #0076B6; }
@@ -1341,8 +1344,8 @@ footer {
 
 .phone-icon {
   border-radius: 8px;
-  right: 0px;
-  bottom: 0;
+  right: 5px;
+  bottom: 5px;
   position: fixed; }
 
 .widget_text {
@@ -1793,15 +1796,15 @@ footer {
     .surgical-abortion-page .fees-class a {
       color: #0076B6; } }
 
-.your-decision-page {
+.regular-banner-page {
   font-size: 14px;
   line-height: 20pt;
   text-align: center;
   width: 100%;
   margin: 0 auto; }
-  .your-decision-page .motherisk {
+  .regular-banner-page .motherisk {
     color: #4A4A4A; }
-  .your-decision-page button {
+  .regular-banner-page button {
     background-color: #00C4C5;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1812,38 +1815,38 @@ footer {
     margin-top: 15px;
     font-size: 14px;
     font-family: "Arya", sans-serif; }
-    .your-decision-page button a {
+    .regular-banner-page button a {
       color: #fff;
       font-weight: bold;
       text-decoration: none; }
-  .your-decision-page .your-decision-banner {
+  .regular-banner-page .regular-banner {
     width: 100%;
     height: 200px;
     background-size: cover; }
-  .your-decision-page .your-decision-title {
+  .regular-banner-page .regular-title {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
     font-size: 18px;
     padding-top: 90px; }
   @media screen and (min-width: 1080px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 18px;
       width: 100%;
       margin: 0 auto; }
-      .your-decision-page p {
+      .regular-banner-page p {
         text-align: left; }
-      .your-decision-page .your-decision-banner {
+      .regular-banner-page .regular-banner {
         width: 100%;
         height: 642px;
         background-size: cover; }
-      .your-decision-page .your-decision-title {
+      .regular-banner-page .regular-title {
         color: #fff;
         font-size: 60px;
         text-align: left;
         margin-left: 60px;
         padding-top: 100px; }
-      .your-decision-page .your-decision-container {
+      .regular-banner-page .your-decision-container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1851,9 +1854,9 @@ footer {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; }
-        .your-decision-page .your-decision-container .your-decision-text {
+        .regular-banner-page .your-decision-container .your-decision-text {
           width: 75%; }
-        .your-decision-page .your-decision-container button {
+        .regular-banner-page .your-decision-container button {
           margin-left: 50px;
           padding-top: 16px;
           padding-bottom: 16px;
@@ -1868,9 +1871,9 @@ footer {
           outline: #00C4C5;
           line-height: 1.5; } }
   @media screen and (min-width: 600px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 16px; }
-      .your-decision-page h1 {
+      .regular-banner-page h1 {
         font-size: 30px;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
@@ -1991,6 +1994,68 @@ div.hide-description {
 .contactus-transit {
   text-align: center;
   color: #4A4A4A; }
+
+.regular-banner-page .button-desktop {
+  display: none; }
+
+.regular-banner-page .button-mobile {
+  display: block; }
+  .regular-banner-page .button-mobile .support-us-button {
+    background-color: #00C4C5;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: #00C4C5;
+    line-height: 12pt;
+    font-size: 14px;
+    font-family: "Arya", sans-serif;
+    margin-top: -25px; }
+    .regular-banner-page .button-mobile .support-us-button a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+
+@media screen and (min-width: 1080px) {
+  .regular-banner-page .button-mobile {
+    display: none; }
+  .regular-banner-page .support-us-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .regular-banner-page .support-us-container .support-text {
+      width: 75%; }
+    .regular-banner-page .support-us-container .button-desktop {
+      display: block; }
+      .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-left: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5;
+        line-height: 1.5; } }
+
+@media screen and (min-width: 600px) {
+  .regular-banner-page {
+    font-size: 16px; }
+    .regular-banner-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
 
 .page-with-banner {
   font-size: 14px;
