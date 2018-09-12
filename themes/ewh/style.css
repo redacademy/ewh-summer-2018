@@ -1899,7 +1899,6 @@ div.hide-description {
     .birth-control-methods-blue div.hide-description {
       display: block; } }
 
-<<<<<<< HEAD
 .contactus-top-divider {
   position: relative;
   margin: 0px; }
@@ -1919,7 +1918,7 @@ div.hide-description {
 
 .contactus-requestappointment-button a {
   color: pink; }
-=======
+
 .history-page {
   font-size: 14px;
   line-height: 20pt;
@@ -1962,4 +1961,3 @@ div.hide-description {
   @media screen and (min-width: 600px) {
     .history-page {
       font-size: 16px; } }
->>>>>>> 30566dd39499111c409b599f0526105afe082545
