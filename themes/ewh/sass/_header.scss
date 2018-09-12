@@ -15,7 +15,7 @@
 // Regular Header
 
 .site-header {
-  height: 99px;
+  height: 100px;
   background-color: $color__background-white;
   // Header
   .main-navigation {
@@ -99,7 +99,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
+        .blue {
+          background-color: $color__background-blue;
+          a {
+            color: $color__text-white !important;
+          }
+        }
         // LI
         .menu-item {
           font-size: 1rem;
@@ -174,9 +179,6 @@
           }
         }
         .angle-icon {
-          a {
-            color: $color__background-teal;
-          }
           .sub-menu {
             a {
               color: $color__background-blue;
@@ -227,6 +229,7 @@
       padding-bottom: 1rem;
     }
   }
+
 }
 // Active Header
 
