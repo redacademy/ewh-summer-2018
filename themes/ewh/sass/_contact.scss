@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 173d67ae5aec0c56e5c80287618140ea8934308e
 // Everything that has to do with the Contact Us page should be located here.
 
 .contactus-top-divider{
     position: relative;
     margin: 0;
+    margin-top:-20px;
 }
 
 .contactus-main-header{
@@ -34,6 +31,7 @@
     border-radius: 10px;
     height:50px;
     margin-top:20px;
+    font-family: $font__secondary;
     a{
         position: relative;
         top:10px;
@@ -48,7 +46,7 @@
     input[type="text"]{
         background-color: #eeeeee;
         outline: none;
-        width: 380px;
+        width: 320px;
         border-radius: 0;
         padding-left:10px;
     }
@@ -60,18 +58,21 @@
         background-color: $color__background-teal;
         width:150px;
         height:40px;
+        border:0;
+        font-family: $font__secondary;
+    }
+    input[name="your-message"]{
+        padding-bottom: 200px;
     }
 }
-input[name="your-message"]{
-    padding-bottom: 200px;
-}
+
 .contactus-map{
     figure{
         margin:0;
         text-align: center;
         iframe{
             height:400px;
-            width:380px;
+            width:320px;
         }
     }
 }
@@ -84,7 +85,3 @@ input[name="your-message"]{
     text-align: center;
     color: $color__text-grey;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 173d67ae5aec0c56e5c80287618140ea8934308e

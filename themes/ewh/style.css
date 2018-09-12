@@ -1920,7 +1920,8 @@ div.hide-description {
 
 .contactus-top-divider {
   position: relative;
-  margin: 0; }
+  margin: 0;
+  margin-top: -20px; }
 
 .contactus-main-header {
   color: #0076B6;
@@ -1944,7 +1945,8 @@ div.hide-description {
   width: 160px;
   border-radius: 10px;
   height: 50px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-family: "Arya", sans-serif; }
   .contactus-requestappointment-button a {
     position: relative;
     top: 10px; }
@@ -1957,7 +1959,7 @@ div.hide-description {
   .contactus-form input[type="text"] {
     background-color: #eeeeee;
     outline: none;
-    width: 380px;
+    width: 320px;
     border-radius: 0;
     padding-left: 10px; }
   .contactus-form input[type="submit"] {
@@ -1968,17 +1970,18 @@ div.hide-description {
     color: white;
     background-color: #00C4C5;
     width: 150px;
-    height: 40px; }
-
-input[name="your-message"] {
-  padding-bottom: 200px; }
+    height: 40px;
+    border: 0;
+    font-family: "Arya", sans-serif; }
+  .contactus-form input[name="your-message"] {
+    padding-bottom: 200px; }
 
 .contactus-map figure {
   margin: 0;
   text-align: center; }
   .contactus-map figure iframe {
     height: 400px;
-    width: 380px; }
+    width: 320px; }
 
 .contactus-parking {
   text-align: center;
