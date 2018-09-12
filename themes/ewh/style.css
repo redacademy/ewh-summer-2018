@@ -1801,7 +1801,7 @@ div.hide-description {
   margin: 0px; }
 
 .contactus-main-header {
-  color: #0076B6;
+  color: #FFBD26;
   font-family: "Catamaran", sans-serif;
   font-size: 8px;
   text-transform: capitalize; }
@@ -1812,3 +1812,6 @@ div.hide-description {
   .contactus-pleasecall p {
     width: 75%;
     margin: 0 auto; }
+
+.contactus-requestappointment-button a {
+  color: pink; }

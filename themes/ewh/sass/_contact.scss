@@ -1,11 +1,12 @@
 // Everything that has to do with the Contact Us page should be located here.
+
 .contactus-top-divider{
     position: relative;
     margin: 0px;
 }
 
 .contactus-main-header{
-    color: $color__background-blue;
+    color: $color__background-yellow;
     font-family: $font__header;
     font-size: 8px;
     text-transform: capitalize;
@@ -17,4 +18,10 @@
         width: 75%;
         margin: 0 auto;
     }
+}
+.contactus-requestappointment-button {
+    a{
+    color: pink;
+    }
+
 }
