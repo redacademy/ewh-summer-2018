@@ -1793,15 +1793,15 @@ footer {
     .surgical-abortion-page .fees-class a {
       color: #0076B6; } }
 
-.your-decision-page {
+.regular-banner-page {
   font-size: 14px;
   line-height: 20pt;
   text-align: center;
   width: 100%;
   margin: 0 auto; }
-  .your-decision-page .motherisk {
+  .regular-banner-page .motherisk {
     color: #4A4A4A; }
-  .your-decision-page button {
+  .regular-banner-page button {
     background-color: #00C4C5;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1812,38 +1812,38 @@ footer {
     margin-top: 15px;
     font-size: 14px;
     font-family: "Arya", sans-serif; }
-    .your-decision-page button a {
+    .regular-banner-page button a {
       color: #fff;
       font-weight: bold;
       text-decoration: none; }
-  .your-decision-page .your-decision-banner {
+  .regular-banner-page .regular-banner {
     width: 100%;
     height: 200px;
     background-size: cover; }
-  .your-decision-page .your-decision-title {
+  .regular-banner-page .regular-title {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
     font-size: 18px;
     padding-top: 90px; }
   @media screen and (min-width: 1080px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 18px;
       width: 100%;
       margin: 0 auto; }
-      .your-decision-page p {
+      .regular-banner-page p {
         text-align: left; }
-      .your-decision-page .your-decision-banner {
+      .regular-banner-page .regular-banner {
         width: 100%;
         height: 642px;
         background-size: cover; }
-      .your-decision-page .your-decision-title {
+      .regular-banner-page .regular-title {
         color: #fff;
         font-size: 60px;
         text-align: left;
         margin-left: 60px;
         padding-top: 100px; }
-      .your-decision-page .your-decision-container {
+      .regular-banner-page .your-decision-container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1851,9 +1851,9 @@ footer {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; }
-        .your-decision-page .your-decision-container .your-decision-text {
+        .regular-banner-page .your-decision-container .your-decision-text {
           width: 75%; }
-        .your-decision-page .your-decision-container button {
+        .regular-banner-page .your-decision-container button {
           margin-left: 50px;
           padding-top: 16px;
           padding-bottom: 16px;
@@ -1868,9 +1868,9 @@ footer {
           outline: #00C4C5;
           line-height: 1.5; } }
   @media screen and (min-width: 600px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 16px; }
-      .your-decision-page h1 {
+      .regular-banner-page h1 {
         font-size: 30px;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
@@ -1940,6 +1940,68 @@ div.hide-description {
 
 .contactus-requestappointment {
   background-color: #00C4C5; }
+
+.regular-banner-page .button-desktop {
+  display: none; }
+
+.regular-banner-page .button-mobile {
+  display: block; }
+  .regular-banner-page .button-mobile .support-us-button {
+    background-color: #00C4C5;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: #00C4C5;
+    line-height: 12pt;
+    font-size: 14px;
+    font-family: "Arya", sans-serif;
+    margin-top: -25px; }
+    .regular-banner-page .button-mobile .support-us-button a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+
+@media screen and (min-width: 1080px) {
+  .regular-banner-page .button-mobile {
+    display: none; }
+  .regular-banner-page .support-us-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .regular-banner-page .support-us-container .support-text {
+      width: 75%; }
+    .regular-banner-page .support-us-container .button-desktop {
+      display: block; }
+      .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-left: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5;
+        line-height: 1.5; } }
+
+@media screen and (min-width: 600px) {
+  .regular-banner-page {
+    font-size: 16px; }
+    .regular-banner-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
 
 .page-with-banner {
   font-size: 14px;
