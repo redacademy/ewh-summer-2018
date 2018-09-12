@@ -929,7 +929,7 @@ body {
     padding-top: 50px;
     background-color: #4A90E2;
     color: white;
-    height: 200px; } }
+    padding-bottom: 15px; } }
 
 @media screen and (min-width: 1080px) {
   .pleasecallus-home {
@@ -1796,15 +1796,15 @@ footer {
     .surgical-abortion-page .fees-class a {
       color: #0076B6; } }
 
-.your-decision-page {
+.regular-banner-page {
   font-size: 14px;
   line-height: 20pt;
   text-align: center;
   width: 100%;
   margin: 0 auto; }
-  .your-decision-page .motherisk {
+  .regular-banner-page .motherisk {
     color: #4A4A4A; }
-  .your-decision-page button {
+  .regular-banner-page button {
     background-color: #00C4C5;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1813,39 +1813,40 @@ footer {
     border-color: #00C4C5;
     line-height: 12pt;
     margin-top: 15px;
-    font-size: 14px; }
-    .your-decision-page button a {
+    font-size: 14px;
+    font-family: "Arya", sans-serif; }
+    .regular-banner-page button a {
       color: #fff;
       font-weight: bold;
       text-decoration: none; }
-  .your-decision-page .your-decision-banner {
+  .regular-banner-page .regular-banner {
     width: 100%;
     height: 200px;
     background-size: cover; }
-  .your-decision-page .your-decision-title {
+  .regular-banner-page .regular-title {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
     font-size: 18px;
     padding-top: 90px; }
   @media screen and (min-width: 1080px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 18px;
       width: 100%;
       margin: 0 auto; }
-      .your-decision-page p {
+      .regular-banner-page p {
         text-align: left; }
-      .your-decision-page .your-decision-banner {
+      .regular-banner-page .regular-banner {
         width: 100%;
-        height: 500px;
+        height: 642px;
         background-size: cover; }
-      .your-decision-page .your-decision-title {
+      .regular-banner-page .regular-title {
         color: #fff;
         font-size: 60px;
         text-align: left;
         margin-left: 60px;
         padding-top: 100px; }
-      .your-decision-page .your-decision-container {
+      .regular-banner-page .your-decision-container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1853,9 +1854,9 @@ footer {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; }
-        .your-decision-page .your-decision-container .your-decision-text {
+        .regular-banner-page .your-decision-container .your-decision-text {
           width: 75%; }
-        .your-decision-page .your-decision-container button {
+        .regular-banner-page .your-decision-container button {
           margin-left: 50px;
           padding-top: 16px;
           padding-bottom: 16px;
@@ -1870,9 +1871,9 @@ footer {
           outline: #00C4C5;
           line-height: 1.5; } }
   @media screen and (min-width: 600px) {
-    .your-decision-page {
+    .regular-banner-page {
       font-size: 16px; }
-      .your-decision-page h1 {
+      .regular-banner-page h1 {
         font-size: 30px;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
@@ -1922,7 +1923,8 @@ div.hide-description {
 
 .contactus-top-divider {
   position: relative;
-  margin: 0; }
+  margin: 0;
+  margin-top: -20px; }
 
 .contactus-main-header {
   color: #0076B6;
@@ -1934,54 +1936,283 @@ div.hide-description {
   background-color: #4A90E2;
   color: white;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px; }
+  padding-bottom: 20px; }
   .contactus-pleasecall p {
+    padding-top: 20px;
     margin: 0 auto;
-    width: 90%; }
+    width: 90%;
+    font-size: 14px; }
 
-.contactus-requestappointment {
-  background-color: #00C4C5; }
+.contactus-requestappointment-button {
+  background-color: #00C4C5;
+  width: 160px;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: "Arya", sans-serif; }
+  .contactus-requestappointment-button a {
+    position: relative;
+    top: 10px; }
 
-.history-page {
+.contactus-info {
+  color: #4A4A4A; }
+
+.contactus-form {
+  text-align: center; }
+  .contactus-form input[type="text"] {
+    background-color: #eeeeee;
+    outline: none;
+    width: 320px;
+    border-radius: 0;
+    padding-left: 10px; }
+  .contactus-form input[type="submit"] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #00C4C5;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    font-family: "Arya", sans-serif; }
+  .contactus-form input[name="your-message"] {
+    padding-bottom: 200px; }
+
+.contactus-map figure {
+  margin: 0;
+  text-align: center; }
+  .contactus-map figure iframe {
+    height: 400px;
+    width: 320px; }
+
+.contactus-parking {
+  text-align: center;
+  width: 80%;
+  color: #4A4A4A; }
+
+.contactus-transit {
+  text-align: center;
+  color: #4A4A4A; }
+
+.regular-banner-page .button-desktop {
+  display: none; }
+
+.regular-banner-page .button-mobile {
+  display: block; }
+  .regular-banner-page .button-mobile .support-us-button {
+    background-color: #00C4C5;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: #00C4C5;
+    line-height: 12pt;
+    font-size: 14px;
+    font-family: "Arya", sans-serif;
+    margin-top: -25px; }
+    .regular-banner-page .button-mobile .support-us-button a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+
+@media screen and (min-width: 1080px) {
+  .regular-banner-page .button-mobile {
+    display: none; }
+  .regular-banner-page .support-us-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .regular-banner-page .support-us-container .support-text {
+      width: 75%; }
+    .regular-banner-page .support-us-container .button-desktop {
+      display: block; }
+      .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-left: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5;
+        line-height: 1.5; } }
+
+@media screen and (min-width: 600px) {
+  .regular-banner-page {
+    font-size: 16px; }
+    .regular-banner-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
+
+.page-with-banner {
   font-size: 14px;
   line-height: 20pt;
   text-align: center;
   width: 100%;
   margin: 0 auto; }
-  .history-page .your-decision-banner {
-    z-index: -1; }
-  .history-page h2 {
-    display: none;
-    font-size: 30px;
+  .page-with-banner .page-with-subtitle,
+  .page-with-banner .page-with-button {
+    display: none; }
+  .page-with-banner .about-us-mobile {
+    display: block; }
+  .page-with-banner .banner {
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+  .page-with-banner .page-with-title {
     color: #fff;
     font-family: "Catamaran", sans-serif;
-    line-height: 55px;
-    font-weight: 900;
-    margin-top: 50px; }
+    text-align: center;
+    font-size: 18px;
+    padding-top: 90px; }
+  .page-with-banner .solid-blue {
+    background-color: #0076B6;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    line-height: 20pt;
+    padding: 25px; }
+  .page-with-banner .about-us-blue {
+    outline: 1pt solid #0076B6;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .page-with-banner .about-us-green {
+    outline: 1pt solid #00C4C5;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .page-with-banner p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .page-with-banner .solid-green {
+    background-color: #00C4C5;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    line-height: 20pt;
+    padding: 25px; }
+  .page-with-banner .about-us-desktop {
+    display: none; }
+  .page-with-banner .support-us-about-button,
+  .page-with-banner .strategic-plan-button {
+    background-color: #00C4C5;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border-radius: 8px;
+    border-color: #00C4C5;
+    line-height: 12pt;
+    font-size: 14px;
+    font-family: "Arya", sans-serif; }
+    .page-with-banner .support-us-about-button a,
+    .page-with-banner .strategic-plan-button a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
   @media screen and (min-width: 1080px) {
-    .history-page {
+    .page-with-banner {
       font-size: 18px;
       width: 100%;
       margin: 0 auto; }
-      .history-page p {
-        text-align: left;
-        margin-right: 350px; }
-      .history-page .your-decision-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row; }
-        .history-page .your-decision-container .your-decision-text {
-          width: 75%; }
-      .history-page h2 {
+      .page-with-banner .about-us-container p {
+        text-align: justify;
+        margin-left: 200px;
+        margin-right: 200px; }
+      .page-with-banner .page-with-subtitle {
         display: block;
-        font-size: 55px;
+        font-size: 20px;
         text-align: left;
-        margin-top: -100px; } }
+        margin-left: 60px;
+        color: #fff; }
+      .page-with-banner .page-with-button {
+        display: block;
+        margin-top: 15px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5;
+        border-color: #00C4C5;
+        line-height: 1.5;
+        background-color: #00C4C5;
+        box-shadow: none;
+        text-shadow: none;
+        margin-left: 60px;
+        margin-top: 250px; }
+      .page-with-banner .about-us-mobile {
+        display: none; }
+      .page-with-banner .banner {
+        width: 100%;
+        height: 642px;
+        background-size: cover; }
+      .page-with-banner .page-with-title {
+        color: #fff;
+        font-size: 60px;
+        text-align: left;
+        margin-left: 60px;
+        padding-top: 100px; }
+      .page-with-banner .solid-blue,
+      .page-with-banner .solid-green {
+        background-color: #fff;
+        color: #0076B6;
+        font-size: 36px; }
+      .page-with-banner .about-us-blue,
+      .page-with-banner .about-us-green {
+        outline: none; }
+      .page-with-banner .about-us-desktop {
+        display: block; }
+      .page-with-banner .about-us-info {
+        background-color: #0076B6;
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        margin-top: 150px;
+        margin-bottom: 70px; }
+      .page-with-banner .support-us-about-button {
+        margin-top: 15px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5;
+        line-height: 1.5; }
+      .page-with-banner p {
+        margin-left: 100px;
+        margin-right: 100px;
+        line-height: 35px; } }
   @media screen and (min-width: 600px) {
-    .history-page {
-      font-size: 16px; } }
+    .page-with-banner {
+      font-size: 16px; }
+      .page-with-banner h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; } }

@@ -238,7 +238,6 @@
 .disadvantages-class,
 .process-class {
     background: $color__background-teal;
-    ;
     color: $color__text-white;
 }
 
@@ -444,7 +443,7 @@
 
 
 // Your Decision
-.your-decision-page {
+.regular-banner-page {
     font-size: 14px;
     line-height: 20pt;
     text-align: center;
@@ -462,6 +461,7 @@
         line-height: 12pt;
         margin-top: 15px;
         font-size: 14px;
+        font-family: $font__secondary;
     
         a {
             color: $color__background-white;
@@ -469,12 +469,12 @@
             text-decoration: none;   
         }
     }
-    .your-decision-banner {
+    .regular-banner {
        width: 100%;
        height: 200px;
        background-size: cover;
     }
-    .your-decision-title {
+    .regular-title {
         color: $color__background-white;
         font-family: $font__header;
         text-align: center;
@@ -489,12 +489,12 @@
         p {
             text-align: left;
         }
-        .your-decision-banner {
+        .regular-banner {
             width: 100%;
-            height: 500px;
+            height: 642px;
             background-size: cover;
         }
-        .your-decision-title {
+        .regular-title {
             color: $color__background-white;
             font-size: 60px;
             text-align: left;

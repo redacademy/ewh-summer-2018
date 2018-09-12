@@ -17,12 +17,10 @@ get_header();
 
 			<?php if ( has_post_thumbnail() ) ?>
 				<div class="banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
-				<h1 class="your-decision-title"> <?php the_title(); ?> </h1>
-				<?php echo CFS()->get('subtitle'); ?>
+				<h1 class="page-with-title"> <?php the_title(); ?> </h1>
+				<div class="page-with-subtitle"><?php echo CFS()->get('subtitle'); ?></div>
 				<button class="page-with-button"><?php echo CFS()->get('button'); ?></button>
 				</div>
-
-			<div class="container">
 				
 			<?php while ( have_posts() ) : the_post(); ?>
 
