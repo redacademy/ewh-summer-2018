@@ -1772,6 +1772,19 @@ div.hide-description {
 body {
   margin: 1rem; }
 
+div.entry-content {
+  width: 90%;
+  margin: auto; }
+
+body.birth-control-method h1.entry-title {
+  display: none; }
+
+body.birth-control-method div.entry-meta {
+  display: none; }
+
+.container {
+  max-width: 100%; }
+
 div.birth-control-header {
   color: white;
   background: #0076B6;
@@ -1782,18 +1795,19 @@ div.birth-control-header {
       flex-wrap: wrap;
   height: 440px;
   position: relative;
-  width: 100vw; }
+  width: 100vw;
+  max-width: 100%; }
 
 h1.bcm-title {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
   color: white;
-  width: 60%;
+  width: 70%;
   height: 70px;
   margin-left: 1rem;
-  font-size: 3.5rem;
-  margin-top: 9rem;
+  font-size: 2rem;
+  margin-top: 11rem;
   position: absolute; }
 
 img.bcm-img {
@@ -1804,10 +1818,7 @@ img.bcm-img {
   height: 440px; }
 
 .birth-control-header p {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  width: 60%;
+  width: 70%;
   text-align: inherit;
   margin-left: 1rem;
   display: none;
@@ -1819,6 +1830,9 @@ img.bcm-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 50%; }
+    margin-left: 60%; }
+  h1.bcm-title {
+    font-size: 3rem;
+    margin-top: 11rem; }
   .birth-control-header p {
     display: block; } }
