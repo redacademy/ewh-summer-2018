@@ -701,9 +701,12 @@ body {
   margin-bottom: 40px;
   color: white; }
 
-@media screen and (min-width: 1080px) {
-  .home-quotes-pic {
-    display: none; } }
+.home-quotes-pic {
+  position: relative;
+  top: -10px; }
+  @media screen and (min-width: 1080px) {
+    .home-quotes-pic {
+      display: none; } }
 
 @media screen and (min-width: 1080px) {
   .home-testimonial {
@@ -1857,27 +1860,6 @@ div.hide-description {
     .birth-control-methods-blue div.hide-description {
       display: block; } }
 
-<<<<<<< HEAD
-.contactus-top-divider {
-  position: relative;
-  margin: 0px; }
-
-.contactus-main-header {
-  color: #FFBD26;
-  font-family: "Catamaran", sans-serif;
-  font-size: 8px;
-  text-transform: capitalize; }
-
-.contactus-pleasecall {
-  background-color: #4A90E2;
-  color: white; }
-  .contactus-pleasecall p {
-    width: 75%;
-    margin: 0 auto; }
-
-.contactus-requestappointment-button a {
-  color: pink; }
-=======
 .history-page {
   font-size: 14px;
   line-height: 20pt;
@@ -1920,4 +1902,3 @@ div.hide-description {
   @media screen and (min-width: 600px) {
     .history-page {
       font-size: 16px; } }
->>>>>>> 30566dd39499111c409b599f0526105afe082545
