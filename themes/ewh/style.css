@@ -1806,7 +1806,7 @@ footer {
                   box-shadow: none;
           outline: #00C4C5;
           line-height: 1.5; } }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     .your-decision-page {
       font-size: 16px; }
       .your-decision-page h1 {
@@ -1896,6 +1896,6 @@ div.hide-description {
         font-size: 55px;
         text-align: left;
         margin-top: -100px; } }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 600px) {
     .history-page {
       font-size: 16px; } }
