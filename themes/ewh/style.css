@@ -1781,7 +1781,7 @@ div.birth-control-header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 440px;
-  position: absolute;
+  position: relative;
   width: 100vw; }
 
 h1.bcm-title {
@@ -1792,7 +1792,7 @@ h1.bcm-title {
   width: 60%;
   height: 70px;
   margin-left: 1rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-top: 9rem;
   position: absolute; }
 
@@ -1811,11 +1811,14 @@ img.bcm-img {
   text-align: inherit;
   margin-left: 1rem;
   display: none;
-  margin-top: 18rem; }
+  bottom: 10rem;
+  position: relative; }
 
 @media (min-width: 700px) {
   img.bcm-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 50%; } }
+    margin-left: 50%; }
+  .birth-control-header p {
+    display: block; } }
