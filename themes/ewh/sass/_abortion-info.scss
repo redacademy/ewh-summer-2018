@@ -243,7 +243,7 @@
 
 .myth-fact-class {
     outline: 1pt solid $color__background-teal;
-    border-bottom: 35pt solid $color__background-teal;
+    // border-bottom: 35pt solid $color__background-teal;
 
     h3 {
         color: $color__background-blue;
@@ -258,6 +258,40 @@
     .med-myth {
         margin: 25px;
     }
+
+    .tab-content {
+        @media (max-width: 660px) {
+        display: none;
+        }
+        &:nth-of-type(1) {
+        display: block;
+            }
+        
+    }
+
+    .tab-nav {
+        background: $color__background-teal;
+        display: flex;
+        .tab-next,
+        .tab-prev {
+            flex-direction: row;
+            border: none;
+            border-color: none;
+            box-shadow: none;
+            background: none;
+            text-shadow: none;
+            color: $color__background-white;
+            font-size: 20px;
+        }
+        .tab-prev {
+        //     align-items: flex-start;
+        margin-bottom: 20px;
+        }
+        // .tab-next {
+        //     align-items: flex-end;
+        // }
+    }
+    
 }
 
 .med-more-info-link {

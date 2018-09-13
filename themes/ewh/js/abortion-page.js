@@ -1,46 +1,37 @@
-// $(document).ready(function(){
-
-// // $(".advantages-class h2").on("click", function(event) {
-// //     event.preventDefault();
-// //     var clickedItem = $(this);
-// //     // var clickedHref = clickedItem.attr("href");
-// //     // console.log(clickedHref);
-// //     if (clickedItem == "#") {
-// //       clickedItem.next('.sub-menu').toggleClass('active');
-// //     } else {
-// //       return true;
-// //     }
-// //   }); 
-
-// $("h3").on("click", function() {
-//     // $(this).css({ background: "#666", color: "white" });
-  
-//     // $(this)
-//     //   .children()
-//     //   .css("display", "block");
-  
-//     $(this)
-//       .next("ol")
-//       .slideDown(500, "easeOutBounce");
-
-//     // $(this)
-//     //   .children()
-//     //   .slideDown(500, "easeOutBounce");
-  
-//     // $(this)
-//     //   .siblings()
-//     //   .css({ background: "white", color: "#000" });
-//     // $(this)
-//     //   .siblings()
-//     //   .find("p")
-//     //   .delay(1000)
-//     //   .slideUp(1000, "easeInOutBack");
-    
-// $( 'h2' ).click(function() {
-//     $( 'p' ).toggle( 'slow' );
-//   });
-  
+$(document).ready(function(){
 
 
-// });
-// });
+(function() {
+  var viewportWidth = $(document).width();
+  if (viewportWidth <= 660) {
+    setupTabs();
+  }
+
+  function setupTabs() {
+    var $tabContent = $(".tab-content"); // cache the jQuery dom elem
+    var $mythFactClass = $(".myth-fact-class"); // main container div
+    var tabIndex = 0; // set the tab index
+    var tabLength = $mythFactClass.length; // get the number of tabs
+
+    /**
+     * Tabbed Navigation Functionality
+     */
+    $(".tab-nav button").on("click", function() {
+      var buttonClicked = $(this).attr("class");
+
+      if (buttonClicked === "tab-prev" && tabIndex > 0) {
+        tabIndex--;
+        $tabContent.hide();
+        $tabContent.eq(tabIndex).fadeIn(300);
+      } else if (buttonClicked === "tab-next" && tabIndex < tabLength - 1) {
+        tabIndex++;
+        $tabContent.hide();
+        $mythFactClass.eq(tabIndex).fadeIn(300);
+        console.log("hi");
+      }
+    });
+  }
+})();
+
+
+});
