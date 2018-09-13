@@ -12,16 +12,6 @@ div.entry-content {
     margin: auto;
 }
 
-body.birth-control-method {
-h1.entry-title {
-    display: none;
-}
-
-div.entry-meta {
-    display: none;
-}
-}
-
 .container {
     max-width: 100%;
 }
@@ -29,7 +19,7 @@ div.entry-meta {
 .birth-control-header {
     color: white;
     background:$color__background-blue;
-    height: 440px;
+    // height: 440px;
     position: relative;
     width: 100vw;
     max-width: 100%;
@@ -42,19 +32,19 @@ div.entry-meta {
 
     .entry-title {
         order: 1;
+        display: block;
         color: white;
         width: 70%;
         height: 70px;
         margin-left: 1rem;
-        font-size: 2rem;
+        font-size: 3.5rem;
         margin-top: 11rem;
-        position: absolute;
     }
 
     img.attachment-large.size-large.wp-post-image {
         order: 2;
         position: relative;
-        height: 440px;
+        height: auto;
     }
 
     .post-328 p {
@@ -62,18 +52,12 @@ div.entry-meta {
         order: 3;
         text-align: inherit;
         margin-left: 1rem;
-        display: none;
+        // display: none;
         bottom: 10rem;
         position: relative;
     }
-
 }
 
-// post-328 {
-//     header.entry-header {
-//         display: none;
-//     }
-// }
 @media (min-width: 700px) {
 
         // img.bcm-img {

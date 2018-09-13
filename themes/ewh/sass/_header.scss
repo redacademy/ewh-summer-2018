@@ -6,7 +6,6 @@
   display: block;
 }
 // Page
-
 #page {
   position: relative;
   height: 100%;
@@ -16,9 +15,10 @@
 // Regular Header
 
 .site-header {
+  height: 100px;
+  background-color: $color__background-white;
   // Header
   .main-navigation {
-    height: 99px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -38,12 +38,13 @@
     .fa-bars {
       color: $color__text-screen;
       font-size: 25px;
+      margin: 0 auto;
       @include tablet {
         font-size: 40px;
       }
     }
   }
-  // X exit active header
+  // X exit header
   .exit-nav {
     display: none;
   }
@@ -51,16 +52,15 @@
   .span-home-logo {
     display: flex;
     align-items: center;
-    width: 50%;
-    @include tablet {
-      width: 35%;
-    }
+    justify-content: center;
+    width: 60%;
     @include desktop {
       width: 20%;
     }
     // IMG
     .home-logo {
-      height: 200px;
+      margin: 0 auto;
+      height: 100px;
       width: 100%;
       padding-bottom: 1rem;
     }
@@ -73,25 +73,25 @@
       display: none;
     }
     .chinese-nav {
-      font-size: 20px;
+      font-size: 17px;
       color: $color__text-screen;
       margin: 0;
       @include tablet {
-        font-size: 30px;
+        font-size: 25px;
       }
     }
   }
   // Navigation Menu
   .menu-navigation-menu-container {
     display: none;
+    height: 100%;
     width: 100%;
     text-align: center;
-    background-color: $color__background-white;
-
     @include desktop {
       display: block;
       width: 60%;
       // UL
+
       .menu {
         display: flex;
         width: 100%;
@@ -99,28 +99,57 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
+        .blue {
+          background-color: $color__background-blue;
+          a {
+            color: $color__text-white !important;
+          }
+        }
         // LI
         .menu-item {
           font-size: 1rem;
           width: 100%;
-          height: 30px;
+          height: 50px;
+          display: flex;
+          align-items: center;
           a {
-            margin: 0 auto;
+            width: 100%;
+            font-size: 1.25rem;
+            font-family: $font__secondary;
             color: $color__background-lighter-blue;
             outline: none;
             &:focus {
               outline: none;
+            }
+              &:hover {
+                color: $color__background-teal;
+                &::after {
+                color: $color__background-teal;
+                transition: 0s;
+              }
+              }
+            }
+          &.blue {
+            a{
+              &:hover {
+                &::after {
+                color: $color__background-blue;
+                transition: 0s;
+              }
+              }
             }
           }
           .sub-menu {
             background-color: $color__background-white;
             border-top: 5px solid $color__background-teal;
             position: absolute;
-            top: 30px;
-            left: -20px;
-            width: 0;
+            top: 50px;
+            left: 0%;
             display: none;
+            width: 0;
+            a{
+              font-size: 1rem;
+            }
             li {
               border-bottom: 1px solid $color__text-grey;
             }
@@ -128,11 +157,11 @@
               display: flex;
               flex-direction: column;
               background-color: $color__background-white;
-              z-index: 10;
             }
             .top-side-drop-down {
+              // border-top: 4px solid $color__background-teal;
               top: -5px;
-              left: 200px;
+              left: 250px;
               background-color: $color__background-blue;
               box-shadow: none;
               a {
@@ -142,24 +171,13 @@
             .side-drop-down {
               border-top: 1px solid $color__text-grey;
               top: -1px;
-              left: 200px;
+              left: 250px;
               background-color: $color__background-blue;
               box-shadow: none;
               a {
                 color: $color__text-white;
                 width: 100%;
               }
-            }
-            .blue {
-              background-color: $color__background-blue;
-              a {
-                color: $color__text-white;
-              }
-            }
-            .drop-down {
-              // height: 185px;
-              // z-index: 10;
-              // transition: 1s;
             }
           }
         }
@@ -199,6 +217,7 @@
       padding-bottom: 1rem;
     }
   }
+
 }
 // Active Header
 
@@ -208,6 +227,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  height: 100%;
   background-color: $color__background-white;
   // Header
   .main-navigation {
@@ -219,8 +239,8 @@
   }
   // X exit active header
   .exit-nav {
-    height: 50px;
-    width: 20%;
+    height: 100px;
+    width: 10%;
     display: flex;
     align-items: center;
     // Icon
@@ -237,16 +257,23 @@
   .span-home-logo {
     display: flex;
     align-items: center;
-    width: 80%;
-    //IMG
+    justify-content: center;
+    width: 65%;
+    // IMG
     .home-logo {
+      margin: 0 auto;
       height: 100px;
-      width: 70%;
+      width: 800px;
+      padding-bottom: 1rem;
+      @include tablet {
+        height: 200px;
+      }
     }
   }
   // Chinese Help Button
   .span-chinese-nav {
-    display: none;
+    width: 10%;
+    visibility: hidden;
   }
   // Navigation Menu
   .menu-navigation-menu-container {
@@ -259,25 +286,32 @@
       width: 100%;
       // LI
       .menu-item {
-        height: 0;
         width: 100%;
-        height: 30px;
-        // transition: 1s;
+        height: 50px;
         border-bottom: 1px solid $color__text-grey;
         a {
           color: $color__background-blue;
-          margin: 0 auto;
-        }
-
-        .sub-menu {
-          a {
-            color: $color__text-grey;
+          font-size: 20px;
+          width: 100%;
+          outline: none;
+          &:focus {
+            outline: none;
           }
+        }
+        .sub-menu {
+          // margin-top: 10px;
+          box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
           width: 100%;
           border-top: 1px solid $color__text-grey;
           background-color: $color__background-white;
+          a {
+            color: $color__text-grey;
+          }
           li {
             border-bottom: none;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
           }
           .fa-angle-down {
             position: absolute;
@@ -287,50 +321,77 @@
             color: $color__background-blue;
           }
           &.active {
-            height: auto;
+            // height: auto;
             width: 100%;
             display: flex;
             flex-direction: column;
-            // background-color: lightgrey;
-            box-shadow: none;
-            // border-bottom: 1px solid $color__text-grey;
           }
           &.active2 {
-            height: auto;
+            // height: auto;
             width: 100%;
             display: flex;
             flex-direction: column;
-            // background-color: lightgrey;
-            box-shadow: none;
             border-bottom: 1px solid $color__text-grey;
+          }
+        }
+      }
+      .blue {
+        background-color: $color__background-blue;
+        .sub-menu {
+          a {
+            color: black;
+          }
+        }
+        a {
+          color: $color__text-white;
+        }
+        .teal {
+          background-color: $color__background-teal;
+          .sub-menu {
+            a {
+              color: black;
+            }
+          }
+          a {
+            color: $color__text-white;
           }
         }
       }
     }
   }
 }
-
-.menu-item-has-children {
-  position: relative;
+.menu-item-has-children > a {
   &::after {
+    transform: rotate(0deg);
+    transition: 1s;
     font-family: 'FontAwesome';
     content: '\f107';
     position: absolute;
-    top: -5px;
+    top: 5px;
     right: 5px;
     font-size: 25px;
     color: $color__background-blue;
+&:hover{
+  color: $color__background-teal;
+}  
+}
+&.angle-icon {
+  &::after {
+    transform: rotate(180deg);
+    transition: 1s;
+    color: $color__background-teal;
   }
 }
-
-.angle-icon {
+&.angle-icon2 {
   &::after {
     font-family: 'FontAwesome';
     content: '\f106';
     position: absolute;
-    top: -5px;
+    top: 5px;
     right: 5px;
     font-size: 25px;
     color: $color__background-blue;
   }
 }
+}
+

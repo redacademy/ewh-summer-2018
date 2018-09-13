@@ -1,0 +1,187 @@
+// Your Decision
+.page-with-banner {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    .page-with-subtitle,
+    .page-with-button {
+        display: none;
+    }
+    .about-us-mobile {
+        display: block;
+    }
+    .banner {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+    }
+    .page-with-title {
+        color: $color__background-white;
+        font-family: $font__header;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 90px;
+    }
+    .solid-blue {
+        background-color: $color__background-blue;
+        color: $color__text-white;
+        font-family: $font__header;
+        font-size: 16px;
+        line-height: 20pt;
+        padding: 25px;
+    }
+    .about-us-blue {
+        outline: 1pt solid $color__background-blue;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .about-us-green {
+        outline: 1pt solid $color__background-teal;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+     p {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+    .solid-green {
+        background-color: $color__background-teal;
+        color: $color__text-white;
+        font-family: $font__header;
+        font-size: 16px;
+        line-height: 20pt;
+        padding: 25px;
+    }
+    .about-us-desktop {
+        display: none;
+    }
+    .support-us-about-button,
+    .strategic-plan-button {
+        background-color: $color__background-teal;
+        box-shadow: none;
+        text-shadow: none;
+        border-radius: 8px;
+        border-color: $color__background-teal;
+        line-height: 12pt;
+        font-size: 14px;
+        font-family: $font__secondary;
+    
+        a {
+            color: $color__background-white;
+            font-weight: bold;
+            text-decoration: none;   
+        }
+    }
+
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        .about-us-container p {
+            text-align: justify;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .page-with-subtitle {
+            display: block;
+            font-size: 20px;
+            text-align: left;
+            margin-left: 60px;
+            color: $color__background-white;
+        }
+        .page-with-button {
+            display: block;
+            margin-top: 15px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+            text-shadow: none;
+            box-shadow: none;
+            outline: $color__background-teal;
+            border-color: $color__background-teal;
+            line-height: 1.5;
+            background-color: $color__background-teal;
+            box-shadow: none;
+            text-shadow: none;
+            margin-left: 60px;
+            margin-top: 250px;
+        }
+        .about-us-mobile {
+            display: none;
+        }
+        .banner {
+            width: 100%;
+            height: 642px;
+            background-size: cover;
+        }
+        .page-with-title {
+            color: $color__background-white;
+            font-size: 60px;
+            text-align: left;
+            margin-left: 60px;
+            padding-top: 100px;
+        }
+        .solid-blue,
+        .solid-green {
+            background-color: $color__background-white;
+            color: $color__background-blue;
+            font-size: 36px;
+        }
+        .about-us-blue,
+        .about-us-green {
+            outline: none;
+        }
+        .about-us-desktop {
+            display: block;
+        }
+        .about-us-info {
+            background-color: $color__background-blue;
+            width: 100%;
+            color: $color__background-white;
+            font-size: 20px;
+            padding: 30px;
+            margin-top: 150px;
+            margin-bottom: 70px;
+        }
+        .support-us-about-button {
+            margin-top: 15px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+            text-shadow: none;
+            box-shadow: none;
+            outline: $color__background-teal;
+            line-height: 1.5;
+        }
+        p {
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 35px;
+        }
+    }
+        
+    @include tablet {
+        font-size: 16px;
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+    }
+}
+
+

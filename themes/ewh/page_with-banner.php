@@ -1,24 +1,26 @@
 <?php
 /**
+ * Template Name: Page With Banner
+ *
  * The template for displaying all pages.
  *
  * @package RED_Starter_Theme
  */
 
-get_header(); ?>
+get_header();
+?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-<div class="regular-banner-page">
+<div class="page-with-banner">
 
-			<?php if ( has_post_thumbnail() ): ?>
-    			<div class="regular-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
-				<h1 class="regular-title"> <?php the_title(); ?> </h1>
+			<?php if ( has_post_thumbnail() ) ?>
+				<div class="banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+				<h1 class="page-with-title"> <?php the_title(); ?> </h1>
+				<div class="page-with-subtitle"><?php echo CFS()->get('subtitle'); ?></div>
+				<button class="page-with-button"><?php echo CFS()->get('button'); ?></button>
 				</div>
-			<?php endif; ?>
-
-			<div class="container">
 				
 			<?php while ( have_posts() ) : the_post(); ?>
 
