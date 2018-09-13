@@ -19,9 +19,11 @@ get_header(); ?>
 
 			$birth_control_posts = get_posts( $args );
 			foreach ( $birth_control_posts as $post ) : setup_postdata( $post ); ?>
-			<div class="birth-control-methods-blue">
+
+			<a target='_blank' class="birth-control-methods-box" href="<?php the_permalink(); ?>">
+
 				<h2>
-					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				<?php the_title(); ?>
 				</h2>
 
 
@@ -30,9 +32,8 @@ get_header(); ?>
 				<div class ="hide-description"><?php echo CFS()->get( "description"); ?></div>
 				<br>
 				<?php echo CFS()->get( "price"); ?>
-				
 
-			</div>
+			</a>
 
 				<?php
 

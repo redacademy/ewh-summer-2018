@@ -51,7 +51,9 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					
 					<div class="span-donate-button">
+					<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Support Us' )))?>">
 					<button class="donate-button">Donate</button>
+					</a>
 					</div>
 
 				</nav><!-- #site-navigation -->
