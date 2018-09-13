@@ -10,8 +10,8 @@ function register_post_types() {
 
 // Register Custom Post Type
 $post_types = array(
-	'Birth Control Methods' => 'dashicons-image-filter',
-	'Chinese Resources'   => 'dashicons-universal-access',
+	'Birth Control Method' => 'dashicons-image-filter',
+	'Chinese Resource'   => 'dashicons-universal-access',
 );
 	foreach ( $post_types as $post_type => $dashicon ) {
 		$labels = array(
