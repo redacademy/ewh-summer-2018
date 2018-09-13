@@ -1785,54 +1785,49 @@ body.birth-control-method div.entry-meta {
 .container {
   max-width: 100%; }
 
-div.birth-control-header {
+.birth-control-header {
   color: white;
   background: #0076B6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   height: 440px;
   position: relative;
   width: 100vw;
   max-width: 100%; }
-
-h1.bcm-title {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  color: white;
-  width: 70%;
-  height: 70px;
-  margin-left: 1rem;
-  font-size: 2rem;
-  margin-top: 11rem;
-  position: absolute; }
-
-img.bcm-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 45%;
-  height: 440px; }
-
-.birth-control-header p {
-  width: 70%;
-  text-align: inherit;
-  margin-left: 1rem;
-  display: none;
-  bottom: 10rem;
-  position: relative; }
-
-@media (min-width: 700px) {
-  img.bcm-img {
+  .birth-control-header header.entry-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 60%; }
-  h1.bcm-title {
-    font-size: 3rem;
-    margin-top: 11rem; }
-  .birth-control-header p {
-    display: block; } }
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .birth-control-header .entry-title {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    color: white;
+    width: 70%;
+    height: 70px;
+    margin-left: 1rem;
+    font-size: 2rem;
+    margin-top: 11rem;
+    position: absolute; }
+  .birth-control-header img.attachment-large.size-large.wp-post-image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    position: relative;
+    height: 440px; }
+  .birth-control-header .post-328 p {
+    width: 70%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    text-align: inherit;
+    margin-left: 1rem;
+    display: none;
+    bottom: 10rem;
+    position: relative; }
+
+@media (min-width: 700px) {
+  img.attachment-large.size {
+    font-size: 3rem; } }

@@ -26,57 +26,67 @@ div.entry-meta {
     max-width: 100%;
 }
 
-div.birth-control-header {
+.birth-control-header {
     color: white;
     background:$color__background-blue;
-    display: flex;
-    flex-wrap: wrap;
     height: 440px;
     position: relative;
     width: 100vw;
     max-width: 100%;
+
+    header.entry-header {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .entry-title {
+        order: 1;
+        color: white;
+        width: 70%;
+        height: 70px;
+        margin-left: 1rem;
+        font-size: 2rem;
+        margin-top: 11rem;
+        position: absolute;
+    }
+
+    img.attachment-large.size-large.wp-post-image {
+        order: 2;
+        position: relative;
+        height: 440px;
+    }
+
+    .post-328 p {
+        width: 70%;
+        order: 3;
+        text-align: inherit;
+        margin-left: 1rem;
+        display: none;
+        bottom: 10rem;
+        position: relative;
+    }
+
 }
 
-h1.bcm-title {
-    order: 1;
-    color: white;
-    width: 70%;
-    height: 70px;
-    margin-left: 1rem;
-    font-size: 2rem;
-    margin-top: 11rem;
-    position: absolute;
-}
-
-img.bcm-img {
-    display: flex;
-    // position: relative;
-    margin-left: 45%;
-    height: 440px;
-}
-
-.birth-control-header p {
-    width: 70%;
-    text-align: inherit;
-    margin-left: 1rem;
-    display: none;
-    bottom: 10rem;
-    position: relative;
-}
+// post-328 {
+//     header.entry-header {
+//         display: none;
+//     }
+// }
 @media (min-width: 700px) {
 
-        img.bcm-img {
-            display: flex;
-            margin-left: 60%;
-        }
-
-        h1.bcm-title {
+        // img.bcm-img {
+        //     display: flex;
+        //     margin-left: 60%;
+        // }
+img.attachment-large.size {
+        // h1.bcm-title {
             font-size: 3rem;
-            margin-top: 11rem;
-
+            // margin-top: 11rem;
         }
 
-    .birth-control-header p {
-        display: block;
-    }
+    // .birth-control-header p {
+    //     display: block;
+    // }
 }
