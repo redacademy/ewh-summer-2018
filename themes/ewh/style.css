@@ -660,7 +660,7 @@ object {
 body {
   margin: 1rem; }
 
-.home .entry-title {
+.entry-title {
   display: none; }
 
 /* Front page */
@@ -2343,10 +2343,6 @@ div.hide-description {
         font-weight: 900;
         margin-top: 50px; } }
 
-<<<<<<< HEAD
-.error404 .page-title {
-  text-align: center; }
-=======
 /*--------------------------------------------------------------
 # single-birth_control_method
 --------------------------------------------------------------*/
@@ -2427,4 +2423,22 @@ div.entry-content {
     height: auto;
     width: auto;
     left: 70px; } }
->>>>>>> a61fb1d06a030a3bd9d760983bf71ca29b8499a0
+
+.error404 .page-title {
+  text-align: center; }
+
+.error404 p {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0; }
+
+.error404 input {
+  background-color: #eeeeee; }
