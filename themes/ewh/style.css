@@ -1920,6 +1920,63 @@ footer {
         font-weight: 900;
         margin-top: 50px; } }
 
+.miscarriage-page {
+  font-size: 14px;
+  line-height: 20pt;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify; }
+  .miscarriage-page h1 {
+    text-align: center;
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .miscarriage-page .miscarriage-heading {
+    color: #0076B6;
+    font-size: 16px; }
+  .miscarriage-page ol {
+    margin-left: -20px; }
+  .miscarriage-page .miscarriage-info {
+    background-color: #0076B6;
+    color: #fff;
+    padding: 25px; }
+    .miscarriage-page .miscarriage-info p {
+      text-align: center; }
+  @media screen and (min-width: 1080px) {
+    .miscarriage-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .miscarriage-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .miscarriage-page p {
+        margin-left: 70px;
+        margin-right: 70px; }
+      .miscarriage-page ol {
+        margin-left: 200px;
+        margin-right: 200px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 20px; }
+      .miscarriage-page .miscarriage-info {
+        margin-bottom: 50px;
+        margin-top: 50px; } }
+  @media screen and (min-width: 600px) {
+    .miscarriage-page {
+      font-size: 16px; }
+      .miscarriage-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 18px; } }
+
 .birth-control {
   width: 100%; }
 
@@ -2476,6 +2533,29 @@ div.hide-description {
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; } }
+
+.mollie-page .mollie-title {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 90px; }
+
+@media screen and (min-width: 1080px) {
+  .mollie-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px; }
+    .mollie-page .mollie-title {
+      color: #0076B6;
+      font-size: 60px;
+      text-align: left;
+      margin-left: 60px;
+      padding-top: 100px; } }
+
+.mollie-page p {
+  margin: 80px 100px; }
 
 /*--------------------------------------------------------------
 # single-birth_control_method

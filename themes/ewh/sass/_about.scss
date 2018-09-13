@@ -1,4 +1,4 @@
-// Your Decision
+// About Us & History
 .page-with-banner {
     font-size: 14px;
     line-height: 20pt;
@@ -185,3 +185,43 @@
 }
 
 
+// In Memory of Dr Mollie Rawling
+
+.mollie-page {
+    .mollie-title {
+        color: $color__background-white;
+        font-family: $font__header;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 90px;
+        }
+}
+
+.mollie-page {
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 30px;
+        .mollie-title {
+            color: $color__background-blue;
+            font-size: 60px;
+            text-align: left;
+            margin-left: 60px;
+            padding-top: 100px;
+        }
+    }
+    p {
+        margin: 80px 100px;
+    }
+}
+    
+
+
+
+
+// @include desktop {
+//     .mollie-title {
+//         color: $color__background-blue;
+//     }
+// }
