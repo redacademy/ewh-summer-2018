@@ -5,6 +5,52 @@
 
 
 // For Clinicians
+.for-clinicians-page {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+        display: block;
+        font-family: $font__header;
+        color: $color__background-blue;
+    }
+    h2 {
+        background-color: $color__background-blue;
+        color: $color__background-white;
+        font-family: $font__header;
+        line-height: 55px;
+        font-weight: 900;
+        font-family: $font__header;
+        font-size: 18px;
+    }
+    .referral-container,
+    .referral-more-info {
+        background-color: $color__background-teal;
+        color: $color__background-white;
+        padding: 25px;
+        .referral-button,
+        .referral-contact-us {
+            background-color: $color__background-blue;
+            box-shadow: none;
+            text-shadow: none;
+            border-radius: 8px;
+            border-color: $color__background-blue;
+            line-height: 12pt;
+            margin-top: 15px;
+            font-size: 14px;
+            color: $color__background-white;
+
+            a {
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }       
+    }
+
+}
+
 
 
 
