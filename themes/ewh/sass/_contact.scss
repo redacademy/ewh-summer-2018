@@ -105,14 +105,13 @@
 
 .contactus-parking{
     text-align: center;
-    width: 320px;
     color: $color__text-grey;
     @include desktop{
         width:720px;
         font-size: 19px;
         line-height: 30pt;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 }
 .contactus-transit{

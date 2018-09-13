@@ -2027,7 +2027,6 @@ div.hide-description {
 
 .contactus-parking {
   text-align: center;
-  width: 320px;
   color: #4A4A4A; }
   @media screen and (min-width: 1080px) {
     .contactus-parking {
@@ -2035,7 +2034,7 @@ div.hide-description {
       font-size: 19px;
       line-height: 30pt;
       width: 100%;
-      text-align: left; } }
+      text-align: center; } }
 
 .contactus-transit {
   text-align: center;
