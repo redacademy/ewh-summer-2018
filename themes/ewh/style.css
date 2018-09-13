@@ -1941,6 +1941,15 @@ div.hide-description {
   font-family: "Catamaran", sans-serif;
   font-size: 8px;
   text-transform: capitalize; }
+  @media screen and (min-width: 1080px) {
+    .contactus-main-header {
+      font-size: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
 
 .contactus-pleasecall {
   background-color: #4A90E2;
@@ -1952,6 +1961,10 @@ div.hide-description {
     margin: 0 auto;
     width: 90%;
     font-size: 14px; }
+    @media screen and (min-width: 1080px) {
+      .contactus-pleasecall p {
+        font-size: 18px;
+        padding-top: 50px; } }
 
 .contactus-requestappointment-button {
   background-color: #00C4C5;
@@ -1960,6 +1973,9 @@ div.hide-description {
   height: 50px;
   margin-top: 20px;
   font-family: "Arya", sans-serif; }
+  @media screen and (min-width: 1080px) {
+    .contactus-requestappointment-button {
+      width: 400px; } }
   .contactus-requestappointment-button a {
     position: relative;
     top: 10px; }
@@ -1995,15 +2011,55 @@ div.hide-description {
   .contactus-map figure iframe {
     height: 400px;
     width: 320px; }
+    @media screen and (min-width: 1080px) {
+      .contactus-map figure iframe {
+        width: 700px;
+        height: 700px; } }
 
 .contactus-parking {
   text-align: center;
   width: 80%;
   color: #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .contactus-parking {
+      text-align: start; } }
 
 .contactus-transit {
   text-align: center;
   color: #4A4A4A; }
+
+@media screen and (min-width: 1080px) {
+  .contactus-desktop-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40%; } }
+
+@media screen and (min-width: 1080px) {
+  .contactus-desktop-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 50px; } }
+
+@media screen and (min-width: 1080px) {
+  .contactus-desktop-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%; } }
 
 .regular-banner-page .button-desktop {
   display: none; }
