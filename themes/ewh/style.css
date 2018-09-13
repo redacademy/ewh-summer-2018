@@ -1571,6 +1571,7 @@ footer {
   text-align: center; }
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
+    display: block;
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
@@ -1683,14 +1684,17 @@ footer {
     font-size: 14px; }
 
 @media screen and (min-width: 600px) {
-  .medical-abortion-page h1,
-  .surgical-abortion-page h1 {
-    font-size: 30px;
-    color: #0076B6;
-    font-family: "Catamaran", sans-serif;
-    line-height: 55px;
-    font-weight: 900;
-    margin-top: 50px; } }
+  .medical-abortion-page,
+  .surgical-abortion-page {
+    font-size: 16px; }
+    .medical-abortion-page h1,
+    .surgical-abortion-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
 
 @media screen and (min-width: 1080px) {
   .medical-abortion-page,
@@ -2161,9 +2165,9 @@ div.hide-description {
     line-height: 12pt;
     font-size: 14px;
     font-family: "Arya", sans-serif;
-    margin-top: -25px; }
+    margin-top: -25px;
+    color: #fff; }
     .regular-banner-page .button-mobile .support-us-button a {
-      color: #fff;
       font-weight: bold;
       text-decoration: none; }
 
@@ -2207,6 +2211,111 @@ div.hide-description {
       line-height: 55px;
       font-weight: 900;
       margin-top: 50px; } }
+
+.for-clinicians-page {
+  font-size: 14px;
+  line-height: 20pt;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
+  .for-clinicians-page h1 {
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .for-clinicians-page h2 {
+    background-color: #0076B6;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px; }
+  .for-clinicians-page .referral-container,
+  .for-clinicians-page .referral-more-info {
+    background-color: #00C4C5;
+    color: #fff;
+    padding: 25px; }
+    .for-clinicians-page .referral-container .referral-button,
+    .for-clinicians-page .referral-container .referral-contact-us,
+    .for-clinicians-page .referral-more-info .referral-button,
+    .for-clinicians-page .referral-more-info .referral-contact-us {
+      background-color: #0076B6;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      border-radius: 8px;
+      border-color: #0076B6;
+      line-height: 12pt;
+      margin-top: 15px;
+      color: #fff; }
+      .for-clinicians-page .referral-container .referral-button a,
+      .for-clinicians-page .referral-container .referral-contact-us a,
+      .for-clinicians-page .referral-more-info .referral-button a,
+      .for-clinicians-page .referral-more-info .referral-contact-us a {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px; }
+  @media screen and (min-width: 1080px) {
+    .for-clinicians-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .for-clinicians-page p {
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 60px; }
+      .for-clinicians-page .centered-text p,
+      .for-clinicians-page .referral-more-info p {
+        text-align: center; }
+      .for-clinicians-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .for-clinicians-page h2 {
+        font-size: 26px;
+        font-family: "Catamaran", sans-serif;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 45px; }
+      .for-clinicians-page h3 {
+        color: #0076B6;
+        font-size: 22px;
+        text-align: left;
+        margin-left: 60px; }
+      .for-clinicians-page button {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5; }
+        .for-clinicians-page button a {
+          font-size: 18px; }
+      .for-clinicians-page .referral-more-info {
+        margin-bottom: 50px;
+        margin-top: 50px; }
+        .for-clinicians-page .referral-more-info a {
+          color: #0076B6; } }
+  @media screen and (min-width: 600px) {
+    .for-clinicians-page {
+      font-size: 16px; }
+      .for-clinicians-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .for-clinicians-page button {
+        font-size: 16px; } }
 
 .page-with-banner {
   font-size: 14px;

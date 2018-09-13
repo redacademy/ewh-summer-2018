@@ -5,6 +5,125 @@
 
 
 // For Clinicians
+.for-clinicians-page {
+    font-size: 14px;
+    line-height: 20pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+        display: block;
+        font-family: $font__header;
+        color: $color__background-blue;
+    }
+    h2 {
+        background-color: $color__background-blue;
+        color: $color__background-white;
+        font-family: $font__header;
+        line-height: 55px;
+        font-weight: 900;
+        font-family: $font__header;
+        font-size: 18px;
+    }
+    .referral-container,
+    .referral-more-info {
+        background-color: $color__background-teal;
+        color: $color__background-white;
+        padding: 25px;
+        .referral-button,
+        .referral-contact-us {
+            background-color: $color__background-blue;
+            box-shadow: none;
+            text-shadow: none;
+            border-radius: 8px;
+            border-color: $color__background-blue;
+            line-height: 12pt;
+            margin-top: 15px;
+            color: $color__background-white;
+
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 14px;
+            }
+        }       
+    }
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        p {
+            text-align: justify;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .centered-text p,
+        .referral-more-info p {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 26px;
+            font-family: $font__header;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            padding: 45px;
+        }
+        h3 {
+            color: $color__background-blue;
+            font-size: 22px;
+            text-align: left;
+            margin-left: 60px;
+        }
+        button {
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+            text-shadow: none;
+            box-shadow: none;
+            outline: $color__background-teal;
+            a {
+                font-size: 18px;
+            }
+        }
+        .referral-more-info {
+            margin-bottom: 50px;
+            margin-top: 50px;
+            a {
+                color: $color__background-blue;
+            }
+        }
+    }
+    @include tablet {
+        font-size: 16px;
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 16px;
+        }
+    }
+}
+
 
 
 
