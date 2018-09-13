@@ -16,19 +16,21 @@ section.birth-control.container {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 2rem;
+  margin: auto;
 }
 
 div.hide-description {
   display: none;
 }
 
-.birth-control-methods-blue {
+.birth-control-methods-box {
   color: #FFF;
   background:$color__background-blue;
   width: 43%;
   margin: .5rem;
   text-align: center;
   padding-bottom: 1rem;
+  display: block;
 
   a {
       color: white;
@@ -43,7 +45,7 @@ div.hide-description {
 
 @media (min-width: 600px) {
 
-.birth-control-methods-blue {
+.birth-control-methods-box {
 width: 22%;
 
 &:nth-child(n+0)  {
