@@ -2240,10 +2240,12 @@ div.hide-description {
         -ms-flex-direction: row;
             flex-direction: row; }
     .regular-banner-page .support-us-container .support-text {
-      width: 75%; }
+      width: 75%;
+      margin: 80px 100px; }
     .regular-banner-page .support-us-container .button-desktop {
       display: block; }
       .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-top: 100px;
         margin-left: 50px;
         padding-top: 16px;
         padding-bottom: 16px;
@@ -2256,7 +2258,8 @@ div.hide-description {
         -webkit-box-shadow: none;
                 box-shadow: none;
         outline: #00C4C5;
-        line-height: 1.5; } }
+        line-height: 1.5;
+        color: #fff; } }
 
 @media screen and (min-width: 600px) {
   .regular-banner-page {
