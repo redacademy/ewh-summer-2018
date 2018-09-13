@@ -16,9 +16,9 @@ get_header(); ?>
 
 <?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-<?php
-// echo CFS()->get "<p class ='bcm-text'>" .$row( 'head_line_text'). "</p>"; 
-?>
+<p class ='bcm-text'><?php
+echo CFS()->get('head_line_text') 
+?> </p>
 
 <?php the_post_navigation(); ?>
 
