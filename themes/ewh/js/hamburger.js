@@ -1,4 +1,7 @@
 (function($) {
+  if($('.menu-item > a').html() === 'Donate'){
+    this.hide();
+  }
   // Header Reset
   function reset() {
     $('.site-header').toggleClass('nav-site-header');

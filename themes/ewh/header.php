@@ -42,18 +42,20 @@
 						<a href="<?php echo home_url() ?>">
 						<img class="home-logo" src="<?php echo get_template_directory_uri() ?>/images/home-logo.svg">
 						</a>
-					</span>
+					</span>				
 
 					<span class="span-chinese-nav">
 					<p class="chinese-nav">中国资源</p>
 					</span>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+
+					<?php $menu = wp_get_nav_menu_items('Navigation Menu'); ?>
 					
 					<div class="span-donate-button">
-					<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Support Us' )))?>">
-					<button class="donate-button">Donate</button>
-					</a>
+		
+					<a href='<?php echo home_url(); ?>/donate' class="donate-button">Donate</a>
+	
 					</div>
 
 				</nav><!-- #site-navigation -->
