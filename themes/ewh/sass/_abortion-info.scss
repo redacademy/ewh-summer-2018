@@ -178,6 +178,7 @@
     text-align: center;
 
     h1 {
+        display: block;
         color: $color__background-blue;
         font-family: $font__header;
         font-weight: bold;
@@ -323,6 +324,7 @@
 .medical-abortion-page,
 .surgical-abortion-page {
     @include tablet {
+        font-size: 16px;
         h1 {
             font-size: 30px;
             color: $color__background-blue;
