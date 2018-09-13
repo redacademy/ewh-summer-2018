@@ -72,7 +72,7 @@ $post_types = array(
 				)
 			)
 		);
-		register_post_type( strtolower( $post_type ), $args );
+		register_post_type( strtolower( str_replace(' ', '_', $post_type )), $args );
 	}
 
 }
