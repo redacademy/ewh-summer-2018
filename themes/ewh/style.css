@@ -956,7 +956,7 @@ body {
 #secondary-menu {
   display: block; }
 
-#page {
+.site {
   position: relative;
   height: 100%;
   width: 100%; }
@@ -2446,13 +2446,16 @@ div.entry-content {
     width: auto;
     left: 70px; } }
 
+.error404 .site {
+  display: grid;
+  height: 100vh; }
+
+.error404 .site-footer {
+  -ms-flex-item-align: end;
+      align-self: end; }
+
 .error404 .page-title {
   text-align: center; }
-
-.error404 p {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 20px; }
 
 .error404 fieldset {
   border: 0;
@@ -2460,7 +2463,15 @@ div.entry-content {
   margin-bottom: 50px; }
 
 .error404 .page-content {
-  margin: 0; }
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
 
 .error404 input {
   background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
