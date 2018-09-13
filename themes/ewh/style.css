@@ -1623,8 +1623,7 @@ footer {
   color: #fff; }
 
 .myth-fact-class {
-  outline: 1pt solid #00C4C5;
-  border-bottom: 35pt solid #00C4C5; }
+  outline: 1pt solid #00C4C5; }
   .myth-fact-class h3 {
     color: #0076B6; }
   .myth-fact-class .med-fact {
@@ -1633,6 +1632,32 @@ footer {
     margin-bottom: -20px; }
   .myth-fact-class .med-myth {
     margin: 25px; }
+  @media (max-width: 660px) {
+    .myth-fact-class .tab-content {
+      display: none; } }
+  .myth-fact-class .tab-content:nth-of-type(1) {
+    display: block; }
+  .myth-fact-class .tab-nav {
+    background: #00C4C5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .myth-fact-class .tab-nav .tab-next,
+    .myth-fact-class .tab-nav .tab-prev {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      border: none;
+      border-color: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      background: none;
+      text-shadow: none;
+      color: #fff;
+      font-size: 20px; }
+    .myth-fact-class .tab-nav .tab-prev {
+      margin-bottom: 20px; }
 
 .med-more-info-link {
   color: #00C4C5;
