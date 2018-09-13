@@ -660,7 +660,7 @@ object {
 body {
   margin: 1rem; }
 
-.home .entry-title {
+.entry-title {
   display: none; }
 
 /* Front page */
@@ -2161,9 +2161,9 @@ div.hide-description {
     line-height: 12pt;
     font-size: 14px;
     font-family: "Arya", sans-serif;
-    margin-top: -25px; }
+    margin-top: -25px;
+    color: #fff; }
     .regular-banner-page .button-mobile .support-us-button a {
-      color: #fff;
       font-weight: bold;
       text-decoration: none; }
 
@@ -2207,6 +2207,50 @@ div.hide-description {
       line-height: 55px;
       font-weight: 900;
       margin-top: 50px; } }
+
+.for-clinicians-page {
+  font-size: 14px;
+  line-height: 20pt;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
+  .for-clinicians-page h1 {
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .for-clinicians-page h2 {
+    background-color: #0076B6;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px; }
+  .for-clinicians-page .referral-container,
+  .for-clinicians-page .referral-more-info {
+    background-color: #00C4C5;
+    color: #fff;
+    padding: 25px; }
+    .for-clinicians-page .referral-container .referral-button,
+    .for-clinicians-page .referral-container .referral-contact-us,
+    .for-clinicians-page .referral-more-info .referral-button,
+    .for-clinicians-page .referral-more-info .referral-contact-us {
+      background-color: #0076B6;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      border-radius: 8px;
+      border-color: #0076B6;
+      line-height: 12pt;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #fff; }
+      .for-clinicians-page .referral-container .referral-button a,
+      .for-clinicians-page .referral-container .referral-contact-us a,
+      .for-clinicians-page .referral-more-info .referral-button a,
+      .for-clinicians-page .referral-more-info .referral-contact-us a {
+        font-weight: bold;
+        text-decoration: none; }
 
 .page-with-banner {
   font-size: 14px;
@@ -2368,12 +2412,28 @@ div.hide-description {
         font-weight: 900;
         margin-top: 50px; } }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.error404 .page-title {
+  text-align: center; }
+
+=======
+>>>>>>> 48a2bdf2abf2ac320d011c5e0a67a00db784bcf2
+>>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
 /*--------------------------------------------------------------
 # single-birth_control_method
 --------------------------------------------------------------*/
 body {
   margin: 1rem; }
 
+<<<<<<< HEAD
+=======
+div.entry-content {
+  width: 100%;
+  margin: auto; }
+
+>>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
 .birth-control-header {
   color: white;
   background: #0076B6;
@@ -2441,6 +2501,31 @@ body {
     height: auto;
     width: auto;
     left: 70px; } }
+<<<<<<< HEAD
 
 .error404 .page-title {
   text-align: center; }
+=======
+<<<<<<< HEAD
+=======
+
+.error404 .page-title {
+  text-align: center; }
+
+.error404 p {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0; }
+
+.error404 input {
+  background-color: #eeeeee; }
+>>>>>>> 48a2bdf2abf2ac320d011c5e0a67a00db784bcf2
+>>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
