@@ -1926,6 +1926,9 @@ section.birth-control.container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-bottom: 2rem;
   margin: auto; }
 
@@ -2412,28 +2415,16 @@ div.hide-description {
         font-weight: 900;
         margin-top: 50px; } }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.error404 .page-title {
-  text-align: center; }
-
-=======
->>>>>>> 48a2bdf2abf2ac320d011c5e0a67a00db784bcf2
->>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
 /*--------------------------------------------------------------
 # single-birth_control_method
 --------------------------------------------------------------*/
 body {
   margin: 1rem; }
 
-<<<<<<< HEAD
-=======
 div.entry-content {
   width: 100%;
   margin: auto; }
 
->>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
 .birth-control-header {
   color: white;
   background: #0076B6;
@@ -2501,13 +2492,6 @@ div.entry-content {
     height: auto;
     width: auto;
     left: 70px; } }
-<<<<<<< HEAD
-
-.error404 .page-title {
-  text-align: center; }
-=======
-<<<<<<< HEAD
-=======
 
 .error404 .page-title {
   text-align: center; }
@@ -2527,5 +2511,3 @@ div.entry-content {
 
 .error404 input {
   background-color: #eeeeee; }
->>>>>>> 48a2bdf2abf2ac320d011c5e0a67a00db784bcf2
->>>>>>> d19a95114e3fc2a143acd087eeffe0f444f41af6
