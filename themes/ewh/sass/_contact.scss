@@ -11,6 +11,11 @@
     font-family: $font__header;
     font-size: 8px;
     text-transform: capitalize;
+    @include desktop{
+        font-size:20px;
+        display: flex;
+        justify-content: flex-start
+    }
 }
 .contactus-pleasecall{
     background-color: $color__background-lighter-blue;
@@ -22,6 +27,10 @@
         margin: 0 auto;
         width: 90%;
         font-size: 14px;
+        @include desktop{
+            font-size:18px;
+            padding-top:50px;
+        }
     }
 }
 
@@ -32,6 +41,9 @@
     height:50px;
     margin-top:20px;
     font-family: $font__secondary;
+    @include desktop{
+        width:400px;
+    }
     a{
         position: relative;
         top:10px;
@@ -66,6 +78,7 @@
     }
 }
 
+
 .contactus-map{
     figure{
         margin:0;
@@ -73,6 +86,10 @@
         iframe{
             height:400px;
             width:320px;
+            @include desktop{
+                width:700px;
+                height: 700px;
+            }
         }
     }
 }
@@ -80,8 +97,32 @@
     text-align: center;
     width:80%;
     color: $color__text-grey;
+    @include desktop{
+    text-align: start;
+    }
 }
 .contactus-transit{
     text-align: center;
     color: $color__text-grey;
+}
+.contactus-desktop-left{
+    @include desktop{
+        display: flex;
+        flex-direction: column;
+        width:40%;
+    }
+}
+.contactus-desktop-all{
+    @include desktop {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    }
+}
+.contactus-desktop-right{
+    @include desktop{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    }
 }
