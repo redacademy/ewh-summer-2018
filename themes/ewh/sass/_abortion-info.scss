@@ -178,6 +178,7 @@
     text-align: center;
 
     h1 {
+        display: block;
         color: $color__background-blue;
         font-family: $font__header;
         font-weight: bold;
@@ -323,6 +324,7 @@
 .medical-abortion-page,
 .surgical-abortion-page {
     @include tablet {
+        font-size: 16px;
         h1 {
             font-size: 30px;
             color: $color__background-blue;
@@ -570,5 +572,73 @@
     }
 }
 
-
 // Miscarriage Management
+.miscarriage-page {
+    font-size: 14px;
+    line-height: 20pt;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    h1 {
+        text-align: center;
+        display: block;
+        font-family: $font__header;
+        color: $color__background-blue;
+    }
+    .miscarriage-heading {
+        color: $color__background-blue;
+        font-size: 16px;
+    }
+    ol {
+        margin-left: -20px;
+    }
+    .miscarriage-info {
+        background-color: $color__background-blue;
+        color: $color__background-white;
+        padding: 25px;
+        p {
+            text-align: center;
+        }
+    }
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        h1 {
+        font-size: 36px;
+        color: $color__background-blue;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left;
+        }
+        p {
+        margin-left: 70px;
+        margin-right: 70px;
+        }
+        ol {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .miscarriage-heading {
+            font-size: 20px;
+        }
+        .miscarriage-info {
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+    }
+    @include tablet {
+        font-size: 16px;
+        h1 {
+            font-size: 30px;
+            color: $color__background-blue;
+            font-family: $font__header;
+            line-height: 55px;
+            font-weight: 900;
+            margin-top: 50px;
+        }
+        .miscarriage-heading {
+            font-size: 18px;
+        }
+    }
+}
