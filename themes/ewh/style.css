@@ -660,7 +660,7 @@ object {
 body {
   margin: 1rem; }
 
-.entry-title {
+.home .entry-title {
   display: none; }
 
 /* Front page */
@@ -2340,3 +2340,6 @@ div.hide-description {
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; } }
+
+.error404 .page-title {
+  text-align: center; }
