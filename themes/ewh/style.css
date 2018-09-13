@@ -660,7 +660,7 @@ object {
 body {
   margin: 1rem; }
 
-.home .entry-title {
+.entry-title {
   display: none; }
 
 /* Front page */
@@ -956,7 +956,7 @@ body {
 #secondary-menu {
   display: block; }
 
-#page {
+.site {
   position: relative;
   height: 100%;
   width: 100%; }
@@ -1571,6 +1571,7 @@ footer {
   text-align: center; }
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
+    display: block;
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
@@ -1683,14 +1684,17 @@ footer {
     font-size: 14px; }
 
 @media screen and (min-width: 600px) {
-  .medical-abortion-page h1,
-  .surgical-abortion-page h1 {
-    font-size: 30px;
-    color: #0076B6;
-    font-family: "Catamaran", sans-serif;
-    line-height: 55px;
-    font-weight: 900;
-    margin-top: 50px; } }
+  .medical-abortion-page,
+  .surgical-abortion-page {
+    font-size: 16px; }
+    .medical-abortion-page h1,
+    .surgical-abortion-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
 
 @media screen and (min-width: 1080px) {
   .medical-abortion-page,
@@ -1915,6 +1919,63 @@ footer {
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; } }
+
+.miscarriage-page {
+  font-size: 14px;
+  line-height: 20pt;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify; }
+  .miscarriage-page h1 {
+    text-align: center;
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .miscarriage-page .miscarriage-heading {
+    color: #0076B6;
+    font-size: 16px; }
+  .miscarriage-page ol {
+    margin-left: -20px; }
+  .miscarriage-page .miscarriage-info {
+    background-color: #0076B6;
+    color: #fff;
+    padding: 25px; }
+    .miscarriage-page .miscarriage-info p {
+      text-align: center; }
+  @media screen and (min-width: 1080px) {
+    .miscarriage-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .miscarriage-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .miscarriage-page p {
+        margin-left: 70px;
+        margin-right: 70px; }
+      .miscarriage-page ol {
+        margin-left: 200px;
+        margin-right: 200px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 20px; }
+      .miscarriage-page .miscarriage-info {
+        margin-bottom: 50px;
+        margin-top: 50px; } }
+  @media screen and (min-width: 600px) {
+    .miscarriage-page {
+      font-size: 16px; }
+      .miscarriage-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 18px; } }
 
 .birth-control {
   width: 100%; }
@@ -2161,9 +2222,9 @@ div.hide-description {
     line-height: 12pt;
     font-size: 14px;
     font-family: "Arya", sans-serif;
-    margin-top: -25px; }
+    margin-top: -25px;
+    color: #fff; }
     .regular-banner-page .button-mobile .support-us-button a {
-      color: #fff;
       font-weight: bold;
       text-decoration: none; }
 
@@ -2207,6 +2268,257 @@ div.hide-description {
       line-height: 55px;
       font-weight: 900;
       margin-top: 50px; } }
+
+.for-clinicians-page {
+  font-size: 14px;
+  line-height: 20pt;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
+  .for-clinicians-page h1 {
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .for-clinicians-page h2 {
+    background-color: #0076B6;
+    color: #fff;
+    font-family: "Catamaran", sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px; }
+  .for-clinicians-page .referral-container,
+  .for-clinicians-page .referral-more-info {
+    background-color: #00C4C5;
+    color: #fff;
+    padding: 25px; }
+    .for-clinicians-page .referral-container .referral-button,
+    .for-clinicians-page .referral-container .referral-contact-us,
+    .for-clinicians-page .referral-more-info .referral-button,
+    .for-clinicians-page .referral-more-info .referral-contact-us {
+      background-color: #0076B6;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      border-radius: 8px;
+      border-color: #0076B6;
+      line-height: 12pt;
+      margin-top: 15px;
+      color: #fff; }
+      .for-clinicians-page .referral-container .referral-button a,
+      .for-clinicians-page .referral-container .referral-contact-us a,
+      .for-clinicians-page .referral-more-info .referral-button a,
+      .for-clinicians-page .referral-more-info .referral-contact-us a {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px; }
+  @media screen and (min-width: 1080px) {
+    .for-clinicians-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .for-clinicians-page p {
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 60px; }
+      .for-clinicians-page .centered-text p,
+      .for-clinicians-page .referral-more-info p {
+        text-align: center; }
+      .for-clinicians-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .for-clinicians-page h2 {
+        font-size: 26px;
+        font-family: "Catamaran", sans-serif;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 45px; }
+      .for-clinicians-page h3 {
+        color: #0076B6;
+        font-size: 22px;
+        text-align: left;
+        margin-left: 60px; }
+      .for-clinicians-page button {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5; }
+        .for-clinicians-page button a {
+          font-size: 18px; }
+      .for-clinicians-page .referral-more-info {
+        margin-bottom: 50px;
+        margin-top: 50px; }
+        .for-clinicians-page .referral-more-info a {
+          color: #0076B6; } }
+  @media screen and (min-width: 600px) {
+    .for-clinicians-page {
+      font-size: 16px; }
+      .for-clinicians-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .for-clinicians-page button {
+        font-size: 16px; } }
+
+.strategic-plan-page .strategic-heading,
+.strategic-plan-page .values-title {
+  font-family: "Catamaran", sans-serif;
+  color: #0076B6;
+  font-size: 18px;
+  line-height: 20pt; }
+
+.strategic-plan-page .desktop-only {
+  display: none; }
+
+.strategic-plan-page h3 {
+  text-align: center;
+  color: #0076B6; }
+
+.strategic-plan-page p {
+  text-align: justify;
+  margin-bottom: 0; }
+
+.strategic-plan-page ul {
+  margin-left: -40px;
+  list-style-type: none;
+  text-transform: uppercase; }
+
+.strategic-plan-page .strategic-section {
+  background-color: #0076B6;
+  color: #fff;
+  padding: 20px;
+  text-align: center; }
+  .strategic-plan-page .strategic-section h2 {
+    color: #fff; }
+
+.strategic-plan-page .support-strategic-button {
+  color: #fff; }
+
+@media screen and (min-width: 1080px) {
+  .strategic-plan-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto; }
+    .strategic-plan-page p {
+      margin-left: 60px;
+      margin-right: 60px; }
+    .strategic-plan-page .strategic-heading,
+    .strategic-plan-page .values-title {
+      font-size: 32px;
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    .strategic-plan-page .blue-paragraph {
+      color: #0076B6;
+      margin-right: 60px;
+      margin-left: 60px; }
+    .strategic-plan-page .mobile-only {
+      display: none; }
+    .strategic-plan-page .mission-container {
+      margin-top: 40px;
+      background-color: #0076B6;
+      padding: 20px;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .mission-container h3 {
+        color: #fff;
+        width: 75%;
+        line-height: 2;
+        text-align: left;
+        padding-left: 20px; }
+      .strategic-plan-page .mission-container .desktop-only {
+        display: block;
+        color: #fff;
+        width: 25%;
+        margin-top: 50px; }
+    .strategic-plan-page .values-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .values-container .values-title {
+        padding-left: 20px;
+        padding-top: 50px; }
+      .strategic-plan-page .values-container .values-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .values-container .values-list .list-1 {
+          margin-left: 200px;
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-2 {
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-3 {
+          padding-top: 60px; }
+    .strategic-plan-page .strategic-section {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center; }
+      .strategic-plan-page .strategic-section .goals-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .strategic-section .goals-container .goals-1,
+        .strategic-plan-page .strategic-section .goals-container .goals-2,
+        .strategic-plan-page .strategic-section .goals-container .goals-3 {
+          padding-bottom: 40px;
+          text-align: left;
+          line-height: 2; }
+    .strategic-plan-page button {
+      margin-left: 50px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 80px;
+      padding-left: 80px;
+      border-radius: 12px;
+      font-family: "Arya", sans-serif;
+      font-size: 18px;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      outline: #00C4C5;
+      line-height: 1.5;
+      margin-bottom: 50px; } }
+
+@media screen and (min-width: 600px) {
+  .strategic-plan-page {
+    font-size: 16px; } }
+
+.strategic-plan-page .goals-container {
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .page-with-banner {
   font-size: 14px;
@@ -2368,8 +2680,90 @@ div.hide-description {
         font-weight: 900;
         margin-top: 50px; } }
 
+.mollie-page .mollie-title {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 90px; }
+
+@media screen and (min-width: 1080px) {
+  .mollie-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px; }
+    .mollie-page .mollie-title {
+      color: #0076B6;
+      font-size: 60px;
+      text-align: left;
+      margin-left: 60px;
+      padding-top: 100px; } }
+
+.mollie-page p {
+  margin: 80px 100px; }
+
+.testimonial-page-header {
+  text-align: center;
+  color: #0076B6; }
+
+.testimonial-1 {
+  background-color: #0076B6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-2 {
+  background-color: #00C4C5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-3 {
+  background-color: #0076B6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-4 {
+  background-color: #00C4C5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.error404 .site {
+  display: grid;
+  height: 100vh; }
+
+.error404 .site-footer {
+  -ms-flex-item-align: end;
+      align-self: end; }
+
 .error404 .page-title {
   text-align: center; }
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
+
+.error404 input {
+  background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
 
 /*--------------------------------------------------------------
 # single-birth_control_method
@@ -2378,11 +2772,8 @@ body {
   margin: 1rem; }
 
 div.entry-content {
-  width: 90%;
+  width: 100%;
   margin: auto; }
-
-.container {
-  max-width: 100%; }
 
 .birth-control-header {
   color: white;

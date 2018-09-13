@@ -131,6 +131,7 @@
     }
     h3 {
         text-align: center;
+        color: $color__background-blue;
     }
     p {
         text-align: justify;
@@ -145,12 +146,119 @@
         h2 {
             color: $color__text-white;
         }
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: $color__background-blue;
-    color: $color__text-white;
-    padding: 20px;
-    text-align: center;
+        background-color: $color__background-blue;
+        color: $color__text-white;
+        padding: 20px;
+        text-align: center;
+    }
+    .support-strategic-button {
+        color: $color__text-white;
+    }
+    @include desktop {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        p {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        .strategic-heading,
+        .values-title {
+            font-size: 32px;
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .blue-paragraph {
+            color: $color__background-blue;
+            margin-right: 60px;
+            margin-left: 60px;
+        }
+        .mobile-only {
+            display: none;
+        }
+        .mission-container {
+        margin-top: 40px;
+        background-color: $color__background-blue;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+            h3 {
+            color: $color__text-white;
+            width: 75%;
+            line-height: 2;
+            text-align: left;
+            padding-left: 20px;
+            }
+            .desktop-only {
+            display: block;
+            color: $color__text-white;
+            width: 25%;
+            margin-top: 50px;
+            }
+        }
+        .values-container {
+            display: flex;
+            flex-direction: row;
+            .values-title {
+                padding-left: 20px;
+                padding-top: 50px;
+            }
+            .values-list {
+                display: flex;
+                flex-direction: row;
+                .list-1 {
+                    margin-left: 200px;
+                    margin-right: 200px;
+                    padding-top: 60px;
+                }
+                .list-2 {
+                    margin-right: 200px;
+                    padding-top: 60px;
+                }
+                .list-3 {
+                    padding-top: 60px;
+                }
+            }
+        }
+        .strategic-section {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            .goals-container {
+                display: flex;
+                flex-direction: row;
+                .goals-1,
+                .goals-2,
+                .goals-3 {
+                    padding-bottom: 40px;
+                    text-align: left;
+                    line-height: 2;
+                }
+            }
+        }
+        button {
+            margin-left: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 80px;
+            padding-left: 80px;
+            border-radius: 12px;
+            font-family: $font__secondary;
+            font-size: 18px;
+            text-shadow: none;
+            box-shadow: none;
+            outline: $color__background-teal;
+            line-height: 1.5;
+            margin-bottom: 50px;
+        }
+    }
+    @include tablet {
+        font-size: 16px;
+    }
+    .goals-container {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
