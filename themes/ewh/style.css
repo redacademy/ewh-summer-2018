@@ -1981,7 +1981,13 @@ div.hide-description {
     top: 10px; }
 
 .contactus-info {
-  color: #4A4A4A; }
+  color: #4A4A4A;
+  text-align: center;
+  margin: 0 auto; }
+  @media screen and (min-width: 1080px) {
+    .contactus-info {
+      margin-left: 0;
+      font-size: 19px; } }
 
 .contactus-form {
   text-align: center; }
@@ -2008,25 +2014,44 @@ div.hide-description {
 .contactus-map figure {
   margin: 0;
   text-align: center; }
+  @media screen and (min-width: 1080px) {
+    .contactus-map figure {
+      text-align: left; } }
   .contactus-map figure iframe {
     height: 400px;
     width: 320px; }
     @media screen and (min-width: 1080px) {
       .contactus-map figure iframe {
-        width: 700px;
+        width: 1000px;
         height: 700px; } }
 
 .contactus-parking {
   text-align: center;
-  width: 80%;
+  width: 320px;
   color: #4A4A4A; }
   @media screen and (min-width: 1080px) {
     .contactus-parking {
-      text-align: start; } }
+      width: 720px;
+      font-size: 19px;
+      line-height: 30pt;
+      width: 100%;
+      text-align: left; } }
 
 .contactus-transit {
   text-align: center;
   color: #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .contactus-transit {
+      text-align: left;
+      font-size: 1px;
+      line-height: 30pt;
+      margin: 0; } }
+
+.contactus-desktop-left-mobile {
+  text-align: center; }
+  @media screen and (min-width: 1080px) {
+    .contactus-desktop-left-mobile {
+      display: none; } }
 
 @media screen and (min-width: 1080px) {
   .contactus-desktop-left {
@@ -2037,7 +2062,30 @@ div.hide-description {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 40%; } }
+    width: 100%;
+    text-align: left; }
+    .contactus-desktop-left p {
+      margin-top: 0; }
+    .contactus-desktop-left input {
+      width: 400px;
+      background-color: #eeeeee;
+      outline: 0; }
+    .contactus-desktop-left textarea {
+      background-color: #eeeeee;
+      outline: 0;
+      width: 400px;
+      height: 180px; }
+    .contactus-desktop-left .wpcf7-submit {
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      width: 240px;
+      font-size: 20px;
+      background-color: #00C4C5;
+      color: white;
+      text-transform: uppercase;
+      height: 60px;
+      border-radius: 20px; } }
 
 @media screen and (min-width: 1080px) {
   .contactus-desktop-all {
@@ -2060,6 +2108,16 @@ div.hide-description {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 60%; } }
+
+@media screen and (min-width: 1080px) {
+  .contactus-contact-form-mobile {
+    display: none; } }
+
+.contactus-contact-form-desktop {
+  display: none; }
+  @media screen and (min-width: 1080px) {
+    .contactus-contact-form-desktop {
+      display: block; } }
 
 .regular-banner-page .button-desktop {
   display: none; }
