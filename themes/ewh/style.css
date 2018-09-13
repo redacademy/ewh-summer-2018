@@ -2106,7 +2106,8 @@ div.hide-description {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 60%; } }
+    width: 60%;
+    padding-left: 20px; } }
 
 @media screen and (min-width: 1080px) {
   .contactus-contact-form-mobile {
