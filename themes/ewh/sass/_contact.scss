@@ -12,7 +12,7 @@
     font-size: 8px;
     text-transform: capitalize;
     @include desktop{
-        font-size:20px;
+        font-size: 20px;
         display: flex;
         justify-content: flex-start
     }
@@ -21,32 +21,32 @@
     background-color: $color__background-lighter-blue;
     color: white;
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     p{
-        padding-top:20px;
+        padding-top: 20px;
         margin: 0 auto;
         width: 90%;
         font-size: 14px;
         @include desktop{
-            font-size:18px;
-            padding-top:50px;
+            font-size: 18px;
+            padding-top: 50px;
         }
     }
 }
 
 .contactus-requestappointment-button{
     background-color: $color__background-teal;
-    width:160px;
+    width: 160px;
     border-radius: 10px;
-    height:50px;
-    margin-top:20px;
+    height: 50px;
+    margin-top: 20px;
     font-family: $font__secondary;
     @include desktop{
-        width:400px;
+        width: 400px;
     }
     a{
         position: relative;
-        top:10px;
+        top: 10px;
     }
 }
 .contactus-info{
@@ -60,7 +60,7 @@
         outline: none;
         width: 320px;
         border-radius: 0;
-        padding-left:10px;
+        padding-left: 10px;
     }
     input[type="submit"]{
         box-shadow: none;
@@ -68,9 +68,9 @@
         border-radius: 10px;
         color: white;
         background-color: $color__background-teal;
-        width:150px;
-        height:40px;
-        border:0;
+        width: 150px;
+        height: 40px;
+        border: 0;
         font-family: $font__secondary;
     }
     input[name="your-message"]{
@@ -81,13 +81,13 @@
 
 .contactus-map{
     figure{
-        margin:0;
+        margin: 0;
         text-align: center;
         iframe{
-            height:400px;
-            width:320px;
+            height: 400px;
+            width: 320px;
             @include desktop{
-                width:700px;
+                width: 700px;
                 height: 700px;
             }
         }
@@ -95,7 +95,7 @@
 }
 .contactus-parking{
     text-align: center;
-    width:80%;
+    width: 80%;
     color: $color__text-grey;
     @include desktop{
     text-align: start;
@@ -109,7 +109,7 @@
     @include desktop{
         display: flex;
         flex-direction: column;
-        width:40%;
+        width: 40%;
     }
 }
 .contactus-desktop-all{
@@ -123,6 +123,6 @@
     @include desktop{
     display: flex;
     flex-direction: column;
-    width:60%;
+    width: 60%;
     }
 }
