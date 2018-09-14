@@ -33,10 +33,12 @@
             flex-direction: row;
             .support-text {
                 width: 75%;
+                margin: 80px 100px;
             }
         .button-desktop {
             display: block;
             .support-us-button {
+                margin-top: 100px;
                 margin-left: 50px;
                 padding-top: 16px;
                 padding-bottom: 16px;
@@ -49,6 +51,7 @@
                 box-shadow: none;
                 outline: $color__background-teal;
                 line-height: 1.5;
+                color: $color__background-white;
                 }
             }
         }
