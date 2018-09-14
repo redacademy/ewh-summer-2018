@@ -2,32 +2,53 @@
 .testimonial-page-header{
     text-align: center;
     color: $color__background-blue;
+    @include desktop{
+        display: none;
+    }
+}
+.testimonial-desktop-hero{
+    position: relative;
+    display: none;
+    margin-bottom:50px;
+    @include desktop{
+        display: block;
+    }
+    figure{
+        margin:0;
+    }
+    h1{
+        position: absolute;
+        bottom:10px;
+        left:50px;
+        font-size: 80px;
+        color: white;
+    }
 }
 .testimonial-1{
     background-color: $color__background-blue;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-bottom:10px;
+    margin-bottom:30px;
 }
 .testimonial-2{
     background-color: $color__background-teal;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-bottom:10px;
+    margin-bottom:30px;
 }
 .testimonial-3{
     background-color: $color__background-blue;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-bottom:10px;
+    margin-bottom:30px;
 }
 .testimonial-4{
     background-color: $color__background-teal;
     color: white;
     text-align: center;
     padding:20px;
-    margin-bottom:10px;
+    margin-bottom:30px;
 }
