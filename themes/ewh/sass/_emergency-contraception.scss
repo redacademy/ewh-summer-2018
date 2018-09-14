@@ -1,0 +1,23 @@
+.emergency-contraception{
+  text-align: center;
+  h1{
+  color: $color__background-blue;
+  }
+  p{
+      text-align: left;
+  }
+  h3{
+      text-align: center;
+  }
+    h1{
+        @include desktop{
+        text-align: left;
+        }
+    }
+    h2{
+        text-align: left;
+    }
+    h3{
+        text-align: left;
+    }
+}
