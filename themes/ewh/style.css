@@ -1107,6 +1107,10 @@ body {
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
+            .site-header .menu-navigation-menu-container .menu .menu-item.nav-donate {
+              display: none; }
+            .site-header .menu-navigation-menu-container .menu .menu-item.nav-china {
+              display: block; }
             .site-header .menu-navigation-menu-container .menu .menu-item a {
               width: 100%;
               padding: 10px 0px;
@@ -1173,13 +1177,10 @@ body {
     display: none;
     background-color: #00C4C5;
     border-radius: 7px;
-    padding-bottom: 1rem;
     border: 0;
     width: 100%;
     height: 2rem;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    text-shadow: none;
+    padding-top: 4px;
     color: white; }
     .site-header .donate-button:hover {
       -webkit-box-shadow: none;
@@ -1190,7 +1191,8 @@ body {
       .site-header .donate-button {
         display: block; } }
   .site-header .span-donate-button {
-    display: none; }
+    display: none;
+    text-align: center; }
     @media screen and (min-width: 1080px) {
       .site-header .span-donate-button {
         height: 100px;
@@ -1269,6 +1271,10 @@ body {
       .nav-site-header .menu-navigation-menu-container .menu .menu-item {
         width: 100%;
         border-bottom: 1px solid #4A4A4A; }
+        .nav-site-header .menu-navigation-menu-container .menu .menu-item.nav-donate {
+          display: block; }
+        .nav-site-header .menu-navigation-menu-container .menu .menu-item.nav-china {
+          display: none; }
         .nav-site-header .menu-navigation-menu-container .menu .menu-item a {
           color: #0076B6;
           font-size: 20px;
@@ -2019,6 +2025,46 @@ div.hide-description {
     .birth-control-methods-box div.hide-description {
       display: block; } }
 
+.chinese-page {
+  width: 95%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto; }
+
+.chinese-div {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px; }
+  .chinese-div:nth-child(even) {
+    background-color: #00C4C5; }
+  .chinese-div:nth-child(odd) {
+    background-color: #0076B6; }
+  @media screen and (min-width: 600px) {
+    .chinese-div {
+      width: 49%;
+      font-size: 1.5rem; } }
+  .chinese-div h2 {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 1.5rem 0px; }
+  @media screen and (min-width: 1080px) {
+    .chinese-div {
+      font-size: 2rem; } }
+
+.chinese-div-single {
+  width: 95%;
+  margin: 0 auto; }
+
 .contactus-top-divider {
   position: relative;
   margin: 0;
@@ -2240,10 +2286,12 @@ div.hide-description {
         -ms-flex-direction: row;
             flex-direction: row; }
     .regular-banner-page .support-us-container .support-text {
-      width: 75%; }
+      width: 75%;
+      margin: 80px 100px; }
     .regular-banner-page .support-us-container .button-desktop {
       display: block; }
       .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-top: 100px;
         margin-left: 50px;
         padding-top: 16px;
         padding-bottom: 16px;
@@ -2256,7 +2304,8 @@ div.hide-description {
         -webkit-box-shadow: none;
                 box-shadow: none;
         outline: #00C4C5;
-        line-height: 1.5; } }
+        line-height: 1.5;
+        color: #fff; } }
 
 @media screen and (min-width: 600px) {
   .regular-banner-page {
@@ -2374,6 +2423,11 @@ div.hide-description {
       .for-clinicians-page button {
         font-size: 16px; } }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
 .strategic-plan-page .strategic-heading,
 .strategic-plan-page .values-title {
   font-family: "Catamaran", sans-serif;
@@ -2385,7 +2439,12 @@ div.hide-description {
   display: none; }
 
 .strategic-plan-page h3 {
+<<<<<<< HEAD
   text-align: center; }
+=======
+  text-align: center;
+  color: #0076B6; }
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
 
 .strategic-plan-page p {
   text-align: justify;
@@ -2397,8 +2456,11 @@ div.hide-description {
   text-transform: uppercase; }
 
 .strategic-plan-page .strategic-section {
+<<<<<<< HEAD
   margin-left: 15px;
   margin-right: 15px;
+=======
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
   background-color: #0076B6;
   color: #fff;
   padding: 20px;
@@ -2406,6 +2468,125 @@ div.hide-description {
   .strategic-plan-page .strategic-section h2 {
     color: #fff; }
 
+<<<<<<< HEAD
+=======
+.strategic-plan-page .support-strategic-button {
+  color: #fff; }
+
+@media screen and (min-width: 1080px) {
+  .strategic-plan-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto; }
+    .strategic-plan-page p {
+      margin-left: 60px;
+      margin-right: 60px; }
+    .strategic-plan-page .strategic-heading,
+    .strategic-plan-page .values-title {
+      font-size: 32px;
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    .strategic-plan-page .blue-paragraph {
+      color: #0076B6;
+      margin-right: 60px;
+      margin-left: 60px; }
+    .strategic-plan-page .mobile-only {
+      display: none; }
+    .strategic-plan-page .mission-container {
+      margin-top: 40px;
+      background-color: #0076B6;
+      padding: 20px;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .mission-container h3 {
+        color: #fff;
+        width: 75%;
+        line-height: 2;
+        text-align: left;
+        padding-left: 20px; }
+      .strategic-plan-page .mission-container .desktop-only {
+        display: block;
+        color: #fff;
+        width: 25%;
+        margin-top: 50px; }
+    .strategic-plan-page .values-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .values-container .values-title {
+        padding-left: 20px;
+        padding-top: 50px; }
+      .strategic-plan-page .values-container .values-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .values-container .values-list .list-1 {
+          margin-left: 200px;
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-2 {
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-3 {
+          padding-top: 60px; }
+    .strategic-plan-page .strategic-section {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center; }
+      .strategic-plan-page .strategic-section .goals-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .strategic-section .goals-container .goals-1,
+        .strategic-plan-page .strategic-section .goals-container .goals-2,
+        .strategic-plan-page .strategic-section .goals-container .goals-3 {
+          padding-bottom: 40px;
+          text-align: left;
+          line-height: 2; }
+    .strategic-plan-page button {
+      margin-left: 50px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 80px;
+      padding-left: 80px;
+      border-radius: 12px;
+      font-family: "Arya", sans-serif;
+      font-size: 18px;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      outline: #00C4C5;
+      line-height: 1.5;
+      margin-bottom: 50px; } }
+
+@media screen and (min-width: 600px) {
+  .strategic-plan-page {
+    font-size: 16px; } }
+
+.strategic-plan-page .goals-container {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+>>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
 .page-with-banner {
   font-size: 14px;
   line-height: 20pt;
@@ -2620,6 +2801,11 @@ div.hide-description {
   text-align: center;
   padding: 20px;
   margin-bottom: 10px; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
 
 .error404 .site {
   display: grid;
@@ -2631,6 +2817,26 @@ div.hide-description {
 
 .error404 .page-title {
   text-align: center; }
+>>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
+
+.error404 input {
+  background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
 
 .error404 fieldset {
   border: 0;
@@ -2729,6 +2935,7 @@ div.entry-content {
     width: auto;
     left: 70px; } }
 
+<<<<<<< HEAD
 .emergency-contraception {
   text-align: center; }
   .emergency-contraception h1 {
@@ -2744,3 +2951,34 @@ div.entry-content {
     text-align: left; }
   .emergency-contraception h3 {
     text-align: left; }
+=======
+.error404 .site {
+  display: grid;
+  height: 100vh; }
+
+.error404 .site-footer {
+  -ms-flex-item-align: end;
+      align-self: end; }
+
+.error404 .page-title {
+  text-align: center; }
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
+
+.error404 input {
+  background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
+>>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9

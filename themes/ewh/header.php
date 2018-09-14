@@ -44,18 +44,16 @@
 						</a>
 					</span>				
 
-					<span class="span-chinese-nav">
+					<a class="span-chinese-nav" href='<?php echo home_url(); ?>/chinese_resources'>
 					<p class="chinese-nav">中国资源</p>
-					</span>
+					</a>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
 					<?php $menu = wp_get_nav_menu_items('Navigation Menu'); ?>
 					
 					<div class="span-donate-button">
-		
-					<a href='<?php echo home_url(); ?>/donate' class="donate-button">Donate</a>
-	
+					<a class="donate-button" href='<?php echo home_url(); ?>/donate'>Donate</a>
 					</div>
 
 				</nav><!-- #site-navigation -->
