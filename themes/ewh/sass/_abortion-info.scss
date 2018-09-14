@@ -555,6 +555,9 @@
                 box-shadow: none;
                 outline: $color__background-teal;
                 line-height: 1.5;
+                a { 
+                    color: $color__background-white;
+                }
             }
         }
     }

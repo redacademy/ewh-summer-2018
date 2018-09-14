@@ -17,7 +17,7 @@ get_header(); ?>
 				<!-- Template from Single Birth Control Method -->
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header" container>
+	<header class="bcm-entry-header" container>
 
 		<div class='bcm-title'><?php the_title( '<h1 class="bcm-entry-title">', '</h1>' ); ?></div>
 
