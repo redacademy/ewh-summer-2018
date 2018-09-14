@@ -2243,10 +2243,12 @@ div.hide-description {
         -ms-flex-direction: row;
             flex-direction: row; }
     .regular-banner-page .support-us-container .support-text {
-      width: 75%; }
+      width: 75%;
+      margin: 80px 100px; }
     .regular-banner-page .support-us-container .button-desktop {
       display: block; }
       .regular-banner-page .support-us-container .button-desktop .support-us-button {
+        margin-top: 100px;
         margin-left: 50px;
         padding-top: 16px;
         padding-bottom: 16px;
@@ -2259,7 +2261,8 @@ div.hide-description {
         -webkit-box-shadow: none;
                 box-shadow: none;
         outline: #00C4C5;
-        line-height: 1.5; } }
+        line-height: 1.5;
+        color: #fff; } }
 
 @media screen and (min-width: 600px) {
   .regular-banner-page {
@@ -2377,6 +2380,155 @@ div.hide-description {
       .for-clinicians-page button {
         font-size: 16px; } }
 
+<<<<<<< HEAD
+=======
+.strategic-plan-page .strategic-heading,
+.strategic-plan-page .values-title {
+  font-family: "Catamaran", sans-serif;
+  color: #0076B6;
+  font-size: 18px;
+  line-height: 20pt; }
+
+.strategic-plan-page .desktop-only {
+  display: none; }
+
+.strategic-plan-page h3 {
+  text-align: center;
+  color: #0076B6; }
+
+.strategic-plan-page p {
+  text-align: justify;
+  margin-bottom: 0; }
+
+.strategic-plan-page ul {
+  margin-left: -40px;
+  list-style-type: none;
+  text-transform: uppercase; }
+
+.strategic-plan-page .strategic-section {
+  background-color: #0076B6;
+  color: #fff;
+  padding: 20px;
+  text-align: center; }
+  .strategic-plan-page .strategic-section h2 {
+    color: #fff; }
+
+.strategic-plan-page .support-strategic-button {
+  color: #fff; }
+
+@media screen and (min-width: 1080px) {
+  .strategic-plan-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto; }
+    .strategic-plan-page p {
+      margin-left: 60px;
+      margin-right: 60px; }
+    .strategic-plan-page .strategic-heading,
+    .strategic-plan-page .values-title {
+      font-size: 32px;
+      margin-top: 35px;
+      margin-bottom: 30px; }
+    .strategic-plan-page .blue-paragraph {
+      color: #0076B6;
+      margin-right: 60px;
+      margin-left: 60px; }
+    .strategic-plan-page .mobile-only {
+      display: none; }
+    .strategic-plan-page .mission-container {
+      margin-top: 40px;
+      background-color: #0076B6;
+      padding: 20px;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .mission-container h3 {
+        color: #fff;
+        width: 75%;
+        line-height: 2;
+        text-align: left;
+        padding-left: 20px; }
+      .strategic-plan-page .mission-container .desktop-only {
+        display: block;
+        color: #fff;
+        width: 25%;
+        margin-top: 50px; }
+    .strategic-plan-page .values-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .strategic-plan-page .values-container .values-title {
+        padding-left: 20px;
+        padding-top: 50px; }
+      .strategic-plan-page .values-container .values-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .values-container .values-list .list-1 {
+          margin-left: 200px;
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-2 {
+          margin-right: 200px;
+          padding-top: 60px; }
+        .strategic-plan-page .values-container .values-list .list-3 {
+          padding-top: 60px; }
+    .strategic-plan-page .strategic-section {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center; }
+      .strategic-plan-page .strategic-section .goals-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; }
+        .strategic-plan-page .strategic-section .goals-container .goals-1,
+        .strategic-plan-page .strategic-section .goals-container .goals-2,
+        .strategic-plan-page .strategic-section .goals-container .goals-3 {
+          padding-bottom: 40px;
+          text-align: left;
+          line-height: 2; }
+    .strategic-plan-page button {
+      margin-left: 50px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 80px;
+      padding-left: 80px;
+      border-radius: 12px;
+      font-family: "Arya", sans-serif;
+      font-size: 18px;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      outline: #00C4C5;
+      line-height: 1.5;
+      margin-bottom: 50px; } }
+
+@media screen and (min-width: 600px) {
+  .strategic-plan-page {
+    font-size: 16px; } }
+
+.strategic-plan-page .goals-container {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+>>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
 .page-with-banner {
   font-size: 14px;
   line-height: 20pt;
@@ -2591,6 +2743,39 @@ div.hide-description {
   text-align: center;
   padding: 20px;
   margin-bottom: 10px; }
+<<<<<<< HEAD
+=======
+
+.error404 .site {
+  display: grid;
+  height: 100vh; }
+
+.error404 .site-footer {
+  -ms-flex-item-align: end;
+      align-self: end; }
+
+.error404 .page-title {
+  text-align: center; }
+>>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
+
+.error404 fieldset {
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.error404 .page-content {
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
+
+.error404 input {
+  background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
 
 /*--------------------------------------------------------------
 # single-birth_control_method
