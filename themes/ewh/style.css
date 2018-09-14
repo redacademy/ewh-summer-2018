@@ -1914,7 +1914,9 @@ footer {
           -webkit-box-shadow: none;
                   box-shadow: none;
           outline: #00C4C5;
-          line-height: 1.5; } }
+          line-height: 1.5; }
+          .regular-banner-page .your-decision-container button a {
+            color: #fff; } }
   @media screen and (min-width: 600px) {
     .regular-banner-page {
       font-size: 16px; }
@@ -2426,14 +2428,6 @@ div.hide-description {
       .for-clinicians-page button {
         font-size: 16px; } }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
 .strategic-plan-page .strategic-heading,
 .strategic-plan-page .values-title {
   font-family: "Catamaran", sans-serif;
@@ -2445,12 +2439,8 @@ div.hide-description {
   display: none; }
 
 .strategic-plan-page h3 {
-<<<<<<< HEAD
-  text-align: center; }
-=======
   text-align: center;
   color: #0076B6; }
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
 
 .strategic-plan-page p {
   text-align: justify;
@@ -2462,11 +2452,6 @@ div.hide-description {
   text-transform: uppercase; }
 
 .strategic-plan-page .strategic-section {
-<<<<<<< HEAD
-  margin-left: 15px;
-  margin-right: 15px;
-=======
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
   background-color: #0076B6;
   color: #fff;
   padding: 20px;
@@ -2474,8 +2459,6 @@ div.hide-description {
   .strategic-plan-page .strategic-section h2 {
     color: #fff; }
 
-<<<<<<< HEAD
-=======
 .strategic-plan-page .support-strategic-button {
   color: #fff; }
 
@@ -2591,11 +2574,6 @@ div.hide-description {
   padding-left: 30px;
   padding-right: 30px; }
 
->>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
-<<<<<<< HEAD
-=======
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
 .page-with-banner {
   font-size: 14px;
   line-height: 20pt;
@@ -2810,14 +2788,6 @@ div.hide-description {
   text-align: center;
   padding: 20px;
   margin-bottom: 10px; }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
 
 .error404 .site {
   display: grid;
@@ -2829,29 +2799,6 @@ div.hide-description {
 
 .error404 .page-title {
   text-align: center; }
->>>>>>> 3b1c745e137134e2451895c4831949c8290198ce
-<<<<<<< HEAD
-=======
-
-.error404 fieldset {
-  border: 0;
-  text-align: center;
-  margin-bottom: 50px; }
-
-.error404 .page-content {
-  margin: 0 auto; }
-  .error404 .page-content p {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px; }
-
-.error404 input {
-  background-color: #eeeeee; }
-  @media screen and (min-width: 1080px) {
-    .error404 input {
-      width: 300px;
-      outline: 0; } }
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
 
 .error404 fieldset {
   border: 0;
@@ -2980,9 +2927,6 @@ div.birth-control-container {
     width: auto;
     left: 70px; } }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .emergency-contraception {
   text-align: center; }
   .emergency-contraception h1 {
@@ -2998,38 +2942,3 @@ div.birth-control-container {
     text-align: left; }
   .emergency-contraception h3 {
     text-align: left; }
-=======
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
-.error404 .site {
-  display: grid;
-  height: 100vh; }
-
-.error404 .site-footer {
-  -ms-flex-item-align: end;
-      align-self: end; }
-
-.error404 .page-title {
-  text-align: center; }
-
-.error404 fieldset {
-  border: 0;
-  text-align: center;
-  margin-bottom: 50px; }
-
-.error404 .page-content {
-  margin: 0 auto; }
-  .error404 .page-content p {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px; }
-
-.error404 input {
-  background-color: #eeeeee; }
-  @media screen and (min-width: 1080px) {
-    .error404 input {
-      width: 300px;
-      outline: 0; } }
-<<<<<<< HEAD
-=======
->>>>>>> 92e922cc75431519fe7066cfac84325de1a9b3e9
->>>>>>> 121d62262a078fe20e0095943d5e224b9c5733de
