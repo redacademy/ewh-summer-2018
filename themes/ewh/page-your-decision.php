@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-<div class="regular-banner-page">
+			<div class="regular-banner-page">
 
 			<?php if ( has_post_thumbnail() ): ?>
     			<div class="regular-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">

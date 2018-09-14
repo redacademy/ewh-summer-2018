@@ -956,7 +956,7 @@ body {
 #secondary-menu {
   display: block; }
 
-#page {
+.site {
   position: relative;
   height: 100%;
   width: 100%; }
@@ -1571,6 +1571,7 @@ footer {
   text-align: center; }
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
+    display: block;
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
@@ -1683,14 +1684,17 @@ footer {
     font-size: 14px; }
 
 @media screen and (min-width: 600px) {
-  .medical-abortion-page h1,
-  .surgical-abortion-page h1 {
-    font-size: 30px;
-    color: #0076B6;
-    font-family: "Catamaran", sans-serif;
-    line-height: 55px;
-    font-weight: 900;
-    margin-top: 50px; } }
+  .medical-abortion-page,
+  .surgical-abortion-page {
+    font-size: 16px; }
+    .medical-abortion-page h1,
+    .surgical-abortion-page h1 {
+      font-size: 30px;
+      color: #0076B6;
+      font-family: "Catamaran", sans-serif;
+      line-height: 55px;
+      font-weight: 900;
+      margin-top: 50px; } }
 
 @media screen and (min-width: 1080px) {
   .medical-abortion-page,
@@ -1915,6 +1919,63 @@ footer {
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; } }
+
+.miscarriage-page {
+  font-size: 14px;
+  line-height: 20pt;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify; }
+  .miscarriage-page h1 {
+    text-align: center;
+    display: block;
+    font-family: "Catamaran", sans-serif;
+    color: #0076B6; }
+  .miscarriage-page .miscarriage-heading {
+    color: #0076B6;
+    font-size: 16px; }
+  .miscarriage-page ol {
+    margin-left: -20px; }
+  .miscarriage-page .miscarriage-info {
+    background-color: #0076B6;
+    color: #fff;
+    padding: 25px; }
+    .miscarriage-page .miscarriage-info p {
+      text-align: center; }
+  @media screen and (min-width: 1080px) {
+    .miscarriage-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .miscarriage-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .miscarriage-page p {
+        margin-left: 70px;
+        margin-right: 70px; }
+      .miscarriage-page ol {
+        margin-left: 200px;
+        margin-right: 200px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 20px; }
+      .miscarriage-page .miscarriage-info {
+        margin-bottom: 50px;
+        margin-top: 50px; } }
+  @media screen and (min-width: 600px) {
+    .miscarriage-page {
+      font-size: 16px; }
+      .miscarriage-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .miscarriage-page .miscarriage-heading {
+        font-size: 18px; } }
 
 .birth-control {
   width: 100%; }
@@ -2246,14 +2307,75 @@ div.hide-description {
       border-color: #0076B6;
       line-height: 12pt;
       margin-top: 15px;
-      font-size: 14px;
       color: #fff; }
       .for-clinicians-page .referral-container .referral-button a,
       .for-clinicians-page .referral-container .referral-contact-us a,
       .for-clinicians-page .referral-more-info .referral-button a,
       .for-clinicians-page .referral-more-info .referral-contact-us a {
         font-weight: bold;
-        text-decoration: none; }
+        text-decoration: none;
+        font-size: 14px; }
+  @media screen and (min-width: 1080px) {
+    .for-clinicians-page {
+      font-size: 18px;
+      width: 100%;
+      margin: 0 auto; }
+      .for-clinicians-page p {
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 60px; }
+      .for-clinicians-page .centered-text p,
+      .for-clinicians-page .referral-more-info p {
+        text-align: center; }
+      .for-clinicians-page h1 {
+        font-size: 36px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        text-align: left; }
+      .for-clinicians-page h2 {
+        font-size: 26px;
+        font-family: "Catamaran", sans-serif;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 45px; }
+      .for-clinicians-page h3 {
+        color: #0076B6;
+        font-size: 22px;
+        text-align: left;
+        margin-left: 60px; }
+      .for-clinicians-page button {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 80px;
+        padding-left: 80px;
+        border-radius: 12px;
+        font-family: "Arya", sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        outline: #00C4C5; }
+        .for-clinicians-page button a {
+          font-size: 18px; }
+      .for-clinicians-page .referral-more-info {
+        margin-bottom: 50px;
+        margin-top: 50px; }
+        .for-clinicians-page .referral-more-info a {
+          color: #0076B6; } }
+  @media screen and (min-width: 600px) {
+    .for-clinicians-page {
+      font-size: 16px; }
+      .for-clinicians-page h1 {
+        font-size: 30px;
+        color: #0076B6;
+        font-family: "Catamaran", sans-serif;
+        line-height: 55px;
+        font-weight: 900;
+        margin-top: 50px; }
+      .for-clinicians-page button {
+        font-size: 16px; } }
 
 .page-with-banner {
   font-size: 14px;
@@ -2415,6 +2537,61 @@ div.hide-description {
         font-weight: 900;
         margin-top: 50px; } }
 
+.mollie-page .mollie-title {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 90px; }
+
+@media screen and (min-width: 1080px) {
+  .mollie-page {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px; }
+    .mollie-page .mollie-title {
+      color: #0076B6;
+      font-size: 60px;
+      text-align: left;
+      margin-left: 60px;
+      padding-top: 100px; } }
+
+.mollie-page p {
+  margin: 80px 100px; }
+
+.testimonial-page-header {
+  text-align: center;
+  color: #0076B6; }
+
+.testimonial-1 {
+  background-color: #0076B6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-2 {
+  background-color: #00C4C5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-3 {
+  background-color: #0076B6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.testimonial-4 {
+  background-color: #00C4C5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px; }
+
 /*--------------------------------------------------------------
 # single-birth_control_method
 --------------------------------------------------------------*/
@@ -2426,65 +2603,95 @@ div.entry-content {
   margin: auto; }
 
 .birth-control-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   color: white;
   background: #0076B6;
   position: relative;
   width: 100vw;
   max-width: 100%;
   height: 405px; }
-  .birth-control-header header.entry-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    height: auto;
-    min-height: 300px; }
-  .birth-control-header .entry-title {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    display: block;
-    color: white;
-    width: 60%;
-    height: 70px;
-    margin-left: 1rem;
-    margin-top: 5rem;
-    font-size: 2.5rem; }
-  .birth-control-header img.attachment-large.size-large.wp-post-image {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    position: relative;
-    height: 60%;
-    left: 70px;
-    width: 60%;
-    min-height: 300px; }
-  .birth-control-header p.bcm-text {
-    width: 70%;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-    text-align: inherit;
-    margin-left: 2rem;
-    bottom: 7rem;
-    position: relative;
-    display: none; }
 
-@media (min-width: 770px) {
-  .birth-control-header .entry-title {
+header.entry-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: auto;
+  min-height: 300px;
+  position: absolute; }
+
+div.bcm-title {
+  background: green;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 70vw;
+  height: 100%;
+  margin-top: -0.5em;
+  margin: auto;
+  left: 0; }
+  div.bcm-title h1 {
+    text-align: center;
+    left: 0; }
+
+div.bcm-text {
+  background: black;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  width: 70vw;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 2rem; }
+
+div.bcm-img {
+  background: blue;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  right: 0;
+  width: 40vw;
+  height: auto; }
+  div.bcm-img .img {
+    bottom: 0; }
+
+.bcm-entry-title {
+  text-align: center;
+  color: white; }
+
+div.bcm-text {
+  width: 70%;
+  text-align: inherit;
+  margin-left: 2rem;
+  bottom: 0;
+  position: relative;
+  display: none; }
+
+h1.bcm-title {
+  color: #0076B6; }
+
+div.birth-control-container {
+  width: 94%;
+  margin: auto; }
+
+@media (min-width: 600px) {
+  .birth-control-header .bcm-entry-title {
     margin-left: 2rem;
-    font-size: 3rem;
-    position: relative;
-    width: auto;
-    margin-top: 11rem;
-    display: inline; }
-  .birth-control-header p.bcm-text {
+    font-size: 3rem; }
+  .birth-control-header div.bcm-text {
     display: block;
-    width: 70%; }
-  .birth-control-header img.attachment-large.size-large.wp-post-image {
+    width: 70%;
+    position: absolute; }
+  .birth-control-header .bcm-img {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -2493,13 +2700,16 @@ div.entry-content {
     width: auto;
     left: 70px; } }
 
+.error404 .site {
+  display: grid;
+  height: 100vh; }
+
+.error404 .site-footer {
+  -ms-flex-item-align: end;
+      align-self: end; }
+
 .error404 .page-title {
   text-align: center; }
-
-.error404 p {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 20px; }
 
 .error404 fieldset {
   border: 0;
@@ -2507,7 +2717,15 @@ div.entry-content {
   margin-bottom: 50px; }
 
 .error404 .page-content {
-  margin: 0; }
+  margin: 0 auto; }
+  .error404 .page-content p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px; }
 
 .error404 input {
   background-color: #eeeeee; }
+  @media screen and (min-width: 1080px) {
+    .error404 input {
+      width: 300px;
+      outline: 0; } }
