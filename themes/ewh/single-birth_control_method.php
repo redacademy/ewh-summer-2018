@@ -14,11 +14,37 @@ get_header(); ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-<?php get_template_part( 'template-parts/content', 'single' ); ?>
+				<!-- Template from Single Birth Control Method -->
 
-<p class ='bcm-text'><?php
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<header class="entry-header" container>
+
+		<div class='bcm-title'><?php the_title( '<h1 class="bcm-entry-title">', '</h1>' ); ?></div>
+
+		<div class='bcm-text'><?php
 echo CFS()->get('head_line_text') 
-?> </p>
+?> </div>
+
+		<?php if ( has_post_thumbnail() ) : ?>
+			<div class='bcm-img'><?php the_post_thumbnail( 'large' ); ?> </div>
+		<?php endif; ?></p>
+
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<?php the_content(); ?>
+		<?php
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
+				'after'  => '</div>',
+			) );
+		?>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<?php red_starter_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
 
 <?php the_post_navigation(); ?>
 
