@@ -13,6 +13,8 @@ div.entry-content {
 }
 
 .birth-control-header {
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     background:$color__background-blue;
     // height: 440px;
@@ -20,6 +22,7 @@ div.entry-content {
     width: 100vw;
     max-width: 100%;
     height: 405px;
+}
 
     header.entry-header {
         display: flex;
@@ -27,58 +30,94 @@ div.entry-content {
         justify-content: flex-end;
         height: auto;
         min-height: 300px;
+        position: absolute;
     }
 
-    .entry-title {
+    div.bcm-title {
+        background: green;
         order: 1;
-        display: block;
-        color: white;
-        width: 60%;
-        height: 70px;
-        margin-left: 1rem;
-        margin-top: 5rem;
-        font-size: 2.5rem;
+        width: 70vw;
+        height: 100%;
+        margin-top: -0.5em;
+        margin: auto;
+        // position: absolute;
+        left: 0;
+        h1 {
+            text-align: center;
+            left: 0;
+        }
     }
 
-    img.attachment-large.size-large.wp-post-image {
-        order: 2;
-        position: relative;
-        height: 60%;
-        left: 70px;
-        width: 60%;
-        min-height: 300px;
-    }
+    div.bcm-text {
+        background: black;
 
-    p.bcm-text {
-        width: 70%;
         order: 3;
+        width: 70vw;
+        height: 30%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 2rem;
+    }
+
+    div.bcm-img {
+        background: blue;
+        order: 2;
+        right: 0;
+        width: 40vw;
+        height: auto;
+        .img {
+            // margin-top: -0.5em;
+            // margin: auto;
+            bottom: 0;
+    }
+    }
+
+    .bcm-entry-title {
+        text-align: center;
+        color: white;
+    }
+
+    // p.bcm-img {
+    //     position: relative;
+    // }
+
+    div.bcm-text {
+        width: 70%;
         text-align: inherit;
         margin-left: 2rem;
-        bottom: 7rem;
+        bottom: 0;
         position: relative;
         display: none;
     }
-}
 
-@media (min-width: 770px) {
+
+// To change the color of each product item
+
+h1.bcm-title {
+    color:$color__background-blue;
+  }
+
+  div.birth-control-container {
+      width: 94%;
+      margin: auto;
+  }
+
+@media (min-width: 600px) {
 
     .birth-control-header {
-    .entry-title {
-        margin-left: 2rem;
+        .bcm-entry-title {
+            margin-left: 2rem;
         font-size: 3rem;
-        position: relative;
-        width: auto;
-        // margin-top: auto;
-        margin-top: 11rem;
-        display: inline;
     }
 
-    p.bcm-text {
+    div.bcm-text {
         display: block;
         width: 70%;
+        position: absolute;
     }
 
-    img.attachment-large.size-large.wp-post-image {
+    .bcm-img {
         order: 2;
         position: relative;
         height: auto;
