@@ -996,6 +996,7 @@ body {
 
 .site-header {
   height: 100px;
+  width: 100%;
   background-color: #fff; }
   .site-header .main-navigation {
     width: 100%;
@@ -1070,7 +1071,8 @@ body {
     display: none;
     height: 100%;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin-right: 2%; }
     @media screen and (min-width: 1080px) {
       .site-header .menu-navigation-menu-container {
         display: block;
@@ -1210,12 +1212,12 @@ body {
         padding-bottom: 1rem; } }
 
 .nav-site-header {
-  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   height: 100%;
+  width: 100%;
   background-color: #fff; }
   .nav-site-header .main-navigation {
     -ms-flex-wrap: wrap;
@@ -2943,7 +2945,6 @@ div.entry-content {
       -ms-flex-pack: end;
           justify-content: flex-end;
   height: auto;
-  min-height: 300px;
   position: absolute; }
 
 div.bcm-title {
@@ -3049,7 +3050,7 @@ div.birth-control-container {
 
 .useful-link-div-single {
   background: #0076B6;
-  width: 49%;
+  width: 100%;
   margin-bottom: 1.5rem;
   padding: 0;
   text-shadow: none;
@@ -3059,6 +3060,9 @@ div.birth-control-container {
   height: 100px;
   color: #fff;
   overflow: hidden; }
+  @media screen and (min-width: 600px) {
+    .useful-link-div-single {
+      width: 49%; } }
   .useful-link-div-single:focus {
     -webkit-transition: 1s;
     transition: 1s;
@@ -3130,3 +3134,44 @@ div.birth-control-container {
       margin-left: 10px; }
       .useful-link-div-single ul li a {
         font-size: 25px; }
+
+.arrow-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.arrow {
+  background: lightgrey;
+  display: inline-block;
+  padding: 2.52rem;
+  padding-left: 7rem;
+  position: relative; }
+  .arrow a {
+    font-size: 2rem; }
+  .arrow::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border-top: 4rem solid transparent;
+    border-left: 6rem solid white;
+    border-bottom: 4rem solid transparent; }
+  .arrow::after {
+    content: '';
+    position: absolute;
+    right: -7rem;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 4rem solid transparent;
+    border-left: 7rem solid lightgrey;
+    border-bottom: 4rem solid transparent; }
+
+.abortion-procedure-block {
+  height: 100%;
+  width: 95%; }
