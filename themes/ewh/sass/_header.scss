@@ -49,7 +49,9 @@
 // Regular Header
 .site-header {
   height: 100px;
+  width: 100%;
   background-color: $color__background-white;
+  // position: fixed;
   // Header
   .main-navigation {
     width: 100%;
@@ -121,6 +123,7 @@
     height: 100%;
     width: 100%;
     text-align: center;
+    margin-right: 2%;
     @include desktop {
       display: block;
       width: 60%;
@@ -282,12 +285,13 @@
 
 // Active Header
 .nav-site-header {
-  position: absolute;
+  // position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   height: 100%;
+  width: 100%;
   background-color: $color__background-white;
   // Header
   .main-navigation {

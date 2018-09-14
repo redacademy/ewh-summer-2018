@@ -10,7 +10,7 @@
   }
 .useful-link-div-single {
   background: $color__background-blue;
-  width: 49%;
+  width: 100%;
   margin-bottom: 1.5rem;
   padding: 0;
   text-shadow: none;
@@ -19,6 +19,9 @@
   height: 100px;
   color: $color__text-white;
   overflow: hidden;
+  @include tablet{
+    width: 49%;
+  }
   &:focus{
     transition: 1s;
     height: 100%;
