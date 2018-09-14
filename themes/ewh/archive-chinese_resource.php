@@ -8,23 +8,24 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<main id="main" class="site-main" role="main">
 
-
+<section class="chinese-page">
  <?php if (have_posts()) : ?>
-						<?php while (have_posts()) : the_post(); ?>
-						
+                        <?php while (have_posts()) : the_post(); ?>
+                        
          <div class='chinese-div'>
-										<p><?php the_title();?></p>
-										<?php the_content();?>
-                </div>
+         <a href="<?php the_permalink(); ?>">		
+        <h2><?php the_title();?></h2>
+        </a>
+        </div>
 
   <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
         <?php else : ?>
             <h2>Nothing found!</h2>
         <?php endif; ?>
-
+</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

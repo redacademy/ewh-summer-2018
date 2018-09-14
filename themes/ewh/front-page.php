@@ -7,7 +7,6 @@
 
 get_header(); ?>
 
-<?php print get_post_type_archive_link('chinese_resource');?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

@@ -1,0 +1,43 @@
+.chinese-page{
+width: 95%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0 auto;
+@include tablet {
+  // &:nth-last-child(1){
+  //   justify-content: center;
+  // }
+}
+}
+.chinese-div{
+font-size: 1rem;
+color: $color__background-white;
+text-align: center;
+width: 100%;
+margin-bottom: 10px;
+&:nth-child(even){
+  background-color: $color__background-teal;
+}
+&:nth-child(odd){
+  background-color: $color__background-blue;
+}
+@include tablet {
+    width: 49%;
+    font-size: 1.5rem;
+}
+h2{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 1.5rem 0px;
+}
+@include desktop {
+  font-size: 2rem;
+}
+}
+.chinese-div-single{
+  width: 95%;
+  margin: 0 auto;
+}
