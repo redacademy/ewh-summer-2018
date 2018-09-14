@@ -18,7 +18,7 @@ get_header(); ?>
 	</div>
 <?php endif; ?>
 
-<div class="container">
+<!-- <div class="container"> -->
 	
 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -26,7 +26,7 @@ get_header(); ?>
 
 <?php endwhile; // End of the loop. ?>
 
-</div>
+<!-- </div> -->
 </div>
 
 		</main><!-- #main -->
