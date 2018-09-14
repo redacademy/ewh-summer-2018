@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: Abortion Procedure
  *
  * @package RED_Starter_Theme
  */
@@ -11,9 +11,24 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
+<h2>What to expect</h2>
+<p>Find more information about abortion preparation, abortion procedure and aftercare.</p>		
+<section class='arrow-container'>
+<div class="arrow">		
+<a class="before">Before Abortion</a>
+</div>
+<div class="arrow">		
+<a class="during">Abortion Procedure</a>
+</div>
+<div class="arrow">		
+<a class="after">After Abortion</a>
+</div>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+</section>
 
+<section class="abortion-procedure-block">
+
+</section>
 			<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->

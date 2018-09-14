@@ -1,0 +1,41 @@
+.arrow-container{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+.arrow{
+  background: lightgrey;
+  display: inline-block;
+ padding: 2.52rem;
+ padding-left: 7rem;
+ position: relative;
+ a{
+   font-size: 2rem;
+ }
+ &::before{
+content: '';
+position: absolute;
+ width: 0;
+ height: 0;
+ left: 0;
+ top: 0;
+ border-top: 4rem solid transparent;
+ border-left: 6rem solid white;
+ border-bottom: 4rem solid transparent;
+}
+ &::after{
+  content: '';
+  position: absolute;
+  right: -7rem;
+  top: 0;
+  width: 0;
+	height: 0;
+  border-top: 4rem solid transparent;
+  border-left: 7rem solid lightgrey;
+  border-bottom: 4rem solid transparent;
+}
+ }
+.abortion-procedure-block{
+  height: 100%;
+  width: 95%;
+}
