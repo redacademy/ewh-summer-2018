@@ -1918,7 +1918,9 @@ footer {
           -webkit-box-shadow: none;
                   box-shadow: none;
           outline: #00C4C5;
-          line-height: 1.5; } }
+          line-height: 1.5; }
+          .regular-banner-page .your-decision-container button a {
+            color: #fff; } }
   @media screen and (min-width: 600px) {
     .regular-banner-page {
       font-size: 16px; }
@@ -2259,6 +2261,49 @@ div.hide-description {
   @media screen and (min-width: 1080px) {
     .contactus-contact-form-desktop {
       display: block; } }
+
+.mural-hero-banner {
+  position: relative; }
+  .mural-hero-banner figure {
+    margin: 0; }
+  .mural-hero-banner h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: #0076B6;
+    color: white;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 250%; }
+
+.mural-info {
+  text-align: left;
+  width: 100%;
+  padding-right: 20%;
+  line-height: 40pt;
+  font-size: 22px;
+  color: #4A4A4A;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.mural-pic-trio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+  .mural-pic-trio figure {
+    margin: 0;
+    width: 415px; }
+
+.mural-bottom-pic {
+  margin-bottom: 50px; }
+  .mural-bottom-pic figure {
+    margin: 0; }
 
 .regular-banner-page .button-desktop {
   display: none; }
