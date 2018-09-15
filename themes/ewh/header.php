@@ -45,7 +45,7 @@
 					</span>				
 
 					<a class="span-chinese-nav" href='<?php echo home_url(); ?>/chinese_resources'>
-					<p class="chinese-nav">中国资源</p>
+					<p class="chinese-nav">中文资讯</p>
 					</a>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>

@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+(function($){
 
 (function() {
   var viewportWidth = $(document).width();
@@ -27,11 +26,9 @@ $(document).ready(function(){
         tabIndex++;
         $tabContent.hide();
         $mythFactClass.eq(tabIndex).fadeIn(300);
-        console.log("hi");
       }
     });
   }
 })();
 
-
-});
+})(jQuery);

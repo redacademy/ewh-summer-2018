@@ -12,10 +12,17 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 <h2>What to expect</h2>
-<p>Find more information about abortion preparation, abortion procedure and aftercare.</p>		
+<p>Find more information about abortion preparation, abortion procedure and aftercare.</p>	
+
+<?php 
+	$tab_label_1 = CFS()->get_field_info('before_abortion');
+	$tab_content_1 = CFS()->get('before_abortion_text_area');
+	?>
+
+
 <section class='arrow-container'>
 <div class="arrow">		
-<a class="before">Before Abortion</a>
+<a class="before"><?php echo $tab_label_1['label']; ?></a>
 </div>
 <div class="arrow">		
 <a class="during">Abortion Procedure</a>
@@ -25,9 +32,14 @@ get_header(); ?>
 </div>
 
 </section>
+<div class="CFS-div">
+	
 
+</div>
 <section class="abortion-procedure-block">
-
+	<div id="tab-1">
+		<p><?php echo $tab_content_1; ?></p>
+	</div>
 </section>
 			<?php endwhile; // End of the loop. ?>
 

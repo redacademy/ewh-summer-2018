@@ -1,6 +1,7 @@
 (function($){
 
 $('.arrow > a').on('click', function(){
+  console.log('hi');
 var clicked = $(this);
 if(clicked.hasClass('before')){
 $('.abortion-procedure-block').html(
@@ -29,4 +30,4 @@ $('.abortion-procedure-block').html(
 
 
 
-});
+})(jQuery);

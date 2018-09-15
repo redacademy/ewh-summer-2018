@@ -6,11 +6,14 @@
 .arrow{
   background: lightgrey;
   display: inline-block;
- padding: 2.52rem;
+height: 8rem;
  padding-left: 7rem;
  position: relative;
  a{
-   font-size: 2rem;
+   font-size: 2.5rem;
+   display: flex;
+align-items: center;
+height: 100%;
  }
  &::before{
 content: '';
