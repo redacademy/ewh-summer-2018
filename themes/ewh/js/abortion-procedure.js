@@ -1,9 +1,11 @@
 (function($){
   $('.tab-1').addClass('tab-1-show');
   $('.before').parent().addClass('highlight-arrow');
-$('.arrow > a').on('click', function(){
+$('.arrow-container > div > a').on('click', function(){
 var clicked = $(this);
-$('.arrow').removeClass('highlight-arrow');
+$('.arrow1').removeClass('highlight-arrow');
+$('.arrow2').removeClass('highlight-arrow');
+$('.arrow3').removeClass('highlight-arrow');
 if(clicked.hasClass('before')){
   $('.tab-1').addClass('tab-1-show');
   $('.tab-2').removeClass('tab-2-show');

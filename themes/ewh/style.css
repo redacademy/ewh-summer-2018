@@ -3041,6 +3041,7 @@ div.birth-control-container {
 
 .useful-page {
   width: 95%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3059,18 +3060,21 @@ div.birth-control-container {
   text-shadow: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   height: 100px;
   color: #fff;
   overflow: hidden; }
+  .useful-link-div-single ul {
+    height: 0%; }
   @media screen and (min-width: 600px) {
     .useful-link-div-single {
-      width: 49%; } }
+      width: 49%;
+      font-size: 1.5rem; } }
   .useful-link-div-single:focus {
     -webkit-transition: 1s;
     transition: 1s;
-    height: 100%;
-    outline: none; }
+    outline: none;
+    height: 100%; }
     .useful-link-div-single:focus ul {
       -webkit-box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
               box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
@@ -3104,9 +3108,13 @@ div.birth-control-container {
         content: '\f107';
         position: absolute;
         top: -20px;
-        right: -60px;
+        right: -50px;
         font-size: 4rem;
         color: #0076B6; }
+        @media screen and (min-width: 600px) {
+          .useful-link-div-single:nth-child(4n+4) h2::after, .useful-link-div-single:nth-child(4n+3) h2::after {
+            top: -20px;
+            right: -60px; } }
   .useful-link-div-single h2 {
     text-align: center;
     position: relative;
@@ -3120,9 +3128,13 @@ div.birth-control-container {
       content: '\f107';
       position: absolute;
       top: -20px;
-      right: -60px;
+      right: -50px;
       font-size: 4rem;
       color: #00c4c5; }
+      @media screen and (min-width: 600px) {
+        .useful-link-div-single h2::after {
+          top: -20px;
+          right: -60px; } }
   .useful-link-div-single ul {
     opacity: 0;
     font-size: 20px;
@@ -3138,21 +3150,36 @@ div.birth-control-container {
       .useful-link-div-single ul li a {
         font-size: 25px; }
 
+.abortion-procedure-container {
+  width: 95%;
+  margin: 0 auto; }
+
+.wtx {
+  color: #0076B6;
+  font-family: "Arsenal", sans-serif;
+  font-size: 3rem; }
+
+.wtxp {
+  font-size: 2rem; }
+
 .arrow-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
-.arrow {
+.arrow1 {
+  font-family: "Catamaran", sans-serif;
   background: lightgrey;
   display: inline-block;
   height: 8rem;
-  padding-left: 7rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
   position: relative; }
-  .arrow a {
+  .arrow1 a {
     font-size: 2.3rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3161,17 +3188,7 @@ div.birth-control-container {
         -ms-flex-align: center;
             align-items: center;
     height: 100%; }
-  .arrow::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 0;
-    top: 0;
-    border-top: 4rem solid transparent;
-    border-left: 6rem solid white;
-    border-bottom: 4rem solid transparent; }
-  .arrow::after {
+  .arrow1::after {
     content: '';
     position: absolute;
     right: -7rem;
@@ -3182,24 +3199,92 @@ div.birth-control-container {
     border-left: 7rem solid lightgrey;
     border-bottom: 4rem solid transparent; }
 
+.arrow2 {
+  font-family: "Catamaran", sans-serif;
+  background: lightgrey;
+  display: inline-block;
+  height: 8rem;
+  padding-left: 7rem;
+  position: relative; }
+  .arrow2 a {
+    font-size: 2.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%; }
+  .arrow2::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border-top: 4rem solid transparent;
+    border-left: 6rem solid white;
+    border-bottom: 4rem solid transparent; }
+  .arrow2::after {
+    content: '';
+    position: absolute;
+    right: -7rem;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 4rem solid transparent;
+    border-left: 7rem solid lightgrey;
+    border-bottom: 4rem solid transparent; }
+
+.arrow3 {
+  font-family: "Catamaran", sans-serif;
+  background: lightgrey;
+  display: inline-block;
+  height: 8rem;
+  padding-left: 9rem;
+  padding-right: 5rem;
+  position: relative; }
+  .arrow3 a {
+    font-size: 2.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%; }
+  .arrow3::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border-top: 4rem solid transparent;
+    border-left: 6rem solid white;
+    border-bottom: 4rem solid transparent; }
+
 .abortion-procedure-block {
   height: 100%;
-  width: 95%; }
+  width: 100%; }
 
 .tab-1 {
-  display: none; }
+  display: none;
+  font-size: 2rem; }
 
 .tab-1-show {
   display: block; }
 
 .tab-2 {
-  display: none; }
+  display: none;
+  font-size: 2rem; }
 
 .tab-2-show {
   display: block; }
 
 .tab-3 {
-  display: none; }
+  display: none;
+  font-size: 2rem; }
 
 .tab-3-show {
   display: block; }

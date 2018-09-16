@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: For Support Person
+ * 
  *
  * @package RED_Starter_Theme
  */

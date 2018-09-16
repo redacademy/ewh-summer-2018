@@ -1,9 +1,48 @@
+.abortion-procedure-container{
+  width: 95%;
+  margin: 0 auto;
+}
+.wtx{
+color: $color__background-blue;
+font-family: $font__main;
+font-size: 3rem;
+}
+.wtxp{
+font-size: 2rem;
+}
 .arrow-container{
   display: flex;
-  width: 90%;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: space-between;
 }
-.arrow{
+.arrow1{
+  font-family: $font__header;
+  background: lightgrey;
+  display: inline-block;
+height: 8rem;
+ padding-left: 4rem;
+ padding-right: 3rem;
+ position: relative;
+ a{
+   font-size: 2.3rem;
+   display: flex;
+align-items: center;
+height: 100%;
+ }
+ &::after{
+  content: '';
+  position: absolute;
+  right: -7rem;
+  top: 0;
+  width: 0;
+	height: 0;
+  border-top: 4rem solid transparent;
+  border-left: 7rem solid lightgrey;
+  border-bottom: 4rem solid transparent;
+}
+}
+.arrow2{
+  font-family: $font__header;
   background: lightgrey;
   display: inline-block;
 height: 8rem;
@@ -38,24 +77,55 @@ position: absolute;
   border-bottom: 4rem solid transparent;
 }
  }
+ .arrow3{
+  font-family: $font__header;
+  background: lightgrey;
+  display: inline-block;
+height: 8rem;
+ padding-left: 9rem;
+ padding-right: 5rem;
+ position: relative;
+ a{
+   font-size: 2.3rem;
+   display: flex;
+align-items: center;
+height: 100%;
+ }
+ &::before{
+content: '';
+position: absolute;
+ width: 0;
+ height: 0;
+ left: 0;
+ top: 0;
+ border-top: 4rem solid transparent;
+ border-left: 6rem solid white;
+ border-bottom: 4rem solid transparent;
+}
+ }
 .abortion-procedure-block{
   height: 100%;
-  width: 95%;
+  width: 100%;
 }
 .tab-1{
   display: none;
+  font-size: 2rem;
 }
 .tab-1-show{
   display: block;
 }
 .tab-2{
 display: none;
+font-size: 2rem;
+
 }
 .tab-2-show{
   display: block;
 }
 .tab-3{
 display: none;
+font-size: 2rem;
+
 }
 .tab-3-show{
   display: block;
