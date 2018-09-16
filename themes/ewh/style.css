@@ -679,7 +679,7 @@ body {
       display: none; } }
 
 .home-learnmore {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   width: 180px;
   margin: 0 auto;
   border-radius: 10px;
@@ -692,7 +692,7 @@ body {
       display: none; } }
 
 .home-learnmore-desktop {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   width: 300px !important;
   margin: 0 auto;
   border-radius: 10px;
@@ -718,7 +718,7 @@ body {
 
 .home-abortion-container {
   position: relative;
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   padding-left: 100px;
   text-align: center;
   padding-top: 7px;
@@ -943,7 +943,7 @@ body {
     color: white;
     cursor: pointer;
     margin-top: 30px;
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     width: 450px;
     border-radius: 10px;
     padding-top: 18px;
@@ -974,14 +974,14 @@ body {
   font-size: 25px;
   color: #0076B6; }
   .menu-item-has-children > a::after:hover {
-    color: #00C4C5; }
+    color: #00c4c5; }
 
 .menu-item-has-children > a.angle-icon::after {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   -webkit-transition: 1s;
   transition: 1s;
-  color: #00C4C5; }
+  color: #00c4c5; }
 
 .menu-item-has-children > a.angle-icon2::after {
   font-family: 'FontAwesome';
@@ -1124,9 +1124,9 @@ body {
               .site-header .menu-navigation-menu-container .menu .menu-item a:focus {
                 outline: none; }
               .site-header .menu-navigation-menu-container .menu .menu-item a:hover {
-                color: #00C4C5; }
+                color: #00c4c5; }
                 .site-header .menu-navigation-menu-container .menu .menu-item a:hover::after {
-                  color: #00C4C5;
+                  color: #00c4c5;
                   -webkit-transition: 1s;
                   transition: 1s; }
             .site-header .menu-navigation-menu-container .menu .menu-item.blue a:hover::after {
@@ -1135,7 +1135,7 @@ body {
               transition: 1s; }
             .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu {
               background-color: #fff;
-              border-top: 5px solid #00C4C5;
+              border-top: 5px solid #00c4c5;
               position: absolute;
               top: 50px;
               left: 0%;
@@ -1180,7 +1180,7 @@ body {
                 top: 2px; } }
   .site-header .donate-button {
     display: none;
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     border-radius: 7px;
     border: 0;
     width: 100%;
@@ -1341,7 +1341,7 @@ body {
         .nav-site-header .menu-navigation-menu-container .menu .blue a {
           color: #fff; }
         .nav-site-header .menu-navigation-menu-container .menu .blue .teal {
-          background-color: #00C4C5; }
+          background-color: #00c4c5; }
           .nav-site-header .menu-navigation-menu-container .menu .blue .teal .sub-menu a {
             color: black; }
           .nav-site-header .menu-navigation-menu-container .menu .blue .teal a {
@@ -1427,7 +1427,7 @@ footer {
               flex-direction: row; } }
   .footer-colors .footer-teal {
     width: 25%;
-    background-color: #00C4C5; }
+    background-color: #00c4c5; }
   .footer-colors .footer-orange {
     width: 25%;
     background-color: #FE7F42; }
@@ -1478,16 +1478,16 @@ footer {
 
 .abortion-contact-form,
 .abortion-before-during-after {
-  color: #00C4C5;
+  color: #00c4c5;
   font-weight: bold; }
 
 .compare-methods-button {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
   border-radius: 8px;
-  border-color: #00C4C5;
+  border-color: #00c4c5;
   line-height: 12pt;
   margin-top: 15px;
   font-size: 14px; }
@@ -1531,11 +1531,11 @@ footer {
     .abortion-methods-page .compare-methods-button,
     .abortion-methods-page .read-more-button {
       display: inline-block;
-      background-color: #00C4C5;
+      background-color: #00c4c5;
       -webkit-box-shadow: none;
               box-shadow: none;
       text-shadow: none;
-      border-color: #00C4C5;
+      border-color: #00c4c5;
       line-height: 12pt;
       margin-top: 15px;
       margin-bottom: 15px;
@@ -1545,7 +1545,9 @@ footer {
       padding-left: 80px;
       border-radius: 12px;
       font-family: "Arya", sans-serif;
-      font-size: 18px; }
+      font-size: 18px;
+      color: #fff;
+      font-weight: 700; }
     .abortion-methods-page h3,
     .abortion-methods-page h4 {
       font-size: 24px; }
@@ -1602,7 +1604,7 @@ footer {
     background: #0076B6; }
   .medical-abortion-page .med-abortion-green,
   .surgical-abortion-page .med-abortion-green {
-    background: #00C4C5; }
+    background: #00c4c5; }
   .medical-abortion-page ol,
   .surgical-abortion-page ol {
     margin-left: 0;
@@ -1632,11 +1634,11 @@ footer {
 
 .disadvantages-class,
 .process-class {
-  background: #00C4C5;
+  background: #00c4c5;
   color: #fff; }
 
 .myth-fact-class {
-  outline: 1pt solid #00C4C5; }
+  outline: 1pt solid #00c4c5; }
   .myth-fact-class h3 {
     color: #0076B6; }
   .myth-fact-class .med-fact {
@@ -1651,7 +1653,7 @@ footer {
   .myth-fact-class .tab-content:nth-of-type(1) {
     display: block; }
   .myth-fact-class .tab-nav {
-    background: #00C4C5;
+    background: #00c4c5;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -1673,19 +1675,19 @@ footer {
       margin-bottom: 20px; }
 
 .med-more-info-link {
-  color: #00C4C5;
+  color: #00c4c5;
   font-weight: bold; }
 
 .refund-policy-link {
   display: none; }
 
 .med-contact-button {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
   border-radius: 8px;
-  border-color: #00C4C5;
+  border-color: #00c4c5;
   line-height: 12pt;
   margin-top: 15px;
   color: #fff; }
@@ -1811,7 +1813,7 @@ footer {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5; }
+        outline: #00c4c5; }
     .medical-abortion-page .process-table ol,
     .surgical-abortion-page .process-table ol {
       display: -webkit-box;
@@ -1823,11 +1825,12 @@ footer {
               flex-direction: column;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      height: 500px; }
+      height: 500px;
+      margin-bottom: 100px; }
       .medical-abortion-page .process-table ol li,
       .surgical-abortion-page .process-table ol li {
         width: 550px;
-        height: 200px; }
+        height: 235px; }
     .medical-abortion-page .process-table .med-process-heading,
     .surgical-abortion-page .process-table .med-process-heading {
       margin-left: 10px; }
@@ -1856,12 +1859,12 @@ footer {
   .regular-banner-page .motherisk {
     color: #4A4A4A; }
   .regular-banner-page button {
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     -webkit-box-shadow: none;
             box-shadow: none;
     text-shadow: none;
     border-radius: 8px;
-    border-color: #00C4C5;
+    border-color: #00c4c5;
     line-height: 12pt;
     margin-top: 15px;
     font-size: 14px;
@@ -1919,7 +1922,7 @@ footer {
           text-shadow: none;
           -webkit-box-shadow: none;
                   box-shadow: none;
-          outline: #00C4C5;
+          outline: #00c4c5;
           line-height: 1.5; }
           .regular-banner-page .your-decision-container button a {
             color: #fff; } }
@@ -2022,17 +2025,17 @@ div.hide-description {
     color: white;
     text-decoration: none; }
   .birth-control-methods-box:nth-child(4n+4), .birth-control-methods-box:nth-child(4n+3) {
-    background: #00C4C5; }
+    background: #00c4c5; }
 
 @media (min-width: 600px) {
   .birth-control-methods-box {
     width: 22%; }
     .birth-control-methods-box:nth-child(n+0) {
-      background: #00C4C5; }
+      background: #00c4c5; }
     .birth-control-methods-box:nth-child(n+5) {
       background: #0076B6; }
     .birth-control-methods-box:nth-child(n+9) {
-      background: #00C4C5; }
+      background: #00c4c5; }
     .birth-control-methods-box div.hide-description {
       display: block; } }
 
@@ -2056,7 +2059,7 @@ div.hide-description {
   width: 100%;
   margin-bottom: 10px; }
   .chinese-div:nth-child(even) {
-    background-color: #00C4C5; }
+    background-color: #00c4c5; }
   .chinese-div:nth-child(odd) {
     background-color: #0076B6; }
   @media screen and (min-width: 600px) {
@@ -2112,7 +2115,7 @@ div.hide-description {
         padding-top: 50px; } }
 
 .contactus-requestappointment-button {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   width: 160px;
   border-radius: 10px;
   height: 50px;
@@ -2148,7 +2151,7 @@ div.hide-description {
     text-shadow: none;
     border-radius: 10px;
     color: white;
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     width: 150px;
     height: 40px;
     border: 0;
@@ -2225,7 +2228,7 @@ div.hide-description {
               box-shadow: none;
       width: 240px;
       font-size: 20px;
-      background-color: #00C4C5;
+      background-color: #00c4c5;
       color: white;
       text-transform: uppercase;
       height: 60px;
@@ -2332,12 +2335,12 @@ div.hide-description {
 .regular-banner-page .button-mobile {
   display: block; }
   .regular-banner-page .button-mobile .support-us-button {
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     -webkit-box-shadow: none;
             box-shadow: none;
     text-shadow: none;
     border-radius: 8px;
-    border-color: #00C4C5;
+    border-color: #00c4c5;
     line-height: 12pt;
     font-size: 14px;
     font-family: "Arya", sans-serif;
@@ -2376,7 +2379,7 @@ div.hide-description {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5;
+        outline: #00c4c5;
         line-height: 1.5;
         color: #fff; } }
 
@@ -2411,7 +2414,7 @@ div.hide-description {
     font-size: 18px; }
   .for-clinicians-page .referral-container,
   .for-clinicians-page .referral-more-info {
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     color: #fff;
     padding: 25px; }
     .for-clinicians-page .referral-container .referral-button,
@@ -2475,7 +2478,7 @@ div.hide-description {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5; }
+        outline: #00c4c5; }
         .for-clinicians-page button a {
           font-size: 18px; }
       .for-clinicians-page .referral-more-info {
@@ -2639,7 +2642,7 @@ div.hide-description {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5;
+        outline: #00c4c5;
         line-height: 1.5;
         margin-bottom: 50px; } }
   @media screen and (min-width: 600px) {
@@ -2682,7 +2685,7 @@ div.hide-description {
     margin-left: 20px;
     margin-right: 20px; }
   .page-with-banner .about-us-green {
-    outline: 1pt solid #00C4C5;
+    outline: 1pt solid #00c4c5;
     margin-left: 20px;
     margin-right: 20px; }
   .page-with-banner p {
@@ -2690,7 +2693,7 @@ div.hide-description {
     margin-left: 20px;
     margin-right: 20px; }
   .page-with-banner .solid-green {
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     color: #fff;
     font-family: "Catamaran", sans-serif;
     font-size: 16px;
@@ -2700,12 +2703,12 @@ div.hide-description {
     display: none; }
   .page-with-banner .support-us-about-button,
   .page-with-banner .strategic-plan-button {
-    background-color: #00C4C5;
+    background-color: #00c4c5;
     -webkit-box-shadow: none;
             box-shadow: none;
     text-shadow: none;
     border-radius: 8px;
-    border-color: #00C4C5;
+    border-color: #00c4c5;
     line-height: 12pt;
     font-size: 14px;
     font-family: "Arya", sans-serif; }
@@ -2742,10 +2745,10 @@ div.hide-description {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5;
-        border-color: #00C4C5;
+        outline: #00c4c5;
+        border-color: #00c4c5;
         line-height: 1.5;
-        background-color: #00C4C5;
+        background-color: #00c4c5;
         box-shadow: none;
         text-shadow: none;
         margin-left: 60px;
@@ -2792,7 +2795,7 @@ div.hide-description {
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        outline: #00C4C5;
+        outline: #00c4c5;
         line-height: 1.5; }
       .page-with-banner p {
         margin-left: 100px;
@@ -2863,7 +2866,7 @@ div.hide-description {
   margin-bottom: 30px; }
 
 .testimonial-2 {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   color: white;
   text-align: center;
   padding: 20px;
@@ -2877,7 +2880,7 @@ div.hide-description {
   margin-bottom: 30px; }
 
 .testimonial-4 {
-  background-color: #00C4C5;
+  background-color: #00c4c5;
   color: white;
   text-align: center;
   padding: 20px;
@@ -3089,7 +3092,7 @@ div.birth-control-container {
     -webkit-box-shadow: none;
             box-shadow: none; }
   .useful-link-div-single:nth-child(4n+4), .useful-link-div-single:nth-child(4n+3) {
-    background: #00C4C5; }
+    background: #00c4c5; }
     .useful-link-div-single:nth-child(4n+4) h2, .useful-link-div-single:nth-child(4n+3) h2 {
       color: #fff; }
       .useful-link-div-single:nth-child(4n+4) h2::after, .useful-link-div-single:nth-child(4n+3) h2::after {
@@ -3119,7 +3122,7 @@ div.birth-control-container {
       top: -20px;
       right: -60px;
       font-size: 4rem;
-      color: #00C4C5; }
+      color: #00c4c5; }
   .useful-link-div-single ul {
     opacity: 0;
     font-size: 20px;
@@ -3150,7 +3153,7 @@ div.birth-control-container {
   padding-left: 7rem;
   position: relative; }
   .arrow a {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3182,3 +3185,26 @@ div.birth-control-container {
 .abortion-procedure-block {
   height: 100%;
   width: 95%; }
+
+.tab-1 {
+  display: none; }
+
+.tab-1-show {
+  display: block; }
+
+.tab-2 {
+  display: none; }
+
+.tab-2-show {
+  display: block; }
+
+.tab-3 {
+  display: none; }
+
+.tab-3-show {
+  display: block; }
+
+.highlight-arrow {
+  background: #00c4c5; }
+  .highlight-arrow::after {
+    border-left: 7rem solid #00c4c5; }

@@ -10,7 +10,7 @@ height: 8rem;
  padding-left: 7rem;
  position: relative;
  a{
-   font-size: 2.5rem;
+   font-size: 2.3rem;
    display: flex;
 align-items: center;
 height: 100%;
@@ -41,4 +41,28 @@ position: absolute;
 .abortion-procedure-block{
   height: 100%;
   width: 95%;
+}
+.tab-1{
+  display: none;
+}
+.tab-1-show{
+  display: block;
+}
+.tab-2{
+display: none;
+}
+.tab-2-show{
+  display: block;
+}
+.tab-3{
+display: none;
+}
+.tab-3-show{
+  display: block;
+}
+.highlight-arrow{
+  background: $color__background-teal;
+  &::after{
+    border-left: 7rem solid $color__background-teal;
+  }
 }

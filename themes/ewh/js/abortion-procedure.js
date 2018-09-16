@@ -1,33 +1,24 @@
 (function($){
-
+  $('.tab-1').addClass('tab-1-show');
+  $('.before').parent().addClass('highlight-arrow');
 $('.arrow > a').on('click', function(){
-  console.log('hi');
 var clicked = $(this);
+$('.arrow').removeClass('highlight-arrow');
 if(clicked.hasClass('before')){
-$('.abortion-procedure-block').html(
-
-);
-// `<a href="${restResult[i].link}">
-// <div class="portfolio-grid-item">
-//   <div class="img-container" >
-//     <img src="${propertyImage}">
-//   </div>
-//   <div class="title-container">
-//     <p>${restResult[i].title.rendered}</p>
-//   </div>
-// </div>
-// </a>`
+  $('.tab-1').addClass('tab-1-show');
+  $('.tab-2').removeClass('tab-2-show');
+  $('.tab-3').removeClass('tab-3-show');
+  clicked.parent().addClass('highlight-arrow');
 } else if(clicked.hasClass('during')){
-  $('.abortion-procedure-block').html(
-    
-  ); 
-} else if(clicked.hasClass('before')){
-  $('.abortion-procedure-block').html(
-
-  ); 
+  $('.tab-1').removeClass('tab-1-show');
+  $('.tab-2').addClass('tab-2-show');
+  $('.tab-3').removeClass('tab-3-show');
+  clicked.parent().addClass('highlight-arrow');
+} else if(clicked.hasClass('after')){
+  $('.tab-1').removeClass('tab-1-show');
+  $('.tab-2').removeClass('tab-2-show');
+  $('.tab-3').addClass('tab-3-show');
+  clicked.parent().addClass('highlight-arrow');
 }
 });
-
-
-
 })(jQuery);
