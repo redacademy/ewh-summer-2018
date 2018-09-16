@@ -1,3 +1,34 @@
+.chinese-banner{
+  position: relative;
+  background-image: url("../../images/chinese-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
+  margin-bottom: 20px;
+  h2{
+    position: absolute;
+    bottom: 0;
+    color: $color__text-white;
+    font-size: 2rem;
+    left: .5rem;
+  }
+  @include tablet{
+    height: 20rem;
+    h2{
+      bottom: .5rem;
+      left: 2rem;
+      font-size: 2.5rem;
+    }
+  }
+  @include desktop{
+    height: 30rem; 
+    h2{
+      font-size: 3rem;
+    }
+  }
+}
 .chinese-page{
 width: 95%;
 height: 100%;
@@ -16,16 +47,25 @@ font-size: 1rem;
 color: $color__background-white;
 text-align: center;
 width: 100%;
-margin-bottom: 10px;
-&:nth-child(even){
-  background-color: $color__background-teal;
-}
+margin-bottom: 20px;
 &:nth-child(odd){
   background-color: $color__background-blue;
 }
+&:nth-child(even){
+  background-color: $color__background-teal;
+}
+
 @include tablet {
     width: 49%;
     font-size: 1.5rem;
+    &:nth-child(4n+1),
+    &:nth-child(4n+2) {
+    background-color: $color__background-blue;
+    }
+    &:nth-child(4n+4),
+    &:nth-child(4n+3)  {
+      background: $color__background-teal;
+    }
 }
 h2{
   height: 100%;
@@ -33,11 +73,9 @@ h2{
   margin: 0px;
   padding: 1.5rem 0px;
 }
-@include desktop {
-  font-size: 2rem;
-}
 }
 .chinese-div-single{
   width: 95%;
   margin: 0 auto;
+  margin-top: 10px;
 }

@@ -19,9 +19,10 @@
       $('.top-side-drop-down').slideUp(function() {});
     });
     $('.side-drop-down').animate({ width: '0px' }, 250, function() {
-      $('.side-drop-down').slideUp(function() {});
+      $('.side-drop-down').slideUp();
     });
     $('.sub-menu > .menu-item').removeClass('blue');
+
   }
   // First Sub Menu Reset
   function upReset() {
@@ -125,6 +126,7 @@
             $('.top-side-drop-down').slideDown(0, function() {
               clicked.parent().addClass('blue');
               $('.top-side-drop-down').animate({ width: '230px' }, 300);
+              clicked.slideDown(300);
             });
           }
           // If Not Top Menu Item
