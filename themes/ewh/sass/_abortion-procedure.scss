@@ -1,41 +1,315 @@
-.arrow-container{
-  display: flex;
-  width: 90%;
-  justify-content: space-around;
+.abortion-procedure-container {
+  width: 95%;
+  margin: 0 auto;
 }
-.arrow{
+.wtx {
+  color: $color__background-blue;
+  font-family: $font__main;
+  font-size: 3rem;
+}
+.wtxp {
+  font-size: 1.5rem;
+  width: 100%;
+}
+.arrow-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.arrow1 {
+  width: 30%;
+  border-radius: 20px;
+  font-family: $font__header;
   background: lightgrey;
   display: inline-block;
- padding: 2.52rem;
- padding-left: 7rem;
- position: relative;
- a{
-   font-size: 2rem;
- }
- &::before{
-content: '';
-position: absolute;
- width: 0;
- height: 0;
- left: 0;
- top: 0;
- border-top: 4rem solid transparent;
- border-left: 6rem solid white;
- border-bottom: 4rem solid transparent;
+  height: 8rem;
+  position: relative;
+  a {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  @include tablet {
+    border-radius: 0;
+    width: 25%;
+    a {
+      font-size: 1.3rem;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      right: -4rem;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-top: 4rem solid transparent;
+      border-left: 4rem solid lightgray;
+      border-bottom: 4rem solid transparent;
+    }
+  }
+  @include desktop {
+    a {
+      font-size: 2.5rem;
+    }
+  }
 }
- &::after{
-  content: '';
-  position: absolute;
-  right: -7rem;
-  top: 0;
-  width: 0;
-	height: 0;
-  border-top: 4rem solid transparent;
-  border-left: 7rem solid lightgrey;
-  border-bottom: 4rem solid transparent;
+.arrow2 {
+  width: 30%;
+  border-radius: 20px;
+  font-family: $font__header;
+  background: lightgrey;
+  display: inline-block;
+  height: 8rem;
+  //  padding-left: 7rem;
+  position: relative;
+  a {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  @include tablet {
+    width: 27%;
+    border-radius: 0;
+    padding-left: 3.5rem;
+    a {
+      font-size: 1.3rem;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 0;
+      top: 0;
+      border-top: 4rem solid transparent;
+      border-left: 4rem solid $color__background-white;
+      border-bottom: 4rem solid transparent;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      right: -4rem;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-top: 4rem solid transparent;
+      border-left: 4rem solid lightgray;
+      border-bottom: 4rem solid transparent;
+    }
+  }
+  @include desktop {
+    width: 29%;
+    a {
+      font-size: 2.5rem;
+    }
+  }
 }
- }
-.abortion-procedure-block{
+.arrow3 {
+  width: 30%;
+  border-radius: 20px;
+  font-family: $font__header;
+  background: lightgrey;
+  display: inline-block;
+  height: 8rem;
+  position: relative;
+  a {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  @include tablet {
+    width: 25%;
+    border-radius: 0;
+    padding-left: 4rem;
+    a {
+      font-size: 1.3rem;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 0;
+      top: 0;
+      border-top: 4rem solid transparent;
+      border-left: 4rem solid $color__background-white;
+      border-bottom: 4rem solid transparent;
+    }
+  }
+  @include desktop {
+    width: 29%;
+    a {
+      font-size: 2.5rem;
+    }
+  }
+}
+.abortion-procedure-block {
   height: 100%;
-  width: 95%;
+  width: 100%;
+}
+.tab-1 {
+  display: none;
+  h2 {
+    font-size: 1.5rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  li {
+    color: black;
+    padding-left: 5px;
+  }
+  ol {
+    color: $color__background-blue;
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%;
+  }
+  @include tablet {
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+  @include tablet {
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+}
+.tab-1-show {
+  display: block;
+}
+.tab-2 {
+  display: none;
+  h2 {
+    font-size: 1.5rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  ol {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%;
+    li {
+      padding-left: 5px;
+    }
+  }
+  @include tablet {
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+  @include tablet {
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+}
+.tab-2-show {
+  display: block;
+}
+.tab-3 {
+  display: none;
+  h2 {
+    font-size: 1.5rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  h3 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 1rem;
+    color: $color__text-white;
+    background-color: $color__background-blue;
+  }
+  ol {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%;
+    li {
+      padding-left: 5px;
+    }
+  }
+  @include tablet {
+    h3 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+  @include tablet {
+    h2 {
+      font-size: 2rem;
+    }
+    ol {
+      font-size: 1.5rem;
+    }
+  }
+}
+.tab-3-show {
+  display: block;
+}
+.highlight-arrow {
+  background: $color__background-teal;
+  &::after {
+    border-left: 4rem solid $color__background-teal;
+  }
+}
+.ap-contact-us {
+  background: $color__background-blue;
+  color: $color__text-white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 15rem;
+  margin: 2% 0;
+  p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  a {
+    margin: 0 auto;
+    font-size: 1rem;
+    background: $color__background-teal;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 3rem;
+  }
+  @include tablet {
+    p {
+      font-size: 1.5rem;
+    }
+    a {
+      font-size: 1.5rem;
+      padding: 1rem 3rem 1rem 3rem;
+    }
+  }
 }

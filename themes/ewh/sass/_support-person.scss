@@ -1,0 +1,118 @@
+.for-support-person-container {
+  width: 95%;
+  margin: 0 auto;
+  .arrow1 {
+    width: 40%;
+    border-radius: 20px;
+    font-family: $font__header;
+    background: lightgrey;
+    display: inline-block;
+    height: 8rem;
+    position: relative;
+    a {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    @include tablet {
+      border-radius: 0;
+      a {
+        font-size: 1.3rem;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        right: -4rem;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid lightgray;
+        border-bottom: 4rem solid transparent;
+      }
+    }
+    @include desktop {
+      a {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  .arrow3 {
+    width: 40%;
+    border-radius: 20px;
+    font-family: $font__header;
+    background: lightgrey;
+    display: inline-block;
+    height: 8rem;
+    //  padding-left: 9rem;
+    //  padding-right: 5rem;
+    position: relative;
+    a {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    @include tablet {
+      border-radius: 0;
+      padding-left: 3rem;
+      a {
+        font-size: 1.3rem;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid $color__background-white;
+        border-bottom: 4rem solid transparent;
+      }
+    }
+    @include desktop {
+      a {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+.for-support-person-block {
+  height: 100%;
+  width: 100%;
+}
+.tab-1 {
+  display: none;
+  font-size: 1.5rem;
+}
+.tab-1-show {
+  display: block;
+}
+.tab-2 {
+  display: none;
+  font-size: 1.5rem;
+}
+.tab-2-show {
+  display: block;
+}
+.tab-3 {
+  display: none;
+  font-size: 1.5rem;
+}
+.tab-3-show {
+  display: block;
+}
+.highlight-arrow {
+  background: $color__background-teal;
+  &::after {
+    border-left: 4rem solid $color__background-teal;
+  }
+}

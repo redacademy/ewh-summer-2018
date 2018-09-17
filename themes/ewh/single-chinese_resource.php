@@ -12,9 +12,10 @@ get_header(); ?>
 
 		<?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
-                        
+
+    <h1 class="chinese-single-title"><?php the_title();?></h1>
+
          <div class='chinese-div-single'>
-        <h1><?php the_title();?></h1>
         <?php the_content(); ?>
         </div>
 

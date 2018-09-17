@@ -20,3 +20,11 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+// Change Login image/link
+function ewh_login_logo() {
+	echo '<style>                                                                   
+			h1 a { background-image:url("'.get_stylesheet_directory_uri().'/images/home-logo.svg") !important; height: 100px !important; width: 320px !important; background-size: 310px !important;}                            
+	</style>';
+}
+add_action('login_head', 'ewh_login_logo');
