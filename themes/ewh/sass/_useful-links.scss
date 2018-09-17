@@ -14,8 +14,8 @@
   padding: 0;
   text-shadow: none;
   box-shadow: none;
-  font-size: 0.5rem;
-  height: 10rem;
+  font-size: .8rem;
+  height: 5rem;
   color: $color__text-white;
   overflow: hidden;
   &:nth-child(odd) {
@@ -89,7 +89,8 @@
   }
   @include tablet {
     width: 49%;
-    font-size: 1.5rem;
+    height: 10rem;
+    font-size: 1.2rem;
     h2 {
       &::after {
         transform: rotate(180deg);
@@ -178,6 +179,10 @@
         }
       }
     }
+  }
+  @include desktop {
+    font-size: 1.5rem;
+
   }
   ul {
     opacity: 0;

@@ -6,10 +6,10 @@
   display: block;
 }
 // Do Not Touch (Fixes Header Position)
-#page {
-  margin-top: 70px;
+.site {
+  margin-top: 75px;
   @include tablet {
-    margin-top: 72px;
+    margin-top: 85px;
   }
   @include desktop {
     margin-top: 87px;
