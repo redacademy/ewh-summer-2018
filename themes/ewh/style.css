@@ -2878,6 +2878,23 @@ div.hide-description {
 .mollie-page p {
   margin: 80px 100px; }
 
+.appointment-hero {
+  display: none;
+  position: relative;
+  margin-bottom: 60px; }
+  @media screen and (min-width: 1080px) {
+    .appointment-hero {
+      display: block; }
+      .appointment-hero figure {
+        margin: 0; }
+      .appointment-hero h2 {
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+        color: white;
+        text-transform: capitalize;
+        font-size: 50px; } }
+
 .appointment-mobile-top {
   text-align: center;
   width: 80%;
@@ -2885,6 +2902,9 @@ div.hide-description {
   .appointment-mobile-top h2 {
     color: #0076B6;
     padding-top: 20px; }
+    @media screen and (min-width: 1080px) {
+      .appointment-mobile-top h2 {
+        display: none; } }
   .appointment-mobile-top a {
     color: #00c4c5;
     text-decoration: underline; }
@@ -2892,14 +2912,21 @@ div.hide-description {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 20px; }
+    @media screen and (min-width: 1080px) {
+      .appointment-mobile-top p {
+        font-size: 20px; } }
   .appointment-mobile-top h3 {
     text-align: left; }
+    @media screen and (min-width: 1080px) {
+      .appointment-mobile-top h3 {
+        text-align: center; } }
 
 .appointment-contact-mobile {
   text-align: center;
   width: 70%;
   margin: 0 auto;
-  border-radius: 0px; }
+  border-radius: 0px;
+  outline: none; }
   .appointment-contact-mobile h3 {
     text-align: left;
     margin: 0;
@@ -2907,11 +2934,13 @@ div.hide-description {
   .appointment-contact-mobile input {
     background-color: #eeeeee;
     width: 100%;
-    border-radius: 0px; }
+    border-radius: 0px;
+    outline: 0; }
   .appointment-contact-mobile textarea {
     background-color: #eeeeee;
     width: 100%;
-    border-radius: 0px; }
+    border-radius: 0px;
+    outline: 0; }
   .appointment-contact-mobile .wpcf7-submit {
     text-shadow: none;
     -webkit-box-shadow: none;
@@ -2932,10 +2961,17 @@ div.hide-description {
     padding-bottom: 15px;
     border-radius: 10px;
     width: 60%; }
+    @media screen and (min-width: 1080px) {
+      .appointment-contact-mobile .wpcf7-submit {
+        width: 30%; } }
 
 .appointment-mobile-bottom {
   text-align: center;
   color: #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .appointment-mobile-bottom {
+      padding-bottom: 50px;
+      font-size: 20px; } }
 
 .testimonial-page-header {
   text-align: center;

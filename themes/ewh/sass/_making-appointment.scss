@@ -1,3 +1,23 @@
+
+.appointment-hero{
+    display: none;
+    position: relative;
+    margin-bottom: 60px;
+    @include desktop{
+        display: block;
+    figure{
+        margin: 0;
+    }
+    h2{
+        position: absolute;
+        left:20px;
+        bottom: 50px;
+        color: white;
+        text-transform: capitalize;
+        font-size: 50px;
+    }
+}
+}
 .appointment-mobile-top{
     text-align: center;
     width: 80%;
@@ -5,6 +25,9 @@
     h2{
         color: $color__background-blue;
         padding-top:20px;
+        @include desktop{
+            display: none;
+        }
     }
     a{
         color: $color__background-teal;
@@ -14,9 +37,15 @@
         width:100%;
         margin: 0 auto;
         margin-bottom:20px;
+        @include desktop{
+        font-size: 20px;
+        }
     }
     h3{
         text-align: left;
+        @include desktop{
+            text-align: center;
+        }
     }
 }
 .appointment-contact-mobile{
@@ -24,6 +53,7 @@
     width: 70%;
     margin: 0 auto;
     border-radius: 0px;
+    outline: none;
     h3{
         text-align: left;
         margin: 0;
@@ -33,11 +63,13 @@
     background-color: #eeeeee;
     width: 100%;
     border-radius: 0px;
+    outline: 0;
     }
     textarea{
         background-color: #eeeeee;
         width: 100%;
         border-radius: 0px;
+        outline: 0;
     }
     .wpcf7-submit{
         text-shadow: none;
@@ -54,9 +86,16 @@
         padding-bottom: 15px;
         border-radius: 10px;
         width: 60%;
+        @include desktop{
+            width: 30%;
+        }
     }
 }
 .appointment-mobile-bottom{
     text-align: center;
     color: $color__text-grey;
+    @include desktop{
+    padding-bottom: 50px;
+    font-size: 20px;
+    }
 }
