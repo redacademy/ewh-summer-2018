@@ -1,23 +1,5 @@
 
-.appointment-hero{
-    display: none;
-    position: relative;
-    margin-bottom: 60px;
-    @include desktop{
-        display: block;
-    figure{
-        margin: 0;
-    }
-    h2{
-        position: absolute;
-        left:20px;
-        bottom: 50px;
-        color: white;
-        text-transform: capitalize;
-        font-size: 50px;
-    }
-}
-}
+
 .appointment-mobile-top{
     text-align: center;
     width: 80%;
@@ -25,9 +7,6 @@
     h2{
         color: $color__background-blue;
         padding-top:20px;
-        @include desktop{
-            display: none;
-        }
     }
     a{
         color: $color__background-teal;
@@ -86,16 +65,9 @@
         padding-bottom: 15px;
         border-radius: 10px;
         width: 60%;
-        @include desktop{
-            width: 30%;
-        }
     }
 }
 .appointment-mobile-bottom{
     text-align: center;
     color: $color__text-grey;
-    @include desktop{
-    padding-bottom: 50px;
-    font-size: 20px;
-    }
 }
