@@ -956,13 +956,13 @@ body {
 #secondary-menu {
   display: block; }
 
-#page {
-  margin-top: 70px; }
+.site {
+  margin-top: 75px; }
   @media screen and (min-width: 600px) {
-    #page {
-      margin-top: 72px; } }
+    .site {
+      margin-top: 85px; } }
   @media screen and (min-width: 1080px) {
-    #page {
+    .site {
       margin-top: 87px; } }
 
 .site {
@@ -3269,8 +3269,8 @@ div.birth-control-container {
   text-shadow: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  font-size: 0.5rem;
-  height: 10rem;
+  font-size: .8rem;
+  height: 5rem;
   color: #fff;
   overflow: hidden; }
   .useful-link-div-single:nth-child(odd) {
@@ -3342,7 +3342,8 @@ div.birth-control-container {
   @media screen and (min-width: 600px) {
     .useful-link-div-single {
       width: 49%;
-      font-size: 1.5rem; }
+      height: 10rem;
+      font-size: 1.2rem; }
       .useful-link-div-single h2::after {
         -webkit-transform: rotate(180deg);
                 transform: rotate(180deg);
@@ -3428,6 +3429,9 @@ div.birth-control-container {
                     transform: rotate(180deg);
             -webkit-transition: 1s;
             transition: 1s; } }
+  @media screen and (min-width: 1080px) {
+    .useful-link-div-single {
+      font-size: 1.5rem; } }
   .useful-link-div-single ul {
     opacity: 0;
     font-size: 20px;
@@ -3449,10 +3453,10 @@ div.birth-control-container {
 .wtx {
   color: #0076B6;
   font-family: "Arsenal", sans-serif;
-  font-size: 3rem; }
+  font-size: 2rem; }
 
 .wtxp {
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 100%; }
 
 .arrow-container {
@@ -3486,6 +3490,7 @@ div.birth-control-container {
     height: 100%; }
   @media screen and (min-width: 600px) {
     .arrow1 {
+      padding-left: 2%;
       border-radius: 0;
       width: 25%; }
       .arrow1 a {
@@ -3501,8 +3506,10 @@ div.birth-control-container {
         border-left: 4rem solid lightgray;
         border-bottom: 4rem solid transparent; } }
   @media screen and (min-width: 1080px) {
-    .arrow1 a {
-      font-size: 2.5rem; } }
+    .arrow1 {
+      padding-left: 0; }
+      .arrow1 a {
+        font-size: 2.5rem; } }
 
 .arrow2 {
   width: 30%;
