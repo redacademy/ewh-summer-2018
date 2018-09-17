@@ -14,7 +14,7 @@
   padding: 0;
   text-shadow: none;
   box-shadow: none;
-  font-size: 1rem;
+  font-size: 0.5rem;
   height: 10rem;
   color: $color__text-white;
   overflow: hidden;
@@ -191,9 +191,7 @@
     li {
       padding: 10px 0px;
       margin-left: 10px;
-      a {
-        font-size: 25px;
-      }
+      font-size: 25px;
     }
   }
 }

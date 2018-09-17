@@ -12,8 +12,6 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div class="abortion-procedure-container">
-<h1 class="wtx">What to expect</h1>
-<p class="wtxp">Find more information about abortion preparation, abortion procedure and aftercare.</p>	
 
 <?php 
 	$tab_label_1 = CFS()->get_field_info('before_abortion');
@@ -23,6 +21,9 @@ get_header(); ?>
 	$tab_label_3 = CFS()->get_field_info('after_abortion');
 	$tab_content_3 = CFS()->get('after_abortion_text_area');
 	?>
+
+	<h1 class="wtx">What to expect</h1>
+	<p class="wtxp">Find more information about abortion preparation, abortion procedure and aftercare.</p>
 
 
 <section class='arrow-container'>
@@ -48,6 +49,11 @@ get_header(); ?>
 	<?php echo $tab_content_3; ?>
 	</div>
 </section>
+
+<div class="ap-contact-us">
+	<p>Call Everywoman’s Health to book an appointment, to discuss your decision with a counsellor or to book a follow up appointment. Counselling sessions are free of charge and can be in person or over the telephone.</p>
+	<a class="ap-contact-button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a>
+</div>
 </div>
 			<?php endwhile; // End of the loop. ?>
 

@@ -994,7 +994,9 @@ body {
 
 .menu-item-has-children > a.angle-icon2::after {
   font-family: 'FontAwesome';
-  content: '\f106';
+  content: '\f107';
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   -webkit-transition: 1s;
   transition: 1s;
   position: absolute;
@@ -1005,7 +1007,7 @@ body {
 
 .site-header {
   height: 120px;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
   border-bottom: 1px solid #00c4c5;
   background-color: #fff;
@@ -1055,7 +1057,8 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     height: 100px;
-    width: 60%; }
+    width: 60%;
+    padding-left: 20px; }
     @media screen and (min-width: 1080px) {
       .site-header .span-home-logo {
         width: 20%; } }
@@ -1116,6 +1119,7 @@ body {
           .site-header .menu-navigation-menu-container .menu .menu-item-has-children > a.angle-icon2::after {
             top: 5px; }
           .site-header .menu-navigation-menu-container .menu .menu-item {
+            height: 50px;
             font-size: 1rem;
             width: 100%;
             display: -webkit-box;
@@ -1156,7 +1160,6 @@ body {
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu a {
                 font-size: 1rem; }
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu li {
-                height: 50px;
                 border-bottom: 1px solid #4A4A4A; }
               .site-header .menu-navigation-menu-container .menu .menu-item .sub-menu.active {
                 display: -webkit-box;
@@ -1260,22 +1263,25 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 80%;
+    padding-left: 0;
+    padding-right: 20%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    width: 65%; }
+            justify-content: center; }
     .nav-site-header .span-home-logo .home-logo {
       margin: 0 auto;
-      height: 100px;
+      height: 200px;
       width: 800px;
       padding-bottom: 1rem; }
       @media screen and (min-width: 600px) {
         .nav-site-header .span-home-logo .home-logo {
           height: 200px; } }
   .nav-site-header .span-chinese-nav {
-    width: 10%;
-    visibility: hidden; }
+    display: none; }
   .nav-site-header .menu-navigation-menu-container {
+    margin-top: 1%;
+    margin-right: 0;
     display: block;
     background-color: #fff; }
     .nav-site-header .menu-navigation-menu-container .menu {
@@ -2105,12 +2111,14 @@ div.hide-description {
     background-color: #00c4c5; }
   @media screen and (min-width: 600px) {
     .chinese-div {
-      width: 49%;
-      font-size: 1.5rem; }
+      width: 49%; }
       .chinese-div:nth-child(4n+1), .chinese-div:nth-child(4n+2) {
         background-color: #0076B6; }
       .chinese-div:nth-child(4n+4), .chinese-div:nth-child(4n+3) {
         background: #00c4c5; } }
+  @media screen and (min-width: 1080px) {
+    .chinese-div {
+      font-size: 1.5rem; } }
   .chinese-div h2 {
     height: 100%;
     width: 100%;
@@ -2121,6 +2129,34 @@ div.hide-description {
   width: 95%;
   margin: 0 auto;
   margin-top: 10px; }
+  .chinese-div-single h2 {
+    font-size: 1.5rem;
+    color: #0076B6;
+    border-bottom: 1px solid #00c4c5; }
+  .chinese-div-single ul {
+    margin: 0; }
+  @media screen and (min-width: 600px) {
+    .chinese-div-single {
+      font-size: 1.3rem; }
+      .chinese-div-single h2 {
+        font-size: 2rem; } }
+  @media screen and (min-width: 1080px) {
+    .chinese-div-single h2 {
+      font-size: 2.5rem; }
+    .chinese-div-single p {
+      font-size: 1.5rem; } }
+
+.chinese-single-title {
+  padding-left: 1rem;
+  color: #fff;
+  font-size: 1.8rem;
+  background: #0076B6; }
+  @media screen and (min-width: 600px) {
+    .chinese-single-title {
+      font-size: 2.3rem; } }
+  @media screen and (min-width: 1080px) {
+    .chinese-single-title {
+      font-size: 3em; } }
 
 .contactus-top-divider {
   position: relative;
@@ -3102,7 +3138,7 @@ div.birth-control-container {
   text-shadow: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  font-size: 1rem;
+  font-size: .5rem;
   height: 10rem;
   color: #fff;
   overflow: hidden; }
@@ -3272,9 +3308,8 @@ div.birth-control-container {
     text-align: start; }
     .useful-link-div-single ul li {
       padding: 10px 0px;
-      margin-left: 10px; }
-      .useful-link-div-single ul li a {
-        font-size: 25px; }
+      margin-left: 10px;
+      font-size: 25px; }
 
 .abortion-procedure-container {
   width: 95%;
@@ -3286,7 +3321,8 @@ div.birth-control-container {
   font-size: 3rem; }
 
 .wtxp {
-  font-size: 2rem; }
+  font-size: 1.5rem;
+  width: 100%; }
 
 .arrow-container {
   display: -webkit-box;
@@ -3298,15 +3334,18 @@ div.birth-control-container {
           justify-content: space-between; }
 
 .arrow1 {
+  width: 30%;
+  border-radius: 20px;
   font-family: "Catamaran", sans-serif;
   background: lightgrey;
   display: inline-block;
   height: 8rem;
-  padding-left: 4rem;
-  padding-right: 3rem;
   position: relative; }
   .arrow1 a {
-    font-size: 2.3rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3314,26 +3353,39 @@ div.birth-control-container {
         -ms-flex-align: center;
             align-items: center;
     height: 100%; }
-  .arrow1::after {
-    content: '';
-    position: absolute;
-    right: -7rem;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-top: 4rem solid transparent;
-    border-left: 7rem solid lightgrey;
-    border-bottom: 4rem solid transparent; }
+  @media screen and (min-width: 600px) {
+    .arrow1 {
+      border-radius: 0;
+      width: 25%; }
+      .arrow1 a {
+        font-size: 1.3rem; }
+      .arrow1::after {
+        content: '';
+        position: absolute;
+        right: -4rem;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid lightgray;
+        border-bottom: 4rem solid transparent; } }
+  @media screen and (min-width: 1080px) {
+    .arrow1 a {
+      font-size: 2.5rem; } }
 
 .arrow2 {
+  width: 30%;
+  border-radius: 20px;
   font-family: "Catamaran", sans-serif;
   background: lightgrey;
   display: inline-block;
   height: 8rem;
-  padding-left: 7rem;
   position: relative; }
   .arrow2 a {
-    font-size: 2.3rem;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3341,37 +3393,52 @@ div.birth-control-container {
         -ms-flex-align: center;
             align-items: center;
     height: 100%; }
-  .arrow2::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 0;
-    top: 0;
-    border-top: 4rem solid transparent;
-    border-left: 6rem solid white;
-    border-bottom: 4rem solid transparent; }
-  .arrow2::after {
-    content: '';
-    position: absolute;
-    right: -7rem;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-top: 4rem solid transparent;
-    border-left: 7rem solid lightgrey;
-    border-bottom: 4rem solid transparent; }
+  @media screen and (min-width: 600px) {
+    .arrow2 {
+      width: 27%;
+      border-radius: 0;
+      padding-left: 3.5rem; }
+      .arrow2 a {
+        font-size: 1.3rem; }
+      .arrow2::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid #fff;
+        border-bottom: 4rem solid transparent; }
+      .arrow2::after {
+        content: '';
+        position: absolute;
+        right: -4rem;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid lightgray;
+        border-bottom: 4rem solid transparent; } }
+  @media screen and (min-width: 1080px) {
+    .arrow2 {
+      width: 29%; }
+      .arrow2 a {
+        font-size: 2.5rem; } }
 
 .arrow3 {
+  width: 30%;
+  border-radius: 20px;
   font-family: "Catamaran", sans-serif;
   background: lightgrey;
   display: inline-block;
   height: 8rem;
-  padding-left: 9rem;
-  padding-right: 5rem;
   position: relative; }
   .arrow3 a {
-    font-size: 2.3rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3379,38 +3446,117 @@ div.birth-control-container {
         -ms-flex-align: center;
             align-items: center;
     height: 100%; }
-  .arrow3::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 0;
-    top: 0;
-    border-top: 4rem solid transparent;
-    border-left: 6rem solid white;
-    border-bottom: 4rem solid transparent; }
+  @media screen and (min-width: 600px) {
+    .arrow3 {
+      width: 25%;
+      border-radius: 0;
+      padding-left: 4rem; }
+      .arrow3 a {
+        font-size: 1.3rem; }
+      .arrow3::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0;
+        border-top: 4rem solid transparent;
+        border-left: 4rem solid #fff;
+        border-bottom: 4rem solid transparent; } }
+  @media screen and (min-width: 1080px) {
+    .arrow3 {
+      width: 29%; }
+      .arrow3 a {
+        font-size: 2.5rem; } }
 
 .abortion-procedure-block {
   height: 100%;
   width: 100%; }
 
 .tab-1 {
-  display: none;
-  font-size: 2rem; }
+  display: none; }
+  .tab-1 h2 {
+    font-size: 1.5rem;
+    color: #0076B6;
+    border-bottom: 1px solid #00c4c5; }
+  .tab-1 li {
+    color: black;
+    padding-left: 5px; }
+  .tab-1 ol {
+    color: #0076B6;
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%; }
+  @media screen and (min-width: 600px) {
+    .tab-1 h2 {
+      font-size: 2rem; }
+    .tab-1 ol {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 600px) {
+    .tab-1 h2 {
+      font-size: 2rem; }
+    .tab-1 ol {
+      font-size: 1.5rem; } }
 
 .tab-1-show {
   display: block; }
 
 .tab-2 {
-  display: none;
-  font-size: 2rem; }
+  display: none; }
+  .tab-2 h2 {
+    font-size: 1.5rem;
+    color: #0076B6;
+    border-bottom: 1px solid #00c4c5; }
+  .tab-2 ol {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%; }
+    .tab-2 ol li {
+      padding-left: 5px; }
+  @media screen and (min-width: 600px) {
+    .tab-2 h2 {
+      font-size: 2rem; }
+    .tab-2 ol {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 600px) {
+    .tab-2 h2 {
+      font-size: 2rem; }
+    .tab-2 ol {
+      font-size: 1.5rem; } }
 
 .tab-2-show {
   display: block; }
 
 .tab-3 {
-  display: none;
-  font-size: 2rem; }
+  display: none; }
+  .tab-3 h2 {
+    font-size: 1.5rem;
+    color: #0076B6;
+    border-bottom: 1px solid #00c4c5; }
+  .tab-3 h3 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    background-color: #0076B6; }
+  .tab-3 ol {
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 5%; }
+    .tab-3 ol li {
+      padding-left: 5px; }
+  @media screen and (min-width: 600px) {
+    .tab-3 h3 {
+      font-size: 2rem; }
+    .tab-3 h2 {
+      font-size: 2rem; }
+    .tab-3 ol {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 600px) {
+    .tab-3 h2 {
+      font-size: 2rem; }
+    .tab-3 ol {
+      font-size: 1.5rem; } }
 
 .tab-3-show {
   display: block; }
@@ -3418,4 +3564,147 @@ div.birth-control-container {
 .highlight-arrow {
   background: #00c4c5; }
   .highlight-arrow::after {
-    border-left: 7rem solid #00c4c5; }
+    border-left: 4rem solid #00c4c5; }
+
+.ap-contact-us {
+  background: #0076B6;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 15rem;
+  margin: 2% 0; }
+  .ap-contact-us p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem; }
+  .ap-contact-us a {
+    margin: 0 auto;
+    font-size: 1rem;
+    background: #00c4c5;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 3rem; }
+  @media screen and (min-width: 600px) {
+    .ap-contact-us p {
+      font-size: 1.5rem; }
+    .ap-contact-us a {
+      font-size: 1.5rem;
+      padding: 1rem 3rem 1rem 3rem; } }
+
+.for-support-person-container {
+  width: 95%;
+  margin: 0 auto; }
+  .for-support-person-container .arrow1 {
+    width: 40%;
+    border-radius: 20px;
+    font-family: "Catamaran", sans-serif;
+    background: lightgrey;
+    display: inline-block;
+    height: 8rem;
+    position: relative; }
+    .for-support-person-container .arrow1 a {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.3rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 100%; }
+    @media screen and (min-width: 600px) {
+      .for-support-person-container .arrow1 {
+        border-radius: 0; }
+        .for-support-person-container .arrow1 a {
+          font-size: 1.3rem; }
+        .for-support-person-container .arrow1::after {
+          content: '';
+          position: absolute;
+          right: -4rem;
+          top: 0;
+          width: 0;
+          height: 0;
+          border-top: 4rem solid transparent;
+          border-left: 4rem solid lightgray;
+          border-bottom: 4rem solid transparent; } }
+    @media screen and (min-width: 1080px) {
+      .for-support-person-container .arrow1 a {
+        font-size: 2.5rem; } }
+  .for-support-person-container .arrow3 {
+    width: 40%;
+    border-radius: 20px;
+    font-family: "Catamaran", sans-serif;
+    background: lightgrey;
+    display: inline-block;
+    height: 8rem;
+    position: relative; }
+    .for-support-person-container .arrow3 a {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 100%; }
+    @media screen and (min-width: 600px) {
+      .for-support-person-container .arrow3 {
+        border-radius: 0;
+        padding-left: 3rem; }
+        .for-support-person-container .arrow3 a {
+          font-size: 1.3rem; }
+        .for-support-person-container .arrow3::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          left: 0;
+          top: 0;
+          border-top: 4rem solid transparent;
+          border-left: 4rem solid #fff;
+          border-bottom: 4rem solid transparent; } }
+    @media screen and (min-width: 1080px) {
+      .for-support-person-container .arrow3 a {
+        font-size: 2.5rem; } }
+
+.for-support-person-block {
+  height: 100%;
+  width: 100%; }
+
+.tab-1 {
+  display: none;
+  font-size: 1.5rem; }
+
+.tab-1-show {
+  display: block; }
+
+.tab-2 {
+  display: none;
+  font-size: 1.5rem; }
+
+.tab-2-show {
+  display: block; }
+
+.tab-3 {
+  display: none;
+  font-size: 1.5rem; }
+
+.tab-3-show {
+  display: block; }
+
+.highlight-arrow {
+  background: #00c4c5; }
+  .highlight-arrow::after {
+    border-left: 4rem solid #00c4c5; }
