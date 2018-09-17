@@ -12,6 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<?php wp_head(); ?>
 	</head>
@@ -45,7 +47,7 @@
 					</span>				
 
 					<a class="span-chinese-nav" href='<?php echo home_url(); ?>/chinese_resources'>
-					<p class="chinese-nav">中国资源</p>
+					<p class="chinese-nav">中文资讯</p>
 					</a>
 
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>

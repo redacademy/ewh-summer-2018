@@ -5,10 +5,61 @@
 
 
 // The Mural
+.mural-hero-banner{
+    position: relative;
+    figure{
+    margin:0;
+    }
+    h2{
+        position: absolute;
+        bottom: 10px;
+        left:0px;
+        background-color: $color__background-blue;
+        color:white;
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size:250%;
+    }
+}
+.mural-info{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    line-height: 40pt;
+    font-size: 16px;
+    color: $color__text-grey;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    @include desktop{
+        text-align: left;
+        margin: 0 auto;
+        padding-right: 20%;
+        font-size: 22px;
+    }
+}
 
-
-
-
+.mural-pic-trio{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    figure{
+        margin: 0;
+        width:415px;
+    }
+    @include desktop{
+        flex-direction: row;
+    }
+}
+.mural-bottom-pic{
+    margin-bottom:50px;
+    figure{
+        margin:0;
+        }
+}
 
 // In Memory of Dr Mollie Rawling
 

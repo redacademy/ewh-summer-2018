@@ -125,6 +125,8 @@
             border-radius: 12px;
             font-family: $font__secondary;
             font-size: 18px;
+            color: $color__background-white;
+            font-weight: 700;
         }
 
         h3,
@@ -446,10 +448,11 @@
                 flex-direction: column;
                 flex-wrap: wrap;
                 height: 500px;
+                margin-bottom: 100px;
 
                 li {
                     width: 550px;
-                    height: 200px;
+                    height: 235px;
                 }
             }
 
@@ -541,6 +544,7 @@
             flex-direction: row;
             .your-decision-text {
                 width: 75%;
+                margin: 80px 100px;
             }
             button {
                 margin-left: 50px;

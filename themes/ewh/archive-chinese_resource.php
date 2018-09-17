@@ -9,8 +9,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-
-<section class="chinese-page">
+<div class="chinese-banner">
+    <h2>中文咨讯 Chinese</h2>
+</div>
+    <section class="chinese-page">
  <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
                         
