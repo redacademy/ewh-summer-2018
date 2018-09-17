@@ -2919,6 +2919,9 @@ div.hide-description {
   text-align: center;
   width: 80%;
   color: #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .appointment-mobile-top {
+      display: none; } }
   .appointment-mobile-top h2 {
     color: #0076B6;
     padding-top: 20px; }
@@ -2934,9 +2937,6 @@ div.hide-description {
         font-size: 20px; } }
   .appointment-mobile-top h3 {
     text-align: left; }
-    @media screen and (min-width: 1080px) {
-      .appointment-mobile-top h3 {
-        text-align: center; } }
 
 .appointment-contact-mobile {
   text-align: center;
@@ -2944,6 +2944,9 @@ div.hide-description {
   margin: 0 auto;
   border-radius: 0px;
   outline: none; }
+  @media screen and (min-width: 1080px) {
+    .appointment-contact-mobile {
+      display: none; } }
   .appointment-contact-mobile h3 {
     text-align: left;
     margin: 0;
@@ -2982,6 +2985,65 @@ div.hide-description {
 .appointment-mobile-bottom {
   text-align: center;
   color: #4A4A4A; }
+  @media screen and (min-width: 1080px) {
+    .appointment-mobile-bottom {
+      display: none; } }
+
+.appointment-desktop {
+  display: none; }
+  @media screen and (min-width: 1080px) {
+    .appointment-desktop {
+      padding-top: 50px;
+      display: block; }
+      .appointment-desktop h1 {
+        padding-bottom: 80px;
+        color: #0076B6; } }
+  .appointment-desktop .appointment-desktop-blue-box {
+    background-color: #0076B6;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px; }
+    .appointment-desktop .appointment-desktop-blue-box p {
+      text-align: left;
+      font-size: 20px; }
+  .appointment-desktop .wpcf7-form {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 60%; }
+    .appointment-desktop .wpcf7-form input {
+      width: 100%;
+      border-radius: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      outline: 0;
+      border-color: #0076B6; }
+    .appointment-desktop .wpcf7-form textarea {
+      width: 100%;
+      border-radius: 0px;
+      outline: 0;
+      border-color: #0076B6; }
+    .appointment-desktop .wpcf7-form input[type="submit"] {
+      width: auto;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      background-color: #00c4c5;
+      color: white;
+      border: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 100px;
+      padding-left: 100px;
+      font-size: 20px;
+      border-radius: 12px; }
+    .appointment-desktop .wpcf7-form label {
+      font-size: 18px; }
+  .appointment-desktop .desktop-info-bottom-appointment {
+    color: #4A4A4A;
+    padding-bottom: 50px;
+    padding-top: 50px; }
 
 .testimonial-page-header {
   text-align: center;
