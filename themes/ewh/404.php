@@ -18,9 +18,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php echo esc_html( 'It looks like nothing was found at this location. Maybe try one of the links in the side-menu or a search?' ); ?></p>
-
-					<?php get_search_form(); ?>
+					<p><?php echo esc_html( 'It looks like nothing was found at this location. Please try one of the links up above!' ); ?></p>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
