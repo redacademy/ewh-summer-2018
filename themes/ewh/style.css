@@ -2878,23 +2878,6 @@ div.hide-description {
 .mollie-page p {
   margin: 80px 100px; }
 
-.appointment-hero {
-  display: none;
-  position: relative;
-  margin-bottom: 60px; }
-  @media screen and (min-width: 1080px) {
-    .appointment-hero {
-      display: block; }
-      .appointment-hero figure {
-        margin: 0; }
-      .appointment-hero h2 {
-        position: absolute;
-        left: 20px;
-        bottom: 50px;
-        color: white;
-        text-transform: capitalize;
-        font-size: 50px; } }
-
 .appointment-mobile-top {
   text-align: center;
   width: 80%;
@@ -2902,9 +2885,6 @@ div.hide-description {
   .appointment-mobile-top h2 {
     color: #0076B6;
     padding-top: 20px; }
-    @media screen and (min-width: 1080px) {
-      .appointment-mobile-top h2 {
-        display: none; } }
   .appointment-mobile-top a {
     color: #00c4c5;
     text-decoration: underline; }
@@ -2961,17 +2941,10 @@ div.hide-description {
     padding-bottom: 15px;
     border-radius: 10px;
     width: 60%; }
-    @media screen and (min-width: 1080px) {
-      .appointment-contact-mobile .wpcf7-submit {
-        width: 30%; } }
 
 .appointment-mobile-bottom {
   text-align: center;
   color: #4A4A4A; }
-  @media screen and (min-width: 1080px) {
-    .appointment-mobile-bottom {
-      padding-bottom: 50px;
-      font-size: 20px; } }
 
 .testimonial-page-header {
   text-align: center;
