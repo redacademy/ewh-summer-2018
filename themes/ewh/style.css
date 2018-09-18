@@ -3950,11 +3950,17 @@ div.birth-control-container {
 .tab-3-show {
   display: block; }
 
-.highlight-arrow {
-  background: #00c4c5; }
-  .highlight-arrow::after {
-    border-left: 4rem solid #00c4c5; }
+.support-before-div {
+  display: none; }
 
+.support-before-div-show {
+  display: block; }
+
+.support-after-div {
+  display: none; }
+
+.support-after-div-show {
+  display: block; }
 
 .two-week-followup {
   padding-top: 50px; }
@@ -4002,16 +4008,3 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
-
-.support-before-div {
-  display: none; }
-
-.support-before-div-show {
-  display: block; }
-
-.support-after-div {
-  display: none; }
-
-.support-after-div-show {
-  display: block; }
-
