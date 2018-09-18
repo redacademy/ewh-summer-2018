@@ -18,7 +18,7 @@ get_header(); ?>
          <div class='chinese-div-single'>
         <?php the_content(); ?>
         </div>
-
+    
   <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
         <?php else : ?>
