@@ -23,6 +23,7 @@
   justify-content: space-between;
 }
 .arrow1 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: $font__header;
@@ -69,6 +70,7 @@
   }
 }
 .arrow2 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: $font__header;
@@ -127,6 +129,7 @@
   }
 }
 .arrow3 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: $font__header;

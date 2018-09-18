@@ -27,5 +27,4 @@
       clicked.parent().addClass('highlight-arrow');
     }
   });
-
 })(jQuery);

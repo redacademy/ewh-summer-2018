@@ -19,19 +19,17 @@ get_header(); ?>
 </div>
 
 <?php 
-	$tab_label_1 = CFS()->get_field_info('before_abortion_support');
 	$tab_content_1 = CFS()->get('before_abortion_support_text_area');
-	$tab_label_2 = CFS()->get_field_info('after_abortion_support');
 	$tab_content_2 = CFS()->get('after_abortion_support_text_area');
 	?>
 
 
 <section class='arrow-container'>
 <div class="arrow1">		
-<a class="before"><?php echo $tab_label_1['label']; ?></a>
+<a class="before">Before Abortion</a>
 </div>
 <div class="arrow3">		
-<a class="after"><?php echo $tab_label_2['label']; ?></a>
+<a class="after">After Abortion</a>
 </div>
 </section>
 
