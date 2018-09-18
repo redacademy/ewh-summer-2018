@@ -1682,18 +1682,17 @@ footer {
   .myth-fact-class .tab-content:nth-of-type(1) {
     display: block; }
   .myth-fact-class .tab-nav {
-    background: #00c4c5; }
-    .myth-fact-class .tab-nav p {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      cursor: pointer; }
+    background: #00c4c5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    cursor: pointer; }
     .myth-fact-class .tab-nav .tab-next,
     .myth-fact-class .tab-nav .tab-prev {
       border: none;
@@ -1704,8 +1703,6 @@ footer {
       text-shadow: none;
       color: #fff;
       font-size: 20px; }
-    .myth-fact-class .tab-nav .tab-prev {
-      margin-left: 60px; }
 
 .med-more-info-link {
   color: #00c4c5;
