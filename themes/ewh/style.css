@@ -3948,11 +3948,17 @@ div.birth-control-container {
 .tab-3-show {
   display: block; }
 
-.highlight-arrow {
-  background: #00c4c5; }
-  .highlight-arrow::after {
-    border-left: 4rem solid #00c4c5; }
+.support-before-div {
+  display: none; }
 
+.support-before-div-show {
+  display: block; }
+
+.support-after-div {
+  display: none; }
+
+.support-after-div-show {
+  display: block; }
 
 .two-week-followup {
   padding-top: 50px; }
@@ -4001,7 +4007,6 @@ div.birth-control-container {
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
 
-<<<<<<< HEAD
 .privacy-div {
   width: 90%;
   margin: 0 auto;
@@ -4017,17 +4022,3 @@ div.birth-control-container {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1.5rem; } }
-=======
-.support-before-div {
-  display: none; }
-
-.support-before-div-show {
-  display: block; }
-
-.support-after-div {
-  display: none; }
-
-.support-after-div-show {
-  display: block; }
-
->>>>>>> ed5e08593eb57a82256aaee428d12fdb6f56e417
