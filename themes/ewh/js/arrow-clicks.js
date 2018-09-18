@@ -28,6 +28,7 @@
     }
   });
 
+<<<<<<< HEAD
   // Chinese Make Appointment
   $('.chinese-div > a').on('click', function() {
     var clicked = $(this);
@@ -39,4 +40,6 @@
       $(location).attr('href', 'http://stackoverflow.com');
     }
   });
+=======
+>>>>>>> 8f8f2be4742c2e44dbece72d092f4659ecfff147
 })(jQuery);
