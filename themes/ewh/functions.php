@@ -113,9 +113,20 @@ function ewh_widgets_init() {
 }
 add_action( 'widgets_init', 'ewh_widgets_init' );
 
+// Allow SVG to be uploaded to WordPress
 function cc_mime_types($mimes) {
 	$mimes['svg'] = 'image/svg+xml';
 	return $mimes;
   }
   add_filter('upload_mimes', 'cc_mime_types');
 
+// Chinese Make Appointment Page Redirect
+	function make_appointment_template_redirect()
+	{
+			if( is_page( 'goodies' ) && ! is_user_logged_in() )
+			{
+					wp_redirect( home_url( '/contact-us/' ) );
+					die;
+			}
+	}
+	add_action( 'template_redirect', 'make_appointment_template_redirect' );
