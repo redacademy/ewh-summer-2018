@@ -1,0 +1,43 @@
+.compare-abortion-page {
+    font-size: 14px;
+    line-height: 20pt;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+        display: block;
+        color: $color__background-blue;
+        font-family: $font__header;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 55pt;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+    .compare-title-desktop {
+        display: none;
+    }
+    .major-compare-table {
+        border-bottom: 35px solid $color__background-blue;
+
+    }
+    .compare-question {
+        color: $color__background-blue;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .compare-table-1,
+    .compare-table-2 {
+        display: flex;
+    }
+    .compare-surgical-blue {
+        background-color: $color__background-blue;
+        color: $color__text-white;
+        padding: 5px;
+    }
+    .compare-medical-green {
+        background-color: $color__background-teal;
+        color: $color__text-white;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,53 @@
+.two-week-followup{
+    padding-top:50px;
+    h1{
+        color: $color__background-blue;
+    }
+    .two-week-blue{
+        background-color: $color__background-blue;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        @include desktop{
+            padding:30px 60px 30px 60px;
+            font-size: 24px;
+        }
+    }
+    .wpcf7-form{
+        padding-top:50px;
+        margin: 0 auto;
+        width: 80%;
+        input{
+            width: 100%;
+            border-radius: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            outline: 0;
+            border-color: $color__background-blue;
+        }
+        textarea{
+            width: 100%;
+            border-radius: 0px;
+            outline: 0;
+            border-color: $color__background-blue;
+        }
+        input[type="submit"]{
+            width: auto;
+            text-shadow: none;
+            box-shadow: none;
+            background-color: $color__background-teal;
+            color: white;
+            border: none;
+            padding-top:20px;
+            padding-bottom:20px;
+            padding-right:100px;
+            padding-left:100px;
+            font-size:20px;
+            border-radius: 12px;
+            text-transform: capitalize;
+        }
+        label{
+            font-size: 18px;
+        }
+    }
+}
