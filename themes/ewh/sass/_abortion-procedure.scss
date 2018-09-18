@@ -1,6 +1,12 @@
 .abortion-procedure-container {
   width: 95%;
   margin: 0 auto;
+  p{
+    font-size: 1rem;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+  }
 }
 .wtx {
   color: $color__background-blue;
@@ -37,7 +43,10 @@
     padding-left: 2%;
     border-radius: 0;
     width: 25%;
-    a {
+    a { 
+      padding-left: 7%;
+      width: 100%;
+      margin: 0;
       font-size: 1.3rem;
     }
     &::after {
@@ -66,7 +75,6 @@
   background: lightgrey;
   display: inline-block;
   height: 8rem;
-  //  padding-left: 7rem;
   position: relative;
   a {
     width: 80%;
@@ -82,6 +90,9 @@
     border-radius: 0;
     padding-left: 3.5rem;
     a {
+      padding-left: 10%;
+      width: 100%;
+      margin: 0;
       font-size: 1.3rem;
     }
     &::before {
@@ -110,6 +121,7 @@
   @include desktop {
     width: 29%;
     a {
+      padding-left: 6%;
       font-size: 2.5rem;
     }
   }
@@ -136,6 +148,9 @@
     border-radius: 0;
     padding-left: 4rem;
     a {
+      padding-left: 12%;
+      width: 100%;
+      margin: 0;
       font-size: 1.3rem;
     }
     &::before {

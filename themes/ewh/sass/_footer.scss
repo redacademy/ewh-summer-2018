@@ -5,77 +5,86 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   @include tablet {
-  background-color: $color__background-blue;
+    background-color: $color__background-blue;
+  }
 }
-}
-.phone-icon{
+.phone-icon {
   border-radius: 8px;
   right: 5px;
   bottom: 5px;
   position: fixed;
 }
-.widget_text{
+.widget_text {
   display: none;
   color: $color__text-white;
-  h2{
-    font-size: 20px;
+  width: 37%;
+  h2 {
+    font-size: 1.2rem;
   }
-  @include tablet{
+  @include tablet {
     display: block;
   }
 }
-#custom_html-5{
+#nav_menu-2 {
   display: block;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-@include tablet{
-  width: 20%;
-}
-  h2{
+  a {
+    color: $color__background-blue;
+  }
+  @include tablet {
+    width: 20%;
+    padding-right: 20%;
+  }
+  h2 {
     color: $color__text-grey;
     font-size: 20px;
-    @include tablet{
+    @include tablet {
       display: none;
     }
   }
-div{
-  width: 50px;
-  margin: 0 auto;
-}
-.privacy{
-  color: $color__text-screen;
-  @include tablet{
-    margin-top: 20px;
-    display: block;
-    color: $color__text-white;
-
+  div {
+    width: 50px;
+    margin: 0 auto;
+  }
+  .menu-footer-container {
+    color: $color__text-screen;
+    @include tablet {
+      margin-top: 20px;
+      display: block;
+      color: $color__text-white;
+    }
+  }
+  #menu-footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 }
-}
-.footer-colors{
-display: none;
-@include tablet {
-width: 100%;
-height: 10px;
-display: flex;
-flex-direction: row;
-}
-.footer-teal{
-width: 25%;
-background-color: $color__background-teal;
-}
-.footer-orange{
-  width: 25%;
-  background-color: $color__background-orange;
-}
-.footer-blue{
-  width: 25%;
-  background-color: $color__background-lighter-blue;
-}
-.footer-yellow{
-  width: 25%;
-  background-color: $color__background-yellow;
-}
+.footer-colors {
+  display: none;
+  @include tablet {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-teal {
+    width: 25%;
+    background-color: $color__background-teal;
+  }
+  .footer-orange {
+    width: 25%;
+    background-color: $color__background-orange;
+  }
+  .footer-blue {
+    width: 25%;
+    background-color: $color__background-lighter-blue;
+  }
+  .footer-yellow {
+    width: 25%;
+    background-color: $color__background-yellow;
+  }
 }
