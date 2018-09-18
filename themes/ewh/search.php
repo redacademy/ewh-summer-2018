@@ -22,7 +22,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php red_starter_numbered_pagination(); ?>
+			<?php ewh_numbered_pagination(); ?>
 
 		<?php else : ?>
 
