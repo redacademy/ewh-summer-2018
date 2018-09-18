@@ -147,17 +147,13 @@
     }
 }
 .two-week-button{
-display: flex;
-justify-content: center;
+  
 background-color: $color__background-teal;
-margin: 0 auto;
 text-align: center;
 width: 20%;
+margin: 0 auto;
 border-radius: 12px;
 padding-top: 10px;
 padding-bottom: 10px;
 font-size: 20px;
-box-shadow: none;
-text-shadow: none;
-outline: 0;
 }

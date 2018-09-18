@@ -2,7 +2,6 @@
 /**
  * The template for Birth Control Methods and Testimonials
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>
@@ -20,18 +19,21 @@ get_header(); ?>
 			$birth_control_posts = get_posts( $args );
 			foreach ( $birth_control_posts as $post ) : setup_postdata( $post ); ?>
 
-			<a target='_blank' class="birth-control-methods-box" href="<?php the_permalink(); ?>">
+			<a class="birth-control-methods-box" href="<?php the_permalink(); ?>">
 
 				<h2>
 				<?php the_title(); ?>
 				</h2>
 
 
-				<?php echo CFS()->get( "effectiveness"); ?>
+				<strong><?php echo CFS()->get( "effectiveness"); ?></strong>
 				<br>
 				<div class ="hide-description"><?php echo CFS()->get( "description"); ?></div>
 				<br>
 				<?php echo CFS()->get( "price"); ?>
+				<br />
+				<br />
+				<u>Learn More</u>
 
 			</a>
 
