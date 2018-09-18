@@ -2049,6 +2049,10 @@ div.hide-description {
   text-align: center;
   padding-bottom: 1rem;
   display: block; }
+  .birth-control-methods-box h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding: .5rem; }
   .birth-control-methods-box a {
     color: white;
     text-decoration: none; }

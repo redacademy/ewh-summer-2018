@@ -17,6 +17,7 @@ div.hide-description {
   display: none;
 }
 
+//Each birth control method that is generated as an "a" tag. 
 .birth-control-methods-box {
   color: #FFF;
   background:$color__background-blue;
@@ -25,6 +26,12 @@ div.hide-description {
   text-align: center;
   padding-bottom: 1rem;
   display: block;
+
+  h2 {
+    font-weight:300;
+    font-size: 30px;
+    padding: .5rem;
+  }
 
   a {
       color: white;
