@@ -147,7 +147,8 @@
     }
 }
 .two-week-button{
-  
+ display: flex;
+ justify-content: center;
 background-color: $color__background-teal;
 text-align: center;
 width: 20%;
@@ -156,4 +157,5 @@ border-radius: 12px;
 padding-top: 10px;
 padding-bottom: 10px;
 font-size: 20px;
+
 }

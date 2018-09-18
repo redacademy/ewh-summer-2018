@@ -3133,6 +3133,12 @@ div.hide-description {
   margin: 0; }
 
 .two-week-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #00c4c5;
   text-align: center;
   width: 20%;
