@@ -67,6 +67,7 @@
     var clicked = $(this);
     var hasLink = clicked.attr('href');
     if (hasLink === '#') {
+      event.preventDefault();
       // Active Header
       if ($('#masthead').hasClass('nav-site-header')) {
         // Second Sub Menu Slide Down

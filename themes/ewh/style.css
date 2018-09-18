@@ -1417,7 +1417,9 @@ footer {
   @media screen and (min-width: 600px) {
     #nav_menu-2 {
       width: 20%;
-      padding-right: 20%; } }
+      padding-right: 20%; }
+      #nav_menu-2 a {
+        color: #fff; } }
   #nav_menu-2 h2 {
     color: #4A4A4A;
     font-size: 20px; }
