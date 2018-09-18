@@ -2354,12 +2354,15 @@ div.hide-description {
 .contactus-transit {
   text-align: center;
   color: #4A4A4A; }
+  .contactus-transit a {
+    color: #00c4c5; }
   @media screen and (min-width: 1080px) {
     .contactus-transit {
       text-align: left;
       font-size: 19px;
       line-height: 30pt;
-      margin: 0; } }
+      margin: 0;
+      text-align: center; } }
 
 .contactus-desktop-left-mobile {
   text-align: center; }
