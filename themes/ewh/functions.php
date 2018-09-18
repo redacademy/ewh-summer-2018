@@ -1,10 +1,8 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package ewh_Theme
  */
 
 if ( ! function_exists( 'ewh_setup' ) ) :
@@ -72,11 +70,11 @@ add_filter( 'stylesheet_uri', 'ewh_minified_css', 10, 2 );
  */
 function ewh_scripts()
 {
-		wp_enqueue_style('red-starter-style', get_stylesheet_uri());
+		wp_enqueue_style('ewh-style', get_stylesheet_uri());
 		wp_enqueue_style('google-font', 'https://fonts.googleapis.com/css?family=Arsenal|Arya|Catamaran', array(), true);
 		wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0' );
 
-  wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
+  wp_enqueue_script('ewh-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
 	wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/releases/v5.2.0/js/all.js', array(), true);
 	wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/arrow-clicks.min.js', array('jquery'), '1.0.0', true);
 	wp_enqueue_script('ewh1-scripts', get_template_directory_uri() . '/build/js/hamburger.min.js', array('jquery'), '1.0.0', true);
@@ -113,9 +111,22 @@ function ewh_widgets_init() {
 }
 add_action( 'widgets_init', 'ewh_widgets_init' );
 
+// Allow SVG to be uploaded to WordPress
 function cc_mime_types($mimes) {
 	$mimes['svg'] = 'image/svg+xml';
 	return $mimes;
   }
   add_filter('upload_mimes', 'cc_mime_types');
 
+// Chinese Make Appointment Page Redirect
+	function make_appointment_template_redirect()
+	{
+		$current_post_id = get_queried_object_id();
+
+			if( $current_post_id === (870) && ! is_user_logged_in() )
+			{
+					wp_redirect( home_url( '/contact-us/' ) );
+					die;	
+			}
+	}
+	add_action( 'template_redirect', 'make_appointment_template_redirect' );

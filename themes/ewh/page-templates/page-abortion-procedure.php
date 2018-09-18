@@ -2,7 +2,6 @@
 /**
  * Template Name: Abortion Procedure
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>
@@ -14,11 +13,8 @@ get_header(); ?>
 			<div class="abortion-procedure-container">
 
 <?php 
-	$tab_label_1 = CFS()->get_field_info('before_abortion');
 	$tab_content_1 = CFS()->get('before_abortion_text_area');
-	$tab_label_2 = CFS()->get_field_info('abortion_procedure');
 	$tab_content_2 = CFS()->get('abortion_procedure_text_area');
-	$tab_label_3 = CFS()->get_field_info('after_abortion');
 	$tab_content_3 = CFS()->get('after_abortion_text_area');
 	?>
 
@@ -28,13 +24,13 @@ get_header(); ?>
 
 <section class='arrow-container'>
 <div class="arrow1">		
-<a class="before"><?php echo $tab_label_1['label']; ?></a>
+<a class="before">Before Abortion</a>
 </div>
 <div class="arrow2">		
-<a class="during"><?php echo $tab_label_2['label']; ?></a>
+<a class="during">Abortion Procedure</a>
 </div>
 <div class="arrow3">		
-<a class="after"><?php echo $tab_label_3['label']; ?></a>
+<a class="after">After Abortion</a>
 </div>
 </section>
 

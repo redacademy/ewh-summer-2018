@@ -76,7 +76,7 @@
   }
 }
 .chinese-div-single {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 10px;
   h2 {
@@ -91,16 +91,11 @@
     h2 {
       font-size: 2rem;
     }
-    font-size: 1.3rem;
+    p{
+    font-size: 1.5rem;
   }
-  @include desktop {
-    h2 {
-      font-size: 2.5rem;
-    }
-    p {
-      font-size: 1.5rem;
-    }
-  }
+}
+ 
 }
 .chinese-single-title {
   padding-left: 1rem;

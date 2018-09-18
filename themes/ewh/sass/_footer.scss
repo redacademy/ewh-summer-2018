@@ -35,6 +35,9 @@ footer {
     color: $color__background-blue;
   }
   @include tablet {
+    a{
+      color: $color__background-white;
+    }
     width: 20%;
     padding-right: 20%;
   }

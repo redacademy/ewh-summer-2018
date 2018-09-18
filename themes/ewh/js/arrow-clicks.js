@@ -27,16 +27,4 @@
       clicked.parent().addClass('highlight-arrow');
     }
   });
-
-  // Chinese Make Appointment
-  $('.chinese-div > a').on('click', function() {
-    var clicked = $(this);
-    if (clicked.parent().index() === 0) {
-      console.log('hi');
-      // window.location.href = 'http://www.google.com';
-      // window.location.assign('http://www.w3schools.com');
-      // window.location.replace('http://stackoverflow.com');
-      // $(location).attr('href', 'http://stackoverflow.com');
-    }
-  });
 })(jQuery);

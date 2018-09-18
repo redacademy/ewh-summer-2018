@@ -1,0 +1,21 @@
+.privacy-div {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  h1{
+    color: $color__background-blue;
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  ul {
+    margin: 0;
+  }
+  @include tablet {
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
