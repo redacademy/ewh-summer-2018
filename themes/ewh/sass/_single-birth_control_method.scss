@@ -12,44 +12,34 @@ div.entry-content {
     margin: auto;
 }
 
+// This is the blue background for each of the birth control methods: IUD, Condoms, Pills, etc.
 .birth-control-header {
     display: flex;
     flex-wrap: wrap;
     color: white;
     background:$color__background-blue;
-    // height: 440px;
+    height: 360px;
     position: relative;
     width: 100vw;
     max-width: 100%;
-    height: 350px;
 }
 
-
-
-    // header.entry-header {
-    //     display: flex;
-    //     width: 100%;
-    //     justify-content: flex-end;
-    //     height: auto;
-    //     position: absolute;
-    // }
-
-
+// This is the container for the items of the banner
     .bcm-entry-header {
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        height: auto;
+        height: 100%;
         position: absolute;
     }
 
+    // The white title of birth control methods inside the blue banner. 
     div.bcm-title {
         order: 1;
         width: 70vw;
-        height: 100%;
+        // height: 100%;
         margin-top: -0.5em;
         margin: auto;
-        // position: absolute;
         left: 0;
         h1 {
             text-align: center;
@@ -65,35 +55,33 @@ div.entry-content {
         bottom: 0;
         left: 0;
         margin-left: 2rem;
+        z-index: 3;
     }
 
+    // The container of the image on the right
     div.bcm-img {
         order: 2;
         right: 0;
+        margin-top: auto;
+        margin-bottom: auto;
 
-        // position: relative;
-// top: 50%;
-// transform: translateY(-50%);
-
-        // width: 40vw;
-        // height: auto;
+        // The birth control logo on the right for IUD and Pills
         .img {
             // margin-top: -0.5em;
             // margin: auto;
+            margin-top: 4rem;
             position: absolute;
             bottom: 0;
     }
     }
 
+    // The large White title from the blue banner
     .bcm-entry-title {
         text-align: center;
         color: white;
     }
 
-    // p.bcm-img {
-    //     position: relative;
-    // }
-
+    // The white text inside the blue banner
     div.bcm-text {
         width: 70%;
         text-align: inherit;
@@ -103,9 +91,7 @@ div.entry-content {
         display: none;
     }
 
-
 // To change the color of each product item
-
 h1.bcm-title {
     color:$color__background-blue;
   }
@@ -115,6 +101,7 @@ h1.bcm-title {
       margin: auto;
   }
 
+// For screen widths larger than mobile
 @media (min-width: 700px) {
 
     .birth-control-header {
@@ -124,7 +111,7 @@ h1.bcm-title {
     .birth-control-header {
         .bcm-entry-title {
             margin-left: 2rem;
-        font-size: 3rem;
+            font-size: 3rem;
     }
 
     div.bcm-text {
@@ -135,8 +122,8 @@ h1.bcm-title {
 
     .bcm-img {
         order: 2;
-        position: relative;
-        height: auto;
+        // position: relative;
+        // height: auto;
         width: auto;
         left: 70px;
     }
