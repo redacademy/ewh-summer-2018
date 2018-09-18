@@ -3045,6 +3045,19 @@ div.hide-description {
     padding-bottom: 50px;
     padding-top: 50px; }
 
+.appointment-top-colours figure {
+  margin: 0; }
+
+.two-week-button {
+  background-color: #00c4c5;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px; }
+
 .testimonial-page-header {
   text-align: center;
   color: #0076B6; }
