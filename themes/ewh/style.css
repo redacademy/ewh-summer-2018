@@ -3049,14 +3049,24 @@ div.hide-description {
   margin: 0; }
 
 .two-week-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #00c4c5;
+  margin: 0 auto;
   text-align: center;
   width: 20%;
-  margin: 0 auto;
   border-radius: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 20px; }
+  font-size: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  outline: 0; }
 
 .testimonial-page-header {
   text-align: center;
@@ -3859,3 +3869,50 @@ div.birth-control-container {
   background: #00c4c5; }
   .highlight-arrow::after {
     border-left: 4rem solid #00c4c5; }
+
+.two-week-followup {
+  padding-top: 50px; }
+  .two-week-followup h1 {
+    color: #0076B6; }
+  .two-week-followup .two-week-blue {
+    background-color: #0076B6;
+    color: white;
+    font-size: 20px;
+    padding: 20px; }
+    @media screen and (min-width: 1080px) {
+      .two-week-followup .two-week-blue {
+        padding: 30px 60px 30px 60px;
+        font-size: 24px; } }
+  .two-week-followup .wpcf7-form {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 80%; }
+    .two-week-followup .wpcf7-form input {
+      width: 100%;
+      border-radius: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      outline: 0;
+      border-color: #0076B6; }
+    .two-week-followup .wpcf7-form textarea {
+      width: 100%;
+      border-radius: 0px;
+      outline: 0;
+      border-color: #0076B6; }
+    .two-week-followup .wpcf7-form input[type="submit"] {
+      width: auto;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      background-color: #00c4c5;
+      color: white;
+      border: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 100px;
+      padding-left: 100px;
+      font-size: 20px;
+      border-radius: 12px;
+      text-transform: capitalize; }
+    .two-week-followup .wpcf7-form label {
+      font-size: 18px; }
