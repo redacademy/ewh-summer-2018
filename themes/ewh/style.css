@@ -1680,16 +1680,20 @@ footer {
   .myth-fact-class .tab-content:nth-of-type(1) {
     display: block; }
   .myth-fact-class .tab-nav {
-    background: #00c4c5;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    background: #00c4c5; }
+    .myth-fact-class .tab-nav p {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      cursor: pointer; }
     .myth-fact-class .tab-nav .tab-next,
     .myth-fact-class .tab-nav .tab-prev {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
       border: none;
       border-color: none;
       -webkit-box-shadow: none;
@@ -1699,7 +1703,7 @@ footer {
       color: #fff;
       font-size: 20px; }
     .myth-fact-class .tab-nav .tab-prev {
-      margin-bottom: 20px; }
+      margin-left: 60px; }
 
 .med-more-info-link {
   color: #00c4c5;
@@ -2188,16 +2192,30 @@ div.hide-description {
   .compare-abortion-page .compare-title-desktop {
     display: none; }
   .compare-abortion-page .major-compare-table {
-    border-bottom: 35px solid #0076B6; }
+    border-bottom: 35px solid #0076B6;
+    outline: 1pt solid #0076B6; }
   .compare-abortion-page .compare-question {
     color: #0076B6;
     font-size: 16px;
-    margin-top: 50px; }
+    margin-top: 50px;
+    padding-top: 15px;
+    outline: 1pt solid #0076B6; }
   .compare-abortion-page .compare-table-1,
   .compare-abortion-page .compare-table-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    .compare-abortion-page .compare-table-1 .compare-surgical-blue,
+    .compare-abortion-page .compare-table-1 .compare-medical-green,
+    .compare-abortion-page .compare-table-2 .compare-surgical-blue,
+    .compare-abortion-page .compare-table-2 .compare-medical-green {
+      width: 25%; }
+    .compare-abortion-page .compare-table-1 p,
+    .compare-abortion-page .compare-table-2 p {
+      width: 75%; }
+    .compare-abortion-page .compare-table-1 .compare-surgical-blue,
+    .compare-abortion-page .compare-table-2 .compare-surgical-blue {
+      margin-top: -15px; }
   .compare-abortion-page .compare-surgical-blue {
     background-color: #0076B6;
     color: #fff;
@@ -2206,6 +2224,26 @@ div.hide-description {
     background-color: #00c4c5;
     color: #fff;
     padding: 5px; }
+  .compare-abortion-page .compare-abortion-info {
+    margin-top: 50px; }
+    .compare-abortion-page .compare-abortion-info .abortion-options-link {
+      color: #00c4c5;
+      text-decoration: underline; }
+    .compare-abortion-page .compare-abortion-info button {
+      background-color: #00c4c5;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      border-radius: 8px;
+      border-color: #00c4c5;
+      line-height: 12pt;
+      margin-top: 15px;
+      padding-top: -15px;
+      font-size: 14px; }
+      .compare-abortion-page .compare-abortion-info button a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none; }
 
 .contactus-top-divider {
   position: relative;

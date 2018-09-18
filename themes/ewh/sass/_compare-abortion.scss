@@ -19,16 +19,31 @@
     }
     .major-compare-table {
         border-bottom: 35px solid $color__background-blue;
+        outline: 1pt solid $color__background-blue;
+        // padding-top: 50px;
 
     }
     .compare-question {
         color: $color__background-blue;
         font-size: 16px;
         margin-top: 50px;
+        padding-top: 15px;
+        // padding-bottom: 10px;
+        outline: 1pt solid $color__background-blue;
     }
     .compare-table-1,
     .compare-table-2 {
         display: flex;
+        .compare-surgical-blue,
+        .compare-medical-green {
+            width: 25%;
+        }
+        p {
+            width: 75%;
+        }
+        .compare-surgical-blue {
+            margin-top: -15px;
+        }
     }
     .compare-surgical-blue {
         background-color: $color__background-blue;
@@ -39,5 +54,30 @@
         background-color: $color__background-teal;
         color: $color__text-white;
         padding: 5px;
+    }
+
+
+    .compare-abortion-info {
+        margin-top: 50px;
+        .abortion-options-link {
+            color: $color__background-teal;
+            text-decoration: underline;
+        }
+        button {
+            background-color: $color__background-teal;
+            box-shadow: none;
+            text-shadow: none;
+            border-radius: 8px;
+            border-color: $color__background-teal;
+            line-height: 12pt;
+            margin-top: 15px;
+            padding-top: -15px;
+            font-size: 14px;
+            a {
+                color: $color__background-white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
     }
 }
