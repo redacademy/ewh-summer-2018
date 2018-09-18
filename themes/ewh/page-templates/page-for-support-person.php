@@ -2,8 +2,6 @@
 /**
  * Template Name: For Support Person
  * 
- *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>
