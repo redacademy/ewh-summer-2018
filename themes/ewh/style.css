@@ -2051,6 +2051,10 @@ div.hide-description {
   text-align: center;
   padding-bottom: 1rem;
   display: block; }
+  .birth-control-methods-box h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding: .5rem; }
   .birth-control-methods-box a {
     color: white;
     text-decoration: none; }
@@ -3099,24 +3103,14 @@ div.hide-description {
   margin: 0; }
 
 .two-week-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #00c4c5;
-  margin: 0 auto;
   text-align: center;
   width: 20%;
+  margin: 0 auto;
   border-radius: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 20px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  text-shadow: none;
-  outline: 0; }
+  font-size: 20px; }
 
 .testimonial-page-header {
   text-align: center;
@@ -3956,17 +3950,11 @@ div.birth-control-container {
 .tab-3-show {
   display: block; }
 
-.support-before-div {
-  display: none; }
+.highlight-arrow {
+  background: #00c4c5; }
+  .highlight-arrow::after {
+    border-left: 4rem solid #00c4c5; }
 
-.support-before-div-show {
-  display: block; }
-
-.support-after-div {
-  display: none; }
-
-.support-after-div-show {
-  display: block; }
 
 .two-week-followup {
   padding-top: 50px; }
@@ -4014,3 +4002,16 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
+
+.support-before-div {
+  display: none; }
+
+.support-before-div-show {
+  display: block; }
+
+.support-after-div {
+  display: none; }
+
+.support-after-div-show {
+  display: block; }
+

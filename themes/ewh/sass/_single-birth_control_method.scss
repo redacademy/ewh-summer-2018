@@ -47,6 +47,7 @@ div.entry-content {
         }
     }
 
+    // This is the white text bellow the Title in a blue banner.
     div.bcm-text {
         order: 3;
         width: 70vw;
@@ -67,8 +68,6 @@ div.entry-content {
 
         // The birth control logo on the right for IUD and Pills
         .img {
-            // margin-top: -0.5em;
-            // margin: auto;
             margin-top: 4rem;
             position: absolute;
             bottom: 0;
@@ -122,8 +121,6 @@ h1.bcm-title {
 
     .bcm-img {
         order: 2;
-        // position: relative;
-        // height: auto;
         width: auto;
         left: 70px;
     }
