@@ -957,10 +957,10 @@ body {
   display: block; }
 
 .site {
-  margin-top: 75px; }
+  margin-top: 72px; }
   @media screen and (min-width: 600px) {
     .site {
-      margin-top: 85px; } }
+      margin-top: 72px; } }
   @media screen and (min-width: 1080px) {
     .site {
       margin-top: 87px; } }
@@ -1391,14 +1391,15 @@ footer {
 
 .widget_text {
   display: none;
-  color: #fff; }
+  color: #fff;
+  width: 37%; }
   .widget_text h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   @media screen and (min-width: 600px) {
     .widget_text {
       display: block; } }
 
-#custom_html-5 {
+#nav_menu-2 {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1411,25 +1412,32 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  #nav_menu-2 a {
+    color: #0076B6; }
   @media screen and (min-width: 600px) {
-    #custom_html-5 {
-      width: 20%; } }
-  #custom_html-5 h2 {
+    #nav_menu-2 {
+      width: 20%;
+      padding-right: 20%; } }
+  #nav_menu-2 h2 {
     color: #4A4A4A;
     font-size: 20px; }
     @media screen and (min-width: 600px) {
-      #custom_html-5 h2 {
+      #nav_menu-2 h2 {
         display: none; } }
-  #custom_html-5 div {
+  #nav_menu-2 div {
     width: 50px;
     margin: 0 auto; }
-  #custom_html-5 .privacy {
+  #nav_menu-2 .menu-footer-container {
     color: #21759b; }
     @media screen and (min-width: 600px) {
-      #custom_html-5 .privacy {
+      #nav_menu-2 .menu-footer-container {
         margin-top: 20px;
         display: block;
         color: #fff; } }
+  #nav_menu-2 #menu-footer {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
 
 .footer-colors {
   display: none; }
@@ -2151,7 +2159,10 @@ div.hide-description {
   padding-left: 1rem;
   color: #fff;
   font-size: 1.8rem;
-  background: #0076B6; }
+  background-image: url("../../images/chinese-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media screen and (min-width: 600px) {
     .chinese-single-title {
       font-size: 2.3rem; } }
@@ -3387,6 +3398,11 @@ div.birth-control-container {
 .abortion-procedure-container {
   width: 95%;
   margin: 0 auto; }
+  .abortion-procedure-container p {
+    font-size: 1rem; }
+    @media screen and (min-width: 600px) {
+      .abortion-procedure-container p {
+        font-size: 1.5rem; } }
 
 .wtx {
   color: #0076B6;
@@ -3432,6 +3448,9 @@ div.birth-control-container {
       border-radius: 0;
       width: 25%; }
       .arrow1 a {
+        padding-left: 7%;
+        width: 100%;
+        margin: 0;
         font-size: 1.3rem; }
       .arrow1::after {
         content: '';
@@ -3475,6 +3494,9 @@ div.birth-control-container {
       border-radius: 0;
       padding-left: 3.5rem; }
       .arrow2 a {
+        padding-left: 10%;
+        width: 100%;
+        margin: 0;
         font-size: 1.3rem; }
       .arrow2::before {
         content: '';
@@ -3500,6 +3522,7 @@ div.birth-control-container {
     .arrow2 {
       width: 29%; }
       .arrow2 a {
+        padding-left: 6%;
         font-size: 2.5rem; } }
 
 .arrow3 {
@@ -3528,6 +3551,9 @@ div.birth-control-container {
       border-radius: 0;
       padding-left: 4rem; }
       .arrow3 a {
+        padding-left: 12%;
+        width: 100%;
+        margin: 0;
         font-size: 1.3rem; }
       .arrow3::before {
         content: '';
@@ -3677,6 +3703,18 @@ div.birth-control-container {
 .for-support-person-container {
   width: 95%;
   margin: 0 auto; }
+  .for-support-person-container h1 {
+    color: #0076B6; }
+  .for-support-person-container .fsp-div p {
+    text-align: center; }
+  .for-support-person-container p {
+    font-size: 1rem; }
+    @media screen and (min-width: 1080px) {
+      .for-support-person-container p {
+        font-size: 1.5rem; } }
+  .for-support-person-container .arrow-container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .for-support-person-container .arrow1 {
     width: 40%;
     border-radius: 20px;
@@ -3689,7 +3727,7 @@ div.birth-control-container {
       width: 80%;
       margin: 0 auto;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3699,8 +3737,13 @@ div.birth-control-container {
       height: 100%; }
     @media screen and (min-width: 600px) {
       .for-support-person-container .arrow1 {
-        border-radius: 0; }
+        border-radius: 0;
+        width: 30%;
+        max-width: 700px; }
         .for-support-person-container .arrow1 a {
+          width: 100%;
+          margin: 0;
+          padding-left: 7%;
           font-size: 1.3rem; }
         .for-support-person-container .arrow1::after {
           content: '';
@@ -3727,7 +3770,7 @@ div.birth-control-container {
       width: 80%;
       margin: 0 auto;
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3737,9 +3780,13 @@ div.birth-control-container {
       height: 100%; }
     @media screen and (min-width: 600px) {
       .for-support-person-container .arrow3 {
-        border-radius: 0;
-        padding-left: 3rem; }
+        width: 35%;
+        max-width: 700px;
+        border-radius: 0; }
         .for-support-person-container .arrow3 a {
+          padding-left: 12%;
+          width: 100%;
+          margin: 0;
           font-size: 1.3rem; }
         .for-support-person-container .arrow3::before {
           content: '';
@@ -3754,6 +3801,10 @@ div.birth-control-container {
     @media screen and (min-width: 1080px) {
       .for-support-person-container .arrow3 a {
         font-size: 2.5rem; } }
+  .for-support-person-container .highlight-arrow {
+    background: #00c4c5; }
+    .for-support-person-container .highlight-arrow::after {
+      border-left: 4rem solid #00c4c5; }
 
 .for-support-person-block {
   height: 100%;
@@ -3780,7 +3831,14 @@ div.birth-control-container {
 .tab-3-show {
   display: block; }
 
-.highlight-arrow {
-  background: #00c4c5; }
-  .highlight-arrow::after {
-    border-left: 4rem solid #00c4c5; }
+.support-before-div {
+  display: none; }
+
+.support-before-div-show {
+  display: block; }
+
+.support-after-div {
+  display: none; }
+
+.support-after-div-show {
+  display: block; }
