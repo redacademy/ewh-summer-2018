@@ -287,6 +287,9 @@
             color: $color__background-white;
             font-size: 20px;
         }
+        @include desktop {
+            display: none;
+        }
     }
 }
 

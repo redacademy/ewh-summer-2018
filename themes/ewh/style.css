@@ -1703,6 +1703,9 @@ footer {
       text-shadow: none;
       color: #fff;
       font-size: 20px; }
+    @media screen and (min-width: 1080px) {
+      .myth-fact-class .tab-nav {
+        display: none; } }
 
 .med-more-info-link {
   color: #00c4c5;
