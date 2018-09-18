@@ -1,8 +1,7 @@
 <?php
 /**
- * The template for displaying archive pages.
+ * The template for displaying the archive birth control pages.
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>

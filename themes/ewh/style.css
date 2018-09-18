@@ -1417,7 +1417,9 @@ footer {
   @media screen and (min-width: 600px) {
     #nav_menu-2 {
       width: 20%;
-      padding-right: 20%; } }
+      padding-right: 20%; }
+      #nav_menu-2 a {
+        color: #fff; } }
   #nav_menu-2 h2 {
     color: #4A4A4A;
     font-size: 20px; }
@@ -3953,6 +3955,7 @@ div.birth-control-container {
   .highlight-arrow::after {
     border-left: 4rem solid #00c4c5; }
 
+
 .two-week-followup {
   padding-top: 50px; }
   .two-week-followup h1 {
@@ -4011,3 +4014,4 @@ div.birth-control-container {
 
 .support-after-div-show {
   display: block; }
+

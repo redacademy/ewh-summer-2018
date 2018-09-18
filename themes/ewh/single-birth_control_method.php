@@ -2,7 +2,6 @@
 /**
  * The template for Birth Control Methods and Testimonials
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>

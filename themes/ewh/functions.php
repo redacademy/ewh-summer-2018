@@ -1,10 +1,8 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package ewh_Theme
  */
 
 if ( ! function_exists( 'ewh_setup' ) ) :
@@ -123,10 +121,12 @@ function cc_mime_types($mimes) {
 // Chinese Make Appointment Page Redirect
 	function make_appointment_template_redirect()
 	{
-			if( is_page( 'goodies' ) && ! is_user_logged_in() )
+		$current_post_id = get_queried_object_id();
+
+			if( $current_post_id === (870) && ! is_user_logged_in() )
 			{
 					wp_redirect( home_url( '/contact-us/' ) );
-					die;
+					die;	
 			}
 	}
 	add_action( 'template_redirect', 'make_appointment_template_redirect' );
