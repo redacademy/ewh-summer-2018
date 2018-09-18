@@ -1,5 +1,9 @@
 #Every Woman's Health Center Website
 
+Our final project with the Summer semester of Red Academy involved forming groups and redesigning a website for a community project. 
+
+
+
 
 
 RED Academy Vancouver
