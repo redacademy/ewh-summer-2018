@@ -1,6 +1,9 @@
 
 
 .appointment-mobile-top{
+    @include desktop{
+        display: none;
+    }
     text-align: center;
     width: 80%;
     color: $color__text-grey;
@@ -22,12 +25,12 @@
     }
     h3{
         text-align: left;
-        @include desktop{
-            text-align: center;
-        }
     }
 }
 .appointment-contact-mobile{
+    @include desktop{
+        display: none;
+    }
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -68,6 +71,88 @@
     }
 }
 .appointment-mobile-bottom{
+    @include desktop{
+        display: none;
+    }
     text-align: center;
     color: $color__text-grey;
+}
+.appointment-desktop{
+    display: none;
+    @include desktop{
+        padding-top:50px;
+        display: block;
+        h1{
+            padding-bottom: 80px;
+            color: $color__background-blue;
+        }
+    }
+    .appointment-desktop-blue-box{
+        background-color: $color__background-blue;
+        color: white;
+        padding-top:40px;
+        padding-bottom:40px;
+        padding-left:50px;
+        padding-right:50px;
+        p{
+            text-align: left;
+            font-size: 20px;
+        }
+    }
+    .wpcf7-form{
+        padding-top:50px;
+        margin: 0 auto;
+        width: 60%;
+        input{
+            width: 100%;
+            border-radius: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            outline: 0;
+            border-color: $color__background-blue;
+        }
+        textarea{
+            width: 100%;
+            border-radius: 0px;
+            outline: 0;
+            border-color: $color__background-blue;
+        }
+        input[type="submit"]{
+            width: auto;
+            text-shadow: none;
+            box-shadow: none;
+            background-color: $color__background-teal;
+            color: white;
+            border: none;
+            padding-top:20px;
+            padding-bottom:20px;
+            padding-right:100px;
+            padding-left:100px;
+            font-size:20px;
+            border-radius: 12px;
+        }
+        label{
+            font-size: 18px;
+        }
+    }
+    .desktop-info-bottom-appointment{
+        color: $color__text-grey;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+.appointment-top-colours{
+    figure{
+        margin: 0;
+    }
+}
+.two-week-button{
+background-color: $color__background-teal;
+text-align: center;
+width: 20%;
+margin: 0 auto;
+border-radius: 12px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
 }
