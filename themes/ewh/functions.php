@@ -78,7 +78,7 @@ function ewh_scripts()
 
   wp_enqueue_script('red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true);
 	wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/releases/v5.2.0/js/all.js', array(), true);
-	wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/abortion-procedure.min.js', array('jquery'), '1.0.0', true);
+	wp_enqueue_script('ewh-scripts', get_template_directory_uri() . '/build/js/arrow-clicks.min.js', array('jquery'), '1.0.0', true);
 	wp_enqueue_script('ewh1-scripts', get_template_directory_uri() . '/build/js/hamburger.min.js', array('jquery'), '1.0.0', true);
 	wp_enqueue_script('ewh2-scripts', get_template_directory_uri() . '/build/js/abortion-page.min.js', array('jquery'), '1.0.0', true);
 
