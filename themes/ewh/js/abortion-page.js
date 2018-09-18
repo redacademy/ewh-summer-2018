@@ -1,5 +1,10 @@
 (function($){
 
+
+$( '.javascript-button' ).append( '<div class="tab-nav"><button class="tab-prev" id="tab-prev"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button><button class="tab-next" id="tab-next"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div>' );
+
+
+
 var viewportWidth = $(document).width();
 var widthLimit = (viewportWidth <= 660);
 
@@ -9,7 +14,7 @@ if (widthLimit) {
 }
 
 function dropDownMenu() {
-$(".drop-down-mobile").hide(200);
+$('.drop-down-mobile').hide(200);
 
 $('.title-mobile').on('click', function(event) {
    event.preventDefault();
@@ -20,19 +25,19 @@ $('.title-mobile').on('click', function(event) {
 }
 
   function setupTabs() {
-    var $tabContent = $(".tab-content"); // cache the jQuery dom elem
+    var $tabContent = $('.tab-content'); // cache the jQuery dom elem
     var tabIndex = 0; // set the tab index
     var tabLength = $tabContent.length; // get the number of tabs
 
     /**
      * Tabbed Navigation Functionality
      */
-    $(".tab-nav button").on("click", function(event) {
+    $('.tab-nav button').on('click', function(event) {
         event.preventDefault();
       
-      var buttonClicked = $(this).attr("id");
+      var buttonClicked = $(this).attr('id');
 
-      if (buttonClicked === "tab-prev" && tabIndex > 0) {
+      if (buttonClicked === 'tab-prev' && tabIndex > 0) {
 
         tabIndex--;
         $tabContent.hide();

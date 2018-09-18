@@ -273,13 +273,10 @@
 
     .tab-nav {
         background: $color__background-teal;
-        // WordPress is adding a p tag around the buttons :(
-        p {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            cursor: pointer;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
         .tab-next,
         .tab-prev {
             border: none;
@@ -290,11 +287,7 @@
             color: $color__background-white;
             font-size: 20px;
         }
-        .tab-prev {
-            margin-left: 60px;
-        }
     }
-    
 }
 
 .med-more-info-link {
