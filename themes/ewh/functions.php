@@ -1,10 +1,8 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package ewh_Theme
  */
 
 if ( ! function_exists( 'ewh_setup' ) ) :

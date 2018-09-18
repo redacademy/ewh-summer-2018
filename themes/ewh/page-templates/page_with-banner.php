@@ -2,9 +2,8 @@
 /**
  * Template Name: Page With Banner
  *
- * The template for displaying all pages.
+ * The template for displaying all pages with banners.
  *
- * @package RED_Starter_Theme
  */
 
 get_header();

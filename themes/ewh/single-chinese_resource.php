@@ -1,8 +1,7 @@
 <?php
 /**
- * The template for displaying all single posts.
+ * The template for displaying all chinese resource pages.
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>

@@ -1,8 +1,7 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying dedications page.
  *
- * @package RED_Starter_Theme
  */
 
 get_header(); ?>
