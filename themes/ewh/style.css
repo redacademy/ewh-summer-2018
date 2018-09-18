@@ -3098,6 +3098,12 @@ div.hide-description {
   margin: 0; }
 
 .two-week-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #00c4c5;
   text-align: center;
   width: 20%;
@@ -3950,17 +3956,10 @@ div.birth-control-container {
 
 .support-before-div {
   display: none; }
-<<<<<<< HEAD
 
 .support-before-div-show {
   display: block; }
 
-=======
-
-.support-before-div-show {
-  display: block; }
-
->>>>>>> 66891f0f7af786763c18e9db5cc069f45ea069e2
 .support-after-div {
   display: none; }
 
@@ -4013,8 +4012,6 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
-<<<<<<< HEAD
-=======
 
 .privacy-div {
   width: 90%;
@@ -4031,4 +4028,3 @@ div.birth-control-container {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1.5rem; } }
->>>>>>> 66891f0f7af786763c18e9db5cc069f45ea069e2
