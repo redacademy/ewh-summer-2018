@@ -2137,7 +2137,7 @@ div.hide-description {
     padding: 1.5rem 0px; }
 
 .chinese-div-single {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 10px; }
   .chinese-div-single h2 {
@@ -2147,13 +2147,8 @@ div.hide-description {
   .chinese-div-single ul {
     margin: 0; }
   @media screen and (min-width: 600px) {
-    .chinese-div-single {
-      font-size: 1.3rem; }
-      .chinese-div-single h2 {
-        font-size: 2rem; } }
-  @media screen and (min-width: 1080px) {
     .chinese-div-single h2 {
-      font-size: 2.5rem; }
+      font-size: 2rem; }
     .chinese-div-single p {
       font-size: 1.5rem; } }
 
@@ -3548,6 +3543,7 @@ div.birth-control-container {
           justify-content: space-between; }
 
 .arrow1 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: "Catamaran", sans-serif;
@@ -3594,6 +3590,7 @@ div.birth-control-container {
         font-size: 2.5rem; } }
 
 .arrow2 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: "Catamaran", sans-serif;
@@ -3651,6 +3648,7 @@ div.birth-control-container {
         font-size: 2.5rem; } }
 
 .arrow3 {
+  cursor: pointer;
   width: 30%;
   border-radius: 20px;
   font-family: "Catamaran", sans-serif;
@@ -4014,3 +4012,19 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
+
+.privacy-div {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px; }
+  .privacy-div h1 {
+    color: #0076B6; }
+  .privacy-div h2 {
+    font-size: 1.5rem;
+    color: #0076B6;
+    border-bottom: 1px solid #00c4c5; }
+  .privacy-div ul {
+    margin: 0; }
+  @media screen and (min-width: 600px) {
+    .privacy-div p {
+      font-size: 1.5rem; } }
