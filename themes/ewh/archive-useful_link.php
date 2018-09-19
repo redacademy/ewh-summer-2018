@@ -12,10 +12,10 @@ get_header(); ?>
 <section class="useful-page">
  <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
-     <button class='useful-link-div-single'>  
-       <h2><?php the_title();?></h2>
+     <div class='useful-link-div-single'>  
+       <a class='useful-a'><?php the_title();?></a>
         <?php the_content(); ?>
-</button>
+    </div>
   <?php endwhile; ?>
             <?php wp_reset_postdata(); ?>
         <?php else : ?>
