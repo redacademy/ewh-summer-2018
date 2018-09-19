@@ -1533,6 +1533,10 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center; }
+  .medical-method img,
+  .surgical-method img {
+    width: 150px;
+    height: 150px; }
   .medical-method a,
   .surgical-method a {
     color: #fff; }
@@ -4160,21 +4164,9 @@ div.birth-control-container {
 .support-before-div-show {
   display: block; }
 
-<<<<<<< HEAD
-.support-before-div {
-  display: none; }
-
-.support-before-div-show {
-  display: block; }
-
 .support-after-div {
   display: none; }
 
-=======
-.support-after-div {
-  display: none; }
-
->>>>>>> 795897a991122cdad910bc8903db1b941ab02e23
 .support-after-div-show {
   display: block; }
 
@@ -4224,8 +4216,6 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
-<<<<<<< HEAD
-=======
 
 .privacy-div {
   width: 90%;
@@ -4242,4 +4232,3 @@ div.birth-control-container {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1.5rem; } }
->>>>>>> 795897a991122cdad910bc8903db1b941ab02e23
