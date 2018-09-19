@@ -2098,7 +2098,7 @@ div.hide-description {
   display: block; }
   .birth-control-methods-box h2 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.8rem;
     padding: .5rem; }
   .birth-control-methods-box a {
     color: white;
@@ -3385,10 +3385,6 @@ div.hide-description {
 body {
   margin: 1rem; }
 
-div.entry-content {
-  width: 100%;
-  margin: auto; }
-
 .birth-control-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3397,10 +3393,23 @@ div.entry-content {
       flex-wrap: wrap;
   color: white;
   background: #0076B6;
-  height: 360px;
+  height: 20rem;
   position: relative;
   width: 100vw;
   max-width: 100%; }
+  .birth-control-header div.entry-content {
+    width: 100%;
+    bottom: 0;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 70vw;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2rem;
+    font-size: 1rem; }
 
 .bcm-entry-header {
   display: -webkit-box;
@@ -4151,9 +4160,21 @@ div.birth-control-container {
 .support-before-div-show {
   display: block; }
 
+<<<<<<< HEAD
+.support-before-div {
+  display: none; }
+
+.support-before-div-show {
+  display: block; }
+
 .support-after-div {
   display: none; }
 
+=======
+.support-after-div {
+  display: none; }
+
+>>>>>>> 795897a991122cdad910bc8903db1b941ab02e23
 .support-after-div-show {
   display: block; }
 
@@ -4203,6 +4224,8 @@ div.birth-control-container {
       text-transform: capitalize; }
     .two-week-followup .wpcf7-form label {
       font-size: 18px; }
+<<<<<<< HEAD
+=======
 
 .privacy-div {
   width: 90%;
@@ -4219,3 +4242,4 @@ div.birth-control-container {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1.5rem; } }
+>>>>>>> 795897a991122cdad910bc8903db1b941ab02e23
