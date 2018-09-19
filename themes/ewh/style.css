@@ -1005,11 +1005,36 @@ body {
   font-size: 25px;
   color: #0076B6; }
 
+.header-footer-colors {
+  width: 100%;
+  height: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .header-footer-colors .footer-teal {
+    width: 25%;
+    background-color: #00c4c5; }
+  .header-footer-colors .footer-orange {
+    width: 25%;
+    background-color: #FE7F42; }
+  .header-footer-colors .footer-blue {
+    width: 25%;
+    background-color: #4A90E2; }
+  .header-footer-colors .footer-yellow {
+    width: 25%;
+    background-color: #FFBD26; }
+
 .site-header {
   height: 120px;
   z-index: 10;
   width: 100%;
-  border-bottom: 1px solid #00c4c5;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -1066,7 +1091,7 @@ body {
       margin: 0 auto;
       height: 200px;
       width: 100%;
-      padding-top: 4rem; }
+      padding-top: 40%; }
   .site-header .span-chinese-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1119,6 +1144,7 @@ body {
           .site-header .menu-navigation-menu-container .menu .menu-item-has-children > a.angle-icon2::after {
             top: 5px; }
           .site-header .menu-navigation-menu-container .menu .menu-item {
+            font-family: "Arya", sans-serif;
             height: 50px;
             font-size: 1rem;
             width: 100%;
@@ -1202,6 +1228,7 @@ body {
     width: 100%;
     height: 3rem;
     padding-top: 0.8rem;
+    font-family: "Arya", sans-serif;
     color: white; }
     .site-header .donate-button:hover {
       -webkit-box-shadow: none;
@@ -1294,6 +1321,7 @@ body {
               flex-direction: column;
       width: 100%; }
       .nav-site-header .menu-navigation-menu-container .menu .menu-item {
+        font-family: "Arya", sans-serif;
         width: 100%;
         border-bottom: 1px solid #4A4A4A; }
         .nav-site-header .menu-navigation-menu-container .menu .menu-item.nav-donate {
@@ -1366,10 +1394,14 @@ body {
           .nav-site-header .menu-navigation-menu-container .menu .blue .teal a {
             color: #fff; }
 
+.thumb-header {
+  border-bottom: 1px solid #00c4c5; }
+
 footer {
   width: 100%; }
   @media screen and (min-width: 600px) {
     footer {
+      margin-top: 2.5rem;
       background-color: #0076B6; } }
 
 .footer-container {
@@ -1395,11 +1427,12 @@ footer {
   position: fixed; }
 
 .widget_text {
+  font-size: 1rem;
   display: none;
   color: #fff;
   width: 30%; }
   .widget_text h2 {
-    font-size: 1.2rem; }
+    font-size: 1.5rem; }
   @media screen and (min-width: 600px) {
     .widget_text {
       display: block; } }
@@ -1421,6 +1454,7 @@ footer {
       -ms-flex-align: center;
           align-items: center; }
   #nav_menu-2 a {
+    font-family: "Arsenal", sans-serif;
     color: #0076B6; }
   @media screen and (min-width: 600px) {
     #nav_menu-2 {
@@ -1429,7 +1463,7 @@ footer {
         color: #fff; } }
   #nav_menu-2 h2 {
     color: #4A4A4A;
-    font-size: 20px; }
+    font-size: 1.8rem; }
     @media screen and (min-width: 600px) {
       #nav_menu-2 h2 {
         display: none; } }
@@ -1453,7 +1487,7 @@ footer {
   @media screen and (min-width: 600px) {
     .footer-colors {
       width: 100%;
-      height: 10px;
+      height: 5px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2090,27 +2124,25 @@ div.hide-description {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 0;
   width: 100%;
   margin-bottom: 20px; }
   .chinese-banner h2 {
+    font-family: "Catamaran", sans-serif;
     position: absolute;
     bottom: 0;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
     left: 0.5rem; }
   @media screen and (min-width: 600px) {
     .chinese-banner {
       height: 20rem; }
       .chinese-banner h2 {
         bottom: 0.5rem;
-        left: 2rem;
-        font-size: 2.5rem; } }
+        left: 2rem; } }
   @media screen and (min-width: 1080px) {
     .chinese-banner {
-      height: 30rem; }
-      .chinese-banner h2 {
-        font-size: 3rem; } }
+      height: 30rem; } }
 
 .chinese-page {
   width: 95%;
@@ -2123,7 +2155,11 @@ div.hide-description {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 1rem; }
+  @media screen and (min-width: 600px) {
+    .chinese-page {
+      padding-top: 0; } }
 
 .chinese-div {
   font-size: 1rem;
@@ -2142,10 +2178,8 @@ div.hide-description {
         background-color: #0076B6; }
       .chinese-div:nth-child(4n + 4), .chinese-div:nth-child(4n + 3) {
         background: #00c4c5; } }
-  @media screen and (min-width: 1080px) {
-    .chinese-div {
-      font-size: 1.5rem; } }
   .chinese-div h2 {
+    font-family: "Catamaran", sans-serif;
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -2156,31 +2190,24 @@ div.hide-description {
   margin: 0 auto;
   margin-top: 10px; }
   .chinese-div-single h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-family: "Catamaran", sans-serif;
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
   .chinese-div-single ul {
     margin: 0; }
-  @media screen and (min-width: 600px) {
-    .chinese-div-single h2 {
-      font-size: 2rem; }
-    .chinese-div-single p {
-      font-size: 1.5rem; } }
+  .chinese-div-single p {
+    font-family: "Arsenal", sans-serif;
+    font-size: 1rem; }
 
 .chinese-single-title {
   padding-left: 1rem;
   color: #fff;
-  font-size: 1.8rem;
   background-image: url("../../images/chinese-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  @media screen and (min-width: 600px) {
-    .chinese-single-title {
-      font-size: 2.3rem; } }
-  @media screen and (min-width: 1080px) {
-    .chinese-single-title {
-      font-size: 3em; } }
+  background-size: cover;
+  font-size: 2.25rem; }
 
 .compare-abortion-page {
   font-size: 14px;
@@ -3491,32 +3518,32 @@ div.birth-control-container {
 
 .useful-link-div-single {
   width: 100%;
+  height: 10rem;
   margin-bottom: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 5rem;
   color: #fff;
   overflow: hidden; }
   .useful-link-div-single p {
     margin: 0; }
   .useful-link-div-single ul {
     margin: 0; }
+  .useful-link-div-single a {
+    text-decoration: underline; }
   .useful-link-div-single:nth-child(odd) {
     background-color: #0076B6; }
     .useful-link-div-single:nth-child(odd) .useful-a {
+      text-decoration: none;
       font-size: 2rem;
       text-align: center;
       position: relative;
       height: 100%;
-      width: 100%; }
+      width: 80%; }
       .useful-link-div-single:nth-child(odd) .useful-a::after {
         -webkit-transform: rotate(0deg);
                 transform: rotate(0deg);
@@ -3536,6 +3563,7 @@ div.birth-control-container {
   .useful-link-div-single:nth-child(even) {
     background-color: #00c4c5; }
     .useful-link-div-single:nth-child(even) .useful-a {
+      text-decoration: none;
       font-size: 2rem;
       text-align: center;
       position: relative;
@@ -3593,6 +3621,8 @@ div.birth-control-container {
       .useful-link-div-single:nth-child(4n + 1), .useful-link-div-single:nth-child(4n + 2) {
         background: #0076B6; }
         .useful-link-div-single:nth-child(4n + 1) .useful-a, .useful-link-div-single:nth-child(4n + 2) .useful-a {
+          text-decoration: none;
+          margin-top: 2rem;
           text-align: center;
           position: relative;
           height: 100%;
@@ -3634,6 +3664,8 @@ div.birth-control-container {
       .useful-link-div-single:nth-child(4n + 3), .useful-link-div-single:nth-child(4n + 4) {
         background: #00c4c5; }
         .useful-link-div-single:nth-child(4n + 3) .useful-a, .useful-link-div-single:nth-child(4n + 4) .useful-a {
+          text-decoration: none;
+          margin-top: 2rem;
           text-align: center;
           position: relative;
           height: 100%;
@@ -3693,14 +3725,12 @@ div.birth-control-container {
   width: 95%;
   margin: 0 auto; }
   .abortion-procedure-container p {
-    font-size: 1rem; }
-    @media screen and (min-width: 600px) {
-      .abortion-procedure-container p {
-        font-size: 1.5rem; } }
+    font-size: 1rem;
+    font-family: "Arsenal", sans-serif; }
 
 .wtx {
   color: #0076B6;
-  font-family: "Arsenal", sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 2rem; }
 
 .wtxp {
@@ -3726,6 +3756,7 @@ div.birth-control-container {
   height: 8rem;
   position: relative; }
   .arrow1 a {
+    font-family: "Catamaran", sans-serif;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -3764,6 +3795,7 @@ div.birth-control-container {
         font-size: 2.5rem; } }
 
 .arrow2 {
+  font-family: "Catamaran", sans-serif;
   cursor: pointer;
   width: 30%;
   border-radius: 20px;
@@ -3773,6 +3805,7 @@ div.birth-control-container {
   height: 8rem;
   position: relative; }
   .arrow2 a {
+    font-family: "Catamaran", sans-serif;
     width: 80%;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -3822,6 +3855,7 @@ div.birth-control-container {
         font-size: 2.5rem; } }
 
 .arrow3 {
+  font-family: "Catamaran", sans-serif;
   cursor: pointer;
   width: 30%;
   border-radius: 20px;
@@ -3831,6 +3865,7 @@ div.birth-control-container {
   height: 8rem;
   position: relative; }
   .arrow3 a {
+    font-family: "Catamaran", sans-serif;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -3875,27 +3910,29 @@ div.birth-control-container {
 .tab-1 {
   display: none; }
   .tab-1 h2 {
-    font-size: 1.5rem;
+    font-family: "Catamaran", sans-serif;
+    font-size: 1.8rem;
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
-  .tab-1 li {
-    color: black;
-    padding-left: 5px; }
   .tab-1 ol {
+    list-style: none;
+    counter-reset: li;
     color: #0076B6;
     font-size: 1rem;
     margin: 0;
-    padding-left: 5%; }
-  @media screen and (min-width: 600px) {
-    .tab-1 h2 {
-      font-size: 2rem; }
-    .tab-1 ol {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 600px) {
-    .tab-1 h2 {
-      font-size: 2rem; }
-    .tab-1 ol {
-      font-size: 1.5rem; } }
+    padding-left: 2%; }
+  .tab-1 li {
+    font-family: "Arsenal", sans-serif;
+    color: black;
+    padding: 5px 0px 5px 5px;
+    line-height: 2; }
+    .tab-1 li::before {
+      content: counter(li);
+      color: #0076B6;
+      display: inline-block;
+      width: 1em;
+      margin-right: .5em;
+      counter-increment: li; }
 
 .tab-1-show {
   display: block; }
@@ -3903,25 +3940,18 @@ div.birth-control-container {
 .tab-2 {
   display: none; }
   .tab-2 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
+  .tab-2 li {
+    border-bottom: 1px solid #00c4c5;
+    color: black;
+    padding-left: 5px; }
   .tab-2 ol {
+    color: #0076B6;
     font-size: 1rem;
     margin: 0;
-    padding-left: 5%; }
-    .tab-2 ol li {
-      padding-left: 5px; }
-  @media screen and (min-width: 600px) {
-    .tab-2 h2 {
-      font-size: 2rem; }
-    .tab-2 ol {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 600px) {
-    .tab-2 h2 {
-      font-size: 2rem; }
-    .tab-2 ol {
-      font-size: 1.5rem; } }
+    padding-left: 2%; }
 
 .tab-2-show {
   display: block; }
@@ -3929,33 +3959,22 @@ div.birth-control-container {
 .tab-3 {
   display: none; }
   .tab-3 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
-  .tab-3 h3 {
-    font-size: 1.5rem;
-    display: inline-block;
-    padding: 1rem;
-    color: #fff;
-    background-color: #0076B6; }
+  .tab-3 li {
+    color: black;
+    padding-left: 5px; }
   .tab-3 ol {
+    color: #0076B6;
     font-size: 1rem;
     margin: 0;
-    padding-left: 5%; }
-    .tab-3 ol li {
-      padding-left: 5px; }
-  @media screen and (min-width: 600px) {
-    .tab-3 h3 {
-      font-size: 2rem; }
-    .tab-3 h2 {
-      font-size: 2rem; }
-    .tab-3 ol {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 600px) {
-    .tab-3 h2 {
-      font-size: 2rem; }
-    .tab-3 ol {
-      font-size: 1.5rem; } }
+    padding-left: 2%; }
+  .tab-3 h3 {
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    background: #0076B6; }
 
 .tab-3-show {
   display: block; }
@@ -3977,38 +3996,34 @@ div.birth-control-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 15rem;
+  height: 12rem;
   margin: 2% 0; }
   .ap-contact-us p {
+    font-family: "Arsenal", sans-serif;
     text-align: center;
     width: 90%;
     margin: 0 auto;
     font-size: 1rem; }
   .ap-contact-us a {
+    font-family: "Arya", sans-serif;
     margin: 0 auto;
     font-size: 1rem;
     background: #00c4c5;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    border-radius: 3rem; }
-  @media screen and (min-width: 600px) {
-    .ap-contact-us p {
-      font-size: 1.5rem; }
-    .ap-contact-us a {
-      font-size: 1.5rem;
-      padding: 1rem 3rem 1rem 3rem; } }
+    padding: 1.375rem 5rem;
+    border-radius: 12px; }
 
 .for-support-person-container {
   width: 95%;
   margin: 0 auto; }
   .for-support-person-container h1 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 2.25rem;
     color: #0076B6; }
   .for-support-person-container .fsp-div p {
+    font-family: "Arsenal", sans-serif;
     text-align: center; }
   .for-support-person-container p {
     font-size: 1rem; }
-    @media screen and (min-width: 1080px) {
-      .for-support-person-container p {
-        font-size: 1.5rem; } }
   .for-support-person-container .arrow-container {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
@@ -4021,6 +4036,7 @@ div.birth-control-container {
     height: 8rem;
     position: relative; }
     .for-support-person-container .arrow1 a {
+      font-family: "Catamaran", sans-serif;
       width: 80%;
       margin: 0 auto;
       text-align: center;
@@ -4064,6 +4080,7 @@ div.birth-control-container {
     height: 8rem;
     position: relative; }
     .for-support-person-container .arrow3 a {
+      font-family: "Catamaran", sans-serif;
       width: 80%;
       margin: 0 auto;
       text-align: center;
@@ -4109,21 +4126,20 @@ div.birth-control-container {
 
 .tab-1 {
   display: none;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-family: "Arsenal", sans-serif; }
+  .tab-1 h2 {
+    font-family: "Catamaran", sans-serif; }
 
 .tab-1-show {
   display: block; }
 
-.tab-2 {
-  display: none;
-  font-size: 1.5rem; }
-
-.tab-2-show {
-  display: block; }
-
 .tab-3 {
+  font-family: "Arsenal", sans-serif;
   display: none;
   font-size: 1.5rem; }
+  .tab-3 h2 {
+    font-family: "Catamaran", sans-serif; }
 
 .tab-3-show {
   display: block; }

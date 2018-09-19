@@ -1,16 +1,14 @@
 .abortion-procedure-container {
   width: 95%;
   margin: 0 auto;
-  p{
+  p {
     font-size: 1rem;
-    @include tablet {
-      font-size: 1.5rem;
-    }
+    font-family: $font__main;
   }
 }
 .wtx {
   color: $color__background-blue;
-  font-family: $font__main;
+  font-family: $font__header;
   font-size: 2rem;
 }
 .wtxp {
@@ -32,6 +30,7 @@
   height: 8rem;
   position: relative;
   a {
+    font-family: $font__header;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -44,7 +43,7 @@
     padding-left: 2%;
     border-radius: 0;
     width: 25%;
-    a { 
+    a {
       padding-left: 7%;
       width: 100%;
       margin: 0;
@@ -70,6 +69,7 @@
   }
 }
 .arrow2 {
+  font-family: $font__header;
   cursor: pointer;
   width: 30%;
   border-radius: 20px;
@@ -79,6 +79,7 @@
   height: 8rem;
   position: relative;
   a {
+    font-family: $font__header;
     width: 80%;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -129,6 +130,7 @@
   }
 }
 .arrow3 {
+  font-family: $font__header;
   cursor: pointer;
   width: 30%;
   border-radius: 20px;
@@ -138,6 +140,7 @@
   height: 8rem;
   position: relative;
   a {
+    font-family: $font__header;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -182,7 +185,63 @@
 .tab-1 {
   display: none;
   h2 {
-    font-size: 1.5rem;
+    font-family: $font__header;
+    font-size: 1.8rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  ol {
+    list-style: none;
+    counter-reset: li;
+    color: $color__background-blue;
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 2%;
+  }
+  li {
+    font-family: $font__main;
+    color: black;
+    padding: 5px 0px 5px 5px;
+    line-height: 2;
+    &::before {
+      content: counter(li);
+      color: $color__background-blue;
+      display: inline-block;
+      width: 1em;
+      margin-right: .5em;
+      counter-increment: li;
+    }
+  }
+}
+.tab-1-show {
+  display: block;
+}
+.tab-2 {
+  display: none;
+  h2 {
+    font-size: 1.8rem;
+    color: $color__background-blue;
+    border-bottom: 1px solid $color__background-teal;
+  }
+  li {
+    border-bottom: 1px solid $color__background-teal;
+    color: black;
+    padding-left: 5px;
+  }
+  ol {
+    color: $color__background-blue;
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 2%;
+  }
+}
+.tab-2-show {
+  display: block;
+}
+.tab-3 {
+  display: none;
+  h2 {
+    font-size: 1.8rem;
     color: $color__background-blue;
     border-bottom: 1px solid $color__background-teal;
   }
@@ -194,103 +253,13 @@
     color: $color__background-blue;
     font-size: 1rem;
     margin: 0;
-    padding-left: 5%;
-  }
-  @include tablet {
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
-  }
-  @include tablet {
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
-  }
-}
-.tab-1-show {
-  display: block;
-}
-.tab-2 {
-  display: none;
-  h2 {
-    font-size: 1.5rem;
-    color: $color__background-blue;
-    border-bottom: 1px solid $color__background-teal;
-  }
-  ol {
-    font-size: 1rem;
-    margin: 0;
-    padding-left: 5%;
-    li {
-      padding-left: 5px;
-    }
-  }
-  @include tablet {
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
-  }
-  @include tablet {
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
-  }
-}
-.tab-2-show {
-  display: block;
-}
-.tab-3 {
-  display: none;
-  h2 {
-    font-size: 1.5rem;
-    color: $color__background-blue;
-    border-bottom: 1px solid $color__background-teal;
+    padding-left: 2%;
   }
   h3 {
-    font-size: 1.5rem;
-    display: inline-block;
-    padding: 1rem;
+    padding: 1rem 0;
+    text-align: center;
     color: $color__text-white;
-    background-color: $color__background-blue;
-  }
-  ol {
-    font-size: 1rem;
-    margin: 0;
-    padding-left: 5%;
-    li {
-      padding-left: 5px;
-    }
-  }
-  @include tablet {
-    h3 {
-      font-size: 2rem;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
-  }
-  @include tablet {
-    h2 {
-      font-size: 2rem;
-    }
-    ol {
-      font-size: 1.5rem;
-    }
+    background: $color__background-blue;
   }
 }
 .tab-3-show {
@@ -308,28 +277,21 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  height: 15rem;
+  height: 12rem;
   margin: 2% 0;
   p {
+    font-family: $font__main;
     text-align: center;
     width: 90%;
     margin: 0 auto;
     font-size: 1rem;
   }
   a {
+    font-family: $font__secondary;
     margin: 0 auto;
     font-size: 1rem;
     background: $color__background-teal;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    border-radius: 3rem;
-  }
-  @include tablet {
-    p {
-      font-size: 1.5rem;
-    }
-    a {
-      font-size: 1.5rem;
-      padding: 1rem 3rem 1rem 3rem;
-    }
+    padding: 1.375rem 5rem;
+    border-radius: 12px;
   }
 }
