@@ -7,10 +7,6 @@ body {
     margin: 1rem;
 }
 
-div.entry-content {
-    width: 100%;
-    margin: auto;
-}
 
 // This is the blue background for each of the birth control methods: IUD, Condoms, Pills, etc.
 .birth-control-header {
@@ -18,10 +14,31 @@ div.entry-content {
     flex-wrap: wrap;
     color: white;
     background:$color__background-blue;
-    height: 360px;
+    height: 20rem;
     position: relative;
     width: 100vw;
     max-width: 100%;
+
+    div.entry-content {
+        width: 100%;
+        // margin: auto;
+        bottom: 0;
+        order: 3;
+        width: 70vw;
+        height: 30%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 2rem;
+        // z-index: 3;
+        font-size: 1rem;
+    }
+}
+
+.birth-control container {
+    img {
+
+    }
 }
 
 // This is the container for the items of the banner
