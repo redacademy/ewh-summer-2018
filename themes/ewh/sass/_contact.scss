@@ -117,11 +117,15 @@
 .contactus-transit{
     text-align: center;
     color: $color__text-grey;
+    a{
+        color: $color__background-teal;
+    }
     @include desktop{
         text-align: left;
         font-size: 19px;
         line-height: 30pt;
         margin: 0;
+        text-align: center;
     }
 }
 .contactus-desktop-left-mobile{
