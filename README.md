@@ -4,7 +4,7 @@
 This is the final project of our Web Development course at RED Academy, and our first time experiencing what development is like working as a team. The goal was to work with the UI/UX designers to develop an updated website for Everywoman's Health Centre.
 
 ## What is Everywoman's Health Centre?
-They are an abortion and sexual health clinic based in Vancouver which provides aspiration abortion, medical abortions, IUD insertions, miscarriage management, and other reproductive health care.
+They are an abortion and sexual health clinic based in Vancouver which provide aspiration abortion, medical abortions, IUD insertions, miscarriage management, and other reproductive health care.
 
 ## What did you learn?
 One of the biggest takeaways we took from this project is being able to work together in a way that is time efficient, and keeps the code consistent while encountering as few merge conflicts as possible. We also got to experiement more with the WordPress interface, gaining more experience with various commonly seen plugins such as Gutenberg and Contact Form 7.
