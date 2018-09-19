@@ -2316,15 +2316,16 @@ div.hide-description {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       border-bottom: 1px solid #00c4c5;
       padding-bottom: 40px;
       margin-left: 50px; }
       .compare-abortion-page .compare-table-container .compare-table-1 {
-        -ms-flex-line-pack: start;
-            align-content: flex-start; }
+        width: 50%; }
       .compare-abortion-page .compare-table-container .compare-table-2 {
-        -ms-flex-line-pack: end;
-            align-content: flex-end; }
+        width: 50%; }
     .compare-abortion-page .compare-abortion-info {
       background-color: #0076B6;
       margin-top: 50px;
@@ -2865,9 +2866,9 @@ div.hide-description {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                flex-direction: row; }
+                flex-direction: row;
+        width: 100%; }
         .strategic-plan-page .values-container .values-title {
-          padding-left: 150px;
           padding-top: 50px;
           margin-left: 20px; }
         .strategic-plan-page .values-container .values-list {
