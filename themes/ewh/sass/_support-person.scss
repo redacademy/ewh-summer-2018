@@ -2,18 +2,18 @@
   width: 95%;
   margin: 0 auto;
   h1{
+    font-family: $font__header;
+    font-size: 2.25rem;
     color: $color__background-blue;
   }
   .fsp-div{
     p{
+      font-family: $font__main;
       text-align: center;
     }
   }
   p{
     font-size: 1rem;
-    @include desktop {
-      font-size: 1.5rem;
-    }
   }
   .arrow-container{
     justify-content: space-around;
@@ -27,6 +27,7 @@
     height: 8rem;
     position: relative;
     a {
+      font-family: $font__header;
       width: 80%;
       margin: 0 auto;
       text-align: center;
@@ -72,6 +73,7 @@
     height: 8rem;
     position: relative;
     a {
+      font-family: $font__header;
       width: 80%;
       margin: 0 auto;
       text-align: center;
@@ -122,20 +124,21 @@
 .tab-1 {
   display: none;
   font-size: 1.5rem;
+  font-family: $font__main;
+  h2{
+    font-family: $font__header;
+  }
 }
 .tab-1-show {
   display: block;
 }
-.tab-2 {
-  display: none;
-  font-size: 1.5rem;
-}
-.tab-2-show {
-  display: block;
-}
 .tab-3 {
+  font-family: $font__main;
   display: none;
   font-size: 1.5rem;
+  h2{
+    font-family: $font__header;
+  }
 }
 .tab-3-show {
   display: block;
