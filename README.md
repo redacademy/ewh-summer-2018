@@ -1,4 +1,4 @@
-# Everywoman's Health Center 
+# Everywoman's Health Centre
 
 ## What is this project?
 This is the final project of our Web Development course at RED Academy, and our first time experiencing what development is like working as a team. The goal was to work with the UI/UX designers to develop an updated website for Everywoman's Health Centre.
@@ -31,3 +31,9 @@ Lastly, be sure to update your gulpfile.js with the appropriate URL for the Brow
 ## Front Page Sample
 
 ![ewh-gif](https://user-images.githubusercontent.com/40439744/45775467-b6595900-bc04-11e8-9fae-e7a6f71cd235.gif)
+
+## Authors 
+Devin Juett - [juettdm@gmail.com] <br>
+Emilio Lombana - [emiliolombana@gmail.com]<br>
+Joe Roback - [ijroback@gmail.com]<br>
+Julia Browne - [julia.browne@live.ca]
