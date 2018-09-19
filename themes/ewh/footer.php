@@ -22,11 +22,11 @@
 	<div class="footer-yellow">
 	</div>
 	</div>
-	
+	<div class="footer-container">
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer") ) : ?>
 			<?php dynamic_sidebar('footer'); ?>
 <?php endif;?>
-
+</div>
 			</footer><!-- #colophon -->
 
 		<?php	wp_footer(); ?>

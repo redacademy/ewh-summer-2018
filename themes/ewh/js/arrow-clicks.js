@@ -27,4 +27,14 @@
       clicked.parent().addClass('highlight-arrow');
     }
   });
+
+  $('.useful-link-div-single > a').on('click', function(){
+    var clicked = $(this);
+    if(clicked.parent().hasClass('useful-div-open')){
+      $('.useful-link-div-single').removeClass('useful-div-open');
+    } else {
+      $('.useful-link-div-single').removeClass('useful-div-open');
+      clicked.parent().toggleClass('useful-div-open');
+    }
+  });
 })(jQuery);
