@@ -145,15 +145,15 @@
         }
         .compare-table-container {
             display: flex;
-            // justify-content: space-evenly;
+            justify-content: space-between;
             border-bottom: 1px solid $color__background-teal;
             padding-bottom: 40px;
             margin-left: 50px;
             .compare-table-1 {
-                align-content: flex-start;
+                width: 50%;
             }
             .compare-table-2 {
-                align-content: flex-end;
+                width: 50%;
             }
         }
             .compare-abortion-info {
