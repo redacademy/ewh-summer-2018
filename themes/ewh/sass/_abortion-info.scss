@@ -274,9 +274,11 @@
     .tab-nav {
         background: $color__background-teal;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
         .tab-next,
         .tab-prev {
-            flex-direction: row;
             border: none;
             border-color: none;
             box-shadow: none;
@@ -285,15 +287,10 @@
             color: $color__background-white;
             font-size: 20px;
         }
-        .tab-prev {
-        //     align-items: flex-start;
-        margin-bottom: 20px;
+        @include desktop {
+            display: none;
         }
-        // .tab-next {
-        //     align-items: flex-end;
-        // }
     }
-    
 }
 
 .med-more-info-link {

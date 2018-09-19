@@ -1,12 +1,17 @@
 footer {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
   @include tablet {
+    margin-top: 2.5rem;
     background-color: $color__background-blue;
   }
+}
+.footer-container{
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+width: 90%;
+margin: 0 auto;
 }
 .phone-icon {
   border-radius: 8px;
@@ -15,15 +20,19 @@ footer {
   position: fixed;
 }
 .widget_text {
+  font-size: 1rem;
   display: none;
   color: $color__text-white;
-  width: 37%;
+  width: 30%;
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   @include tablet {
     display: block;
   }
+}
+#text-6{
+  padding-left: 7%;
 }
 #nav_menu-2 {
   display: block;
@@ -32,18 +41,18 @@ footer {
   width: 100%;
   align-items: center;
   a {
+    font-family: $font__main;
     color: $color__background-blue;
   }
   @include tablet {
     a{
       color: $color__background-white;
     }
-    width: 20%;
-    padding-right: 20%;
+    width: 30%;
   }
   h2 {
     color: $color__text-grey;
-    font-size: 20px;
+    font-size: 1.8rem;
     @include tablet {
       display: none;
     }
@@ -70,7 +79,7 @@ footer {
   display: none;
   @include tablet {
     width: 100%;
-    height: 10px;
+    height: 5px;
     display: flex;
     flex-direction: row;
   }
