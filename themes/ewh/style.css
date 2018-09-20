@@ -4461,8 +4461,4 @@ div.two-column {
     margin: 0; }
   @media screen and (min-width: 600px) {
     .privacy-div p {
-<<<<<<< HEAD
-      font-size: 1.5rem; } }
-=======
       font-size: 1rem; } }
->>>>>>> c3ff2dc361a90152a0dd3dbb88c03fe9f6864bbe
