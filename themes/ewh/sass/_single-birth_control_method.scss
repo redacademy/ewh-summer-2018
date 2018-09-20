@@ -7,6 +7,10 @@ body {
     margin: 1rem;
 }
 
+.div-bcm-title {
+    display: none;
+}
+
 // This is the blue background for each of the birth control methods: IUD, Condoms, Pills, etc.
 .bcm-banner {
     display: flex;
@@ -15,7 +19,7 @@ body {
     color: white;
     background: $color__background-blue;
     width: 100vw;
-    margin-left: 0;
+    margin: 0;
 
     div.white-title {
         display: flex;
@@ -32,10 +36,6 @@ body {
 
         bottom:0;
     }
-    }
-
-    .div.bcm-title h1{
-        display: none;
     }
 
     //Container for the banner image
@@ -59,11 +59,11 @@ body {
         color: white;
         font-size: 1rem;
         width: 60%;
-        line-height: 1rem;
+        line-height: 1.5rem;
        padding-left: 1rem;
         order: 3;
         top: 5rem;
-        // bottom: 0;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -163,6 +163,8 @@ color: $color__background-blue;
     text-align: inherit;
     width: auto;
     line-height: 3;
+    padding: 2rem;
+
 }
 }
 
@@ -317,4 +319,8 @@ padding-right: 1rem;
             order: 2;
             display: block;
     }
+}
+
+h1.div.bcm-title {
+    display: none !important;
 }
