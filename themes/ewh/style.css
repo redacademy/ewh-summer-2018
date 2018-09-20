@@ -1510,6 +1510,7 @@ footer {
     background-color: #FFBD26; }
 
 .abortion-methods-page {
+  padding-top: 1rem;
   font-size: 1rem;
   line-height: 20pt;
   text-align: center;
@@ -3960,7 +3961,7 @@ div.two-column {
 .abortion-procedure-container {
   width: 95%;
   margin: 0 auto;
-  padding-top: 1rem; }
+  padding-top: 2rem; }
   .abortion-procedure-container p {
     font-size: 1rem;
     font-family: "Arsenal", sans-serif; }
