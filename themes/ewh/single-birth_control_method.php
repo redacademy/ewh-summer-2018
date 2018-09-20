@@ -1,72 +1,34 @@
 <?php
 /**
- * The template for Birth Control Methods and Testimonials
+ * The template for displaying your decision page.
  *
  */
-
 get_header(); ?>
+    <div id="primary" class="bcm-content-area">
 
-	<div id="primary" class="single-bcm-content-area">
-		<main id="main" class="site-main-birth-control" role="main">
+        <main id="main" class="site-main" role="main">
+			
+		<div class="bcm-banner-page">
+            <?php if ( has_post_thumbnail() ): ?>
+               
+                <h1 class="div.bcm-title"> <?php the_title(); ?> </h1>
+               
+            <?php endif; ?>
+            <div class="container">
+                
+			
+			<?php while ( have_posts() ) : the_post(); ?>
 
-			<section class="birth-control-header">	
+				<?php the_content(); ?>
 
-				<?php while ( have_posts() ) : the_post(); ?>
-
-				<!-- Template from Single Birth Control Method -->
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="bcm-entry-header" container>
-
-		<div class='bcm-title'><?php the_title( '<h1 class="bcm-entry-title">', '</h1>' ); ?></div>
-
-		<div class='bcm-text'><?php
-echo CFS()->get('head_line_text') 
-?> </div>
-
-		<?php if ( has_post_thumbnail() ) : ?>
-			<div class='bcm-img'><?php the_post_thumbnail( 'large' ); ?> </div>
-		<?php endif; ?></p>
-
-	</header><!-- .entry-header -->
-
-	<div class="entry-content">
-		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php ewh_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-<?php endwhile; // End of the loop. ?>
-
-		</section>
-
-		<div class="birth-control-container">
-
-	<?php
-	$loop = CFS()->get( 'products' );
-	if(!is_null($loop )){
-		foreach ( $loop as $row ) {
-			$product_image = $row['product_image'];
-			echo "<h1 class='bcm-title'>" . $row['product_title'] . "</h1>";
-			echo "<img class = 'bcm-img' src='" . $product_image . "'/>";
-			echo "<p class ='bcm-text'>" .$row['product_text'] . "</p>";
-		}
-	}
-	?>
-
-</div>
-
+			<?php endwhile; // End of the loop. ?>
+            </div>
+        </div>
+		
+		
+		
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
