@@ -14,6 +14,7 @@ get_header(); ?>
                 <h1 class="div-bcm-title"> <?php the_title(); ?> </h1>
                
             <?php endif; ?>
+            <div class="-bcm-container">
                 
 			
 			<?php while ( have_posts() ) : the_post(); ?>
