@@ -2145,6 +2145,9 @@ div.hide-description {
     .birth-control-methods-box div.hide-description {
       display: block; } }
 
+.div-bcm-title {
+  display: none; }
+
 .chinese-banner {
   position: relative;
   background-image: url("../../images/chinese-banner.jpg");

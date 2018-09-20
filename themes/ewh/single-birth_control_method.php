@@ -11,10 +11,9 @@ get_header(); ?>
 		<div class="bcm-banner-page">
             <?php if ( has_post_thumbnail() ): ?>
                
-                <h1 class="div.bcm-title"> <?php the_title(); ?> </h1>
+                <h1 class="div-bcm-title"> <?php the_title(); ?> </h1>
                
             <?php endif; ?>
-            <div class="container">
                 
 			
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -22,7 +21,6 @@ get_header(); ?>
 				<?php the_content(); ?>
 
 			<?php endwhile; // End of the loop. ?>
-            </div>
         </div>
 		
 		
