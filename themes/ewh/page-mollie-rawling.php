@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="regular-banner-page mollie-page">
 
 <?php if ( has_post_thumbnail() ): ?>
-	<div class="regular-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+	<div class="mollie-banner" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
 	<h1 class="mollie-title"> <?php the_title(); ?> </h1>
 	</div>
 <?php endif; ?>

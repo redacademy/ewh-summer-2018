@@ -195,6 +195,11 @@
         font-size: 18px;
         padding-top: 90px;
     }
+    .mollie-banner {
+       width: 100%;
+       height: 200px;
+       background-size: cover;
+    }
 }
 
 .mollie-page {
@@ -210,8 +215,13 @@
             margin-left: 60px;
             padding-top: 100px;
         }
-    }
-    p {
-        margin: 80px 100px;
+        .mollie-banner {
+            width: 100%;
+            height: 642px;
+            background-size: cover;
+        }
+        p {
+            margin: 80px 100px;
+        }
     }
 }
