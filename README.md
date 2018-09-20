@@ -68,7 +68,6 @@ Lastly, be sure to update your gulpfile.js with the appropriate URL for the Brow
 ![ewh-gif](https://user-images.githubusercontent.com/40439744/45775467-b6595900-bc04-11e8-9fae-e7a6f71cd235.gif)
 
 ## Authors 
-<<<<<<< HEAD
 
 ### Devin Juett 
 >juettdm@gmail.com 
@@ -81,9 +80,3 @@ Lastly, be sure to update your gulpfile.js with the appropriate URL for the Brow
 
 ### Julia Browne 
 >julia.browne@live.ca
-=======
-Devin Juett - [juettdm@gmail.com] <br>
-Emilio Lombana - [emiliolombana@gmail.com]<br>
-Joe Roback - [ijroback@gmail.com]<br>
-Julia Browne - [julia.browne@live.ca]
->>>>>>> 63772474cf7589896c4f511728e174350387bb1e

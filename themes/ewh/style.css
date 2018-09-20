@@ -1563,6 +1563,10 @@ footer {
   line-height: 12pt;
   margin-top: 15px;
   font-size: 1rem; }
+  .compare-methods-button:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none; }
   .compare-methods-button a {
     color: #fff;
     font-weight: bold;
@@ -1951,14 +1955,27 @@ footer {
       text-decoration: none; }
   .regular-banner-page .regular-banner {
     width: 100%;
-    height: 200px;
     background-size: cover; }
+    @media (max-width: 600px) {
+      .regular-banner-page .regular-banner {
+        background: #fff !important; } }
+    @media screen and (min-width: 600px) {
+      .regular-banner-page .regular-banner {
+        height: 20rem; } }
+    @media screen and (min-width: 1080px) {
+      .regular-banner-page .regular-banner {
+        height: 30rem; } }
   .regular-banner-page .regular-title {
-    color: #fff;
-    font-family: "Catamaran", sans-serif;
-    text-align: center;
-    font-size: 1rem;
-    padding-top: 90px; }
+    color: #0076B6;
+    margin: 1rem 0;
+    padding-top: 1rem; }
+    @media screen and (min-width: 600px) {
+      .regular-banner-page .regular-title {
+        color: #fff;
+        font-family: "Catamaran", sans-serif;
+        text-align: center;
+        font-size: 2.25rem;
+        padding-top: 90px; } }
   @media screen and (min-width: 1080px) {
     .regular-banner-page {
       font-size: 1rem;
@@ -1983,7 +2000,8 @@ footer {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
-                flex-direction: row; }
+                flex-direction: row;
+        margin-top: 1rem; }
         .regular-banner-page .your-decision-container .your-decision-text {
           width: 75%;
           margin: 80px 100px; }
@@ -2019,6 +2037,7 @@ footer {
   line-height: 20pt;
   width: 100%;
   margin: 0 auto;
+  padding-top: 1rem;
   text-align: justify; }
   .miscarriage-page h1 {
     text-align: center;
@@ -2040,7 +2059,8 @@ footer {
     .miscarriage-page {
       font-size: 1rem;
       width: 100%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-top: 1rem; }
       .miscarriage-page h1 {
         font-size: 2.25rem;
         color: #0076B6;
@@ -2085,6 +2105,7 @@ section.birth-control.container {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-bottom: 2rem;
+  padding-top: 1rem;
   margin: auto; }
 
 div.hide-description {
@@ -2719,6 +2740,7 @@ div.hide-description {
   font-size: 1rem;
   line-height: 20pt;
   text-align: center;
+  padding-top: 1rem;
   width: 100%;
   margin: 0 auto; }
   .for-clinicians-page h1 {
@@ -2920,9 +2942,11 @@ div.hide-description {
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
                   flex-direction: row;
-          font-size: 22px; }
+          font-size: 22px;
+          padding: 0;
+          margin-right: 20rem; }
           .strategic-plan-page .values-container .values-list .list-1 {
-            margin-left: 380px;
+            margin-left: 200px;
             margin-right: 140px;
             padding-top: 70px; }
           .strategic-plan-page .values-container .values-list .list-2 {
@@ -2992,7 +3016,7 @@ div.hide-description {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2.25rem;
     padding-top: 90px; }
   .page-with-banner .solid-blue {
     background-color: #0076B6;
@@ -3590,7 +3614,7 @@ div.birth-control-container {
     background-color: #0076B6; }
     .useful-link-div-single:nth-child(odd) .useful-a {
       text-decoration: none;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align: center;
       position: relative;
       height: 100%;
@@ -3615,7 +3639,7 @@ div.birth-control-container {
     background-color: #00c4c5; }
     .useful-link-div-single:nth-child(even) .useful-a {
       text-decoration: none;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align: center;
       position: relative;
       height: 100%;
@@ -3774,7 +3798,8 @@ div.birth-control-container {
 
 .abortion-procedure-container {
   width: 95%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 1rem; }
   .abortion-procedure-container p {
     font-size: 1rem;
     font-family: "Arsenal", sans-serif; }
@@ -3995,14 +4020,24 @@ div.birth-control-container {
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
   .tab-2 li {
-    border-bottom: 1px solid #00c4c5;
+    text-indent: -1.5rem;
+    font-family: "Arsenal", sans-serif;
     color: black;
-    padding-left: 5px; }
+    padding: 5px 0px 5px 5px;
+    line-height: 2; }
+    .tab-2 li::before {
+      content: counter(li);
+      color: #0076B6;
+      display: inline-block;
+      width: 1em;
+      margin-right: .5em;
+      counter-increment: li; }
   .tab-2 ol {
+    list-style: none;
+    counter-reset: li;
     color: #0076B6;
     font-size: 1rem;
-    margin: 0;
-    padding-left: 2%; }
+    margin: 0; }
 
 .tab-2-show {
   display: block; }
@@ -4065,7 +4100,8 @@ div.birth-control-container {
 
 .for-support-person-container {
   width: 95%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 1rem; }
   .for-support-person-container h1 {
     font-family: "Catamaran", sans-serif;
     font-size: 2.25rem;
