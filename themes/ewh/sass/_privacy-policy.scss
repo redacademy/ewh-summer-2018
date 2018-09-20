@@ -6,7 +6,7 @@
     color: $color__background-blue;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: $color__background-blue;
     border-bottom: 1px solid $color__background-teal;
   }
@@ -15,7 +15,7 @@
   }
   @include tablet {
     p{
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 }
