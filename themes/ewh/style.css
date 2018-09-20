@@ -1507,7 +1507,7 @@ footer {
     background-color: #FFBD26; }
 
 .abortion-methods-page {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   text-align: center;
   width: 100%;
@@ -1519,7 +1519,7 @@ footer {
   color: #0076B6;
   font-family: "Catamaran", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 55pt;
   text-align: center; }
 
@@ -1542,7 +1542,7 @@ footer {
   .medical-method h4,
   .surgical-method h3,
   .surgical-method h4 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold; }
 
 .surgical-method {
@@ -1562,7 +1562,7 @@ footer {
   border-color: #00c4c5;
   line-height: 12pt;
   margin-top: 15px;
-  font-size: 14px; }
+  font-size: 1rem; }
   .compare-methods-button a {
     color: #fff;
     font-weight: bold;
@@ -1579,7 +1579,7 @@ footer {
 
 @media screen and (min-width: 600px) {
   .abortion-methods-page h2 {
-    font-size: 30px;
+    font-size: 1.8rem;
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     line-height: 55px;
@@ -1588,11 +1588,11 @@ footer {
 
 @media screen and (min-width: 1080px) {
   .abortion-methods-page {
-    font-size: 18px;
+    font-size: 1rem;
     width: 100%;
     margin: 0 auto; }
     .abortion-methods-page h2 {
-      font-size: 36px;
+      font-size: 1.8rem;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -1617,12 +1617,12 @@ footer {
       padding-left: 80px;
       border-radius: 12px;
       font-family: "Arya", sans-serif;
-      font-size: 18px;
+      font-size: 1rem;
       color: #fff;
       font-weight: 700; }
     .abortion-methods-page h3,
     .abortion-methods-page h4 {
-      font-size: 24px; }
+      font-size: 1.5rem; }
     .abortion-methods-page .desktop-text {
       display: block; }
     .abortion-methods-page .compare-methods-button {
@@ -1653,7 +1653,7 @@ footer {
 .surgical-abortion-page {
   width: 100%;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center; }
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
@@ -1661,14 +1661,14 @@ footer {
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 2.25rem;
     line-height: 55pt;
     text-align: center;
     margin-bottom: -10px; }
   .medical-abortion-page h2,
   .surgical-abortion-page h2 {
     color: #fff;
-    font-size: 16px;
+    font-size: 1.8rem;
     line-height: 20pt;
     padding: 25px; }
   .medical-abortion-page .med-abortion-blue,
@@ -1745,7 +1745,7 @@ footer {
       background: none;
       text-shadow: none;
       color: #fff;
-      font-size: 20px; }
+      font-size: 1.3rem; }
     @media screen and (min-width: 1080px) {
       .myth-fact-class .tab-nav {
         display: none; } }
@@ -1771,15 +1771,15 @@ footer {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    font-size: 14px; }
+    font-size: 1rem; }
 
 @media screen and (min-width: 600px) {
   .medical-abortion-page,
   .surgical-abortion-page {
-    font-size: 16px; }
+    font-size: 1rem; }
     .medical-abortion-page h1,
     .surgical-abortion-page h1 {
-      font-size: 30px;
+      font-size: 2.25rem;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -1789,12 +1789,12 @@ footer {
 @media screen and (min-width: 1080px) {
   .medical-abortion-page,
   .surgical-abortion-page {
-    font-size: 18px;
+    font-size: 1.1rem;
     width: 100%;
     margin: 0 auto; }
     .medical-abortion-page h1,
     .surgical-abortion-page h1 {
-      font-size: 36px;
+      font-size: 2.25rem;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -1802,7 +1802,7 @@ footer {
       text-align: left; }
     .medical-abortion-page h2,
     .surgical-abortion-page h2 {
-      font-size: 30px;
+      font-size: 1.8rem;
       font-family: "Catamaran", sans-serif;
       margin-bottom: 50px;
       margin-top: 50px; }
@@ -1885,7 +1885,7 @@ footer {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -1927,7 +1927,7 @@ footer {
       color: #0076B6; } }
 
 .regular-banner-page {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   text-align: center;
   width: 100%;
@@ -1943,7 +1943,7 @@ footer {
     border-color: #00c4c5;
     line-height: 12pt;
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: "Arya", sans-serif; }
     .regular-banner-page button a {
       color: #fff;
@@ -1957,11 +1957,11 @@ footer {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     padding-top: 90px; }
   @media screen and (min-width: 1080px) {
     .regular-banner-page {
-      font-size: 18px;
+      font-size: 1rem;
       width: 100%;
       margin: 0 auto; }
       .regular-banner-page p {
@@ -1972,7 +1972,7 @@ footer {
         background-size: cover; }
       .regular-banner-page .regular-title {
         color: #fff;
-        font-size: 60px;
+        font-size: 2.25rem;
         text-align: left;
         margin-left: 60px;
         padding-top: 100px; }
@@ -2005,9 +2005,9 @@ footer {
             color: #fff; } }
   @media screen and (min-width: 600px) {
     .regular-banner-page {
-      font-size: 16px; }
+      font-size: 1rem; }
       .regular-banner-page h1 {
-        font-size: 30px;
+        font-size: 2.25rem;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
         line-height: 55px;
@@ -2015,7 +2015,7 @@ footer {
         margin-top: 50px; } }
 
 .miscarriage-page {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   width: 100%;
   margin: 0 auto;
@@ -2027,7 +2027,7 @@ footer {
     color: #0076B6; }
   .miscarriage-page .miscarriage-heading {
     color: #0076B6;
-    font-size: 16px; }
+    font-size: 1rem; }
   .miscarriage-page ol {
     margin-left: -20px; }
   .miscarriage-page .miscarriage-info {
@@ -2038,11 +2038,11 @@ footer {
       text-align: center; }
   @media screen and (min-width: 1080px) {
     .miscarriage-page {
-      font-size: 18px;
+      font-size: 1rem;
       width: 100%;
       margin: 0 auto; }
       .miscarriage-page h1 {
-        font-size: 36px;
+        font-size: 2.25rem;
         color: #0076B6;
         line-height: 55px;
         font-weight: 900;
@@ -2054,22 +2054,22 @@ footer {
         margin-left: 200px;
         margin-right: 200px; }
       .miscarriage-page .miscarriage-heading {
-        font-size: 20px; }
+        font-size: 1.5rem; }
       .miscarriage-page .miscarriage-info {
         margin-bottom: 50px;
         margin-top: 50px; } }
   @media screen and (min-width: 600px) {
     .miscarriage-page {
-      font-size: 16px; }
+      font-size: 1rem; }
       .miscarriage-page h1 {
-        font-size: 30px;
+        font-size: 2.25rem;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; }
       .miscarriage-page .miscarriage-heading {
-        font-size: 18px; } }
+        font-size: 1.2rem; } }
 
 .birth-control {
   width: 100%; }
@@ -2212,7 +2212,7 @@ div.hide-description {
   font-size: 2.25rem; }
 
 .compare-abortion-page {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   width: 100%;
   margin: 0 auto;
@@ -2222,7 +2222,7 @@ div.hide-description {
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 2.25rem;
     line-height: 55pt;
     text-align: center;
     margin-bottom: -10px; }
@@ -2234,7 +2234,7 @@ div.hide-description {
     outline: 1pt solid #00c4c5; }
   .compare-abortion-page .compare-question {
     color: #0076B6;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -2292,7 +2292,7 @@ div.hide-description {
       background: none;
       text-shadow: none;
       color: #fff;
-      font-size: 20px; }
+      font-size: 1rem; }
     @media screen and (min-width: 1080px) {
       .compare-abortion-page .tab-nav {
         display: none; } }
@@ -2311,7 +2311,7 @@ div.hide-description {
       line-height: 12pt;
       margin-top: 15px;
       padding-top: -15px;
-      font-size: 14px; }
+      font-size: 1rem; }
       .compare-abortion-page .compare-abortion-info button a {
         color: #fff;
         font-weight: bold;
@@ -2319,7 +2319,7 @@ div.hide-description {
 
 @media screen and (min-width: 1080px) {
   .compare-abortion-page {
-    font-size: 18px;
+    font-size: 1rem;
     width: 100%;
     margin: 0 auto; }
     .compare-abortion-page .compare-title-desktop {
@@ -2331,9 +2331,9 @@ div.hide-description {
               justify-content: space-between;
       background: #0076B6;
       color: #fff;
-      padding-left: 100px;
-      padding-right: 100px;
-      font-size: 22px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 1.5rem;
       font-family: "Catamaran", sans-serif;
       margin-bottom: 50px;
       margin-top: 50px; }
@@ -2346,7 +2346,7 @@ div.hide-description {
       outline: none; }
     .compare-abortion-page .compare-question {
       font-family: "Catamaran", sans-serif;
-      font-size: 28px;
+      font-size: 1.8rem;
       font-weight: 900; }
     .compare-abortion-page .compare-table-container {
       display: -webkit-box;
@@ -2375,7 +2375,7 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -2383,9 +2383,9 @@ div.hide-description {
 
 @media screen and (min-width: 600px) {
   .compare-abortion-page {
-    font-size: 16px; }
+    font-size: 1rem; }
     .compare-abortion-page h1 {
-      font-size: 30px;
+      font-size: 2.25rem;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -2663,7 +2663,7 @@ div.hide-description {
     border-radius: 8px;
     border-color: #00c4c5;
     line-height: 12pt;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: "Arya", sans-serif;
     margin-top: -25px;
     color: #fff; }
@@ -2696,7 +2696,7 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -2706,9 +2706,9 @@ div.hide-description {
 
 @media screen and (min-width: 600px) {
   .regular-banner-page {
-    font-size: 16px; }
+    font-size: 1rem; }
     .regular-banner-page h1 {
-      font-size: 30px;
+      font-size: 2.25rem;
       color: #0076B6;
       font-family: "Catamaran", sans-serif;
       line-height: 55px;
@@ -2716,7 +2716,7 @@ div.hide-description {
       margin-top: 50px; } }
 
 .for-clinicians-page {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   text-align: center;
   width: 100%;
@@ -2732,7 +2732,7 @@ div.hide-description {
     line-height: 55px;
     font-weight: 900;
     font-family: "Catamaran", sans-serif;
-    font-size: 18px; }
+    font-size: 1.8rem; }
   .for-clinicians-page .referral-container,
   .for-clinicians-page .referral-more-info {
     background-color: #00c4c5;
@@ -2757,10 +2757,10 @@ div.hide-description {
       .for-clinicians-page .referral-more-info .referral-contact-us a {
         font-weight: bold;
         text-decoration: none;
-        font-size: 14px; }
+        font-size: 1rem; }
   @media screen and (min-width: 1080px) {
     .for-clinicians-page {
-      font-size: 18px;
+      font-size: 1rem;
       width: 100%;
       margin: 0 auto; }
       .for-clinicians-page p {
@@ -2771,14 +2771,14 @@ div.hide-description {
       .for-clinicians-page .referral-more-info p {
         text-align: center; }
       .for-clinicians-page h1 {
-        font-size: 36px;
+        font-size: 2.25rem;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
         line-height: 55px;
         font-weight: 900;
         text-align: left; }
       .for-clinicians-page h2 {
-        font-size: 26px;
+        font-size: 1.8rem;
         font-family: "Catamaran", sans-serif;
         margin-bottom: 50px;
         margin-top: 50px;
@@ -2795,13 +2795,13 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
         outline: #00c4c5; }
         .for-clinicians-page button a {
-          font-size: 18px; }
+          font-size: 1rem; }
       .for-clinicians-page .referral-more-info {
         margin-bottom: 50px;
         margin-top: 50px; }
@@ -2809,16 +2809,16 @@ div.hide-description {
           color: #0076B6; } }
   @media screen and (min-width: 600px) {
     .for-clinicians-page {
-      font-size: 16px; }
+      font-size: 1rem; }
       .for-clinicians-page h1 {
-        font-size: 30px;
+        font-size: 2.25rem;
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
         line-height: 55px;
         font-weight: 900;
         margin-top: 50px; }
       .for-clinicians-page button {
-        font-size: 16px; } }
+        font-size: 1rem; } }
 
 .strategic-plan-page {
   width: 100%;
@@ -2827,12 +2827,12 @@ div.hide-description {
   .strategic-plan-page .values-title {
     font-family: "Catamaran", sans-serif;
     color: #0076B6;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 20pt; }
   .strategic-plan-page .values-list {
     font-family: "Catamaran", sans-serif;
     color: #01a7a8;
-    font-size: 16px; }
+    font-size: 1rem; }
   .strategic-plan-page .desktop-only {
     display: none; }
   .strategic-plan-page h3 {
@@ -2859,7 +2859,7 @@ div.hide-description {
     color: #fff; }
   @media screen and (min-width: 1080px) {
     .strategic-plan-page {
-      font-size: 18px;
+      font-size: 1rem;
       width: 100%;
       margin: 0 auto; }
       .strategic-plan-page p {
@@ -2867,7 +2867,7 @@ div.hide-description {
         margin-right: 100px; }
       .strategic-plan-page .strategic-heading,
       .strategic-plan-page .values-title {
-        font-size: 32px;
+        font-size: 2.25rem;
         margin-top: 35px;
         margin-bottom: 30px; }
       .strategic-plan-page .blue-paragraph {
@@ -2959,7 +2959,7 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -2968,13 +2968,13 @@ div.hide-description {
         margin-bottom: 50px; } }
   @media screen and (min-width: 600px) {
     .strategic-plan-page {
-      font-size: 16px; } }
+      font-size: 1rem; } }
   .strategic-plan-page .goals-container {
     padding-left: 30px;
     padding-right: 30px; }
 
 .page-with-banner {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 20pt;
   text-align: center;
   width: 100%;
@@ -2992,13 +2992,13 @@ div.hide-description {
     color: #fff;
     font-family: "Catamaran", sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     padding-top: 90px; }
   .page-with-banner .solid-blue {
     background-color: #0076B6;
     color: #fff;
     font-family: "Catamaran", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 20pt;
     padding: 25px; }
   .page-with-banner .about-us-blue {
@@ -3017,7 +3017,7 @@ div.hide-description {
     background-color: #00c4c5;
     color: #fff;
     font-family: "Catamaran", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 20pt;
     padding: 25px; }
   .page-with-banner .about-us-desktop {
@@ -3031,7 +3031,7 @@ div.hide-description {
     border-radius: 8px;
     border-color: #00c4c5;
     line-height: 12pt;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: "Arya", sans-serif; }
     .page-with-banner .support-us-about-button a,
     .page-with-banner .strategic-plan-button a {
@@ -3040,7 +3040,7 @@ div.hide-description {
       text-decoration: none; }
   @media screen and (min-width: 1080px) {
     .page-with-banner {
-      font-size: 18px;
+      font-size: 1rem;
       width: 100%;
       margin: 0 auto; }
       .page-with-banner .about-us-container p {
@@ -3062,7 +3062,7 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -3090,7 +3090,7 @@ div.hide-description {
       .page-with-banner .solid-green {
         background-color: #fff;
         color: #0076B6;
-        font-size: 36px; }
+        font-size: 2.25rem; }
       .page-with-banner .about-us-blue,
       .page-with-banner .about-us-green {
         outline: none; }
@@ -3100,7 +3100,7 @@ div.hide-description {
         background-color: #0076B6;
         width: 100%;
         color: #fff;
-        font-size: 20px;
+        font-size: 1rem;
         padding: 30px;
         margin-top: 150px;
         margin-bottom: 70px; }
@@ -3112,7 +3112,7 @@ div.hide-description {
         padding-left: 80px;
         border-radius: 12px;
         font-family: "Arya", sans-serif;
-        font-size: 18px;
+        font-size: 1rem;
         text-shadow: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
@@ -3124,7 +3124,7 @@ div.hide-description {
         line-height: 35px; } }
   @media screen and (min-width: 600px) {
     .page-with-banner {
-      font-size: 16px; }
+      font-size: 1rem; }
       .page-with-banner h1 {
         font-size: 30px;
         color: #0076B6;
@@ -3137,12 +3137,12 @@ div.hide-description {
   color: #fff;
   font-family: "Catamaran", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 1rem;
   padding-top: 90px; }
 
 @media screen and (min-width: 1080px) {
   .mollie-page {
-    font-size: 18px;
+    font-size: 1rem;
     width: 100%;
     margin: 0 auto;
     line-height: 30px; }
@@ -4261,11 +4261,11 @@ div.birth-control-container {
   .privacy-div h1 {
     color: #0076B6; }
   .privacy-div h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #0076B6;
     border-bottom: 1px solid #00c4c5; }
   .privacy-div ul {
     margin: 0; }
   @media screen and (min-width: 600px) {
     .privacy-div p {
-      font-size: 1.5rem; } }
+      font-size: 1rem; } }
