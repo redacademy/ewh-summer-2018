@@ -187,6 +187,10 @@
     margin: 0 auto;
     font-size: 1rem;
     text-align: center;
+    padding-top: 3rem;
+    @include tablet{
+        padding-top: 1rem;
+    }
 
     h1 {
         display: block;
@@ -489,10 +493,14 @@
 // Your Decision
 .regular-banner-page {
     font-size: 1rem;
+    padding-top: 1.5rem;
     line-height: 20pt;
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    @include tablet {
+        padding-top: 0;
+    }
     .motherisk {
         color: $color__text-grey;
     }
@@ -608,8 +616,11 @@
     line-height: 20pt;
     width: 100%;
     margin: 0 auto;
-    padding-top: 1rem;
+    padding-top: 4rem;
     text-align: justify;
+    @include tablet{
+        padding-top: 1rem;
+    }
     h1 {
         text-align: center;
         display: block;

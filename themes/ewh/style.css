@@ -1662,7 +1662,12 @@ footer {
   width: 100%;
   margin: 0 auto;
   font-size: 1rem;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3rem; }
+  @media screen and (min-width: 600px) {
+    .medical-abortion-page,
+    .surgical-abortion-page {
+      padding-top: 1rem; } }
   .medical-abortion-page h1,
   .surgical-abortion-page h1 {
     display: block;
@@ -1936,10 +1941,14 @@ footer {
 
 .regular-banner-page {
   font-size: 1rem;
+  padding-top: 1.5rem;
   line-height: 20pt;
   text-align: center;
   width: 100%;
   margin: 0 auto; }
+  @media screen and (min-width: 600px) {
+    .regular-banner-page {
+      padding-top: 0; } }
   .regular-banner-page .motherisk {
     color: #4A4A4A; }
   .regular-banner-page button {
@@ -2041,8 +2050,11 @@ footer {
   line-height: 20pt;
   width: 100%;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding-top: 4rem;
   text-align: justify; }
+  @media screen and (min-width: 600px) {
+    .miscarriage-page {
+      padding-top: 1rem; } }
   .miscarriage-page h1 {
     text-align: center;
     display: block;
@@ -2186,7 +2198,7 @@ div.hide-description {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  padding-top: 1rem; }
+  padding-top: 4rem; }
   @media screen and (min-width: 600px) {
     .chinese-page {
       padding-top: 0; } }
@@ -2750,9 +2762,12 @@ div.hide-description {
   font-size: 1rem;
   line-height: 20pt;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 3rem;
   width: 100%;
   margin: 0 auto; }
+  @media screen and (min-width: 600px) {
+    .for-clinicians-page {
+      padding-top: 1rem; } }
   .for-clinicians-page h1 {
     display: block;
     font-family: "Catamaran", sans-serif;
@@ -3710,7 +3725,8 @@ h1.div.bcm-title {
 .emergency-contraception {
   text-align: center;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  padding-top: 1rem; }
   @media screen and (min-width: 1080px) {
     .emergency-contraception {
       width: 70%; } }
@@ -4272,7 +4288,10 @@ h1.div.bcm-title {
 .for-support-person-container {
   width: 95%;
   margin: 0 auto;
-  padding-top: 1rem; }
+  padding-top: 3rem; }
+  @media screen and (min-width: 600px) {
+    .for-support-person-container {
+      padding-top: 1rem; } }
   .for-support-person-container h1 {
     font-family: "Catamaran", sans-serif;
     font-size: 2.25rem;
