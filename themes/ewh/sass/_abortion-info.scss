@@ -1,6 +1,6 @@
 // Abortion Methods
 .abortion-methods-page {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20pt;
     text-align: center;
     width: 100%;
@@ -15,7 +15,7 @@
     color: $color__background-blue;
     font-family: $font__header;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 55pt;
     text-align: center;
 }
@@ -40,7 +40,7 @@
 
     h3,
     h4 {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
     }
 }
@@ -63,7 +63,7 @@
     border-color: $color__background-teal;
     line-height: 12pt;
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 1rem;
 
     a {
         color: $color__background-white;
@@ -86,7 +86,7 @@
 .abortion-methods-page {
     @include tablet {
         h2 {
-            font-size: 30px;
+            font-size: 1.8rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -98,12 +98,12 @@
 
 .abortion-methods-page {
     @include desktop {
-        font-size: 18px;
+        font-size: 1rem;
         width: 100%;
         margin: 0 auto;
 
         h2 {
-            font-size: 36px;
+            font-size: 1.8rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -129,14 +129,14 @@
             padding-left: 80px;
             border-radius: 12px;
             font-family: $font__secondary;
-            font-size: 18px;
+            font-size: 1rem;
             color: $color__background-white;
             font-weight: 700;
         }
 
         h3,
         h4 {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
 
         .desktop-text {
@@ -181,7 +181,7 @@
 .surgical-abortion-page {
     width: 100%;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
 
     h1 {
@@ -189,7 +189,7 @@
         color: $color__background-blue;
         font-family: $font__header;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 2.25rem;
         line-height: 55pt;
         text-align: center;
         margin-bottom: -10px;
@@ -197,7 +197,7 @@
 
     h2 {
         color: $color__text-white;
-        font-size: 16px;
+        font-size: 1.8rem;
         line-height: 20pt;
         padding: 25px;
     }
@@ -290,7 +290,7 @@
             background: none;
             text-shadow: none;
             color: $color__background-white;
-            font-size: 20px;
+            font-size: 1.3rem;
         }
         @include desktop {
             display: none;
@@ -320,16 +320,16 @@
         color: $color__background-white;
         font-weight: bold;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 1rem;
     }
 }
 
 .medical-abortion-page,
 .surgical-abortion-page {
     @include tablet {
-        font-size: 16px;
+        font-size: 1rem;
         h1 {
-            font-size: 30px;
+            font-size: 2.25rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -342,12 +342,12 @@
 .medical-abortion-page,
 .surgical-abortion-page {
     @include desktop {
-        font-size: 18px;
+        font-size: 1.1rem;
         width: 100%;
         margin: 0 auto;
 
         h1 {
-            font-size: 36px;
+            font-size: 2.25rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -356,7 +356,7 @@
         }
 
         h2 {
-            font-size: 30px;
+            font-size: 1.8rem;
             font-family: $font__header;
             margin-bottom: 50px;
             margin-top: 50px;
@@ -437,7 +437,7 @@
                 padding-left: 80px;
                 border-radius: 12px;
                 font-family: $font__secondary;
-                font-size: 18px;
+                font-size: 1rem;
                 text-shadow: none;
                 box-shadow: none;
                 outline: $color__background-teal;
@@ -484,7 +484,7 @@
 
 // Your Decision
 .regular-banner-page {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20pt;
     text-align: center;
     width: 100%;
@@ -500,7 +500,7 @@
         border-color: $color__background-teal;
         line-height: 12pt;
         margin-top: 15px;
-        font-size: 14px;
+        font-size: 1rem;
         font-family: $font__secondary;
     
         a {
@@ -518,12 +518,12 @@
         color: $color__background-white;
         font-family: $font__header;
         text-align: center;
-        font-size: 18px;
+        font-size: 1rem;
         padding-top: 90px;
     }
 
     @include desktop {
-        font-size: 18px;
+        font-size: 1rem;
         width: 100%;
         margin: 0 auto;
         p {
@@ -536,7 +536,7 @@
         }
         .regular-title {
             color: $color__background-white;
-            font-size: 60px;
+            font-size: 2.25rem;
             text-align: left;
             margin-left: 60px;
             padding-top: 100px;
@@ -568,9 +568,9 @@
         }
     }
     @include tablet {
-        font-size: 16px;
+        font-size: 1rem;
         h1 {
-            font-size: 30px;
+            font-size: 2.25rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -582,7 +582,7 @@
 
 // Miscarriage Management
 .miscarriage-page {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20pt;
     width: 100%;
     margin: 0 auto;
@@ -595,7 +595,7 @@
     }
     .miscarriage-heading {
         color: $color__background-blue;
-        font-size: 16px;
+        font-size: 1rem;
     }
     ol {
         margin-left: -20px;
@@ -609,11 +609,11 @@
         }
     }
     @include desktop {
-        font-size: 18px;
+        font-size: 1rem;
         width: 100%;
         margin: 0 auto;
         h1 {
-        font-size: 36px;
+        font-size: 2.25rem;
         color: $color__background-blue;
         line-height: 55px;
         font-weight: 900;
@@ -628,7 +628,7 @@
             margin-right: 200px;
         }
         .miscarriage-heading {
-            font-size: 20px;
+            font-size: 1.5rem;
         }
         .miscarriage-info {
             margin-bottom: 50px;
@@ -636,9 +636,9 @@
         }
     }
     @include tablet {
-        font-size: 16px;
+        font-size: 1rem;
         h1 {
-            font-size: 30px;
+            font-size: 2.25rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
@@ -646,7 +646,7 @@
             margin-top: 50px;
         }
         .miscarriage-heading {
-            font-size: 18px;
+            font-size: 1.2rem
         }
     }
 }
