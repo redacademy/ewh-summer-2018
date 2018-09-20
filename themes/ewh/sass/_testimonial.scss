@@ -1,4 +1,11 @@
 // Testimonial Page
+.testimonial-author{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: $font__header;
+    font-weight: 100;
+}
+
 .testimonial-page-header{
     text-align: center;
     color: $color__background-blue;
@@ -30,6 +37,11 @@
     text-align: center;
     padding: 20px;
     margin-bottom:30px;
+    font-size: 1.25rem;
+    p{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 .testimonial-2{
     background-color: $color__background-teal;
@@ -37,18 +49,6 @@
     text-align: center;
     padding: 20px;
     margin-bottom:30px;
+    font-size: 1.25rem;
 }
-.testimonial-3{
-    background-color: $color__background-blue;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-bottom:30px;
-}
-.testimonial-4{
-    background-color: $color__background-teal;
-    color: white;
-    text-align: center;
-    padding:20px;
-    margin-bottom:30px;
-}
+
