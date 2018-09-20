@@ -2399,6 +2399,8 @@ div.hide-description {
 .contactus-top-divider {
   position: relative;
   margin: 0; }
+  .contactus-top-divider figure {
+    margin: 0; }
 
 .contactus-main-header {
   color: #0076B6;
