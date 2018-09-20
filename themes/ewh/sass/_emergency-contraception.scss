@@ -1,26 +1,48 @@
 .emergency-contraception{
   text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  @include desktop{
+  width: 70%;
+  }
   a{
         color: $color__background-blue;
 }
   h1{
   color: $color__background-blue;
+  padding-top: 20px;
   }
   p{
-      text-align: left;
+      text-align: center;
+      color: $color__text-grey-lighter;
+      @include desktop{
+          text-align: left;
+      }
   }
   h3{
+    color: $color__background-blue;
       text-align: center;
+      @include desktop{
+      text-align: left;
+      }
   }
     h1{
+        text-align: center;
         @include desktop{
         text-align: left;
         }
     }
     h2{
-        text-align: left;
+        color: $color__background-blue;
+        text-align: center;
+        @include desktop{
+            text-align: left;
+        }
     }
     h3{
+        text-align: center;
+        @include desktop{
         text-align: left;
     }
+}
 };

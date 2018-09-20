@@ -708,9 +708,11 @@ body {
     .home-quotes-pic {
       display: none; } }
 
-@media screen and (min-width: 1080px) {
-  .home-testimonial {
-    display: none; } }
+.home-testimonial {
+  padding-top: 20px; }
+  @media screen and (min-width: 1080px) {
+    .home-testimonial {
+      display: none; } }
 
 @media screen and (min-width: 1080px) {
   .home-client2018 {
@@ -929,7 +931,7 @@ body {
     padding-top: 50px;
     background-color: #4A90E2;
     color: white;
-    padding-bottom: 15px; } }
+    padding-bottom: 55px; } }
 
 @media screen and (min-width: 1080px) {
   .pleasecallus-home {
@@ -1529,6 +1531,10 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center; }
+  .medical-method img,
+  .surgical-method img {
+    width: 150px;
+    height: 150px; }
   .medical-method a,
   .surgical-method a {
     color: #fff; }
@@ -2094,7 +2100,7 @@ div.hide-description {
   display: block; }
   .birth-control-methods-box h2 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.8rem;
     padding: .5rem; }
   .birth-control-methods-box a {
     color: white;
@@ -2325,8 +2331,8 @@ div.hide-description {
               justify-content: space-between;
       background: #0076B6;
       color: #fff;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 100px;
+      padding-right: 100px;
       font-size: 22px;
       font-family: "Catamaran", sans-serif;
       margin-bottom: 50px;
@@ -2388,8 +2394,7 @@ div.hide-description {
 
 .contactus-top-divider {
   position: relative;
-  margin: 0;
-  margin-top: -20px; }
+  margin: 0; }
 
 .contactus-main-header {
   color: #0076B6;
@@ -2410,7 +2415,9 @@ div.hide-description {
   background-color: #4A90E2;
   color: white;
   text-align: center;
-  padding-bottom: 20px; }
+  padding-bottom: 50px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 100; }
   .contactus-pleasecall p {
     padding-top: 20px;
     margin: 0 auto;
@@ -2418,22 +2425,26 @@ div.hide-description {
     font-size: 14px; }
     @media screen and (min-width: 1080px) {
       .contactus-pleasecall p {
-        font-size: 18px;
+        font-size: 1.25rem;
         padding-top: 50px; } }
 
 .contactus-requestappointment-button {
   background-color: #00c4c5;
-  width: 160px;
   border-radius: 10px;
-  height: 50px;
-  margin-top: 20px;
-  font-family: "Arya", sans-serif; }
+  height: 80px;
+  font-family: "Arya", sans-serif;
+  font-size: 1rem;
+  padding-top: 25px;
+  margin-top: 25px;
+  width: 200px; }
   @media screen and (min-width: 1080px) {
     .contactus-requestappointment-button {
-      width: 400px; } }
+      width: 400px;
+      font-size: 1.25rem; } }
   .contactus-requestappointment-button a {
     position: relative;
-    top: 10px; }
+    top: 20px;
+    padding-top: 10px; }
 
 .contactus-info {
   color: #4A4A4A;
@@ -2536,13 +2547,13 @@ div.hide-description {
       text-shadow: none;
       -webkit-box-shadow: none;
               box-shadow: none;
-      width: 240px;
+      width: 300px;
       font-size: 20px;
       background-color: #00c4c5;
       color: white;
       text-transform: uppercase;
       height: 60px;
-      border-radius: 20px; } }
+      border-radius: 12px; } }
 
 @media screen and (min-width: 1080px) {
   .contactus-desktop-all {
@@ -3223,21 +3234,33 @@ div.hide-description {
   display: none; }
   @media screen and (min-width: 1080px) {
     .appointment-desktop {
-      padding-top: 50px;
       display: block; }
       .appointment-desktop h1 {
         padding-bottom: 80px;
-        color: #0076B6; } }
+        color: #0076B6;
+        font-size: 2.25rem;
+        font-family: "Catamaran", sans-serif;
+        font-weight: 800; } }
   .appointment-desktop .appointment-desktop-blue-box {
     background-color: #0076B6;
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 50px;
-    padding-right: 50px; }
+    padding-right: 50px;
+    font-family: "Arya", sans-serif; }
     .appointment-desktop .appointment-desktop-blue-box p {
       text-align: left;
-      font-size: 20px; }
+      font-size: 20px;
+      width: 75%;
+      margin: 0 auto; }
+    .appointment-desktop .appointment-desktop-blue-box .appointment-desktop-box-1 {
+      padding-top: 15px;
+      padding-bottom: 30px; }
+    .appointment-desktop .appointment-desktop-blue-box .appointment-desktop-box-2 {
+      padding-bottom: 30px; }
+    .appointment-desktop .appointment-desktop-blue-box .appointment-desktop-box-3 {
+      padding-bottom: 30px; }
   .appointment-desktop .wpcf7-form {
     padding-top: 50px;
     margin: 0 auto;
@@ -3269,11 +3292,13 @@ div.hide-description {
       font-size: 20px;
       border-radius: 12px; }
     .appointment-desktop .wpcf7-form label {
-      font-size: 18px; }
+      font-size: 1.25rem; }
   .appointment-desktop .desktop-info-bottom-appointment {
     color: #4A4A4A;
     padding-bottom: 50px;
-    padding-top: 50px; }
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto; }
 
 .appointment-top-colours figure {
   margin: 0; }
@@ -3293,6 +3318,12 @@ div.hide-description {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px; }
+
+.testimonial-author {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 100; }
 
 .testimonial-page-header {
   text-align: center;
@@ -3322,28 +3353,19 @@ div.hide-description {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 1.25rem; }
+  .testimonial-1 p {
+    width: 80%;
+    margin: 0 auto; }
 
 .testimonial-2 {
   background-color: #00c4c5;
   color: white;
   text-align: center;
   padding: 20px;
-  margin-bottom: 30px; }
-
-.testimonial-3 {
-  background-color: #0076B6;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 30px; }
-
-.testimonial-4 {
-  background-color: #00c4c5;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 1.25rem; }
 
 .error404 .site {
   display: grid;
@@ -3381,10 +3403,6 @@ div.hide-description {
 body {
   margin: 1rem; }
 
-div.entry-content {
-  width: 100%;
-  margin: auto; }
-
 .birth-control-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3393,10 +3411,23 @@ div.entry-content {
       flex-wrap: wrap;
   color: white;
   background: #0076B6;
-  height: 360px;
+  height: 20rem;
   position: relative;
   width: 100vw;
   max-width: 100%; }
+  .birth-control-header div.entry-content {
+    width: 100%;
+    bottom: 0;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 70vw;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2rem;
+    font-size: 1rem; }
 
 .bcm-entry-header {
   display: -webkit-box;
@@ -3482,22 +3513,45 @@ div.birth-control-container {
     left: 70px; } }
 
 .emergency-contraception {
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto;
+  width: 100%; }
+  @media screen and (min-width: 1080px) {
+    .emergency-contraception {
+      width: 70%; } }
   .emergency-contraception a {
     color: #0076B6; }
   .emergency-contraception h1 {
-    color: #0076B6; }
+    color: #0076B6;
+    padding-top: 20px; }
   .emergency-contraception p {
-    text-align: left; }
+    text-align: center;
+    color: #4A4A4A; }
+    @media screen and (min-width: 1080px) {
+      .emergency-contraception p {
+        text-align: left; } }
+  .emergency-contraception h3 {
+    color: #0076B6;
+    text-align: center; }
+    @media screen and (min-width: 1080px) {
+      .emergency-contraception h3 {
+        text-align: left; } }
+  .emergency-contraception h1 {
+    text-align: center; }
+    @media screen and (min-width: 1080px) {
+      .emergency-contraception h1 {
+        text-align: left; } }
+  .emergency-contraception h2 {
+    color: #0076B6;
+    text-align: center; }
+    @media screen and (min-width: 1080px) {
+      .emergency-contraception h2 {
+        text-align: left; } }
   .emergency-contraception h3 {
     text-align: center; }
-  @media screen and (min-width: 1080px) {
-    .emergency-contraception h1 {
-      text-align: left; } }
-  .emergency-contraception h2 {
-    text-align: left; }
-  .emergency-contraception h3 {
-    text-align: left; }
+    @media screen and (min-width: 1080px) {
+      .emergency-contraception h3 {
+        text-align: left; } }
 
 .useful-page {
   width: 95%;
