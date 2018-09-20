@@ -1223,7 +1223,7 @@ body {
   .site-header .donate-button {
     display: none;
     background-color: #00c4c5;
-    border-radius: 20px;
+    border-radius: 12px;
     border: 0;
     width: 100%;
     height: 3rem;
@@ -1298,12 +1298,8 @@ body {
             justify-content: center; }
     .nav-site-header .span-home-logo .home-logo {
       margin: 0 auto;
-      height: 200px;
-      width: 800px;
+      padding-top: 20%;
       padding-bottom: 1rem; }
-      @media screen and (min-width: 600px) {
-        .nav-site-header .span-home-logo .home-logo {
-          height: 200px; } }
   .nav-site-header .span-chinese-nav {
     display: none; }
   .nav-site-header .menu-navigation-menu-container {
@@ -3920,9 +3916,9 @@ div.birth-control-container {
     counter-reset: li;
     color: #0076B6;
     font-size: 1rem;
-    margin: 0;
-    padding-left: 2%; }
+    margin: 0; }
   .tab-1 li {
+    text-indent: -1.5rem;
     font-family: "Arsenal", sans-serif;
     color: black;
     padding: 5px 0px 5px 5px;

@@ -11,7 +11,7 @@
             border-radius: 8px;
             border-color: $color__background-teal;
             line-height: 12pt;
-            font-size: 14px;
+            font-size: 1rem;
             font-family: $font__secondary;
             margin-top: -25px;
             color: $color__background-white;
@@ -46,7 +46,7 @@
                 padding-left: 80px;
                 border-radius: 12px;
                 font-family: $font__secondary;
-                font-size: 18px;
+                font-size: 1rem;
                 text-shadow: none;
                 box-shadow: none;
                 outline: $color__background-teal;
@@ -58,9 +58,9 @@
     
     }
     @include tablet {
-        font-size: 16px;
+        font-size: 1rem;
         h1 {
-            font-size: 30px;
+            font-size: 2.25rem;
             color: $color__background-blue;
             font-family: $font__header;
             line-height: 55px;
