@@ -7,139 +7,314 @@ body {
     margin: 1rem;
 }
 
-
 // This is the blue background for each of the birth control methods: IUD, Condoms, Pills, etc.
-.birth-control-header {
+.bcm-banner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     color: white;
-    background:$color__background-blue;
-    height: 20rem;
-    position: relative;
+    background: $color__background-blue;
     width: 100vw;
-    max-width: 100%;
+    margin-left: 0;
 
-    div.entry-content {
-        width: 100%;
-        // margin: auto;
-        bottom: 0;
-        order: 3;
-        width: 70vw;
-        height: 30%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        margin-left: 2rem;
-        // z-index: 3;
-        font-size: 1rem;
-    }
-}
-
-.birth-control container {
-    img {
-
-    }
-}
-
-// This is the container for the items of the banner
-    .bcm-entry-header {
+    div.white-title {
         display: flex;
-        width: 100%;
-        justify-content: flex-end;
+        margin-left: 1rem;
+        padding-left: 1rem;
         height: 100%;
-        position: absolute;
-    }
 
-    // The white title of birth control methods inside the blue banner. 
-    div.bcm-title {
-        order: 1;
-        width: 70vw;
-        // height: 100%;
-        margin-top: -0.5em;
-        margin: auto;
-        left: 0;
         h1 {
-            text-align: center;
-            left: 0;
-        }
-    }
-
-    // This is the white text bellow the Title in a blue banner.
-    div.bcm-text {
-        order: 3;
-        width: 70vw;
-        height: 30%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        margin-left: 2rem;
-        z-index: 3;
-    }
-
-    // The container of the image on the right
-    div.bcm-img {
-        order: 2;
-        right: 0;
-        margin-top: auto;
-        margin-bottom: auto;
-
-        // The birth control logo on the right for IUD and Pills
-        .img {
-            margin-top: 4rem;
-            position: absolute;
-            bottom: 0;
-    }
-    }
-
-    // The large White title from the blue banner
-    .bcm-entry-title {
-        text-align: center;
         color: white;
+        font-size: 3rem;
+        order:1;
+        z-index: 3;
+        margin-top: 50%;
+
+        bottom:0;
+    }
     }
 
-    // The white text inside the blue banner
-    div.bcm-text {
-        width: 70%;
-        text-align: inherit;
-        margin-left: 2rem;
-        bottom: 0;
-        position: relative;
+    .div.bcm-title h1{
         display: none;
     }
 
-// To change the color of each product item
-h1.bcm-title {
-    color:$color__background-blue;
-  }
+    //Container for the banner image
+    .banner-img {
+        right:0;
+        height: 100%;
+        order: 2;
+        display: none;
+        height: 100%;
 
-  div.birth-control-container {
-      width: 94%;
-      margin: auto;
-  }
-
-// For screen widths larger than mobile
-@media (min-width: 700px) {
-
-    .birth-control-header {
-        height: 405px;
+        img {
+    
+        margin-top: 60%;
+        bottom:0;
+        }
     }
 
-    .birth-control-header {
-        .bcm-entry-title {
-            margin-left: 2rem;
-            font-size: 3rem;
+    div.white-paragraph-text {
+        display: none;
+        margin-top: 0;
+        color: white;
+        font-size: 1rem;
+        width: 60%;
+        line-height: 1rem;
+       padding-left: 1rem;
+        order: 3;
+        top: 5rem;
+        // bottom: 0;
+    }
+}
+
+.blue-title {
+    h1 {
+text-align: left;
+color: $color__background-blue;
+}
+}
+
+.bcm-column {
+    h2 {
+        text-align: center;
     }
 
-    div.bcm-text {
-        display: block;
-        width: 70%;
-        position: absolute;
+}
+
+.general-iud {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+
+.general-text {
+    text-align: left;
+    // padding-right: 5rem;
+    width: 50%;
+}
+.general-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left: 0;
+}
+}
+
+.blue-background {
+    display: flex;
+    margin-top:1rem;
+    background: $color__background-blue;
+    color: white;
+    padding: 1rem;
+        .all-width {
+            width: 100%;
+        } 
+}
+
+.blue-background-ul {
+    display: flex;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 2rem;
+    background: $color__background-blue;
+    color: white;
+}
+
+// bcm columns from the IUD page
+.bcm-columns {
+    padding: 1rem;
+    text-align: inherit;
+     p {
+         margin: 2rem;
+     }
     }
 
     .bcm-img {
-        order: 2;
-        width: auto;
-        left: 70px;
+        width: 100%;
+        height: 8rem;
+        margin-top: 3rem;
+        padding-left: 1rem;
+        display: flex;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    .three-columns {
+    .insertion-column {
+        padding-right: 2rem;
+        text-align: justify;
     }
 }
+
+.inner-div {
+    align-items: center;
+    h2 {
+        text-align: center;
+    }
+}
+
+.blue-costs {
+    p {
+    background: $color__background-blue;
+    color: white;
+    text-align: inherit;
+    width: auto;
+    line-height: 3;
+}
+}
+
+.insertion-two-columns {
+    .two-columns {
+        text-align: justify;
+    }
+}
+
+div.two-column {
+    // width: 50%;
+    text-align: justify;
+padding-right: 1rem;
+}
+
+.caution {
+    text-align: justify;
+}
+
+.bcm-button {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: #00c4c5;
+    width: 450px;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.single-birth_control_method {
+    .tab-content {
+        @media (max-width: 660px) {
+        display: none;
+        }
+        &:nth-of-type(1) {
+        display: block;
+        }
+    }
+
+
+    .tab-nav {
+        background: $color__background-teal;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        .tab-next,
+        .tab-prev {
+            border: none;
+            border-color: none;
+            box-shadow: none;
+            background: none;
+            text-shadow: none;
+            color: $color__background-white;
+            font-size: 20px;
+        }
+        // @include desktop {
+        //     display: none;
+        // }
+    }
+}
+
+@media (min-width: 620px) {
+
+    div.white-title {
+        h1 {
+        font-size: 3rem;
+        }
+    }
+
+    .insertion-two-columns {
+        display: flex;
+        .two-columns {
+            text-align: justify;
+            width: 50%;
+        }
+    }
+
+    .bcm-columns {
+        display: flex;
+        padding-left: 2rem;
+
+    }
+
+    .bcm-column {
+        padding-left: 1rem;
+
+    }
+
+    div.two-column {
+        width: 50%; 
+        text-align: justify;
+        padding-right: 1rem;
+    }
+    div.two-column {
+        width: 50%;
+        text-align: justify;
+        padding-right: 1rem;
+    }
+
+    .follow-up {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .caution {
+        display: flex;
+    }
+
+    .three-columns {
+        display: flex;
+    .insertion-column {
+        width: 33%;
+        padding-right: 2rem;
+        text-align: justify;
+        padding-left: 2rem;
+    }
+
+    .insertion-column-inner {
+        width: 33%;
+        padding-right: 2rem;
+        text-align: justify;
+
+        border-left:2px solid$color__background-blue;
+        padding-left: 2rem;
+        border-right:2px solid $color__background-blue;
+    }
+    }
+
+    .inner-div {
+        border-left:2px solid$color__background-blue;
+        padding-left: 2rem;
+
+        border-right:2px solid $color__background-blue;
+    }
+    
+
+    .bcm-banner div.white-paragraph-text {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 820px) {
+
+    .bcm-banner .banner-img {
+            right: 0;
+            height: 100%;
+            order: 2;
+            display: block;
+    }
 }
