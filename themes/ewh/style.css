@@ -967,9 +967,6 @@ body {
     .site {
       margin-top: 100px; } }
 
-.bcm-content-area {
-  padding-top: 1.5rem; }
-
 .site {
   position: relative;
   height: 100%;
@@ -2159,6 +2156,37 @@ div.hide-description {
 
 .div-bcm-title {
   display: none; }
+
+.bcm-content-area {
+  padding-top: 1.5rem; }
+  @media screen and (min-width: 600px) {
+    .bcm-content-area {
+      padding-top: 0; } }
+
+.bcm-banner-page {
+  padding-top: 0; }
+  @media screen and (min-width: 600px) {
+    .bcm-banner-page {
+      padding-top: 1rem; } }
+  @media screen and (min-width: 1080px) {
+    .bcm-banner-page {
+      padding-top: 0; } }
+
+.single-bcm-title {
+  background: #0076B6;
+  color: #fff;
+  height: 10rem;
+  font-size: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem; }
+
+.single-bcm-container p {
+  font-size: 1.5rem; }
 
 .chinese-banner {
   position: relative;

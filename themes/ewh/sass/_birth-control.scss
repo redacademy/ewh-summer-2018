@@ -72,3 +72,33 @@ div.hide-description {
 .div-bcm-title{
   display: none;
 }
+.bcm-content-area{
+  padding-top: 1.5rem;
+  @include tablet{
+    padding-top: 0;
+  }
+}
+.bcm-banner-page{
+  padding-top: 0;
+  @include tablet {
+    padding-top: 1rem;
+  }
+  @include desktop {
+    padding-top: 0;
+  }
+}
+.single-bcm-title{
+  background: $color__background-blue;
+  color: $color__background-white;
+  height: 10rem;
+  font-size: 2.25rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.single-bcm-container{
+p{
+  font-size: 1.5rem;
+
+}
+}

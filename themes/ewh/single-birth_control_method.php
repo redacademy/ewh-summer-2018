@@ -9,20 +9,24 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
 			
 		<div class="bcm-banner-page">
-            <?php if ( has_post_thumbnail() ): ?>
-               
-                <h1 class="div-bcm-title"> <?php the_title(); ?> </h1>
-               
-            <?php endif; ?>
-            <div class="-bcm-container">
-                
-			
-			<?php while ( have_posts() ) : the_post(); ?>
+            <?php if (have_posts()) : ?>
+            <?php while ( have_posts() ) : the_post(); ?>
 
-				<?php the_content(); ?>
+               
+                <h1 class="single-bcm-title"><?php the_title(); ?></h1>
+               
+            <div class="single-bcm-container">
+   <p><strong>Effectiveness:</strong> <?php echo CFS()->get('effectiveness'); ?></p>
+   <p><strong>Price:</strong> <?php echo CFS()->get('price'); ?></p>
+   <p><strong>What is it?</strong> <?php echo CFS()->get('description'); ?></p> 
+   <p><?php echo CFS()->get('bc-textarea'); ?></p>
+                    </div>
 
-			<?php endwhile; // End of the loop. ?>
-        </div>
+  <?php endwhile; ?>
+            <?php wp_reset_postdata(); ?>
+        <?php else : ?>
+            <h2>Nothing found!</h2>
+        <?php endif; ?>
 		
 		
 		
