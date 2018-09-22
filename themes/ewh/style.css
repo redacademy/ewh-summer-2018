@@ -2104,106 +2104,6 @@ footer {
       .miscarriage-page .miscarriage-heading {
         font-size: 1.2rem; } }
 
-.birth-control {
-  width: 100%; }
-
-/* Birth Control */
-section.birth-control.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-bottom: 2rem;
-  padding-top: 1.5rem;
-  margin: auto; }
-
-div.hide-description {
-  display: none; }
-
-.birth-control-methods-box {
-  color: #FFF;
-  background: #0076B6;
-  width: 43%;
-  margin: .5rem;
-  text-align: center;
-  padding-bottom: 1rem;
-  display: block; }
-  .birth-control-methods-box h2 {
-    font-weight: 300;
-    font-size: 1.8rem;
-    padding: .5rem; }
-  .birth-control-methods-box a {
-    color: white;
-    text-decoration: none; }
-  .birth-control-methods-box:nth-child(4n+4), .birth-control-methods-box:nth-child(4n+3) {
-    background: #00c4c5; }
-
-@media (min-width: 600px) {
-  .birth-control-methods-box {
-    width: 22%; }
-    .birth-control-methods-box:nth-child(n+0) {
-      background: #00c4c5; }
-    .birth-control-methods-box:nth-child(n+5) {
-      background: #0076B6; }
-    .birth-control-methods-box:nth-child(n+9) {
-      background: #00c4c5; }
-    .birth-control-methods-box div.hide-description {
-      display: block; } }
-
-.div-bcm-title {
-  display: none; }
-
-.bcm-content-area {
-  padding-top: 1.5rem; }
-  @media screen and (min-width: 600px) {
-    .bcm-content-area {
-      padding-top: 0; } }
-
-.bcm-banner-page {
-  padding-top: 0; }
-  @media screen and (min-width: 600px) {
-    .bcm-banner-page {
-      padding-top: 1rem; } }
-  @media screen and (min-width: 1080px) {
-    .bcm-banner-page {
-      padding-top: 0; } }
-
-.single-bcm-title {
-  background: #0076B6;
-  color: #fff;
-  height: 10rem;
-  font-size: 2.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 1rem; }
-
-.single-bcm-container p {
-  font-size: 1.5rem; }
-
-.bcm-image {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  top: 5.5rem;
-  right: 0; }
-  @media screen and (min-width: 600px) {
-    .bcm-image {
-      height: 250px;
-      width: 250px;
-      right: 5rem; } }
-  @media screen and (min-width: 1080px) {
-    .bcm-image {
-      right: 20rem; } }
-
 .chinese-banner {
   position: relative;
   background-image: url("../../images/chinese-banner.jpg");
@@ -4533,3 +4433,103 @@ h1.div.bcm-title {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1rem; } }
+
+.birth-control {
+  width: 100%; }
+
+/* Birth Control */
+section.birth-control.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  margin: auto; }
+
+div.hide-description {
+  display: none; }
+
+.birth-control-methods-box {
+  color: #FFF;
+  background: #0076B6;
+  width: 43%;
+  margin: .5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  display: block; }
+  .birth-control-methods-box h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: .5rem; }
+  .birth-control-methods-box a {
+    color: white;
+    text-decoration: none; }
+  .birth-control-methods-box:nth-child(4n+4), .birth-control-methods-box:nth-child(4n+3) {
+    background: #00c4c5; }
+
+@media (min-width: 600px) {
+  .birth-control-methods-box {
+    width: 22%; }
+    .birth-control-methods-box:nth-child(n+0) {
+      background: #00c4c5; }
+    .birth-control-methods-box:nth-child(n+5) {
+      background: #0076B6; }
+    .birth-control-methods-box:nth-child(n+9) {
+      background: #00c4c5; }
+    .birth-control-methods-box div.hide-description {
+      display: block; } }
+
+.div-bcm-title {
+  display: none; }
+
+.bcm-content-area {
+  padding-top: 1.5rem; }
+  @media screen and (min-width: 600px) {
+    .bcm-content-area {
+      padding-top: 0; } }
+
+.bcm-banner-page {
+  padding-top: 0; }
+  @media screen and (min-width: 600px) {
+    .bcm-banner-page {
+      padding-top: 1rem; } }
+  @media screen and (min-width: 1080px) {
+    .bcm-banner-page {
+      padding-top: 0; } }
+
+.single-bcm-title {
+  background: #0076B6;
+  color: #fff;
+  height: 10rem;
+  font-size: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem; }
+
+.single-bcm-container p {
+  font-size: 1.5rem; }
+
+.bcm-image {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 5.5rem;
+  right: 0; }
+  @media screen and (min-width: 600px) {
+    .bcm-image {
+      height: 250px;
+      width: 250px;
+      right: 5rem; } }
+  @media screen and (min-width: 1080px) {
+    .bcm-image {
+      right: 20rem; } }
