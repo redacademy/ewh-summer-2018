@@ -11,7 +11,7 @@
 }
 .useful-link-div-single {
   width: 100%;
-  height: 10rem;
+  height: 5rem;
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -41,13 +41,26 @@ margin: 0;
         font-family: 'FontAwesome';
         content: '\f107';
         position: absolute;
-        top: -20px;
+        top: -30px;
         right: -50px;
         font-size: 4rem;
         color: $color__background-teal;
-        @include tablet {
-          top: -20px;
-          right: -60px;
+      }
+    }
+    &.useful-div-open{    
+      transition: 1s;
+      outline: none;
+      height: 100%;
+      ul {
+        box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+        transition: 1s;
+        opacity: 1;
+        height: 100%;
+      }
+      a {
+        &::after {
+          transform: rotate(180deg);
+          transition: 1s;
         }
       }
     }
@@ -61,43 +74,38 @@ margin: 0;
       position: relative;
       height: 100%;
       width: 80%;
-      padding-right: 5%;
         &::after {
         transform: rotate(0deg);
         transition: 1s;
         font-family: 'FontAwesome';
         content: '\f107';
         position: absolute;
-        top: -20px;
+        top: -30px;
         right: -50px;
         font-size: 4rem;
         color: $color__background-blue;
-        @include tablet {
-          top: -20px;
-          right: -60px;
+      }
+    }
+    &.useful-div-open{    
+      transition: 1s;
+      outline: none;
+      height: 100%;
+      ul {
+        box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+        transition: 1s;
+        opacity: 1;
+        height: 100%;
+      }
+      a {
+        &::after {
+          transform: rotate(180deg);
+          transition: 1s;
         }
       }
     }
   }
   ul {
     height: 0%;
-  }
-  &.useful-div-open{    
-    transition: 1s;
-    outline: none;
-    height: 100%;
-    ul {
-      box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
-      transition: 1s;
-      opacity: 1;
-      height: 100%;
-    }
-    a {
-      &::after {
-        transform: rotate(180deg);
-        transition: 1s;
-      }
-    }
   }
   &:hover {
     box-shadow: none;
@@ -106,12 +114,6 @@ margin: 0;
     width: 49%;
     height: 10rem;
     font-size: 1.2rem;
-    a {
-      &::after {
-        transform: rotate(180deg);
-        transition: 1s;
-      }
-    }
     &:nth-child(4n + 1),
     &:nth-child(4n + 2) {
       background: $color__background-blue;
@@ -128,14 +130,10 @@ margin: 0;
           font-family: 'FontAwesome';
           content: '\f107';
           position: absolute;
-          top: -20px;
+          top: -30px;
           right: -50px;
           font-size: 4rem;
           color: $color__background-teal;
-          @include tablet {
-            top: -20px;
-            right: -60px;
-          }
         }
       }
       &.useful-div-open{    
@@ -172,14 +170,10 @@ margin: 0;
           font-family: 'FontAwesome';
           content: '\f107';
           position: absolute;
-          top: -20px;
+          top: -30px;
           right: -50px;
           font-size: 4rem;
           color: $color__background-blue;
-          @include tablet {
-            top: -20px;
-            right: -60px;
-          }
         }
       }
       &.useful-div-open{    

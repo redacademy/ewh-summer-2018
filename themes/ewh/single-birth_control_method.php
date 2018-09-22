@@ -16,6 +16,7 @@ get_header(); ?>
                 <h1 class="single-bcm-title"><?php the_title(); ?></h1>
                
             <div class="single-bcm-container">
+                <span class="bcm-image"><?php the_post_thumbnail(); ?></span>
    <p><strong>Effectiveness:</strong> <?php echo CFS()->get('effectiveness'); ?></p>
    <p><strong>Price:</strong> <?php echo CFS()->get('price'); ?></p>
    <p><strong>What is it?</strong> <?php echo CFS()->get('description'); ?></p> 

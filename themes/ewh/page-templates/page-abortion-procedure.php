@@ -15,7 +15,7 @@ get_header(); ?>
 <?php 
 	$tab_content_1 = CFS()->get('before_abortion_text_area');
 	$tab_content_2 = CFS()->get('abortion_procedure_text_area');
-	$tab_content_3 = CFS()->get('after_abortion_text_area');
+	$tab_content_3 = CFS()->get('after_aborion_text_area');
 	?>
 
 	<h1 class="wtx">What to expect</h1>

@@ -2112,6 +2112,7 @@ section.birth-control.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
@@ -2187,6 +2188,21 @@ div.hide-description {
 
 .single-bcm-container p {
   font-size: 1.5rem; }
+
+.bcm-image {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 5.5rem;
+  right: 0; }
+  @media screen and (min-width: 600px) {
+    .bcm-image {
+      height: 250px;
+      width: 250px;
+      right: 5rem; } }
+  @media screen and (min-width: 1080px) {
+    .bcm-image {
+      right: 20rem; } }
 
 .chinese-banner {
   position: relative;
@@ -2285,14 +2301,18 @@ div.hide-description {
   line-height: 20pt;
   width: 100%;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3rem; }
+  @media screen and (min-width: 600px) {
+    .compare-abortion-page {
+      padding-top: 1rem; } }
   .compare-abortion-page h1 {
     display: block;
     color: #0076B6;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
     font-size: 2.25rem;
-    line-height: 55pt;
+    line-height: 40pt;
     text-align: center;
     margin-bottom: -10px; }
   .compare-abortion-page .compare-title-desktop {
@@ -3808,7 +3828,7 @@ h1.div.bcm-title {
 
 .useful-link-div-single {
   width: 100%;
-  height: 10rem;
+  height: 5rem;
   margin-bottom: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3842,14 +3862,27 @@ h1.div.bcm-title {
         font-family: 'FontAwesome';
         content: '\f107';
         position: absolute;
-        top: -20px;
+        top: -30px;
         right: -50px;
         font-size: 4rem;
         color: #00c4c5; }
-        @media screen and (min-width: 600px) {
-          .useful-link-div-single:nth-child(odd) .useful-a::after {
-            top: -20px;
-            right: -60px; } }
+    .useful-link-div-single:nth-child(odd).useful-div-open {
+      -webkit-transition: 1s;
+      transition: 1s;
+      outline: none;
+      height: 100%; }
+      .useful-link-div-single:nth-child(odd).useful-div-open ul {
+        -webkit-box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+                box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+        -webkit-transition: 1s;
+        transition: 1s;
+        opacity: 1;
+        height: 100%; }
+      .useful-link-div-single:nth-child(odd).useful-div-open a::after {
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        -webkit-transition: 1s;
+        transition: 1s; }
   .useful-link-div-single:nth-child(even) {
     background-color: #00c4c5; }
     .useful-link-div-single:nth-child(even) .useful-a {
@@ -3858,8 +3891,7 @@ h1.div.bcm-title {
       text-align: center;
       position: relative;
       height: 100%;
-      width: 80%;
-      padding-right: 5%; }
+      width: 80%; }
       .useful-link-div-single:nth-child(even) .useful-a::after {
         -webkit-transform: rotate(0deg);
                 transform: rotate(0deg);
@@ -3868,33 +3900,29 @@ h1.div.bcm-title {
         font-family: 'FontAwesome';
         content: '\f107';
         position: absolute;
-        top: -20px;
+        top: -30px;
         right: -50px;
         font-size: 4rem;
         color: #0076B6; }
-        @media screen and (min-width: 600px) {
-          .useful-link-div-single:nth-child(even) .useful-a::after {
-            top: -20px;
-            right: -60px; } }
-  .useful-link-div-single ul {
-    height: 0%; }
-  .useful-link-div-single.useful-div-open {
-    -webkit-transition: 1s;
-    transition: 1s;
-    outline: none;
-    height: 100%; }
-    .useful-link-div-single.useful-div-open ul {
-      -webkit-box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
-              box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+    .useful-link-div-single:nth-child(even).useful-div-open {
       -webkit-transition: 1s;
       transition: 1s;
-      opacity: 1;
+      outline: none;
       height: 100%; }
-    .useful-link-div-single.useful-div-open a::after {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
-      -webkit-transition: 1s;
-      transition: 1s; }
+      .useful-link-div-single:nth-child(even).useful-div-open ul {
+        -webkit-box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+                box-shadow: inset 0px 0px 50px 6px rgba(0, 0, 0, 0.1);
+        -webkit-transition: 1s;
+        transition: 1s;
+        opacity: 1;
+        height: 100%; }
+      .useful-link-div-single:nth-child(even).useful-div-open a::after {
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        -webkit-transition: 1s;
+        transition: 1s; }
+  .useful-link-div-single ul {
+    height: 0%; }
   .useful-link-div-single:hover {
     -webkit-box-shadow: none;
             box-shadow: none; }
@@ -3903,11 +3931,6 @@ h1.div.bcm-title {
       width: 49%;
       height: 10rem;
       font-size: 1.2rem; }
-      .useful-link-div-single a::after {
-        -webkit-transform: rotate(180deg);
-                transform: rotate(180deg);
-        -webkit-transition: 1s;
-        transition: 1s; }
       .useful-link-div-single:nth-child(4n + 1), .useful-link-div-single:nth-child(4n + 2) {
         background: #0076B6; }
         .useful-link-div-single:nth-child(4n + 1) .useful-a, .useful-link-div-single:nth-child(4n + 2) .useful-a {
@@ -3925,15 +3948,10 @@ h1.div.bcm-title {
             font-family: 'FontAwesome';
             content: '\f107';
             position: absolute;
-            top: -20px;
+            top: -30px;
             right: -50px;
             font-size: 4rem;
-            color: #00c4c5; } }
-        @media screen and (min-width: 600px) and (min-width: 600px) {
-          .useful-link-div-single:nth-child(4n + 1) .useful-a::after, .useful-link-div-single:nth-child(4n + 2) .useful-a::after {
-            top: -20px;
-            right: -60px; } }
-  @media screen and (min-width: 600px) {
+            color: #00c4c5; }
         .useful-link-div-single:nth-child(4n + 1).useful-div-open, .useful-link-div-single:nth-child(4n + 2).useful-div-open {
           -webkit-transition: 1s;
           transition: 1s;
@@ -3968,15 +3986,10 @@ h1.div.bcm-title {
             font-family: 'FontAwesome';
             content: '\f107';
             position: absolute;
-            top: -20px;
+            top: -30px;
             right: -50px;
             font-size: 4rem;
-            color: #0076B6; } }
-        @media screen and (min-width: 600px) and (min-width: 600px) {
-          .useful-link-div-single:nth-child(4n + 3) .useful-a::after, .useful-link-div-single:nth-child(4n + 4) .useful-a::after {
-            top: -20px;
-            right: -60px; } }
-  @media screen and (min-width: 600px) {
+            color: #0076B6; }
         .useful-link-div-single:nth-child(4n + 3).useful-div-open, .useful-link-div-single:nth-child(4n + 4).useful-div-open {
           -webkit-transition: 1s;
           transition: 1s;
@@ -4317,9 +4330,6 @@ h1.div.bcm-title {
   width: 95%;
   margin: 0 auto;
   padding-top: 3rem; }
-  @media screen and (min-width: 600px) {
-    .for-support-person-container {
-      padding-top: 1rem; } }
   .for-support-person-container h1 {
     font-family: "Catamaran", sans-serif;
     font-size: 2.25rem;
