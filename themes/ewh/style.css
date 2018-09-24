@@ -2575,6 +2575,9 @@ footer {
     .contactus-contact-form-desktop {
       display: block; } }
 
+.contact-us-container {
+  padding-top: 1rem; }
+
 .mural-hero-banner {
   position: relative; }
   .mural-hero-banner figure {
@@ -2806,8 +2809,7 @@ footer {
         color: #0076B6;
         font-family: "Catamaran", sans-serif;
         line-height: 55px;
-        font-weight: 900;
-        margin-top: 50px; }
+        font-weight: 900; }
       .for-clinicians-page button {
         font-size: 1rem; } }
 
@@ -3674,7 +3676,9 @@ h1.div.bcm-title {
   .emergency-contraception a {
     color: #0076B6; }
   .emergency-contraception h1 {
-    color: #0076B6; }
+    color: #0076B6;
+    font-family: "Catamaran", sans-serif;
+    font-size: 2.25rem; }
   .emergency-contraception p {
     text-align: center;
     color: #4A4A4A; }
@@ -3683,7 +3687,8 @@ h1.div.bcm-title {
         text-align: left; } }
   .emergency-contraception h3 {
     color: #0076B6;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.3rem; }
     @media screen and (min-width: 1080px) {
       .emergency-contraception h3 {
         text-align: left; } }
@@ -3693,6 +3698,7 @@ h1.div.bcm-title {
       .emergency-contraception h1 {
         text-align: left; } }
   .emergency-contraception h2 {
+    font-size: 1.8rem;
     color: #0076B6;
     text-align: center;
     border-bottom: 1px solid #00c4c5; }
@@ -3708,7 +3714,6 @@ h1.div.bcm-title {
 .useful-page {
   width: 95%;
   height: 100%;
-  padding-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3717,12 +3722,16 @@ h1.div.bcm-title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 3rem; }
+  @media screen and (min-width: 1080px) {
+    .useful-page {
+      padding-top: 1.5rem; } }
 
 .useful-link-div-single {
   width: 100%;
-  height: 5rem;
-  margin-bottom: 1.5rem;
+  height: 6rem;
+  margin-top: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3822,17 +3831,20 @@ h1.div.bcm-title {
   @media screen and (min-width: 600px) {
     .useful-link-div-single {
       width: 49%;
-      height: 10rem;
       font-size: 1.2rem; }
       .useful-link-div-single:nth-child(4n + 1), .useful-link-div-single:nth-child(4n + 2) {
         background: #0076B6; }
         .useful-link-div-single:nth-child(4n + 1) .useful-a, .useful-link-div-single:nth-child(4n + 2) .useful-a {
+          font-size: 1.45rem;
           text-decoration: none;
-          margin-top: 2rem;
           text-align: center;
           position: relative;
           height: 100%;
-          width: 80%; }
+          width: 80%; } }
+      @media screen and (min-width: 600px) and (min-width: 1080px) {
+        .useful-link-div-single:nth-child(4n + 1) .useful-a, .useful-link-div-single:nth-child(4n + 2) .useful-a {
+          font-size: 2rem; } }
+  @media screen and (min-width: 600px) {
           .useful-link-div-single:nth-child(4n + 1) .useful-a::after, .useful-link-div-single:nth-child(4n + 2) .useful-a::after {
             -webkit-transform: rotate(0deg);
                     transform: rotate(0deg);
@@ -3865,12 +3877,16 @@ h1.div.bcm-title {
       .useful-link-div-single:nth-child(4n + 3), .useful-link-div-single:nth-child(4n + 4) {
         background: #00c4c5; }
         .useful-link-div-single:nth-child(4n + 3) .useful-a, .useful-link-div-single:nth-child(4n + 4) .useful-a {
+          font-size: 1.45rem;
           text-decoration: none;
-          margin-top: 2rem;
           text-align: center;
           position: relative;
           height: 100%;
-          width: 80%; }
+          width: 80%; } }
+      @media screen and (min-width: 600px) and (min-width: 1080px) {
+        .useful-link-div-single:nth-child(4n + 3) .useful-a, .useful-link-div-single:nth-child(4n + 4) .useful-a {
+          font-size: 2rem; } }
+  @media screen and (min-width: 600px) {
           .useful-link-div-single:nth-child(4n + 3) .useful-a::after, .useful-link-div-single:nth-child(4n + 4) .useful-a::after {
             -webkit-transform: rotate(0deg);
                     transform: rotate(0deg);
