@@ -11,10 +11,11 @@
 .contactus-main-header{
     color: $color__background-blue;
     font-family: $font__header;
-    font-size: 8px;
+    font-size: 1rem;
     text-transform: capitalize;
+    padding-top: 1rem;
     @include desktop{
-        font-size: 20px;
+        padding-top: 0;
         display: flex;
         justify-content: flex-start
     }

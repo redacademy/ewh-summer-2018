@@ -13,7 +13,6 @@ $post_types = array(
 	'Birth Control Method' => 'dashicons-image-filter',
 	'Chinese Resource'   => 'dashicons-universal-access',
 	'Useful Link'   => 'dashicons-index-card',
-
 );
 	foreach ( $post_types as $post_type => $dashicon ) {
 		$labels = array(
