@@ -4430,7 +4430,8 @@ h1.div.bcm-title {
 .privacy-div {
   width: 90%;
   margin: 0 auto;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-top: 3rem; }
   .privacy-div h1 {
     color: #0076B6; }
   .privacy-div h2 {
@@ -4442,6 +4443,9 @@ h1.div.bcm-title {
   @media screen and (min-width: 600px) {
     .privacy-div p {
       font-size: 1rem; } }
+  @media screen and (min-width: 1080px) {
+    .privacy-div {
+      padding-top: 1rem; } }
 
 .birth-control {
   width: 100%; }
